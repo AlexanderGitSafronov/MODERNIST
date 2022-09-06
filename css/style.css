@@ -1,49 +1,7 @@
-@font-face {
-  font-family: "Bebas Neue";
-  src: local("Bebas Neue Thin"), local("BebasNeue-Thin"),
-    url("../fonts/bebasneue/bebasneuethin.woff2") format("woff2"),
-    url("../fonts/bebasneue/bebasneuethin.woff") format("woff"),
-    url("../fonts/bebasneue/bebasneuethin.ttf") format("truetype");
-  font-weight: 100;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Bebas Neue";
-  src: local("Bebas Neue Light"), local("BebasNeue-Light"),
-    url("../fonts/bebasneuelight.woff2") format("woff2"),
-    url("../fonts/bebasneuelight.woff") format("woff"),
-    url("../fonts/bebasneuelight.ttf") format("truetype");
-  font-weight: 200;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Bebas Neue";
-  src: local("Bebas Neue Book"), local("BebasNeueBook"),
-    url("../fonts/bebasneuebook.woff2") format("woff2"),
-    url("../fonts/bebasneuebook.woff") format("woff"),
-    url("../fonts/bebasneuebook.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Bebas Neue";
-  src: local("Bebas Neue Regular"), local("BebasNeueRegular"),
-    url("../fonts/bebasneueregular.woff2") format("woff2"),
-    url("../fonts/bebasneueregular.woff") format("woff"),
-    url("../fonts/bebasneueregular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Bebas Neue";
-  src: local("Bebas Neue Bold"), local("BebasNeueBold"),
-    url("../fonts/bebasneuebold.woff2") format("woff2"),
-    url("../fonts/bebasneuebold.woff") format("woff"),
-    url("../fonts/bebasneuebold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-}
 
+*{
+    box-sizing: border-box;
+}
 
 body {
     margin: 0;
@@ -52,31 +10,49 @@ body {
   font-family: "Bebas Neue", sans-serif;
   background-color: #fcf8f4;
 }
+h1,h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 700;
+    font-size: 90px;
+}
+p{
+    font-family: "Onest", sans-serif;
+    font-weight: 300;
+}
+button {
+    font-family: "Onest", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
 
 /* HEADER */
+
+
 .header {
-  background: linear-gradient(rgba(36, 22, 11, 0.5), rgba(36, 22, 11, 0.5)),
-    url(/image/head_bg.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
-.header span {
-  text-transform: uppercase;
-}
-h1 {
-  font-size: 90px;
-}
+    background: linear-gradient(rgba(36, 22, 11, 0.5), rgba(36, 22, 11, 0.5)),
+      url(/image/head_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  .header span {
+    text-transform: uppercase;
+  }
 .menu,
 .basket {
   align-items: center;
   font-weight: 700;
 }
-.menu span:hover {
+.catalode,
+.basket__true {
+    display: inline-block;
+}
+.menu :hover {
   color: #efae35;
   cursor: pointer;
 }
-.basket span:hover {
+
+.basket__true:hover {
   color: #efae35;
   cursor: pointer;
 }
@@ -98,20 +74,23 @@ h1 {
   color: #fff;
 }
 .head__text {
-  margin-top: 25vh;
-}
-.head__text p {
-  font-size: 20px;
+  margin-top: 24vh;
+  
 }
 .head__text h1 {
-  font-size: 200px;
-  text-transform: uppercase;
+    font-size: 200px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+.head__text p {
+  font-size: 20px;
+  line-height: 25px;
 }
+
 .head__text-button button {
   margin-top: 4vh;
   margin-bottom: 55vh;
   display: inline-block;
-  font-size: 14px;
   background-color: #efae35;
   padding: 21px 72px;
   border-radius: 47px;
@@ -226,12 +205,7 @@ h1 {
 }
 /* НУЖНО ИСПРАВИТЬ ДЕРГАНИЕ БЛОКА КОГДА НАВОИШЬ МыШКУ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 /* РАБОТА С НАВИДЕНИЕМ НА ТОВАР */
-.product__click{
-    
-}
-.product__click .product__image_1 {
-   
-}
+
 .product__click .product__image_2 {
   display: none;
   
@@ -290,8 +264,6 @@ h1 {
 
 
 
-.bestseller__discription p {
-}
 .head__products_pos {
   margin-top: 24px;
   margin-bottom: 24px;
@@ -359,6 +331,7 @@ h1 {
 /* Лайк */
 
 /* Летняя распродажа */
+
 .summer__sale_bg {
   background: linear-gradient(rgba(36, 22, 11, 0.5), rgba(36, 22, 11, 0.5)),
   url(/image/summer__sale.png);
@@ -369,12 +342,14 @@ h1 {
 .summer__sale_border {
     border: 1px solid #999a81;
 }
+
 .summer__sale_text h1 {
-  font-size: 90px;
+  font-size: 150px;
   font-weight: 700;
   line-height: 200px;
   color: #fff;
-  margin-bottom: -10px;
+ 
+  
 }
 .summer__sale_text p {
     color: #fff;
@@ -389,10 +364,11 @@ h1 {
 /* КАТЕГОРИЯ ВЫБОРА */
 
 .choice__category h2{
-    margin-top: 374px;
+    margin-top: 370px;
     margin-bottom: 290px;
     font-weight: 700;
     text-transform: uppercase;
+    font-size: 40px;
 }
 .choice__category_1 {
     background: linear-gradient(rgba(36, 22, 11, 0.5), rgba(36, 22, 11, 0.5)),
@@ -478,7 +454,7 @@ h1 {
 .out__work_text h2 {
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 60px;
     margin-top: 200px;
 }
 .out__work_text p {
@@ -534,14 +510,24 @@ h1 {
     margin: 62px 30px;
     
 }
+.footer__media svg {
+    stroke: #000;
+    fill: #000;
+}
+.footer__media svg:hover {
+
+    stroke: #efae35;
+    fill: #EFAE35;
+}
 .footer__text_small {
     border: 1px solid #999a81;
-    padding: 1px 0px;
+    padding: 0px 0px;
 }
 .footer__text_small a {
-    font-size: 16px;
+    font-family: "Onest", sans-serif;
+    font-size: 1.1em;
     text-align: end;
-    font-weight: 200;
+    font-weight: 100;
     text-transform: inherit;
     
 }
@@ -595,9 +581,7 @@ h1 {
       transform: rotate(90deg);
     font-size: 28px;
   }
-  .item__title_sale span {
-      
-  }
+ 
   .images_parent {
     width: 100%;
     height: 100%;
@@ -678,6 +662,8 @@ h1 {
       
   }
   .price {
+    font-family: "Onest", sans-serif;
+    font-weight: 300;
       display: flex;
       align-items: end;
       margin-bottom: 15px;
@@ -729,6 +715,147 @@ h1 {
     padding: 17px 120px;
 
   }
-  /* БЛОК ПРОДУКТА С НАВИДЕНИЕМ ВАДО */
+  /* КОНЕЦ БЛОКА ПРОДУКТА С НАВИДЕНИЕМ ВАДО */
 
+
+/*МОДЕЛЬНОЕ ОКНО */
+
+.modal-content {
+    border-radius: 0px;
+}
+.modal-body{
+    padding: 0px 10%;
+}
+.modal-footer {
+    padding: 5% 9.8%;
+    border: none;
+}
+.modal__flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal__flex h5 {
+    margin-top: 35px;
+    color: #24160B;
+}
+.modal-content {
+    background-color: #fcf8f4;
+}
+.form-group input {
+    font-family: "Onset", sans-serif;
+    background-color: #fcf8f4;
+    border-radius: 0px;
+    padding: 12px 20px;
+    border: 1px solid #999a81;
+    display: block;
+  width: 100%;
+  height: calc(3.25rem + 2px);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #24160B;
+  background-clip: padding-box;
+  
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    
+}
+.form-group input::placeholder {
+    font-family: "Onset", sans-serif;
+    text-transform: inherit;
+    font-weight: 400;
+}
+.form-group input:focus {
+    color: #212529;
+  background-color: #fcf8f4;
+  border-color: #bdbdbd;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+.form-group input:disabled,
+.form-group input:read-only {
+    background-color: #f5f5f5;
+    opacity: 1;
+}
+
+.custom-checkbox_modal {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.custom-checkbox_modal+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+    margin-top: 20px;
+    font-family: "Onset", sans-serif;
+} 
+.custom-checkbox_modal+label::before {
+    content: '';
+    display: inline-block;
+    width: 1.4em;
+    height: 1.4em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #adb5bd;
+    border-radius: 0.25em;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+  }
+  .custom-checkbox_modal:checked+label::before  {
+      background-color: #24160B;
+      border-color: #999A81;
+      background-image: url(../image/checked.svg);
+      
+  }
+.modal-title {
+    font-size: 24px;
+    font-weight: 700;
+}
  
+ .modal-header {
+     border: none;
+     
+ }
+ .modal-btn {
+    width: 100%;
+ }
+ .modal-btn button{
+     width: 100%;
+    display: inline-block;
+    font-size: 14px;
+    background-color: #24160b;
+    padding: 18px 0px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    
+ }
+ .btn-close:focus {
+     box-shadow: none;
+ }
+ .modal-footer_discription {
+     width: 100%;
+ }
+ .modal-footer_discription p{
+    font-size: 13px;
+    margin-bottom: 0px;
+ }
+ .modal-footer_discription a {
+    font-family: "Onset", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+     color: #EFAE35;
+     text-decoration: none;
+    
+ }
+ /* МОДЕЛЬНОЕ ОКНО ПОСЛЕ ЗАЯВКИ */
+ 
+ .modal-body-performed p{
+    margin: 0;
+    font-size: 15px;
+ }

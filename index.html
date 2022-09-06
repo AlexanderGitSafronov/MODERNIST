@@ -12,14 +12,9 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
-      rel="stylesheet"
-    />
+    
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/fonts.css">
   </head>
   <body>
     <div class="section header">
@@ -27,7 +22,7 @@
       <div class="container-sm">
         <div class="row">
           <div class="col-md-4 menu">
-            <span>Меню</span>
+            <div class="catalode">Каталог</div>
           </div>
           <div class="col-md-4 text-center">
             <img src="/image/moder_head.png" alt="" />
@@ -60,7 +55,7 @@
               </svg>
             </div>
             <!-- <img src="/image/search.svg" alt=""> -->
-            <span>Корзина</span>
+            <div class="basket__true">Корзина</div>
           </div>
         </div>
       </div>
@@ -97,49 +92,7 @@
               </p>
             </div>
           </div>
-          <!-- <div class="col-md-8 text-center sofa_pos">
-            <div class="head__products">
-              <div class="row">
-                <div class="col-md-6 text-start head__products_first">
-                  <span>NEW!</span>
-                </div>
-                <div class="col-md-6 text-end like">
-                  <svg
-                    width="28"
-                    height="24"
-                    viewBox="0 0 28 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      stroke="“currentColor”"
-                      d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
-                      stroke="#24160B"
-                      stroke-opacity="0.8"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </div>
-              </div>
-            </div>
-            <div class="sofa_madrid">
-              <img src="/image/sofa_madrid.png" width="100%" alt="" />
-            </div>
-            <div class="footer__products">
-              <div class="row">
-                <div class="col-md-6 text-start footer__products_first">
-                  <span>АГАТТА</span>
-                </div>
-                <div class="col-md-6 text-end button_products">
-                  <form action="#" target="_blank">
-                    <button>ДОБАВИТЬ В КОРЗИНУ - 122 590 ₽</button>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div> -->
+
           <div class="col-md-8 item__big item__big_madrid ">
         
             <div class="item__content">
@@ -1113,14 +1066,86 @@
                   <p>Поможем подобрать подходящую мебель для вашего интерьера </p>
                 </div>
                 <div class="head__text-button text-center summer__sale_pad">
-                  <form action="#" target="_blank">
-                    <button>отправить заявку</button>
-                  </form>
+                  
+                    <button  class="btn-consultant" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" data-whatever="@mdo">отправить заявку</button>
+                  
                 </div>
               </div>
             </div>
           </div>
     </div>
+
+
+
+    <!-- МОДЕЛЬНОЕ ОКНО ДИЗАЙН КОНСУЛЬТАНТ -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true"></span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <h5 class="modal-title" id="exampleModalLabel">ОСТАВИТЬ ЗАЯВКУ</h5>
+              <form>
+                <div class="form-group">
+                  <label for="recipient-name" class="col-form-label"></label>
+                  <input type="text" class="form-control" id="recipient-name" placeholder=Имя>
+                </div>
+                <div class="form-group">
+                  <label for="message-text" class="col-form-label"></label>
+                  <input type="tel" class="form-control" id="message-text" placeholder="Телефон">
+                </div>
+                <div class=" form-group_flex">
+                    <input type="checkbox" class="custom-checkbox_modal" id="chack__box_modal" placeholder="Телефон">
+                    <label for="chack__box_modal" class="label_check">Использовать эти данные при регистрации</label>
+                  </div>
+              </form>
+
+            </div>
+            <div class="modal-footer">
+              <div class="modal-btn ">
+                <button data-bs-toggle="modal" data-bs-target="#exampleModal_2" data-whatever="@mdo">ОТПРАВИТЬ</button>
+                
+            </div>
+            <div class="modal-footer_discription">
+                <p>Нажимая кнопку "Отправить", Вы соглашаетесь с условиями  </p>
+                <a href="">политики конфиденциальности</a>
+            </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- МОДЕЛЬНОЕ ОКНО ДИЗАЙН КОНСУЛЬТАНТ -->
+    <!-- VМОДЕЛЬНОЕ ОКНО ПОСЛЕ ЗАЯВКИ -->
+    <div class="modal fade" id="exampleModal_2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true"></span>
+                </button>
+            </div>
+            <div class="modal-body modal-body-performed">
+                <h5 class="modal-title" id="exampleModalLabel">Ваша заявка успешно отправлена</h5>
+                <p>В юлижайшее время, наш менеджер <br>
+                    свяжется с Вами</p>
+            </div>
+            <div class="modal-footer">
+              <div class="modal-btn">
+                  <a href="#"><button data-bs-dismiss="modal" aria-label="Close">Вернуться в каталог</button></a>
+                
+            </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+
+
+
 <!-- НАША РАБОТА -->
     <div class="out__work">
         <div class="container-fluid">
@@ -1167,13 +1192,13 @@
             <div class="col-4 footer__right_text">
                 <div class="footer__media">
                     <a href="#"><span><svg width="15" height="29" viewBox="0 0 15 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M14.0171 16.1893L14.7945 10.9806H9.93151V7.60194C9.93151 6.17693 10.611 4.78641 12.789 4.78641H15V0.351942C15 0.351942 12.9935 0 11.075 0C7.06986 0 4.45205 2.49456 4.45205 7.01068V10.9806H0V16.1893H4.45205V28.7811C6.2675 29.073 8.11606 29.073 9.93151 28.7811V16.1893H14.0171Z" fill="#24160B"/>
+                        <path stroke="currentColor" d="M14.0171 16.1893L14.7945 10.9806H9.93151V7.60194C9.93151 6.17693 10.611 4.78641 12.789 4.78641H15V0.351942C15 0.351942 12.9935 0 11.075 0C7.06986 0 4.45205 2.49456 4.45205 7.01068V10.9806H0V16.1893H4.45205V28.7811C6.2675 29.073 8.11606 29.073 9.93151 28.7811V16.1893H14.0171Z" />
                         </svg></span></a>
                     <a href="#"><span><svg width="26" height="21" viewBox="0 0 26 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M1.78736 9.04036C8.76667 6.07678 13.4206 4.123 15.7493 3.17903C22.398 0.483813 23.7795 0.0156247 24.68 0.000164837C24.878 -0.00323539 25.3208 0.0446012 25.6077 0.271446C25.8499 0.46299 25.9165 0.721738 25.9484 0.903342C25.9803 1.08495 26.02 1.49865 25.9884 1.8219C25.6281 5.51145 24.0692 14.465 23.276 18.5974C22.9404 20.3459 22.2796 20.9322 21.6399 20.9896C20.2496 21.1143 19.1938 20.0941 17.8473 19.2338C15.7401 17.8876 14.5498 17.0496 12.5044 15.736C10.1407 14.2179 11.673 13.3835 13.0201 12.0199C13.3726 11.663 19.4983 6.23264 19.6169 5.74002C19.6317 5.67841 19.6455 5.44875 19.5055 5.32749C19.3655 5.20622 19.1589 5.24769 19.0098 5.28067C18.7985 5.32742 15.4323 7.49585 8.91132 11.786C7.95585 12.4254 7.09041 12.737 6.31501 12.7206C5.46019 12.7026 3.81586 12.2496 2.59347 11.8623C1.09416 11.3873 -0.0974649 11.1362 0.00629874 10.3295C0.0603452 9.90932 0.654034 9.47961 1.78736 9.04036Z" fill="#24160B"/>
+                        <path stroke="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M1.78736 9.04036C8.76667 6.07678 13.4206 4.123 15.7493 3.17903C22.398 0.483813 23.7795 0.0156247 24.68 0.000164837C24.878 -0.00323539 25.3208 0.0446012 25.6077 0.271446C25.8499 0.46299 25.9165 0.721738 25.9484 0.903342C25.9803 1.08495 26.02 1.49865 25.9884 1.8219C25.6281 5.51145 24.0692 14.465 23.276 18.5974C22.9404 20.3459 22.2796 20.9322 21.6399 20.9896C20.2496 21.1143 19.1938 20.0941 17.8473 19.2338C15.7401 17.8876 14.5498 17.0496 12.5044 15.736C10.1407 14.2179 11.673 13.3835 13.0201 12.0199C13.3726 11.663 19.4983 6.23264 19.6169 5.74002C19.6317 5.67841 19.6455 5.44875 19.5055 5.32749C19.3655 5.20622 19.1589 5.24769 19.0098 5.28067C18.7985 5.32742 15.4323 7.49585 8.91132 11.786C7.95585 12.4254 7.09041 12.737 6.31501 12.7206C5.46019 12.7026 3.81586 12.2496 2.59347 11.8623C1.09416 11.3873 -0.0974649 11.1362 0.00629874 10.3295C0.0603452 9.90932 0.654034 9.47961 1.78736 9.04036Z" />
                         </svg></span></a>
                     <a href="#"><span><svg width="32" height="20" viewBox="0 0 32 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M17.429 20C6.49584 20 0.259838 12.4925 0 0H5.47658C5.65647 9.16917 9.69384 13.0531 12.8918 13.8539V0H18.0488V7.90791C21.2069 7.56757 24.5244 3.96396 25.6437 0H30.8006C29.9411 4.88488 26.3433 8.48849 23.7849 9.96997C26.3433 11.1712 30.441 14.3143 32 20H26.3234C25.1041 16.1962 22.0663 13.2533 18.0488 12.8529V20H17.429Z" fill="#24160B"/>
+                        <path stroke="currentColor" d="M17.429 20C6.49584 20 0.259838 12.4925 0 0H5.47658C5.65647 9.16917 9.69384 13.0531 12.8918 13.8539V0H18.0488V7.90791C21.2069 7.56757 24.5244 3.96396 25.6437 0H30.8006C29.9411 4.88488 26.3433 8.48849 23.7849 9.96997C26.3433 11.1712 30.441 14.3143 32 20H26.3234C25.1041 16.1962 22.0663 13.2533 18.0488 12.8529V20H17.429Z" />
                         </svg></span></a>
                 </div>
                 <div class="footer__text_small">
