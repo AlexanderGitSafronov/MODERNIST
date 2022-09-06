@@ -24,6 +24,10 @@ button {
     font-weight: 700;
     font-size: 14px;
 }
+a {
+    color: #000;
+    text-decoration: none;
+}
 
 /* HEADER */
 
@@ -38,16 +42,141 @@ button {
   .header span {
     text-transform: uppercase;
   }
+  .menu {
+      display: flex;
+      align-items: center;
+  }
 .menu,
 .basket {
   align-items: center;
   font-weight: 700;
 }
+.menu a {
+    margin-right: 15px;
+    text-decoration: none;
+}
+/* КНОПКА БУРГЕРА */
+.menu__burger_btn {
+    display: block;
+    width: 40px;
+    height: 20px;
+    position: relative;
+    margin-bottom: 3px;
+}
+.menu__burger_btn span,
+.menu__burger_btn span::before,
+.menu__burger_btn span::after {
+    position: absolute;
+    margin-top: -1px;
+    margin-left: -10px;
+    top: 50%;
+    left: 25%;
+    width: 40px;
+    height: 2px;
+    background-color: #fff;
+}
+.menu__burger_btn span::before,
+.menu__burger_btn span::after {
+    content: '';
+}
+.menu__burger_btn span::before {
+    transform: translateY(-5px);
+}
+.menu__burger_btn span::after {
+    transform: translateY(5px);
+}
+.menu__burger_btn:hover span{
+    background-color: #EFAE35;
+}
+.menu__burger_btn:hover span::after {
+    background-color: #EFAE35;
+}
+.menu__burger_btn:hover span::before {
+    background-color: #EFAE35;
+}
+/* КОНЕЦ КНОПКИ БУРГЕРА */
+/* ОБЩИЕ СТИЛИ МЕНЮ */
+.offcanvas  {
+    background-color: #fcf8f4;
+}
+.catalog__close {
+    color: #24160B;
+    font-size: 20px;
+    text-align: center;
+}
+.catalog__close:hover {
+    color: #efae35;
+}
+.offcanvas-header {
+    margin-top: 15px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #999A81;
+}
+.offcanvas-body {
+    margin-top: 20px;
+}
+/* ОБЩИЕ СТИЛИ МЕНЮ */
+
+/* БУРГЕР МЕНЮ */
+.offcanvas-body_burger a{
+    font-family: "Onest", sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    color: #24160B;
+}
+
+.offcanvas-body_burger a:hover {
+    color: #EFAE35;
+}
+.offcanvas-body_burger p{
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+/* БУРГЕР МЕНЮ */
+
+/* НАЧАЛО МЕНЮ КАТАЛОГ */
+.cataloge__flex {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+.cataloge__flex p {
+    margin: 0;
+    padding: 10px 0px;
+}
+.offcanvas-body_catalog a{
+    font-family: "Onest", sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    color: #24160B;
+    
+}
+.offcanvas-body_catalog  a:hover {
+    color: #EFAE35;
+}
+.cataloge__text {
+    padding-left: 20px;
+}
+.cataloge__arrow_right{
+    margin-left: auto;
+}
+/* КОНЕЦ МЕНЮ КАТАЛОГ */
+
+/*НАЧАЛО МЕНЮ КАТАЛОГ ГОСТИННАЯ */
+
+
+
+/*КОНЕЦ МЕНЮ КАТАЛОГ ГОСТИННАЯ*/
+
 .catalode,
 .basket__true {
     display: inline-block;
 }
-.menu :hover {
+.catalode a {
+    color: #fff;
+}
+ .menu :hover {
   color: #efae35;
   cursor: pointer;
 }
@@ -102,6 +231,12 @@ button {
 .head__text-button button:hover {
   background-color: #fac461;
 }
+
+
+
+
+
+
 /* HEADER END */
 /* PRODUCT SECTION */
 .product__padding {
