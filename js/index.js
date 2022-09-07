@@ -7,30 +7,50 @@ tableElements.forEach(function (element) {
   });
 });
 
-// МОДЕЛЬНОЕ ОКНО
-var myModal = document.getElementById('myModal')
-var myInput = document.getElementById('myInput')
-
-myModal.addEventListener('shown.bs.modal', function () { 
-  myInput.focus()
-})
 
 
+//ПОЯВЛЯЕТСЯ МЕНЮ ХЕДЕР СКРОЛЛ
 
-var exampleModal = document.getElementById('exampleModal');
+$(window).scroll(function(){
+    if ($(this).scrollTop() > 100) {
+        $('.header__scroll').addClass('header__bg');
+        $('.head__text').addClass('head__text_scroll');
+    } else {
+        $('.head__text').removeClass('head__text_scroll');
+        $('.header__scroll').removeClass('header__bg');
+    }
+});
+// МЕНЮ ФИКСЕД ВСЕХ ПРОДУКТОВ
 
-exampleModal.addEventListener('show.bs.modal', function (event) { 
-  // Button that triggered the modal
-  var button = event.relatedTarget
-  // Extract info from data-* attributes
-  var recipient = button.getAttribute('data-whatever')
-  // If necessary, you could initiate an AJAX request here
-  // and then do the updating in a callback.
-  //
-  // Update the modal's content.
-  var modalTitle = exampleModal.querySelector('.modal-title')
-  var modalBodyInput = exampleModal.querySelector('.modal-body input')
+$(window).scroll(function(){
+    if ($(this).scrollTop() > 90) {
+        // function sayHi() {
+            $('.menu__all_furniture-header-bg').addClass('menu__all_furniture-header-fixed');
+            $('.head__tex_furniture').addClass('head__furniture_scroll');
+            $('.menu__all_furniture-header').addClass('menu__all_furniture-opacity');
+        //   }
+        //   setTimeout(sayHi, 400);
+    } else {
+            $('.menu__all_furniture-header').removeClass('menu__all_furniture-opacity');
+            $('.head__tex_furniture').removeClass('head__furniture_scroll');
+            $('.menu__all_furniture-header-bg').removeClass('menu__all_furniture-header-fixed');
+    }
+});
 
-  modalTitle.textContent = 'New message to ' + recipient
-  modalBodyInput.value = recipient
-})
+// $(window).scroll(function(){
+//     if ($(this).scrollTop() < 100) {
+//         function sayHi() {
+//             $('.menu__all_furniture-header').removeClass('menu__all_furniture-opacity');
+//             $('.head__tex_furniture').removeClass('head__furniture_scroll');
+//             $('.menu__all_furniture-header-bg').removeClass('menu__all_furniture-header-fixed');
+//           }
+//           let a = 500;
+//           for(i = 500; i > 0; i--){
+//             setTimeout(sayHi, a);
+//               a--;
+//           }
+          
+          
+//     } 
+// });
+

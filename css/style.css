@@ -38,7 +38,39 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    color: #fff;
   }
+  .container__header {
+    padding: 3.1vh 4vw;
+  }
+  .container__header_all {
+    background-color: rgba(55, 33, 13, 1);
+    padding: 3.1vh 4vw;
+    position: fixed;
+    z-index: 10;
+  }
+/* ФИКСИРОВАНІЙ ХЕДЕР */
+.header__scroll {
+    background-color: rgba(55, 33, 13, 0);
+    height: 87px;
+    top: -87px;
+    transition: top 1s;
+   
+    
+}
+.header__bg {
+    width: 100%;
+    background-color: rgba(55, 33, 13, 1);
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    
+    
+   
+}  
+/* .header__active {
+    background-color: rgba(55, 33, 13, 1);
+  } */
   .header span {
     text-transform: uppercase;
   }
@@ -198,13 +230,23 @@ a {
   stroke: #efae35;
 }
 
-.header {
-  padding-top: 2vh;
-  color: #fff;
-}
+
 .head__text {
   margin-top: 24vh;
-  
+}
+.head__text_scroll {
+    margin-top: 36vh;
+}
+.head__tex_furniture {
+    margin-top: 24vh;
+}
+.head__furniture_scroll {
+    margin-top: 34.5vh;
+}
+.head__tex_furniture h1 {
+    font-size: 200px;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 .head__text h1 {
     font-size: 200px;
@@ -994,3 +1036,156 @@ a {
     margin: 0;
     font-size: 15px;
  }
+
+
+
+
+
+
+
+
+ /* СТИЛИ ДЛЯ СТРАНИЦЫ ВСЕ ТОВАРЫ */
+ .header__all_furniture{
+    background: linear-gradient(rgba(36, 22, 11, 0.5), rgba(36, 22, 11, 0.5)),
+      url(/image/all__furniture_header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #fff;
+  }
+
+/* НАВИГАЦИЯ ВСЕХ ТОВАРОВ ПОД ХЕДЕРОМ*/
+.menu__all_furniture-header-bg {
+    background-color: #fcf8f4;
+    
+  top:2vh;
+  transition: top 0.5s ease-out;
+  border: 1px solid #999a81;
+  animation-delay: 2s;
+}
+.menu__all_furniture-header-fixed {
+    width:100%;
+    position: fixed;
+    top: 12vh;
+    z-index: 9;
+}
+.menu__all_furniture-header-span {
+    margin: 0 1.25rem;
+    color: rgba(36, 22, 11, 0.7);
+    margin-top: 5px;
+}
+.menu__all_furniture-header {
+    opacity: 0;
+    margin-top: 20px;
+    transition: 0.3s all ease-in;
+}
+.menu__all_furniture-opacity {
+    opacity: 1;
+}
+.menu__all_furniture-header ul{
+    display: flex;
+}
+.menu__all_furniture-header ul li {
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.menu__all_furniture-header ul li:first-child {
+    margin-left: 0;
+}
+.menu__all_furniture-header ul li a {
+    color: rgba(36, 22, 11, 0.7);
+    position: relative; /*задаём цвет ссылки*/
+	text-decoration: none; /*убираем подчёркивание*/
+}
+.menu__all_furniture-header ul li a:hover {
+    color: #24160B;
+}
+.menu__all_furniture-header ul li a:hover::after {
+    display: block;
+	position: absolute;
+    bottom: 1px;
+	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+	width: 100%;/*задаём длинну линии до наведения курсора*/
+	height: 2px; /*задаём ширину линии*/
+	background-color: #24160B; /*задаём цвет линии*/
+	content: "";
+	transition: width 0.3s ease-out;
+}
+.menu__all_furniture-header .all__furniture_active {
+    color: #24160B;
+    cursor: default;
+    pointer-events: none;
+}
+.menu__all_furniture-header .all__furniture_active::after {
+    display: block;
+	position: absolute;
+    bottom: 1px;
+	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+	width: 100%;/*задаём длинну линии до наведения курсора*/
+	height: 2px; /*задаём ширину линии*/
+	background-color: #24160B; /*задаём цвет линии*/
+	content: "";
+}
+/* НАВИГАЦИЯ ВСЕХ ТОВАРОВ НА СТАРНИЦЕ*/
+ 
+  .menu__all_furniture {
+      margin-top: 40px;
+  }
+.menu__all_furniture ul{
+    display: flex;
+    padding-left: 10px;
+}
+.menu__all_furniture ul li{
+    list-style: none;
+    text-transform: uppercase;
+    
+    font-size: 25px;
+    margin-left: 20px;
+}
+.menu__all_furniture ul li:first-child {
+    margin-left: 0;
+}
+.menu__all_furniture ul li a {
+    color: #fff;
+    position: relative; /*задаём цвет ссылки*/
+	text-decoration: none; /*убираем подчёркивание*/
+    
+}
+
+.menu__all_furniture ul li a:hover {
+    color: #EFAE35;
+}
+.menu__all_furniture ul li a:hover::after {
+    display: block;
+	position: absolute;
+    bottom: 1px;
+	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+	width: 100%;/*задаём длинну линии до наведения курсора*/
+	height: 2px; /*задаём ширину линии*/
+	background-color: #EFAE35; /*задаём цвет линии*/
+	content: "";
+	transition: width 0.3s ease-out;
+    
+}
+.menu__all_furniture .all__furniture_active {
+    color: #EFAE35;
+    cursor: default;
+    pointer-events: none;
+}
+.menu__all_furniture .all__furniture_active::after {
+    display: block;
+	position: absolute;
+    bottom: 1px;
+	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+	width: 100%;/*задаём длинну линии до наведения курсора*/
+	height: 2px; /*задаём ширину линии*/
+	background-color: #EFAE35; /*задаём цвет линии*/
+	content: "";
+}
+ .design__decige_bg {
+    background: linear-gradient(rgba(36, 22, 11, 0.5), rgba(36, 22, 11, 0.5)),
+    url(/image/decide.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
