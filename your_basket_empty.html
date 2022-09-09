@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/your_basket_empty.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="section header__all_furniture goods_card">
+      <!-- Header menu -->
+      <div class="container-fluid  container__header_card ">
+            <div class="row">
+                <div class="col-md-4 menu">
+                    <div class="menu__burger">
+                      <div class="cataloge"><a href="" class="menu__burger_btn"  type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop_burger" aria-controls="staticBackdrop"><span></span></a></div>
+                    </div>
+                  <div class="catalode"><a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop"> Каталог</a></div>
+                </div>
+                <div class="col-md-4 text-center">
+                  <img src="/image/moder_head.png" alt="" />
+                </div>
+                <div class="col-md-4 text-end align-middle basket">
+                  <div class="img_search">
+                    <svg class="svg__click"
+                      width="28"
+                      height="28"
+                      viewBox="0 0 28 28"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke="“currentColor”"
+                        d="M12.6874 21.875C17.7615 21.875 21.8749 17.7616 21.8749 12.6875C21.8749 7.61338 17.7615 3.5 12.6874 3.5C7.61326 3.5 3.49988 7.61338 3.49988 12.6875C3.49988 17.7616 7.61326 21.875 12.6874 21.875Z"
+                        stroke="#FCF8F4"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        stroke="“currentColor”"
+                        d="M19.1836 19.1846L24.4993 24.5003"
+                        stroke="#FCF8F4"
+                        stroke-width="1.5"
+                        stroke-linecap="square"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div class="basket__true">Корзина</div>
+                  <div class="quantity__cart">
+                    <a  data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" href="">1</a>
+                </div>
+                </div>
+              </div>
+      </div>
+      <div class="container-fluid container__header header__scroll ">
+        <div class="row">
+            <div class="col-md-4 menu">
+                <div class="menu__burger">
+                  <div class="cataloge"><a href="" class="menu__burger_btn"  type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop_burger" aria-controls="staticBackdrop"><span></span></a></div>
+                </div>
+              <div class="catalode"><a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop"> Каталог</a></div>
+            </div>
+            <div class="col-md-4 text-center">
+              <img src="/image/moder_head.png" alt="" />
+            </div>
+            <div class="col-md-4 text-end align-middle basket">
+              <div class="img_search">
+                <svg
+                  width="28"
+                  height="28"
+                  viewBox="0 0 28 28"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke="“currentColor”"
+                    d="M12.6874 21.875C17.7615 21.875 21.8749 17.7616 21.8749 12.6875C21.8749 7.61338 17.7615 3.5 12.6874 3.5C7.61326 3.5 3.49988 7.61338 3.49988 12.6875C3.49988 17.7616 7.61326 21.875 12.6874 21.875Z"
+                    stroke="#FCF8F4"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    stroke="“currentColor”"
+                    d="M19.1836 19.1846L24.4993 24.5003"
+                    stroke="#FCF8F4"
+                    stroke-width="1.5"
+                    stroke-linecap="square"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              
+              <div class="basket__true">Корзина</div>
+              <div class="quantity__cart">
+                <a  data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" href="">1</a>
+            </div>
+            </div>
+          </div>
+  </div>
+      
+
+   
+ 
+
+  <div class="container-fluid search">
+    <div class="row">
+        <div class="col-12">
+            <div class="search__menu">
+                <label for="recipient-name" class="label"></label>
+                <input type="text" class="form_search" id="search" placeholder="Поиск товара">
+                <button>ПОиск</button>
+              </div>
+        </div>
+    </div>
+  </div>
+<!-- БУРГЕР МЕНЮ -->
+<div class="offcanvas offcanvas-start"  tabindex="-1" id="staticBackdrop_burger" aria-labelledby="staticBackdropLabel">
+    <div class="offcanvas-header">
+      <a href="" type="button" class="catalog__close" data-bs-dismiss="offcanvas" aria-label="Close">Закрыть</a>
+    </div>
+    
+    <div class="offcanvas-body offcanvas-body_burger">
+        <div class="customer__service_burger">
+            <a href="">
+                <p>Клиентский сервис</p>
+              </a>
+        </div>
+        <div class="cases__burger">
+            <a href="">
+                <p>Кейсы</p>
+              </a>
+        </div>
+        <div class="shipping__payment_burger">
+            <a href="">
+                <p>Доставка и оплата</p>
+              </a>
+        </div>
+        <div class="website__professionals_burger">
+            <a href="">
+                <p>Версия сайта для профессионалов</p>
+              </a>
+        </div>
+        <div class="qestions__answers_burger">
+            <a href="">
+                <p>Вопросы и ответы</p>
+              </a>
+        </div>
+        <div class="connect__us_burger">
+            <a href="">
+                <p>Связаться с нами </p>
+              </a>
+        </div>
+        <div class="privacy__policy_burger">
+            <a href="">
+                <p>Политика конфиденциальности</p>
+              </a>
+        </div>
+    </div>
+  </div>
+<!-- БУРГЕР МЕНЮ -->
+<!-- КОРЗИНА МЕНЮ -->
+<div class="offcanvas  offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class=" offcanvas-header_right">
+      <h5 class="offcanvas-title" id="offcanvasRightLabel">КОРЗИНА (5)</h5>
+    </div>
+    <div class="offcanvas-body_right">
+      <div class="container-fluid container__basket">
+          <div class="row">
+              <div class=" col-3 container__basket_img">
+                  <img class="container__basket_img_parent" src="./image/chair_4.png"  alt="">
+              </div>
+              <div class=" col-5 container__basket_content">
+                  <div class="container__basket_content_discription">
+                      <h5>Кресло Matiss</h5>
+                      <p>Зеленый</p>
+                  </div>
+                  <div class="container__basket_count ">
+                      <div class="container__basket_count_minus basket_count">
+                          <span></span>
+                      </div>
+                      <div class="container__basket_content_number">
+                          <span class="basket__number">3</span>
+                      </div>
+                      <div class="container__basket_count_plus basket_count">
+                          <span></span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-4 container__basket_price">
+                  <h5>105 690 ₽</h5>
+                  <a href="">Удалить</a>
+              </div>
+          </div>
+      </div>
+      <div class="container-fluid container__basket">
+          <div class="row">
+              <div class=" col-3 container__basket_img">
+                  <img class="container__basket_img_parent" src="./image/puff_2.png"  alt="">
+              </div>
+              <div class=" col-5 container__basket_content">
+                  <div class="container__basket_content_discription">
+                      <h5>Пуф NIKA</h5>
+                      <p>Изумруд</p>
+                  </div>
+                  <div class="container__basket_count ">
+                      <div class="container__basket_count_minus basket_count">
+                          <span></span>
+                      </div>
+                      <div class="container__basket_content_number">
+                          <span class="basket__number">1</span>
+                      </div>
+                      <div class="container__basket_count_plus basket_count">
+                          <span></span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-4 container__basket_price">
+                  <h5>12 590 ₽</h5>
+                  <a href="">Удалить</a>
+              </div>
+          </div>
+      </div>
+      <div class="container-fluid container__basket">
+          <div class="row">
+              <div class=" col-3 container__basket_img">
+                  <img class="container__basket_img_parent" src="./image/out_work.png"  alt="">
+              </div>
+              <div class=" col-5 container__basket_content">
+                  <div class="container__basket_content_discription">
+                      <h5>Диван Madrid</h5>
+                      <p>Бежевый</p>
+                  </div>
+                  
+                  <div class="container__basket_count ">
+                      <div class="container__basket_count_minus basket_count">
+                          <span></span>
+                      </div>
+                      <div class="container__basket_content_number">
+                          <span class="basket__number">1</span>
+                      </div>
+                      <div class="container__basket_count_plus basket_count">
+                          <span></span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-4 container__basket_price">
+                  <h5>132 590 ₽</h5>
+                  <a href="">Удалить</a>
+              </div>
+          </div>
+      </div>
+      <div class="clear__all_basket_position container__basket container__basket_price clear__all_basket_position">
+        <a href="" class="btn-consultant" type="button"  data-bs-toggle="modal" data-bs-target="#clear__all_basket" data-whatever="@mdo">Очистить корзину</a>
+
+      </div>
+    </div>
+    <div class="offcanvas-footer_right">
+        <div class="offcanvas-footer_header">
+            <h5>Итого:</h5>
+            <h5>132 590 ₽</h5>
+        </div>
+        <div class="offcanvas-footer_bootom">
+          <p>Cтоимость доставки расчитывается при оформление дзаказа</p>
+          <div class="offcanvas-footer_bootom-btn">
+              <div class="first__button">
+                  <button>перейти в корзину</button>
+              </div>
+              <div class="two__button">
+                  <button>оФОРМИТЬ ЗАКАЗ </button>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+        <!-- МОДЕЛЬНОЕ ОКНО ОЧИСТИТЬ ВСЮ КОРЗИНУ -->
+<div class="modal fade" id="clear__all_basket" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true"></span>
+            </button>
+        </div>
+        <div class="modal-body modal-body-performed modal__basket_text-clear">
+            <h5 class="modal-title" id="exampleModalLabel">Очистить корзину?</h5>
+        </div>
+        <div class="modal-footer">
+          <div class="modal-btn_clear_basket">
+              <a href="#"><button data-bs-dismiss="modal" aria-label="Close">Очистить</button></a>
+              <a href="#"><button data-bs-dismiss="modal" aria-label="Close">Отменить</button></a>
+        </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+
+      <!-- КАТАЛОГ МЕНЮ -->
+      <div class="offcanvas offcanvas-start"  tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+        <div class="offcanvas-header">
+          <a href="" type="button" class="catalog__close" data-bs-dismiss="offcanvas" aria-label="Close">Закрыть</a>
+        </div>
+        <div class="offcanvas-body offcanvas-body_catalog">
+            <div class="catalog__bloc_see-all">
+                <a href="./all _furniture.html">
+                    <div class="cataloge__flex">  
+                        <div class="see__all_svg">
+                            <img src="/image/see_all.svg" alt="">
+                        </div>
+                        <div class="cataloge__text">
+                            <p>Смотреть все</p>
+                        </div>
+                      </div>
+                </a>
+            </div>
+            <div class="catalog__bloc_stock">
+                <a href="">
+                    <div class="cataloge__flex">  
+                        <div class="stock__svg">
+                            <img src="/image/stock.svg" alt="">
+                        </div>
+                        <div class="cataloge__text">
+                            <p>Акции</p>
+                        </div>
+                      </div>
+                </a>
+            </div>
+            <div class="catalog__bloc_living__room">
+                <a href=""   data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop_livingRoom" aria-controls="staticBackdrop">
+                    <div class="cataloge__flex">  
+                        <div class="cataloge__living_room-svg">
+                            <img src="/image/armchairs.svg" alt="">
+                        </div>
+                        <div class="cataloge__text">
+                            <p>Гостинная</p>
+                        </div>
+                        <div class="cataloge__arrow_right">
+                            <img src="./image/arrow_right_cataloge.svg" alt="">
+                        </div>
+                      </div>
+                </a>
+            </div>
+            <div class="catalog__bloc_badroom">
+                <a href="">
+                    <div class="cataloge__flex">  
+                        <div class="cataloge__badroom_svg">
+                            <img src="/image/cataloge__badroom.svg" alt="">
+                        </div>
+                        <div class="cataloge__text">
+                            <p>Спальня</p>
+                        </div>
+                        <div class="cataloge__arrow_right">
+                            <img src="./image/arrow_right_cataloge.svg" alt="">
+                        </div>
+                      </div>
+                </a>
+            </div>
+            <div class="catalog__bloc_canteen">
+                <a href="">
+                    <div class="cataloge__flex">  
+                        <div class="cataloge_canteen_svg">
+                            <img src="/image/canteen.svg" alt="">
+                        </div>
+                        <div class="cataloge__text">
+                            <p>Столовая</p>
+                        </div>
+                        <div class="cataloge__arrow_right">
+                            <img src="./image/arrow_right_cataloge.svg" alt="">
+                        </div>
+                      </div>
+                </a>
+            </div>
+            <div class="catalog__bloc_kits">
+                <a href="">
+                    <div class="cataloge__flex">  
+                        <div class="cataloge__kits_svg">
+                            <img src="/image/kits.svg" alt="">
+                        </div>
+                        <div class="cataloge__text">
+                            <p>Комплекты</p>
+                        </div>
+                        <div class="cataloge__arrow_right">
+                            <img src="./image/arrow_right_cataloge.svg" alt="">
+                        </div>
+                      </div>
+                </a>
+            </div>
+        </div>
+      </div>
+      
+
+
+
+
+
+
+      <!-- КАТАЛОГ МЕНЮ -->
+      <!-- КАТАЛОГ МЕНЮ ГОСТИННАЯ -->
+      <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop_livingRoom" aria-labelledby="staticBackdropLabel">
+        <div class="offcanvas-header">
+          <a href="" type="button" class="catalog__close" data-bs-dismiss="offcanvas" aria-label="Close">Закрыть</a>
+        </div>
+        <div class="offcanvas-body offcanvas-body_catalog">
+            <div class="catalog__bloc_sofa">
+                <a href="">
+                    <div class="cataloge__flex">  
+                        <div class="sofas__svg">
+                            <img src="/image/calalogs_sofas.svg" alt="">
+                        </div>
+                        <div class="cataloge__text">
+                            <p>Диваны</p>
+                        </div>
+                      </div>
+                </a>
+            </div>
+            <div class="catalog__bloc_armchairs">
+                <a href="">
+                    <div class="cataloge__flex">  
+                        <div class="armchairs__svg">
+                            <img src="/image/armchairs.svg" alt="">
+                        </div>
+                        <div class="cataloge__text">
+                            <p>Кресла</p>
+                        </div>
+                      </div>
+                </a>
+            </div>
+            <div class="catalog__bloc_coffee-tables">
+                <a href="">
+                    <div class="cataloge__flex">  
+                        <div class="coffee__tables_svg">
+                            <img src="/image/coffee_tables.svg" alt="">
+                        </div>
+                        <div class="cataloge__text">
+                            <p>Журнальные столики</p>
+                        </div>
+                      </div>
+                </a>
+            </div>
+        </div>
+      </div>
+      <!-- КАТАЛОГ МЕНЮ ГОСТИННАЯ -->
+
+
+      
+    </div>
+    <!-- HEADER END -->
+ 
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="basket__empty">
+                <h5>Ваша корзина пуста</h5>
+                <div class="basket__empty_discription">
+                    <p>Перейдите в каталог или воспользуйтесь 
+                        поиском,если ищете что-то конкретное</p>
+                </div>
+                
+                    <div class="basket__empty_button">
+                        <a href="">перейти в каталог</a>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<!-- FOOTER -->
+<div class="footer">
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="col-8 footer__left_text ">
+                <div class="footer_text">
+                    <a href="#"><span>МОЙ АККАУНТ</span></a>
+                </div>
+                <div class="footer_text">
+                    <a href="#"><span>Клиентский сервис</span></a>
+                </div>
+                <div class="footer_text">
+                    <a href="#"><span>кейсы</span></a>
+                </div>
+                <div class="footer_text">
+                    <a href="#"><span>дОСТАВКА И ОПЛАТА</span></a>
+                </div>
+                <div class="footer_text">
+                    <a href="#"><span>версия сайта ДЛЯ ПРОФЕССИОНАЛОВ</span></a>
+                </div>
+                
+            </div>
+            <div class="col-4 footer__right_text">
+                <div class="footer__media">
+                    <a href="#"><span><svg width="15" height="29" viewBox="0 0 15 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke="currentColor" d="M14.0171 16.1893L14.7945 10.9806H9.93151V7.60194C9.93151 6.17693 10.611 4.78641 12.789 4.78641H15V0.351942C15 0.351942 12.9935 0 11.075 0C7.06986 0 4.45205 2.49456 4.45205 7.01068V10.9806H0V16.1893H4.45205V28.7811C6.2675 29.073 8.11606 29.073 9.93151 28.7811V16.1893H14.0171Z" />
+                        </svg></span></a>
+                    <a href="#"><span><svg width="26" height="21" viewBox="0 0 26 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M1.78736 9.04036C8.76667 6.07678 13.4206 4.123 15.7493 3.17903C22.398 0.483813 23.7795 0.0156247 24.68 0.000164837C24.878 -0.00323539 25.3208 0.0446012 25.6077 0.271446C25.8499 0.46299 25.9165 0.721738 25.9484 0.903342C25.9803 1.08495 26.02 1.49865 25.9884 1.8219C25.6281 5.51145 24.0692 14.465 23.276 18.5974C22.9404 20.3459 22.2796 20.9322 21.6399 20.9896C20.2496 21.1143 19.1938 20.0941 17.8473 19.2338C15.7401 17.8876 14.5498 17.0496 12.5044 15.736C10.1407 14.2179 11.673 13.3835 13.0201 12.0199C13.3726 11.663 19.4983 6.23264 19.6169 5.74002C19.6317 5.67841 19.6455 5.44875 19.5055 5.32749C19.3655 5.20622 19.1589 5.24769 19.0098 5.28067C18.7985 5.32742 15.4323 7.49585 8.91132 11.786C7.95585 12.4254 7.09041 12.737 6.31501 12.7206C5.46019 12.7026 3.81586 12.2496 2.59347 11.8623C1.09416 11.3873 -0.0974649 11.1362 0.00629874 10.3295C0.0603452 9.90932 0.654034 9.47961 1.78736 9.04036Z" />
+                        </svg></span></a>
+                    <a href="#"><span><svg width="32" height="20" viewBox="0 0 32 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke="currentColor" d="M17.429 20C6.49584 20 0.259838 12.4925 0 0H5.47658C5.65647 9.16917 9.69384 13.0531 12.8918 13.8539V0H18.0488V7.90791C21.2069 7.56757 24.5244 3.96396 25.6437 0H30.8006C29.9411 4.88488 26.3433 8.48849 23.7849 9.96997C26.3433 11.1712 30.441 14.3143 32 20H26.3234C25.1041 16.1962 22.0663 13.2533 18.0488 12.8529V20H17.429Z" />
+                        </svg></span></a>
+                </div>
+                <div class="footer__text_small">
+                    <a href="#"><span>Вопросы и ответы</span></a>
+                </div>
+                <div class="footer__text_small">
+                    <a href="#"><span>Связаться с нами</span></a>
+                </div>
+                <div class="footer__text_small">
+                    <a href="#"><span>Политика конфиденциальности</span></a>
+                </div>
+                <div class="footer__text_small">
+                    <a href="#"><span>.</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 footer__footer">
+                <img src="/image/modernist.png" width="100%" alt="">
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+
+
+
+
+    <script src="/js/index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

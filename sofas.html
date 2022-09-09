@@ -15,7 +15,7 @@
     
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/fonts.css">
-   
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   </head>
   <body>
@@ -34,7 +34,7 @@
                 </div>
                 <div class="col-md-4 text-end align-middle basket">
                   <div class="img_search">
-                    <svg class=""
+                    <svg class="svg__click"
                       width="28"
                       height="28"
                       viewBox="0 0 28 28"
@@ -67,6 +67,7 @@
               </div>
       </div>
       
+      
 
    
   <div class="container-fluid menu__all_furniture-header-bg">
@@ -74,15 +75,27 @@
         <div class="col-12">
           <nav class="menu__all_furniture-header">
               <ul >
-                  <li><a href="" class="all__furniture_active ">ВСЯ МЕБЕЛЬ</a></li>
+                  <li><a href="./all _furniture.html" class=" ">ВСЯ МЕБЕЛЬ</a></li>
                 <span class="menu__all_furniture-header-span">|</span>
-                  <li><a href="./sofas.html">ДИВАНЫ</a></li>
+                  <li><a href="" class="all__furniture_active">ДИВАНЫ</a></li>
                   <span class="menu__all_furniture-header-span">|</span>
                   <li><a href="">КРЕСЛА</a></li>
                   <span class="menu__all_furniture-header-span">|</span>
                   <li><a href="">ЖУРНАЛЬНЫЕ СТОЛИКИ</a></li>
               </ul>
           </nav>
+        </div>
+    </div>
+  </div>
+
+  <div class="container-fluid search">
+    <div class="row">
+        <div class="col-12">
+            <div class="search__menu">
+                <label for="recipient-name" class="label"></label>
+                <input type="text" class="form_search" id="search" placeholder="Поиск товара">
+                <button>ПОиск</button>
+              </div>
         </div>
     </div>
   </div>
@@ -246,7 +259,8 @@
     </div>
   </div>
 
-        <!-- МОДЕЛЬНОЕ ОКНО ОЧИСТИТЬ ВСЮ КОРЗИНУ -->
+
+  <!-- МОДЕЛЬНОЕ ОКНО ОЧИСТИТЬ ВСЮ КОРЗИНУ -->
 <div class="modal fade" id="clear__all_basket" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
@@ -361,12 +375,9 @@
         </div>
       </div>
       
-
-
-
       <!-- КАТАЛОГ МЕНЮ -->
       <!-- КАТАЛОГ МЕНЮ ГОСТИННАЯ -->
-      <div class="offcanvas offcanvas-start"  tabindex="-1" id="staticBackdrop_livingRoom" aria-labelledby="staticBackdropLabel">
+      <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop_livingRoom" aria-labelledby="staticBackdropLabel">
         <div class="offcanvas-header">
           <a href="" type="button" class="catalog__close" data-bs-dismiss="offcanvas" aria-label="Close">Закрыть</a>
         </div>
@@ -413,26 +424,21 @@
       <!-- ЗАГЛУШКА ДЛЯ ХЕДЕРА -->
       <div class="div__plug_header">
 
-    </div>
+      </div>
 
       <div class="container-fluid header__all_furniture">
         <div class="row">
           <div class="col-12">
             <nav class="menu__all_furniture">
                 <ul >
-                    <li><a href="" class="all__furniture_active ">ВСЯ МЕБЕЛЬ</a></li>
-                    <li><a href="">СТУЛЬЯ</a></li>
-                    <li><a href="">СТОЛЫ</a></li>
-                    <li><a href="">кРЕСЛА</a></li>
-                    <li><a href="./sofas.html">ДИВАНЫ</a></li>
-                    <li><a href="">шКАФЫ</a></li>
-                    <li><a href="">ТУМБЫ</a></li>
-                    <li><a href="">ПУФЫ</a></li>
-                    <li><a href="">КРОВАТИ</a></li>
+                    <li><a href="./all _furniture.html">ВСЯ МЕБЕЛЬ</a></li>
+                    <li><a href="" class="all__furniture_active ">ДИВАНЫ</a></li>
+                    <li><a href="">Кресла</a></li>
+                    <li><a href="">ЖУрнальные столики</a></li>
                 </ul>
             </nav>
             <div class="head__tex_furniture text-center">
-              <h1>ВСЯ МЕБЕЛЬ</h1>
+              <h1>ДИВАНЫ</h1>
             </div>
           </div>
         </div>
