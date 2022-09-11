@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/goods_card.css">
+    <link rel="stylesheet" href="./css/basket.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   </head>
   <body>
@@ -466,188 +467,273 @@
     <!-- HEADER END -->
   
       <!-- ОСНОВНОЙ КОНТЕНТ -->
-    <div class="container-fluid ">
-        <div class="row ">
-            <div class="col-7 p-0 section_card">
-                <div class="card__photo_section">
-                    <div class="col-sm-12 item item__goods_card">
-                        <div class="item__content item__content_goods_cart">
-                          <div class="item__header">
-                            <div class="item__title"></div>
-                            <div class="heart like">
-                                <svg
-                            width="28"
-                            height="24"
-                            viewBox="0 0 28 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              stroke="“currentColor”"
-                              d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
-                              stroke="#24160B"
-                              stroke-opacity="0.8"
-                              stroke-width="1.5"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            />
-                          </svg>
-                            </div>
-                          </div>
-                
-                          <div class="images_parent">
-                            <img class="item__image" width="100%"  src="/image/card_photo.png" alt="item" />
-                          </div>
-                        </div>
-                  </div>
-                    <div class="card_photo"><img src="./image/card_photo.png" alt=""></div>
-                    <div class="card_photo"><img src="./image/card_photo.png" alt=""></div>
-                    <div class="card_photo"><img src="./image/card_photo.png" alt=""></div>
-                    <div class="card_photo"><img src="./image/card_photo.png" alt=""></div>
+   <div class="container-fluid">
+       <div class="row">
+           <div class="basked__link_top">
+            <div class="basked__link_back">
+                <div class="basked__arrow_left">
+                 <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path stroke="“currentColor”" d="M4.5 8.75L0.75 5L4.5 1.25" stroke="#24160B" stroke-linecap="square" stroke-linejoin="round"/>
+                     </svg>
+                </div>
+                <a href="">Вернуться к покупкам</a>
+            </div>
+           </div>
+       </div>
+   </div>
+   <div class="container-fluid">
+    <div class="row">
+        <div class="basked__header_text">
+         <h2>Корзина</h2>
+        </div>
+    </div>
+</div>
+<div class="container-fluid basked__main_content">
+    <div class="row">
+        <div class="col-8 basked__main_content_first ">
+            <div class="basked__main_header">
+                <div class="row ">
+                    <div class=" col-3 basked__header_txt basked__header_first">
+                        <h5>Товар</h5>
+                    </div>
+                    <div class=" col-3 basked__header_txt basked__header_second">
+                        <h5>Цвет</h5>
+                        
+                    </div>
+                    <div class=" col-2 basked__header_txt basked__header_third">
+                        <h5>Размер</h5>
+                        
+                    </div>
+                    <div class="col-2 basked__header_txt basked__header_four">
+                        <h5>Количество</h5>
+                        
+                    </div>
+                    <div class="col-2 basked__header_txt basked__header_five">
+                        <h5>Цена</h5>
+                        
+                        
+                    </div>
                 </div>
             </div>
-            <div class="col-5 section_card">
-                <div class="nav__card">
-                    <nav class="">
-                        <ul >
-                            <li><a href="./index.html" class=" ">Главная</a></li>
-                            <div class="card__slash">/</div>
-                            <li><a href="./all _furniture.html" class=" ">ВСЯ МЕБЕЛЬ</a></li>
-                            <div class="card__slash">/</div>
-                            <li><a href="" class="goods__card_active">ДИВАНЫ</a></li>
-                            
-                        </ul>
-                    </nav>
-                </div>
-                <div class="discription__card">
-                    <h1>Madrid</h1>
-                    <p>Диван-кровать Madrid (Мадрид) с тканевой обивкой серого цвета и золотистыми металлическими ножками — прекрасный выбор для любой комнаты (гостиной, столовой, спальни и пр.). Он будет хорошо смотреться во многих стилях интерьера: современном, Mid Century модерн и даже скандинавском.</p>
-                </div>
-                <div class="card__price">
-                    <span class="card__silver_price">12 590 ₽ </span>
-                    <span>12 590 ₽ </span>
-                </div>
-                <div class="dropdown-flex">
-                    <div class="dropdown">
-                        <input type="text" class="textBox" value="Бутылочно-зеленый" readonly>
-                        <div class="option">
-                            <div onclick="show('Антрацит')"><span class="chise__color chise__color_1"></span> <span class="choise__text"></span>Антрацит</span> </div>
-                            <div onclick="show('Желтый')"><span class="chise__color chise__color_2"></span><span class="choise__text">Желтый</span></div>
-                            <div onclick="show('Бутылочно-зеленый')"><span class="chise__color chise__color_3"></span><span class="choise__text">Бутылочно-зеленый</span></div>
-                        </div>
-                    </div>
-                    <div class="dropdown__two">
-                        <input type="text" class="textBox__two" value="(Д) 204см  x (В) 80см x (Г) 81см" readonly>
-                        <div class="option__two">
-                            <div onclick="showTwo('(Д) 204см  x (В) 80см x (Г) 81см')"> <span class="choise__text"></span>(Д) 204см  x (В) 80см x (Г) 81см</span> </div>
-                            <div onclick="showTwo('(Д) 204см  x (В) 80см x (Г) 81см')"></span><span class="choise__text">(Д) 204см  x (В) 80см x (Г) 81см</span></div>
-                            <div onclick="showTwo('(Д) 204см  x (В) 80см x (Г) 81см-зеленый')"><span class="choise__text">(Д) 204см  x (В) 80см x (Г) 81см</span></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="button__card">
-                    <button class="">Заказать</button>
-                </div>
-
-
-                
-                
-
-                
-
-
-
-
-
-
-                
-
-
-                
-
-
-
-                <div class="discription__goods_card">
-                    <div class="details goods__card_header-text">
-                        <a   data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">ПОДРОБНЫЕ СВЕДЕНИЯ <span class="glyphicon glyphicon-plus"></span></a>
-                        <div class="collapse" id="collapseExample1">
-                            <div class="card card-body">
-                                <ul class="ul_pad">
-                                    <li>Раскладной диван</li>
-                                    <li>Ортопедический блок независимых пружин для большей мягкости и комфортного ежедневного сна. Более прочная и долговечная конструкция</li>
-                                    <li>Замена стандартного поролона на высококачественный пенополиуретан "Элакс" с гарантией 15 лет.</li>
-                                    <li>Добавление пенополиуретана с «эффектом памяти» Memory Foam. Служит для более нежного воздействия на тело, не передавливает стенки кровеносных сосудов и улучшает кровообращение, по сравнению с обычным пенополиуретаном</li>
-                                </ul>
-                            </div>
-                          </div>
+            <div class="container__basked_main">
+                <div class="row ">
+                    <div class=" col-3 container__basket_main_img">
                         
-                        <hr>
+                        <img class="container__basket__main_img_parent" src="./image/chair_4.png"  alt="">
+                        <h5>Кресло Matiss</h5>
                     </div>
-                </div>
-                
-                <div class="materials__goods-card">
-                    <div class=" goods__card_header-text materials">
-                                <a class="hoho"  data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">МАТЕРИАЛЫ <span class="glyphicon glyphicon-plus"></span></a>
-                                <div class="collapse" id="collapseExample2">
-                                    <div class="card card-body">
-                                        <ul>
-                                            <li><span>Обшивка:</span>  Рогожка</li>
-                                            <li><span>Наполнитель:</span> ППУ</li>
-                                            <li><span>Механизм:</span> Книжка</li>
-                                            <li><span>Ножки:</span> Металл</li>
-                                        </ul>
-                                    </div>
-                                  </div>
-                    </div>
-                </div>
-                <hr>
-                <div class="size__goods-card">
-                    <div class="goods__card_header-text size__card_text">
-                        <a   data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">РАЗМЕРЫ <span class="glyphicon glyphicon-plus"></span></a>
-                        <div class="collapse" id="collapseExample3">
-                            <div class="card card-body">
-                                <div class="size__goods-cars-image">
-                                    <img src="./image/size_sofa.svg" width="100%" alt="">
+                    <div class=" col-3 container__basket_content">
+                        <div class="container__basket_content_discription">
+                            <div class="dropdown">
+                                <input type="text" class="textBox" value="Зеленый" readonly>
+                                <div class="option">
+                                    <div onclick="show('Антрацит')"> <span class="choise__text"></span>Антрацит</span> </div>
+                                    <div onclick="show('Желтый')"></span><span class="choise__text">Желтый</span></div>
+                                    <div onclick="show('Зеленый')"></span><span class="choise__text">Зеленый</span></div>
                                 </div>
-                                <ul>
-                                    <li>A - <span>длина общая:</span>  204 см</li>
-                                    <li> B - <span>глубина:</span>  81 см</li>
-                                    <li>C - <span>высота общая:</span>  80 см</li>
-                                    <li>D - <span>высота спинки над сиденьем:</span>  43 см</li>
-                                    <li> E - <span>высота подлокотника:</span>  59 см</li>
-                                    <li> <span>Спальное место:</span>  110x180 см</li>
-                                </ul>
                             </div>
-                          </div>
+                        </div>
+                        
+                    </div>
+                    <div class=" col-2 container__basket_content">
+                        <div class="container__basket_content_discription">
+                            <div class="dropdown__two">
+                                <input type="text" class="textBox__two" value="S" readonly>
+                                <div class="option__two">
+                                    <div onclick="showTwo('S')"> <span class="choise__text"></span>S</span> </div>
+                                    <div onclick="showTwo('M')"></span><span class="choise__text">M</span></div>
+                                    <div onclick="showTwo('L')"><span class="choise__text">L</span></div>
+                                    <div onclick="showTwo('XL')"><span class="choise__text">XL</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-2 container__basket_price">
+                        <div class="container__basket_count ">
+                            <div class="container__basket_count_minus basket_count">
+                                <span></span>
+                            </div>
+                            <div class="container__basket_content_number">
+                                <span class="basket__number">3</span>
+                            </div>
+                            <div class="container__basket_count_plus basket_count">
+                                <span></span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-2 container__basket_price ">
+                        <div class="container__basket_price_button">
+                            <h5>105 690 ₽</h5>
+                        <div class="basket_count_delite_pad">
+                            <div class="container__basket_count_plus_delite basket_count_delite basket_count">
+                                <span></span>
+                            </div>
+                        </div>
+                        </div>
+                        
                         
                     </div>
                 </div>
-                <hr>
-                <div class="payment__goods_card">
-                    <div class="goods__card_header-text">
-                        <a   data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">доставка и оплата <span class="glyphicon glyphicon-plus"></span></a>
-                                <div class="collapse" id="collapseExample4">
-                                    <div class="card card-body">
-                                        <ul class="ul_pad">
-                                            <li>Вы можете забрать товар самостоятельно из одного из наших шоу-румов или воспользоваться доставкой транспортной компанией до склата или до квартиры. (Стомость доставки расчитывается при оформлении доставки)</li>
-                                            <li> Оплата возможна одним из вариантов: 
-                                                </li>
-                                            
-                                        </ul>
-                                        <p>Наличными или картой при получении</p>
-                                        <p>Рассрочка</p>
-                                        <p>Онлайн</p>
-                                        <p>Наложенный платеж</p>
-                                    </div>
-                                  </div>
+            </div>
+            <div class="container__basked_main">
+                <div class="row ">
+                    <div class=" col-3 container__basket_main_img">
+                        
+                        <img class="container__basket__main_img_parent" src="./image/chair_4.png"  alt="">
+                        <h5>Кресло Matiss</h5>
+                    </div>
+                    <div class=" col-3 container__basket_content">
+                        <div class="container__basket_content_discription">
+                            <div class="dropdown">
+                                <input type="text" class="textBox" value="Зеленый" readonly>
+                                <div class="option">
+                                    <div onclick="show('Антрацит')"> <span class="choise__text"></span>Антрацит</span> </div>
+                                    <div onclick="show('Желтый')"></span><span class="choise__text">Желтый</span></div>
+                                    <div onclick="show('Зеленый')"></span><span class="choise__text">Зеленый</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class=" col-2 container__basket_content">
+                        <div class="container__basket_content_discription">
+                            <div class="dropdown__two">
+                                <input type="text" class="textBox__two" value="S" readonly>
+                                <div class="option__two">
+                                    <div onclick="showTwo('S')"> <span class="choise__text"></span>S</span> </div>
+                                    <div onclick="showTwo('M')"></span><span class="choise__text">M</span></div>
+                                    <div onclick="showTwo('L')"><span class="choise__text">L</span></div>
+                                    <div onclick="showTwo('XL')"><span class="choise__text">XL</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-2 container__basket_price">
+                        <div class="container__basket_count ">
+                            <div class="container__basket_count_minus basket_count">
+                                <span></span>
+                            </div>
+                            <div class="container__basket_content_number">
+                                <span class="basket__number">3</span>
+                            </div>
+                            <div class="container__basket_count_plus basket_count">
+                                <span></span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-2 container__basket_price ">
+                        <div class="container__basket_price_button">
+                            <h5>105 690 ₽</h5>
+                        <div class="basket_count_delite_pad">
+                            <div class="container__basket_count_plus_delite basket_count_delite basket_count">
+                                <span></span>
+                            </div>
+                        </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="container__basked_main">
+                <div class="row ">
+                    <div class=" col-3 container__basket_main_img">
+                        
+                        <img class="container__basket__main_img_parent" src="./image/chair_4.png"  alt="">
+                        <h5>Кресло Matiss</h5>
+                    </div>
+                    <div class=" col-3 container__basket_content">
+                        <div class="container__basket_content_discription">
+                            <div class="dropdown">
+                                <input type="text" class="textBox" value="Зеленый" readonly>
+                                <div class="option">
+                                    <div onclick="show('Антрацит')"> <span class="choise__text"></span>Антрацит</span> </div>
+                                    <div onclick="show('Желтый')"></span><span class="choise__text">Желтый</span></div>
+                                    <div onclick="show('Зеленый')"></span><span class="choise__text">Зеленый</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class=" col-2 container__basket_content">
+                        <div class="container__basket_content_discription">
+                            <div class="dropdown__two">
+                                <input type="text" class="textBox__two" value="S" readonly>
+                                <div class="option__two">
+                                    <div onclick="showTwo('S')"> <span class="choise__text"></span>S</span> </div>
+                                    <div onclick="showTwo('M')"></span><span class="choise__text">M</span></div>
+                                    <div onclick="showTwo('L')"><span class="choise__text">L</span></div>
+                                    <div onclick="showTwo('XL')"><span class="choise__text">XL</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-2 container__basket_price">
+                        <div class="container__basket_count ">
+                            <div class="container__basket_count_minus basket_count">
+                                <span></span>
+                            </div>
+                            <div class="container__basket_content_number">
+                                <span class="basket__number">3</span>
+                            </div>
+                            <div class="container__basket_count_plus basket_count">
+                                <span></span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-2 container__basket_price ">
+                        <div class="container__basket_price_button">
+                            <h5>105 690 ₽</h5>
+                        <div class="basket_count_delite_pad">
+                            <div class="container__basket_count_plus_delite basket_count_delite basket_count">
+                                <span></span>
+                            </div>
+                        </div>
+                        </div>
                         
                         
                     </div>
                 </div>
             </div>
         </div>
+        <div class="col-3 basked__main_content_second">
+            <h3>Стоимость заказа</h3>
+            <div class="basked__amount_product">
+                <div class="basket__number_goods">
+                    <p>Количество товаров:</p>
+                    <h5>5 шт.</h5>
+                </div>
+                <div class="basket__number_goods">
+                    <p>Скидка:</p>
+                    <h5>12 500 ₽</h5>
+                </div>
+            </div>
+            <div class="basket__promocode">
+                    <form action="">
+                        
+                        <input type="text" placeholder="Введите промокод">
+                        <button>применить</button>
+                    </form>
+            </div>
+            <div class="basked__checkout">
+                <div class="basked__total">
+                    <p>Итого:</p>
+                    <h5>439 690 ₽</h5>
+                </div>
+                <div class="basked__checkout-btn">
+                    <button>оФОРМИТЬ ЗАКАЗ </button>
+                    <p>Стоимость доставки расчитывается при оформлении заказа</p>
+                </div>
+            </div>
+        </div>
     </div>
-
+</div>
 
 
 
@@ -662,12 +748,11 @@
         "
       >
         <div class="discription__sofa bestseller">
-          <h3>Хит продаж</h3>
+          <h3>Вам так же может понравится</h3>
         </div>
         <div class="discription__sofa_two bestseller__discription">
           <p>
-            Мы предлагаем только свежее решения, для реализации ваших самых
-            смелых идей
+            
           </p>
         </div>
       </div>

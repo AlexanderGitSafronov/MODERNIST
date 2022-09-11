@@ -1623,6 +1623,8 @@ a {
     .card__price span:nth-child(1) {
         margin-right: 17px;
     }
+
+
     .dropdown-flex {
         display: flex;
     }
@@ -1644,7 +1646,7 @@ a {
        right: 25px;
        top: 20px;
        box-shadow: -2px 4px 12px #fcf8f4;
-       z-index: 9; /* Положение треугольника */
+       z-index: 9; 
      
        border-width: 11.4px 8px 0 8px;
        border-color: #24160B transparent transparent transparent;
@@ -1796,6 +1798,7 @@ a {
     .chise__color_3 {
         background-color: #A44016;
     }
+    
 .button__card {
     margin-top: 10px;
     width: 100%;
@@ -1820,14 +1823,19 @@ a {
 .discription__goods_card {
     margin-top: 140px;
 }
-.goods__card_header-text h4 {
+.goods__card_header-text a {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 700;
     font-family: "Onest", sans-serif;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: block;
 
+}
+.goods__card_header-text a:hover {
+    color: #24160B;
 }
 .goods__card_header-text ul li {
     font-family: "Onest", sans-serif;
@@ -1835,9 +1843,7 @@ a {
     font-size: 14px;
     padding-bottom: 8px;
 }
-hr {
-    color: #999A81;
-}
+
 .materials ul li{
     list-style: none;
 }
@@ -1852,7 +1858,6 @@ hr {
 }
 .payment__goods_card p {
     font-family: "Onest", sans-serif;
-    margin-left: 35px;
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 10px;

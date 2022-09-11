@@ -1,0 +1,329 @@
+.basked__link_top {
+    display: inline-block;
+}
+.basked__link_back {
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 76px;
+    margin-left: 10px;
+}
+
+.basked__link_back a {
+    font-size: 14px;
+    color: #999A81;
+    font-family: "Onest", sans-serif;
+    transition: 0.2s all ease;
+}
+.basked__arrow_left {
+    margin-right: 8px;
+}
+.basked__link_back:hover a {
+    color: #24160B;
+}
+
+.basked__arrow_left svg{
+    stroke: #999A81;
+    transition: 0.2s all ease;
+   
+}
+.basked__link_back:hover  svg {
+    stroke: #24160B;
+}
+.basked__header_text h2{
+font-size: 40px;
+color: #24160B;
+font-family: "Bebas Neue", sans-serif;
+font-weight: 700;
+margin-bottom: 34px;
+margin-left: 10px;
+}
+
+.basked__main_header {
+    border-bottom: 1px solid #999A81;
+}
+.basked__header_txt {
+    display: flex;
+    justify-content: center;
+}
+.basked__header_txt h5{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Onest", sans-serif;
+}
+
+.basked__header_first {
+    display: flex;
+  justify-content: start;
+}
+.basked__header_first h5 {
+    margin-left: 10px;
+}
+.basked__header_five h5{
+  padding-right: 60px;
+}
+.basked__main_content {
+    margin-bottom: 120px;
+}
+
+.container__basked_main {
+    padding: 18px 0px 18px 10px ;
+    border-bottom: 1px solid #999A81;
+}
+.container__basket_main_img {
+    display: flex;
+    align-items: center;
+    position: relative;
+   
+    
+}
+.container__basket__main_img_parent{
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+.container__basket_main_img h5 {
+    margin-left: 30%;
+    font-size: 14px;
+    font-family: "Onest", sans-serif;
+    font-weight: 300;
+}
+
+.container__basket_content {
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container__basket_content_discription {
+    margin-bottom: 0;
+}
+.dropdown {
+    position: relative;
+    width: 177px;
+    height: 50px;
+}
+.dropdown input {
+    height: 80%;
+    font-size: 14px;
+    font-weight: 300;
+}
+.dropdown::before{
+    top: 14px;
+    border-width: 11.4px 6px 0 6px;
+}
+.dropdown.dropdown__active::before {
+    top: 14px;
+}
+.dropdown .option {
+    top: 42px;
+}
+.dropdown__two input {
+    height: 80%;
+}
+.dropdown__two {
+    width: 100px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.dropdown__two input {
+    height: 80%;
+}
+.dropdown__two::before{
+    top: 15px;
+    border-width: 11.4px 6px 0 6px;
+}
+.dropdown__two.dropdown__active_two::before {
+    top: 15px;
+}
+.dropdown__two .option__two {
+    top: 42px;
+}
+.container__basket_price {
+   display: flex;
+   align-items: inherit;
+   justify-content: center;
+   
+}
+.container__basket_price_button {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.container__basket_price_button h5 {
+    padding-top: 9px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Onest", sans-serif;
+    padding-left: 35px;
+}
+
+.basket_count_delite::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 13px;
+    height: 1px;
+    background-color: #999A81;
+    transform: rotate(45deg);
+}
+
+.container__basket_count_plus_delite::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 1px;
+    height: 13px;
+    background-color: #999A81;
+    transform: rotate(45deg);
+}
+.basket_count {
+    position: relative;
+    border: 1px solid #999A81;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    transition:0.3s all;
+}
+.basket_count:hover {
+    border: 1px solid #24160B;
+    
+}
+.basket_count_delite:hover {
+    background-color: transparent;
+}
+.basket_count_delite:hover::before{
+    background-color: #24160B;
+}
+.container__basket_count_plus_delite:hover::after {
+    background-color: #24160B;
+}
+.container__basket_count {
+    justify-content: center;
+    padding-top: 4px;
+}
+.basket_count_delite_pad {
+    padding-top: 4px;
+}
+
+.basked__main_content_second {
+    padding: 40px;
+    width: 478px;
+    margin-left: 50px;
+    border: 1px solid #999A81;
+}
+.basked__main_content_second h3{
+    margin-bottom: 26px;
+    font-weight: 700;
+    font-size: 28px;
+}
+.basket__number_goods {
+    display: flex;
+    justify-content: space-between;
+}
+.basket__number_goods p{
+    font-family: "Onest", sans-serif;
+    font-size: 16px;
+    color: #24160B;
+}
+.basket__number_goods h5 {
+    font-family: "Onest", sans-serif;
+    font-size: 18px;
+    color: #24160B;
+}
+
+
+
+
+.form-group input:disabled,
+.form-group input:read-only {
+    background-color: #f5f5f5;
+    opacity: 1;
+}
+.basket__promocode {
+    padding-bottom: 24px;
+    border-bottom: 1px solid #999A81;
+}
+.basket__promocode input {
+    font-family: "Onset", sans-serif;
+    background-color: #FEF7F0;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 15px;
+    width: 58%;
+    border: none;
+    font-size: 1rem;
+     font-weight: 700;
+     line-height: 1.5;
+     color: #24160B;
+     background-clip: padding-box;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.basket__promocode input::placeholder {
+    font-family: "Onset", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    
+}
+.basket__promocode input:focus {
+    color: #212529;
+    background-color: #fcf8f4;
+    border-color: #bdbdbd;
+    outline: 0;
+    
+}
+.basket__promocode button {
+    font-family: "Onset", sans-serif;
+    font-size: 14px;
+    border:none;
+    padding: 17px 37px;
+    background-color: #C7C8BB;
+    text-transform: uppercase;
+    color: #fff;
+}
+.basked__total {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 12px;
+}
+.basked__total p {
+    font-family: "Onest", sans-serif;
+    font-size: 16px;
+    color: #24160B;
+}
+.basked__total h5 {
+    font-family: "Onest", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #24160B;
+}
+.basked__checkout-btn button {
+    width: 100%;
+    color: #FCF8F4;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Onest", sans-serif;
+    background-color: #24160B;
+    border: 1px solid #24160B;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+.basked__checkout-btn p {
+    padding-top: 8px;
+    font-family: "Onest", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}

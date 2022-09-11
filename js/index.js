@@ -112,7 +112,8 @@ $(window).scroll(function(){
     
   });
 
-// СЕЛКТ ВЫБОРА НА СТРАНИЦЕ КАРТОЧКИ О ТОВАРЕ
+  
+// СЕЛКТ ВЫБОРА НА СТРАНИЦЕ КАРТОЧКИ О ТОВАРЕ !!!!!!!!!!!!!!!!!!!!!!!!!!!
 function show(anything) {
     document.querySelector('.textBox').value = anything;
 } 
@@ -128,6 +129,45 @@ let dropdown__two = document.querySelector('.dropdown__two');
 dropdown__two.onclick = function() {
     dropdown__two.classList.toggle('dropdown__active_two');
 }
+
+
+
+
+
+
+
+
+
+
+
+// goods_card
+$(document).ready(function(){
+    // Add minus icon for collapse element which is open by default
+    $(".collapse.in").each(function(){
+      $(this).siblings(".goods__card_header-text").find(".glyphicon").addClass("glyphicon-minus").removeClass("glyphicon-plus");
+    });
+  
+    // Toggle plus minus icon on show hide of collapse element
+    $(".collapse").on('show.bs.collapse', function(){
+      $(this).parent().find(".glyphicon").removeClass("glyphicon-plus").addClass("glyphicon-minus");
+    }).on('hide.bs.collapse', function(){
+      $(this).parent().find(".glyphicon").removeClass("glyphicon-minus").addClass("glyphicon-plus");
+    });
+  });
+
+
+// let hoho = document.querySelector('.hoho');
+// hoho.addEventListener('click', () =>  {
+//     if(hoho.classList.contains('glyphicon-plus')) {
+//         hoho.classList.add('glyphicon-minus');
+//         hoho.classList.remove('glyphicon-plus');
+//     } else {
+//         hoho.classList.add('glyphicon-plus');
+//         hoho.classList.remove('glyphicon-minus');
+//     }
+// })
+
+
 
 
 

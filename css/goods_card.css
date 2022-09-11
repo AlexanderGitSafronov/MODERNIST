@@ -1,0 +1,57 @@
+.card-body {
+    border: none ;
+    background-color: #fcf8f4 ;
+    padding: 0px;
+    padding-top: 24px;
+}
+.card-body ul {
+    padding: 0px;
+}
+.card-body .ul_pad {
+    padding-left: 12px;
+}
+hr {
+    color: #999A81;
+    margin: 0;
+}
+.glyphicon-plus {
+    display: inline-block;
+    background: #24160B;
+    height: 10px; 
+    width: 2px;
+    position: relative; 
+    left: 10px;
+    transition: 0.5s all ease;
+}
+.glyphicon-plus::after {
+    content: "";
+    height: 2px;
+    width: 10px;
+    background: #24160B;
+    position: absolute;
+    left: -4px;
+    top: 4px;
+    transition: 0.5s all ease;
+}
+   
+.glyphicon-minus {
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    height: 10px; 
+    width: 2px;
+    transition: 0.5s all ease;
+}
+.glyphicon-minus::after {
+    content: "";
+    height: 2px;
+    width: 10px;
+    background: #24160B;
+    position: absolute;
+    left: -4px;
+    top: 4px;
+    transition: 0.5s all ease;
+}
+
+
+
