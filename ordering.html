@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/goods_card.css">
-    <link rel="stylesheet" href="./css/basket.css">
+    <link rel="stylesheet" href="./css/ordering.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   </head>
   <body>
@@ -466,512 +466,112 @@
     </div>
     <!-- HEADER END -->
   
-      <!-- ОСНОВНОЙ КОНТЕНТ -->
-   <div class="container-fluid">
-       <div class="row">
-           <div class="basked__link_top">
-            <div class="basked__link_back">
-                <div class="basked__arrow_left">
-                 <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                     <path stroke="“currentColor”" d="M4.5 8.75L0.75 5L4.5 1.25" stroke="#24160B" stroke-linecap="square" stroke-linejoin="round"/>
-                     </svg>
-                </div>
-                <a href="">Вернуться к покупкам</a>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2">
+                <div class="ordering__link_top">
+                    <div class="ordering__link_back">
+                        <div class="ordering__arrow_left">
+                         <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                             <path stroke="“currentColor”" d="M4.5 8.75L0.75 5L4.5 1.25" stroke="#24160B" stroke-linecap="square" stroke-linejoin="round"/>
+                             </svg>
+                        </div>
+                        <a href="">Назад</a>
+                    </div>
+                   </div>
             </div>
-           </div>
-       </div>
-   </div>
-   <div class="container-fluid">
-    <div class="row">
-        <div class="basked__header_text">
-         <h2>Корзина</h2>
+            <div class="col-5">
+                <div class="ordering">
+                    <div class="buyer__data">
+                        <div class="buyer__date_header">
+                            <div class="field__number">
+                                1
+                            </div>
+                            <div class="buyer__date_header_text">
+                                <h3>данные покупателя</h3>
+                            </div>
+                        </div>
+                        <div class="ordering__checkbox">
+                            <form action="">
+                                <label class="custom-radio">
+                                    <input type="radio" name="color" value="indigo">
+                                    <span class="label__radio">Физическое лицо</span>
+                                  </label>
+                                  <label class="custom-radio custom-radio_two">
+                                    <input type="radio" name="color" value="indigo">
+                                    <span class="label__radio">Юридическое лицо</span>
+                                  </label>
+                            </form>
+                        </div>
+                        <div class="ordering__input">
+                            <form action="">
+                                <input type='text' name='name' class='name'  placeholder='Имя'/>
+                                <input type='text' name='last_name' class='last__name'  placeholder='Фамилия'/>
+                            </form>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-5">
+
+            </div>
         </div>
     </div>
-</div>
-<div class="container-fluid basked__main_content ">
-    <div class="row ">
-        <div class="col-8 basked__main_content_first ">
-            <div class="basked__main_header">
-                <div class="row ">
-                    <div class=" col-3 basked__header_txt basked__header_first">
-                        <h5>Товар</h5>
-                    </div>
-                    <div class=" col-3 basked__header_txt basked__header_second">
-                        <h5>Цвет</h5>
-                        
-                    </div>
-                    <div class=" col-2 basked__header_txt basked__header_third">
-                        <h5>Размер</h5>
-                        
-                    </div>
-                    <div class="col-2 basked__header_txt basked__header_four">
-                        <h5>Количество</h5>
-                        
-                    </div>
-                    <div class="col-2 basked__header_txt basked__header_five">
-                        <h5>Цена</h5>
-                        
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="container__basked_main">
-                <div class="row ">
-                    <div class=" col-3 container__basket_main_img">
-                        
-                        <img class="container__basket__main_img_parent" src="./image/chair_4.png"  alt="">
-                        <h5>Кресло Matiss</h5>
-                    </div>
-                    <div class=" col-3 container__basket_content">
-                        <div class="container__basket_content_discription">
-                            <div class="dropdown">
-                                <input type="text" class="textBox" value="Зеленый" readonly>
-                                <div class="option">
-                                    <div onclick="show('Антрацит')"> <span class="choise__text"></span>Антрацит</span> </div>
-                                    <div onclick="show('Желтый')"></span><span class="choise__text">Желтый</span></div>
-                                    <div onclick="show('Зеленый')"></span><span class="choise__text">Зеленый</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class=" col-2 container__basket_content">
-                        <div class="container__basket_content_discription">
-                            <div class="dropdown__two">
-                                <input type="text" class="textBox__two" value="S" readonly>
-                                <div class="option__two">
-                                    <div onclick="showTwo('S')"> <span class="choise__text"></span>S</span> </div>
-                                    <div onclick="showTwo('M')"></span><span class="choise__text">M</span></div>
-                                    <div onclick="showTwo('L')"><span class="choise__text">L</span></div>
-                                    <div onclick="showTwo('XL')"><span class="choise__text">XL</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="col-2 container__basket_price">
-                        <div class="container__basket_count ">
-                            <div class="container__basket_count_minus basket_count">
-                                <span></span>
-                            </div>
-                            <div class="container__basket_content_number">
-                                <span class="basket__number">3</span>
-                            </div>
-                            <div class="container__basket_count_plus basket_count">
-                                <span></span>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="col-2 container__basket_price ">
-                        <div class="container__basket_price_button">
-                            <h5>105 690 ₽</h5>
-                        <div class="basket_count_delite_pad">
-                            <div class="container__basket_count_plus_delite basket_count_delite basket_count">
-                                <span></span>
-                            </div>
-                        </div>
-                        </div>
-                        
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="container__basked_main">
-                <div class="row ">
-                    <div class=" col-3 container__basket_main_img">
-                        
-                        <img class="container__basket__main_img_parent" src="./image/chair_4.png"  alt="">
-                        <h5>Кресло Matiss</h5>
-                    </div>
-                    <div class=" col-3 container__basket_content">
-                        <div class="container__basket_content_discription">
-                            <div class="dropdown">
-                                <input type="text" class="textBox" value="Зеленый" readonly>
-                                <div class="option">
-                                    <div onclick="show('Антрацит')"> <span class="choise__text"></span>Антрацит</span> </div>
-                                    <div onclick="show('Желтый')"></span><span class="choise__text">Желтый</span></div>
-                                    <div onclick="show('Зеленый')"></span><span class="choise__text">Зеленый</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class=" col-2 container__basket_content">
-                        <div class="container__basket_content_discription">
-                            <div class="dropdown__two">
-                                <input type="text" class="textBox__two" value="S" readonly>
-                                <div class="option__two">
-                                    <div onclick="showTwo('S')"> <span class="choise__text"></span>S</span> </div>
-                                    <div onclick="showTwo('M')"></span><span class="choise__text">M</span></div>
-                                    <div onclick="showTwo('L')"><span class="choise__text">L</span></div>
-                                    <div onclick="showTwo('XL')"><span class="choise__text">XL</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="col-2 container__basket_price">
-                        <div class="container__basket_count ">
-                            <div class="container__basket_count_minus basket_count">
-                                <span></span>
-                            </div>
-                            <div class="container__basket_content_number">
-                                <span class="basket__number">3</span>
-                            </div>
-                            <div class="container__basket_count_plus basket_count">
-                                <span></span>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="col-2 container__basket_price ">
-                        <div class="container__basket_price_button">
-                            <h5>105 690 ₽</h5>
-                        <div class="basket_count_delite_pad">
-                            <div class="container__basket_count_plus_delite basket_count_delite basket_count">
-                                <span></span>
-                            </div>
-                        </div>
-                        </div>
-                        
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="container__basked_main">
-                <div class="row ">
-                    <div class=" col-3 container__basket_main_img">
-                        
-                        <img class="container__basket__main_img_parent" src="./image/chair_4.png"  alt="">
-                        <h5>Кресло Matiss</h5>
-                    </div>
-                    <div class=" col-3 container__basket_content">
-                        <div class="container__basket_content_discription">
-                            <div class="dropdown">
-                                <input type="text" class="textBox" value="Зеленый" readonly>
-                                <div class="option">
-                                    <div onclick="show('Антрацит')"> <span class="choise__text"></span>Антрацит</span> </div>
-                                    <div onclick="show('Желтый')"></span><span class="choise__text">Желтый</span></div>
-                                    <div onclick="show('Зеленый')"></span><span class="choise__text">Зеленый</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class=" col-2 container__basket_content">
-                        <div class="container__basket_content_discription">
-                            <div class="dropdown__two">
-                                <input type="text" class="textBox__two" value="S" readonly>
-                                <div class="option__two">
-                                    <div onclick="showTwo('S')"> <span class="choise__text"></span>S</span> </div>
-                                    <div onclick="showTwo('M')"></span><span class="choise__text">M</span></div>
-                                    <div onclick="showTwo('L')"><span class="choise__text">L</span></div>
-                                    <div onclick="showTwo('XL')"><span class="choise__text">XL</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="col-2 container__basket_price">
-                        <div class="container__basket_count ">
-                            <div class="container__basket_count_minus basket_count">
-                                <span></span>
-                            </div>
-                            <div class="container__basket_content_number">
-                                <span class="basket__number">3</span>
-                            </div>
-                            <div class="container__basket_count_plus basket_count">
-                                <span></span>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="col-2 container__basket_price ">
-                        <div class="container__basket_price_button">
-                            <h5>105 690 ₽</h5>
-                        <div class="basket_count_delite_pad">
-                            <div class="container__basket_count_plus_delite basket_count_delite basket_count">
-                                <span></span>
-                            </div>
-                        </div>
-                        </div>
-                        
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="basked__delete_all">
-                <a href="" class="btn-consultant" type="button"  data-bs-toggle="modal" data-bs-target="#clear__all_basket" data-whatever="@mdo">Очистить корзину</a>
-            </div>
-        </div>
-        <div class="col-3 basked__main_content_second">
-            <h3>Стоимость заказа</h3>
-            <div class="basked__amount_product">
-                <div class="basket__number_goods">
-                    <p>Количество товаров:</p>
-                    <h5>5 шт.</h5>
-                </div>
-                <div class="basket__number_goods">
-                    <p>Скидка:</p>
-                    <h5>12 500 ₽</h5>
-                </div>
-            </div>
-            <div class="basket__promocode">
-                    <form action="">
-                        
-                        <input type="text" placeholder="Введите промокод">
-                        <button>применить</button>
-                    </form>
-            </div>
-            <div class="basked__checkout">
-                <div class="basked__total">
-                    <p>Итого:</p>
-                    <h5>439 690 ₽</h5>
-                </div>
-                <div class="basked__checkout-btn">
-                    <button>оФОРМИТЬ ЗАКАЗ </button>
-                    <p>Стоимость доставки расчитывается при оформлении заказа</p>
-                </div>
-            </div>
-        </div>
-       
+
+
+
+
+    <div class="p-2">
+        <p>Example selected value: <strong id="selected-example"></strong></p>
     </div>
-</div>
-
-
-
-<!-- ХИТ ПРОДАЖ -->
-<div class="container-fluid">
-    <div class="row product__padding">
-      <div
-        class="
-          col-md-3
-          products__sections-bg products__sections_first
-          product__pad
-        "
-      >
-        <div class="discription__sofa bestseller">
-          <h3>Вам так же может понравится</h3>
-        </div>
-        <div class="discription__sofa_two bestseller__discription">
-          <p>
-            
-          </p>
-        </div>
+    <div class="container m-2">
+      <div class="dropdown sik-dropdown" id="sik-select">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          ...
+        </button>
+        <ul class="dropdown-menu dropdown-menu-dark">
+          <li>
+              <span class="dropdown-item" data-value="btc">
+                  <img class="crypto-icon" src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/btc.svg" alt="btc" />
+                  Bitcoin
+              </span>          
+          </li>
+          <li>
+              <span class="dropdown-item" data-value="eth">
+                <img class="crypto-icon" src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/eth.svg" alt="eth" />
+                  Etherium
+              </span>          
+          </li>
+          <li>
+              <span class="dropdown-item" data-value="trx">
+                <img class="crypto-icon" src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/trx.svg" alt="trx" />
+                Tron
+              </span>          
+          </li>
+          <li>
+              <span class="dropdown-item" data-value="usdt">
+                <img class="crypto-icon" src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/usdt.svg" alt="usdt" />
+                Tether
+              </span>          
+          </li>
+        </ul>
       </div>
-
-      <div class="col-md-3 item">
-            <div class="item__content">
-              <div class="item__header">
-                <div class="item__title"> <span>NEW!</span> </div>
-                <div class="heart like">
-                    <svg
-                width="28"
-                height="24"
-                viewBox="0 0 28 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  stroke="“currentColor”"
-                  d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
-                  stroke="#24160B"
-                  stroke-opacity="0.8"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-                </div>
-              </div>
-  
-              <div class="images_parent">
-                <img class="item__image" src="./image/pink_chair.png" alt="item" />
-                <img class="item__image2" src="./image/background_big.png" alt="item_2" />
-              </div>
-  
-              <div class="item__button">
-                <button>ДОБАВИТЬ В КОРЗИНУ</button>
-              </div>
-            </div>
-            <div class="item__footer_choise">
-                <div class="item__footer_title_choise">
-                <p class="">МИРО лайт</p>
-                <img src="/image/ellipse_1.svg" width="35%" alt="" />
-                <img class="item__footer_choise_pad" src="/image/ellipse_2.svg" width="35%" alt="" />
-                </div>
-            <div class="item__footer_choise_price">
-               
-              <p class="item__footer_price">15 000 ₽</p>
-            </div>
-              
-            </div>
-          
-      </div>
-
-      
-      <div class="col-md-3 item">
+    </div>
     
-        <div class="item__content">
-          <div class="item__header">
-            <div class="item__title"></div>
-            <div class="heart like">
-                <svg
-            width="28"
-            height="24"
-            viewBox="0 0 28 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              stroke="“currentColor”"
-              d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
-              stroke="#24160B"
-              stroke-opacity="0.8"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
-            </div>
-          </div>
-
-          <div class="images_parent">
-            <img class="item__image" src="./image/sofa_blue.png" alt="item" />
-            <img class="item__image2" src="./image/badroom.png" alt="item_2" />
-          </div>
-
-          <div class="item__button">
-            <button>ДОБАВИТЬ В КОРЗИНУ</button>
-          </div>
-        </div>
-        <div class="item__footer">
-          <p class="item__footer_title">МИРО лайт</p>
-          <div class="price">
-            <span class="item__footer_price silver__price ">11 790 ₽</span>
-            <span class="item__footer_price">9 590 ₽</span>
-          </div>
-          
-        </div>
-      
-  </div>
-
-  <div class="col-md-3 item">
-    
-    <div class="item__content">
-      <div class="item__header">
-        <div class="item__title"></div>
-        <div class="heart like">
-            <svg
-        width="28"
-        height="24"
-        viewBox="0 0 28 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          stroke="“currentColor”"
-          d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
-          stroke="#24160B"
-          stroke-opacity="0.8"
-          stroke-width="1.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-      </svg>
-        </div>
-      </div>
-
-      <div class="images_parent">
-        <img class="item__image" src="./image/sofa_blue.png" alt="item" />
-        <img class="item__image2" src="./image/badroom.png" alt="item_2" />
-      </div>
-
-      <div class="item__button">
-        <button>ДОБАВИТЬ В КОРЗИНУ</button>
-      </div>
-    </div>
-    <div class="item__footer">
-      <p class="item__footer_title">МИРО лайт</p>
-      <div class="price">
-        <span class="item__footer_price silver__price ">11 790 ₽</span>
-        <span class="item__footer_price">9 590 ₽</span>
-      </div>
-    </div>
-  
-</div>
-      
-
-      
-    </div>
-  </div>
 
 
-    <!-- МОДЕЛЬНОЕ ОКНО ДИЗАЙН КОНСУЛЬТАНТ -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true"></span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <h5 class="modal-title" id="exampleModalLabel">ОСТАВИТЬ ЗАЯВКУ</h5>
-              <form>
-                <div class="form-group">
-                  <label for="recipient-name" class="col-form-label"></label>
-                  <input type="text" class="form-control" id="recipient-name" placeholder=Имя>
-                </div>
-                <div class="form-group">
-                  <label for="message-text" class="col-form-label"></label>
-                  <input type="tel" class="form-control" id="message-text" placeholder="Телефон">
-                </div>
-                <div class=" form-group_flex">
-                    <input type="checkbox" class="custom-checkbox_modal" id="chack__box_modal" placeholder="Телефон">
-                    <label for="chack__box_modal" class="label_check">Использовать эти данные при регистрации</label>
-                  </div>
-              </form>
 
-            </div>
-            <div class="modal-footer">
-              <div class="modal-btn ">
-                <button data-bs-toggle="modal" data-bs-target="#exampleModal_2" data-whatever="@mdo">ОТПРАВИТЬ</button>
-                
-            </div>
-            <div class="modal-footer_discription">
-                <p>Нажимая кнопку "Отправить", Вы соглашаетесь с условиями  </p>
-                <a href="">политики конфиденциальности</a>
-            </div>
-            </div>
-          </div>
-        </div>
-    </div>
-    <!-- МОДЕЛЬНОЕ ОКНО ДИЗАЙН КОНСУЛЬТАНТ -->
-    <!-- VМОДЕЛЬНОЕ ОКНО ПОСЛЕ ЗАЯВКИ -->
-    <div class="modal fade" id="exampleModal_2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true"></span>
-                </button>
-            </div>
-            <div class="modal-body modal-body-performed">
-                <h5 class="modal-title" id="exampleModalLabel">Ваша заявка успешно отправлена</h5>
-                <p>В юлижайшее время, наш менеджер <br>
-                    свяжется с Вами</p>
-            </div>
-            <div class="modal-footer">
-              <div class="modal-btn">
-                  <a href="#"><button data-bs-dismiss="modal" aria-label="Close">Вернуться в каталог</button></a>
-                
-            </div>
-            </div>
-          </div>
-        </div>
-    </div>
+
+
+
+
+
+
+
+
+
+ 
 
 <!-- FOOTER -->
 <div class="footer">

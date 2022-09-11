@@ -14,7 +14,10 @@ h1 {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 700;
     font-size: 200px;
-    line-height: 200px;
+   line-height: 200px;
+}
+input {
+    font-family: "Onest", sans-serif;
 }
 p{
     font-family: "Onest", sans-serif;

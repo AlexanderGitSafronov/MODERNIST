@@ -1,0 +1,147 @@
+h3 {
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Bebas Neue", sans-serif;
+    color: #24160B;
+}
+.label__radio {
+font-size: 14px;
+font-weight: 500;
+font-family: "Onest", sans-serif;
+}
+.field__number {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Bebas Neue", sans-serif;
+}
+.custom-radio_two {
+    margin-left: 24px;
+}
+.ordering__link_top {
+    display: inline-block;
+}
+.ordering__link_back {
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 76px;
+    margin-left: 10px;
+}
+
+.ordering__link_back a {
+    font-size: 14px;
+    color: #999A81;
+    font-family: "Onest", sans-serif;
+    transition: 0.2s all ease;
+}
+.ordering__arrow_left {
+    margin-right: 8px;
+}
+.ordering__link_back:hover a {
+    color: #24160B;
+}
+
+.ordering__arrow_left svg{
+    stroke: #999A81;
+    transition: 0.2s all ease;
+   
+}
+.ordering__link_back:hover  svg {
+    stroke: #24160B;
+}
+.ordering {
+    border-right: 1px solid #999A81;
+    
+    padding-top: 127px;
+
+}
+.buyer__date_header {
+    display: flex;
+}
+.field__number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFAE35;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+}
+.buyer__date_header_text {
+    margin-left: 12px;
+    margin-bottom: 30px;
+}
+
+
+/* для элемента input c type="radio" */
+.custom-radio>input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+  
+  /* для элемента label связанного с .custom-radio */
+  .custom-radio>span {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+  }
+  
+  /* создание в label псевдоэлемента  before со следующими стилями */
+  .custom-radio>span::before {
+    content: '';
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1.5px solid #adb5bd;
+    border-radius: 50%;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 60% 60%;
+  }
+  
+  /* стили при наведении курсора на радио */
+  .custom-radio>input:not(:disabled):not(:checked)+span:hover::before {
+    border-color: #999A81;
+  }
+  
+  /* стили для радиокнопки, находящейся в состоянии checked */
+  .custom-radio>input:checked+span::before {
+    border-color: #999A81;
+    background-color: #fcf8f4;
+    background-image: url("../image/radiochecked.svg");
+  }
+  
+  /* стили для радиокнопки, находящейся в состоянии disabled */
+  .custom-radio>input:disabled+span::before {
+    background-color: #e9ecef;
+  }
+  .name,
+  .last__name {
+      text-transform: capitalize;
+  }
+
+  .crypto-icon {
+    height: 1em;
+    vertical-align: baseline;
+    margin-bottom: -0.1em;
+}
+.sik-dropdown > button.dropdown-toggle {
+    position: relative;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 2ch;
+    text-align: left;
+}
+.sik-dropdown > button.dropdown-toggle::after {
+    position: absolute;
+    right: 2ch;
+    top: calc(50% - 0.2ch);
+}
+.sik-dropdown .dropdown-item {
+    cursor: pointer;
+}
