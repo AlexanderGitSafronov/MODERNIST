@@ -106,32 +106,46 @@ $(window).scroll(function(){
   });
 
 //   ПОИСКОВИК
- document.querySelector(".svg__click ").addEventListener("click", function () {
-    $('.search').toggleClass("search__fixed");
-    $('.svg__click').toggleClass("search__active");
+//  document.querySelector(".svg__click ").addEventListener("click", function () {
+//     $('.search').toggleClass("search__fixed");
+//     $('.svg__click').toggleClass("search__active");
     
-  });
+//   });
 
   
 // СЕЛКТ ВЫБОРА НА СТРАНИЦЕ КАРТОЧКИ О ТОВАРЕ !!!!!!!!!!!!!!!!!!!!!!!!!!!
-function show(anything) {
-    document.querySelector('.textBox').value = anything;
-} 
-let dropdown = document.querySelector('.dropdown');
-dropdown.onclick = function() {
-    dropdown.classList.toggle('dropdown__active');
-}
+// function show(anything) {
+//     document.querySelector('.textBox').value = anything;
+// } 
+// let dropdown = document.querySelector('.dropdown');
+// dropdown.onclick = function() {
+//     dropdown.classList.toggle('dropdown__active');
+// }
 
-function showTwo(any) {
-    document.querySelector('.textBox__two').value = any;
-} 
-let dropdown__two = document.querySelector('.dropdown__two');
-dropdown__two.onclick = function() {
-    dropdown__two.classList.toggle('dropdown__active_two');
-}
+// function showTwo(any) {
+//     document.querySelector('.textBox__two').value = any;
+// } 
+// let dropdown__two = document.querySelector('.dropdown__two');
+// dropdown__two.onclick = function() {
+//     dropdown__two.classList.toggle('dropdown__active_two');
+// }
 
 
+$('.dropdown .dropdown-text ').click(function(event) {
+    $(event.target).parent('.dropdown').toggleClass('dropdown__active');
+})
 
+$('.dropdown [data-value]').click(function(event) {
+  var dropdown = $(event.target).parent().parent('.dropdown')
+  var value = event.target.dataset['value'];
+  var displayData = $(event.target).html()
+;
+  var displayText = $(event.target).parent().parent('.dropdown').children('.dropdown-text');
+  var displayValue = $(event.target).parent().parent('.dropdown').children('.dropdown-value');
+  displayValue.val(value);
+  displayText.html(displayData);
+  dropdown.removeClass('dropdown__active')
+})
 
 
 
@@ -172,207 +186,234 @@ $(document).ready(function(){
 
 
 
-class SikDropdown {
-    ele = null;
-    dropdown = null;
-    el = {
-        input: null,
-        toggle: null,
-        list: null
-    };
+// СТРАНИЦА ЗАКАЗОВ
 
-    items = {};
-    count = 0;
-    _cbs = [];
-    defaults = {
-        name: "sik-input",
-        value: "",
-        placeholder: "Select Item"
-    };
-    options = {};
-    constructor(identifier, opt = {}) {
-        this.ele = document.querySelector(identifier);
-        if (this.ele) {
-            //Set options:
-            this.setOptions(opt);
-            //Create hidden input:
-            this.el.input = document.createElement("input");
-            this.el.input.setAttribute("type", "hidden");
-            this.el.input.setAttribute("name", this.options.name);
-            this.el.input.setAttribute("value", "");
-            this.ele.prepend(this.el.input);
+function show1(){
+    document.getElementById('div1').style.display ='block';
+    document.getElementById('div2').style.display ='none';
+    document.getElementById('div3').style.display = 'block';
+  }
+  function show2(){
+    document.getElementById('div1').style.display = 'none';
+    document.getElementById('div3').style.display = 'none';
+    document.getElementById('div2').style.display ='block';
+  }
 
-            //Select list:
-            this.el.list = this.ele.querySelector(".dropdown-menu");
-            this._fillItems();
-            //Set toggler:
-            this.el.toggle = this.ele.querySelector(".dropdown-toggle");
-            this.dropdown = new bootstrap.Dropdown(this.el.toggle);
-            //Set initial value & placeholder:
-            this.setValue(this.options.value);
-            //Set core handlers:
-            this._attachCoreHandlers();
-            this.trigger("init");
-        } else {
-            console.warn("Cant create a Sik Dropdown - selector is invalid");
-        }
-    }
-    setOptions(opt) {
-        this._extend(this.options, this.defaults, opt);
-    }
-    addItem(value, label) {
-        if (!this.items.hasOwnProperty(value)) {
-            let itemContainer = document.createElement("li");
-            itemContainer.innerHTML = `<span class="dropdown-item" data-value="${value}">${label}</span>`;
-            this.el.list.appendChild(itemContainer);
-            let item = itemContainer.querySelector(".dropdown-item");
-            this.count++;
-            this.items[value] = {
-                el: item,
-                value: value,
-                label: item.innerHTML.trim()
-            };
-            item.addEventListener("click", this.trigger.bind(this, "select"));
-        }
-    }
-    removeItem(value) {
-        if (this.items.hasOwnProperty(value)) {
-            this.items[value].el.closest("li").remove();
-            this.count--;
-            delete this.items[value];
-            if (this.value() === value) {
-                this.setValue(null);
-            }
-        }
-    }
-    setValue(value, close = true) {
-        if (this.items.hasOwnProperty(value)) {
-            this.el.input.setAttribute("value", value);
-            this.el.toggle.innerHTML = this.items[value].label;
-        } else {
-            this.el.input.setAttribute("value", "");
-            if (this.options.placeholder) {
-                this.el.toggle.innerHTML = this.options.placeholder;
-            }
-        }
-        if (close) this.dropdown.hide();
-    }
-    value() {
-        return this.el.input ? this.el.input.value : null;
-    }
-    text() {
-        let value = this.value();
-        if (this.items.hasOwnProperty(value)) {
-            return this.items[value].label.trim();
-        }
-        return "";
-    }
-    open() {
-        if (this.dropdown) {
-            this.dropdown.show();
-        }
-    }
-    close() {
-        if (this.dropdown) {
-            this.dropdown.hide();
-        }
-    }
-    toggle() {
-        if (this.dropdown) {
-            this.dropdown.toggle();
-        }
-    }
-    attachHandler(ev, cb) {
-        this._cbs.push({
-            ev: ev,
-            fn: cb
-        });
-    }
-    detachHandler(ev) {
-        for (let i = 0; i < this._cbs.length; i++) {
-            if (this._cbs[i].ev === ev) {
-                this._cbs.splice(i, 1);
-            }
-        }
-    }
-    trigger(ev) {
-        //console.log(this, ev, el);
-        for (let cb of this._cbs) {
-            let event = cb.ev.split(".");
-            if (event.length > 1 && event[1] === ev) {
-                let [, ...args] = arguments;
-                cb.fn.call(this, ...args);
-            }
-        }
-    }
-    _fillItems() {
-        if (this.el.list) {
-            let items = this.el.list.querySelectorAll(".dropdown-item");
-            let i = items.length;
-            this.count = items.length;
-            while (i--) {
-                const value = items[i].getAttribute("data-value");
-                this.items[value] = {
-                    el: items[i],
-                    value: value,
-                    label: items[i].innerHTML.trim()
-                };
-                items[i].addEventListener(
-                    "click",
-                    this.trigger.bind(this, "select")
-                );
-            }
-        }
-        console.log(this.items);
-    }
-    _attachCoreHandlers() {
-        this.attachHandler("core.select", function (item = null) {
-            if (typeof item === "object" && "target" in item) {
-                let selected = item.target.hasAttribute("data-value")
-                    ? item.target
-                    : item.target.closest("[data-value]");
-                let value = selected
-                    ? selected.getAttribute("data-value")
-                    : null;
-                this.setValue(value);
-            }
-        });
-        this.attachHandler("core.open", function () {
-            console.log("open", arguments);
-        });
-        this.attachHandler("core.close", function () {
-            console.log("close", arguments);
-        });
-        this.attachHandler("core.init", function () {});
-        //Bind to dropdown:
-        this.el.toggle.addEventListener(
-            "show.bs.dropdown",
-            this.trigger.bind(this, "open")
-        );
-        this.el.toggle.addEventListener(
-            "hide.bs.dropdown",
-            this.trigger.bind(this, "close")
-        );
-    }
-    _extend() {
-        for (var i = 1; i < arguments.length; i++)
-            for (var key in arguments[i])
-                if (arguments[i].hasOwnProperty(key))
-                    arguments[0][key] = arguments[i][key];
-        return arguments[0];
-    }
-}
+  function show3(){
+    document.getElementById('way__to_get').style.display ='block';
+    document.getElementById('way__to_get_two').style.display ='none';
+    
+  }
+  function show4(){
+    document.getElementById('way__to_get').style.display = 'none';
+    document.getElementById('way__to_get_two').style.display ='block';
+  }
+  function showOnline(){
+    document.getElementById('show__online').style.display ='block';
+    document.getElementById('upon__receipt').style.display = 'none';
+    document.getElementById('installment__plan').style.display = 'none';
+    document.getElementById('cash__on_delivery').style.display ='none';
+  }
+  function showInstallmentPlan(){
+    document.getElementById('installment__plan').style.display = 'block';
+    document.getElementById('show__online').style.display ='none';
+    document.getElementById('upon__receipt').style.display = 'none';
+    document.getElementById('cash__on_delivery').style.display ='none';
+  }
+  function uponReceipt(){
+    document.getElementById('upon__receipt').style.display = 'block';
+    document.getElementById('installment__plan').style.display = 'none';
+    document.getElementById('show__online').style.display ='none';
+    document.getElementById('cash__on_delivery').style.display ='none';
+  }
+  function cashOnDelivery(){
+    document.getElementById('cash__on_delivery').style.display = 'block';
+    document.getElementById('installment__plan').style.display = 'none';
+    document.getElementById('show__online').style.display ='none';
+    document.getElementById('upon__receipt').style.display = 'none';
+  }
+  function serviceDelivery(){
+      if(document.getElementById('cash__on_delivery_content_name').style.display === 'block'){
+        document.getElementById('cash__on_delivery_content_name').style.display = 'none';
+      } else {
+        document.getElementById('cash__on_delivery_content_name').style.display = 'block';
+      }
+    
+    
+  }
+  
+  
 
-//This how we intiate it and extend the bs funcionality:
-var dropdown = new SikDropdown("#sik-select", {
-    name: "select-example", // the input field name
-    placeholder: "Select Currency",
-    value: null
+// ЗАВИСИМЫЕ РАДИОБАТОНЫ ВЫБОРА ДОСТАВКИ
+// $(document).ready(function() {     
+    
+//        $(".other").on('change', function(){
+    
+//             if($(".other").prop('checked')) {
+    
+//                 //$(".cod").removeAttr('checked');
+
+//                 $(".cheque").('checked', true);
+
+//             }
+
+//         });       
+
+     
+    
+//         $(".np").on('change', function(){
+
+//             if($(".np").prop('checked')) {
+
+//                 //$(".cheque").removeAttr('checked');           
+
+//                 $(".cod").attr('checked', true);
+
+                 
+
+//             }
+
+//         });
+    
+//     });
+    
+
+
+
+//   ПЛЮС И МИНУС НА СТРАНИЦЕ КОРЗИНЕ!!!!!!!!!!!!!!!!!!!
+
+// ДЛЯ ОДНОГО БЛОКА
+// const btnMinus = document.querySelector('[data-action="minus"]');
+// const btnPlus = document.querySelector('[data-action="plus"]');
+// const counter = document.querySelector('[data-counter]');
+
+// btnMinus.addEventListener('click', function(){
+// if(parseInt(counter.innerText) > 1) {
+//     counter.innerText = --counter.innerText;
+// }
+    
+// })
+// btnPlus.addEventListener('click', function(){
+    
+//     counter.innerText = ++counter.innerText;
+// })
+
+
+// ДЛЯ ВСЕХ НУЖНЫХ ЭЛЕМЕНТОВ
+
+window.addEventListener('click', function(event){
+    let counter;
+    if(event.target.dataset.action === 'plus' || event.target.dataset.action === 'minus') {
+        const counterBasketCount =  event.target.closest('.container__basket_count')
+         counter =  counterBasketCount.querySelector('[data-counter]');
+    }
+    if(event.target.dataset.action === 'plus') {
+     
+       counter.innerText = ++counter.innerText;
+    } 
+    if (event.target.dataset.action === 'minus'){
+        
+        if(parseInt(counter.innerText) > 1) {
+                counter.innerText = --counter.innerText;
+            }
+    }
 });
 
-//adding a callback just for demo:
-dropdown.attachHandler("myhandler.select", function () {
-    console.log("select", this);
-    let tag = document.getElementById("selected-example");
-    tag.innerText = this.value();
+// ДОБАВЛЕНИЕ ТОВАРА В КОРЗИНУ
+
+const cartWrapper = document.getElementsByClassName('.cart__wrapper');
+
+console.log(cartWrapper);
+window.addEventListener('click', function(event){
+    if(event.target.hasAttribute('data-cart')){
+      const card =   event.target.closest('.item');
+      const productInfo = {
+          id: card.dataset.id,
+          imgSrc: card.querySelector('.item__image').getAttribute('src'),
+          title: card.querySelector('.item__footer_title').innerText,
+          price: card.querySelector('.item__footer_price').innerText
+      }
+     
+      const cartItemHTML = `<div class="container__basked_main">
+      <div class="row ">
+          <div class=" col-3 container__basket_main_img">
+              
+              <img class="container__basket__main_img_parent" src="./image/chair_4.png"  alt="">
+              <h5>Кресло Matiss</h5>
+          </div>
+          <div class=" col-3 container__basket_content">
+              <div class="container__basket_content_discription">
+                  <div class="dropdown color-picker ">
+                      <div class="dropdown-text">Бутылочно-зеленый</div>
+                      <input class="dropdown-value" type="hidden" value="Зеленый" readonly>
+                      <div class="option">
+                          <div class="dropdown-item" data-value="Антрацит">
+                              Антрацит
+                          </div>
+                          <div class="dropdown-item" data-value="Бутылочно-зеленый">
+                              Бутылочно-зеленый
+                          </div>
+                          <div class="dropdown-item" data-value="Коричневый">
+                              Коричневый
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              
+          </div>
+          <div class=" col-2 container__basket_content">
+              <div class="container__basket_content_discription">
+                  <div class="dropdown color-picker dropdown__absked_size">
+                      <div class="dropdown-text">S</div>
+                      <input class="dropdown-value" type="hidden" value="S" readonly>
+                      <div class="option">
+                          <div class="dropdown-item" data-value="S">
+                              S
+                          </div>
+                          <div class="dropdown-item" data-value="M">
+                              M
+                          </div>
+                          <div class="dropdown-item" data-value="L">
+                              L
+                          </div>
+                          <div class="dropdown-item" data-value="XL">
+                              XL
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              
+          </div>
+          <div class="col-2 container__basket_price">
+              <div class="container__basket_count ">
+                  <div class="container__basket_count_minus basket_count" data-action="minus">
+                      <span></span>
+                  </div>
+                  <div class="container__basket_content_number">
+                      <span class="basket__number" data-counter >3</span>
+                  </div>
+                  <div class="container__basket_count_plus basket_count" data-action="plus">
+                      <span></span>
+                  </div>
+              </div>
+              
+          </div>
+          <div class="col-2 container__basket_price ">
+              <div class="container__basket_price_button">
+                  <h5>105 690 ₽</h5>
+              <div class="basket_count_delite_pad">
+                  <div class="container__basket_count_plus_delite basket_count_delite basket_count">
+                      <span></span>
+                  </div>
+              </div>
+              </div>
+              
+              
+          </div>
+      </div>
+  </div>`;
+
+
+  cartWrapper.insertAdjacentHTML('beforeend', cartItemHTML);
+    }
 });

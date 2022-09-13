@@ -1,21 +1,57 @@
+
 h3 {
     font-size: 28px;
     font-weight: 700;
     font-family: "Bebas Neue", sans-serif;
     color: #24160B;
 }
+h4 {
+    font-size: 18px;
+    font-family: "Onest", sans-serif;
+    font-weight: 500;
+    color: #24160B;
+}
+h5 {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Onest", sans-serif;
+    color: #24160B;
+    margin: 0px;
+}
+h6 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Onest", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+p {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: "Onest", sans-serif;
+    color: #24160B;
+   
+}
 .label__radio {
 font-size: 14px;
 font-weight: 500;
 font-family: "Onest", sans-serif;
 }
+
 .field__number {
     font-size: 18px;
     font-weight: 700;
     font-family: "Bebas Neue", sans-serif;
 }
-.custom-radio_two {
+button {
+    font-family: "Onest", sans-serif;
+    text-transform: uppercase;
+}
+.custom-radio {
     margin-left: 24px;
+}
+.custom-radio:first-child {
+    margin-left: 0px;
 }
 .ordering__link_top {
     display: inline-block;
@@ -49,10 +85,16 @@ font-family: "Onest", sans-serif;
     stroke: #24160B;
 }
 .ordering {
-    border-right: 1px solid #999A81;
-    
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 110px;
+}
+.ordering,
+.ordering__basked {
     padding-top: 127px;
-
+}
+.ordering__border_right {
+    border-right: 1px solid #999A81;
 }
 .buyer__date_header {
     display: flex;
@@ -119,29 +161,329 @@ font-family: "Onest", sans-serif;
     background-color: #e9ecef;
   }
   .name,
+  .how__name_input,
   .last__name {
       text-transform: capitalize;
   }
 
-  .crypto-icon {
-    height: 1em;
-    vertical-align: baseline;
-    margin-bottom: -0.1em;
+  .ordering__input form {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .ordering__input input {
+    font-family: "Onset", sans-serif;
+    background-color: #fcf8f4;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 15px;
+    width: 325px;
+    border: 1px solid rgba(153, 154, 129, 0.5);
+    font-size: 1rem;
+     font-weight: 700;
+     line-height: 1.5;
+     color: #24160B;
+     background-clip: padding-box;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    margin-bottom: 20px;
 }
-.sik-dropdown > button.dropdown-toggle {
+.ordering__input input::placeholder {
+    font-family: "Onset", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(153, 154, 129, 0.5);
+    
+}
+.ordering__input input:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: rgba(153, 154, 129, 0.5);
+    outline: 0;
+    
+}
+
+
+.buyer__data_second {
+    margin-top: 64px;
+}
+.way__to_get {
+    padding: 30px 40px;
+    border: 1px solid rgba(153, 154, 129, 0.5);
+    width: 100%;
+}
+.ordering__checkbox {
+    margin-bottom: 20px;
+}
+.way__to_get_discription {
+    margin-bottom: 30px;
+}
+.way__to_get_adress {
+    color: #999A81;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+.way__to_get button {
+    padding: 12px 20px;
+    border: 1px solid rgba(153, 154, 129, 0.5);
+    border-radius: 30px;
+    font-size: 14px;
+    background-color: #fcf8f4;
+    color: #24160B;
+    font-family: "Onest", sans-serif;
+    font-weight: 400;
+}
+.payment__method {
+    background-color: #FEF7F0;
+    margin-bottom: 200px;
+}
+.payment__method_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.payment__method_header_text {
+display: flex;
+align-items: center;
+}
+.payment__method_footer  {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.ordering__basked {
+    padding-left: 30px;
+    padding-right: 164px;
+    padding-bottom: 100px;
+}
+.ordering__basked_header_txt {
+    margin-bottom: 30px;
+}
+.container__basket_price {
+    justify-content: center;
+}
+.container__basket_img_parent{
+    max-height: none;
+}
+.container__basket_content {
+    padding-left: 0px;
+}
+.container__basket_content_discription {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.container__basket_content_discription p{
+    margin-bottom: 0;
+}
+.offcanvas-footer_right {
+    margin-top: 0;
+}
+.offcanvas-footer_right {
+padding: 0;
+}
+.ordering__basked_left_discription {
+    border-bottom: 1px solid #999A81;
+    padding-top: 32px;
+}
+.ordering__basked_left_discription span {
+    font-weight: 400;
+}
+
+.offcanvas-footer_header {
+    margin-top: 25px;
+}
+.offcanvas-footer_bootom {
+    margin-top: 0;
+}
+.offcanvas-footer_bootom-btn {
+    display: block;
+}
+.offcanvas-footer_bootom-btn button {
+    width: 100%;
+}
+.offcanvas-footer_privacy_policy p {
+    margin-top: 16px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.offcanvas-footer_privacy_policy span {
+    color: #EFAE35;
+}
+
+#div2 {
+    display: none;
+}
+
+/* ЮР ЛИЦО */
+.how__name input{
+    width: 100%;
+}
+.organization__w input {
+    width: 100%;
+}
+.four__input input{
+width: 150px;
+}
+
+.organization__w textarea {
+    background-color: #fcf8f4;
+    font-family: "Onset", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 15px;
+    border: 1px solid rgba(153, 154, 129, 0.5);
+    margin-bottom: 40px;
+}
+.organization__w textarea::placeholder {
+    font-family: "Onset", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(153, 154, 129, 0.5);
+}
+.organization__w textarea:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: rgba(153, 154, 129, 0.5);
+    outline: 0;
+}
+
+.ordering__input_express form{
+    display: block;
+}
+
+.way__to_get_two {
+    display: none;
+}
+.express__adress_home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ordering__checkbox_lift {
+    margin-bottom: 0;
+}
+.express__to_extrance {
+    margin-bottom: 10px;
+}
+.lift {
+    padding: 0px;
+}
+.service__lift {
+    background-color: #C7C8BB;
+   padding: 21px 0px 21px 23px;
+    height: 100%;
+    
+}
+.castom-chekbox_lift {
+    padding-top: 5px;
+}
+.custom-checkbox_modal+label {
+    margin-top: 0;
+}
+.custom-checkbox_modal+label::before{
+    background-color:  #fcf8f4;
+}
+.ordering__border_left {
     position: relative;
-    width: 200px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    padding-right: 2ch;
-    text-align: left;
+    
 }
-.sik-dropdown > button.dropdown-toggle::after {
-    position: absolute;
-    right: 2ch;
-    top: calc(50% - 0.2ch);
+.basket__fixed {
+    position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+  
 }
-.sik-dropdown .dropdown-item {
-    cursor: pointer;
+.transport__company {
+    margin-top: 40px;
+}
+.transport__company_content {
+    border: 1px solid rgba(153, 154, 129, 0.5);
+    padding:  20px;
+    display: flex;
+    align-items: center;
+ justify-content: space-between;
+}
+
+.transport__company_pad {
+    padding-top: 5px;
+}
+.transport__company_svg img{
+    padding-right: 260px;
+}
+.transport__company_price {
+    
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.transport__company_price p{
+    margin: 0;
+}
+.transport__company_svg {
+    padding-left: -50px;
+}
+.insurance {
+    margin-top: 20px;
+}
+
+.custom-checkbox_modal_insurance:checked+label::before {
+    background-color: #999A81;
+}
+.ready__legal_entity {
+    display: none;
+}
+
+/* РАСРОЧКА */
+.installment__plan_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid rgba(153, 154, 129, 0.5);
+    margin-bottom: 24px;
+}
+.installment__plan-btn button{
+    padding: 17px 62px;
+    border: 1px solid #24160B;
+    background-color: #24160B;
+    color: #fcf8f4;
+}
+
+.installment__plan {
+    display: none;
+}
+.upon__receipt {
+    display: none;
+}
+.cash__on_delivery {
+    display: none;
+}
+.upon__receipt_content {
+    margin-bottom: 40px;
+}
+.dropdown {
+    width: 50%;
+}
+.dropdown .dropdown-text{
+    border: 1px solid rgba(153, 154, 129, 0.5);
+    color: rgba(153, 154, 129, 0.5);
+}
+/* НАЛОЖЕНЫМ ПЛАТЕЖЕМ */
+.service__delivery {
+    width: 100%;
+}
+.cash__on_delivery_content {
+    margin-bottom: 20px;
+}
+.cash__on_delivery_content_name {
+    display: none;
+    margin-top: 20px;
 }

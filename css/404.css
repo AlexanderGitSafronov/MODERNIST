@@ -1,0 +1,37 @@
+.basket__empty h1 {
+    font-size: 320px;
+    font-weight: 700;
+    font-family: "Bebas Neue", sans-serif;
+    color: #24160B;
+    line-height: inherit;
+    padding: 0px ;
+    margin: 0px ;
+}
+.basket__empty h2 {
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Bebas Neue", sans-serif;
+    color: #24160B;
+    line-height: inherit;
+    padding: 0px ;
+    margin: 0px ;
+}
+.basket__empty p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Onest", sans-serif;
+}
+.basket__empty {
+    margin-top: 150px;
+}
+.basket__empty_discription{
+margin-top: -65px;
+}
+.basket__empty h2 {
+    margin-bottom: 10px;
+}
+.basket__empty_button a {
+    font-family: "Onest", sans-serif;
+    text-transform: uppercase;
+    padding: 17px 94px;
+}

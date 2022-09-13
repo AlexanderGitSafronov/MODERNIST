@@ -515,6 +515,9 @@
                     </div>
                 </div>
             </div>
+            <div class="cart__wrapper">
+                
+            </div>
             <div class="container__basked_main">
                 <div class="row ">
                     <div class=" col-3 container__basket_main_img">
@@ -524,12 +527,19 @@
                     </div>
                     <div class=" col-3 container__basket_content">
                         <div class="container__basket_content_discription">
-                            <div class="dropdown">
-                                <input type="text" class="textBox" value="Зеленый" readonly>
+                            <div class="dropdown color-picker ">
+                                <div class="dropdown-text">Бутылочно-зеленый</div>
+                                <input class="dropdown-value" type="hidden" value="Зеленый" readonly>
                                 <div class="option">
-                                    <div onclick="show('Антрацит')"> <span class="choise__text"></span>Антрацит</span> </div>
-                                    <div onclick="show('Желтый')"></span><span class="choise__text">Желтый</span></div>
-                                    <div onclick="show('Зеленый')"></span><span class="choise__text">Зеленый</span></div>
+                                    <div class="dropdown-item" data-value="Антрацит">
+                                        Антрацит
+                                    </div>
+                                    <div class="dropdown-item" data-value="Бутылочно-зеленый">
+                                        Бутылочно-зеленый
+                                    </div>
+                                    <div class="dropdown-item" data-value="Коричневый">
+                                        Коричневый
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -537,13 +547,22 @@
                     </div>
                     <div class=" col-2 container__basket_content">
                         <div class="container__basket_content_discription">
-                            <div class="dropdown__two">
-                                <input type="text" class="textBox__two" value="S" readonly>
-                                <div class="option__two">
-                                    <div onclick="showTwo('S')"> <span class="choise__text"></span>S</span> </div>
-                                    <div onclick="showTwo('M')"></span><span class="choise__text">M</span></div>
-                                    <div onclick="showTwo('L')"><span class="choise__text">L</span></div>
-                                    <div onclick="showTwo('XL')"><span class="choise__text">XL</span></div>
+                            <div class="dropdown color-picker dropdown__absked_size">
+                                <div class="dropdown-text">S</div>
+                                <input class="dropdown-value" type="hidden" value="S" readonly>
+                                <div class="option">
+                                    <div class="dropdown-item" data-value="S">
+                                        S
+                                    </div>
+                                    <div class="dropdown-item" data-value="M">
+                                        M
+                                    </div>
+                                    <div class="dropdown-item" data-value="L">
+                                        L
+                                    </div>
+                                    <div class="dropdown-item" data-value="XL">
+                                        XL
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -551,13 +570,13 @@
                     </div>
                     <div class="col-2 container__basket_price">
                         <div class="container__basket_count ">
-                            <div class="container__basket_count_minus basket_count">
+                            <div class="container__basket_count_minus basket_count" data-action="minus">
                                 <span></span>
                             </div>
                             <div class="container__basket_content_number">
-                                <span class="basket__number">3</span>
+                                <span class="basket__number" data-counter >3</span>
                             </div>
-                            <div class="container__basket_count_plus basket_count">
+                            <div class="container__basket_count_plus basket_count" data-action="plus">
                                 <span></span>
                             </div>
                         </div>
@@ -586,12 +605,19 @@
                     </div>
                     <div class=" col-3 container__basket_content">
                         <div class="container__basket_content_discription">
-                            <div class="dropdown">
-                                <input type="text" class="textBox" value="Зеленый" readonly>
+                            <div class="dropdown color-picker ">
+                                <div class="dropdown-text">Бутылочно-зеленый</div>
+                                <input class="dropdown-value" type="hidden" value="Зеленый" readonly>
                                 <div class="option">
-                                    <div onclick="show('Антрацит')"> <span class="choise__text"></span>Антрацит</span> </div>
-                                    <div onclick="show('Желтый')"></span><span class="choise__text">Желтый</span></div>
-                                    <div onclick="show('Зеленый')"></span><span class="choise__text">Зеленый</span></div>
+                                    <div class="dropdown-item" data-value="Антрацит">
+                                        Антрацит
+                                    </div>
+                                    <div class="dropdown-item" data-value="Бутылочно-зеленый">
+                                        Бутылочно-зеленый
+                                    </div>
+                                    <div class="dropdown-item" data-value="Коричневый">
+                                        Коричневый
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -599,13 +625,22 @@
                     </div>
                     <div class=" col-2 container__basket_content">
                         <div class="container__basket_content_discription">
-                            <div class="dropdown__two">
-                                <input type="text" class="textBox__two" value="S" readonly>
-                                <div class="option__two">
-                                    <div onclick="showTwo('S')"> <span class="choise__text"></span>S</span> </div>
-                                    <div onclick="showTwo('M')"></span><span class="choise__text">M</span></div>
-                                    <div onclick="showTwo('L')"><span class="choise__text">L</span></div>
-                                    <div onclick="showTwo('XL')"><span class="choise__text">XL</span></div>
+                            <div class="dropdown color-picker dropdown__absked_size">
+                                <div class="dropdown-text">S</div>
+                                <input class="dropdown-value" type="hidden" value="S" readonly>
+                                <div class="option">
+                                    <div class="dropdown-item" data-value="S">
+                                        S
+                                    </div>
+                                    <div class="dropdown-item" data-value="M">
+                                        M
+                                    </div>
+                                    <div class="dropdown-item" data-value="L">
+                                        L
+                                    </div>
+                                    <div class="dropdown-item" data-value="XL">
+                                        XL
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -613,13 +648,13 @@
                     </div>
                     <div class="col-2 container__basket_price">
                         <div class="container__basket_count ">
-                            <div class="container__basket_count_minus basket_count">
+                            <div class="container__basket_count_minus basket_count" data-action="minus">
                                 <span></span>
                             </div>
                             <div class="container__basket_content_number">
-                                <span class="basket__number">3</span>
+                                <span class="basket__number" data-counter >3</span>
                             </div>
-                            <div class="container__basket_count_plus basket_count">
+                            <div class="container__basket_count_plus basket_count" data-action="plus">
                                 <span></span>
                             </div>
                         </div>
@@ -648,12 +683,19 @@
                     </div>
                     <div class=" col-3 container__basket_content">
                         <div class="container__basket_content_discription">
-                            <div class="dropdown">
-                                <input type="text" class="textBox" value="Зеленый" readonly>
+                            <div class="dropdown color-picker ">
+                                <div class="dropdown-text">Бутылочно-зеленый</div>
+                                <input class="dropdown-value" type="hidden" value="Зеленый" readonly>
                                 <div class="option">
-                                    <div onclick="show('Антрацит')"> <span class="choise__text"></span>Антрацит</span> </div>
-                                    <div onclick="show('Желтый')"></span><span class="choise__text">Желтый</span></div>
-                                    <div onclick="show('Зеленый')"></span><span class="choise__text">Зеленый</span></div>
+                                    <div class="dropdown-item" data-value="Антрацит">
+                                        Антрацит
+                                    </div>
+                                    <div class="dropdown-item" data-value="Бутылочно-зеленый">
+                                        Бутылочно-зеленый
+                                    </div>
+                                    <div class="dropdown-item" data-value="Коричневый">
+                                        Коричневый
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -661,13 +703,22 @@
                     </div>
                     <div class=" col-2 container__basket_content">
                         <div class="container__basket_content_discription">
-                            <div class="dropdown__two">
-                                <input type="text" class="textBox__two" value="S" readonly>
-                                <div class="option__two">
-                                    <div onclick="showTwo('S')"> <span class="choise__text"></span>S</span> </div>
-                                    <div onclick="showTwo('M')"></span><span class="choise__text">M</span></div>
-                                    <div onclick="showTwo('L')"><span class="choise__text">L</span></div>
-                                    <div onclick="showTwo('XL')"><span class="choise__text">XL</span></div>
+                            <div class="dropdown color-picker dropdown__absked_size">
+                                <div class="dropdown-text">S</div>
+                                <input class="dropdown-value" type="hidden" value="S" readonly>
+                                <div class="option">
+                                    <div class="dropdown-item" data-value="S">
+                                        S
+                                    </div>
+                                    <div class="dropdown-item" data-value="M">
+                                        M
+                                    </div>
+                                    <div class="dropdown-item" data-value="L">
+                                        L
+                                    </div>
+                                    <div class="dropdown-item" data-value="XL">
+                                        XL
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -675,13 +726,13 @@
                     </div>
                     <div class="col-2 container__basket_price">
                         <div class="container__basket_count ">
-                            <div class="container__basket_count_minus basket_count">
+                            <div class="container__basket_count_minus basket_count" data-action="minus">
                                 <span></span>
                             </div>
                             <div class="container__basket_content_number">
-                                <span class="basket__number">3</span>
+                                <span class="basket__number" data-counter>3</span>
                             </div>
-                            <div class="container__basket_count_plus basket_count">
+                            <div class="container__basket_count_plus basket_count" data-action="plus">
                                 <span></span>
                             </div>
                         </div>

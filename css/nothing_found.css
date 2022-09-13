@@ -1,0 +1,32 @@
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "Bebas Neue", sans-serif;
+    color: #24160B;
+    line-height: inherit;
+    padding: 0px ;
+    margin: 0px ;
+    line-height: 72px;
+}
+p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Onest", sans-serif;
+}
+.basket__empty_header {
+    width: 600px;
+    text-align: center;
+    
+}
+.basket__empty {
+    margin-top: 200px;
+
+}
+.basket__empty_discription {
+    width: 630px;
+}
+.basket__empty_button a {
+    font-family: "Onest", sans-serif;
+    text-transform: uppercase;
+    padding: 17px 94px;
+}
