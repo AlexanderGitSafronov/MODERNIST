@@ -1720,20 +1720,23 @@ a {
         font-size: 14px;
         overflow: hidden;
     }
-    .dropdown-text_input {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        right: 0;
-        background: linear-gradient(to left, #fcf8f4 21% ,transparent 40%);
-    }
     .dropdown-text p {
+        pointer-events: none;
         margin-bottom: 0;
         white-space: nowrap;
         font-weight: inherit;
         font-size: 14px;
         font-family: "Onest", sans-serif;
     }
+    .dropdown-text_input {
+        pointer-events: none;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        right: 0;
+        background: linear-gradient(to left, #fcf8f4 21% ,transparent 40%);
+    }
+    
    
     .dropdown .option {
         position: absolute;

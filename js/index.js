@@ -244,39 +244,10 @@ function show1(){
   
   
 
-// ЗАВИСИМЫЕ РАДИОБАТОНЫ ВЫБОРА ДОСТАВКИ
-// $(document).ready(function() {     
-    
-//        $(".other").on('change', function(){
-    
-//             if($(".other").prop('checked')) {
-    
-//                 //$(".cod").removeAttr('checked');
 
-//                 $(".cheque").('checked', true);
 
-//             }
 
-//         });       
 
-     
-    
-//         $(".np").on('change', function(){
-
-//             if($(".np").prop('checked')) {
-
-//                 //$(".cheque").removeAttr('checked');           
-
-//                 $(".cod").attr('checked', true);
-
-                 
-
-//             }
-
-//         });
-    
-//     });
-    
 
 
 
@@ -321,99 +292,99 @@ window.addEventListener('click', function(event){
 
 // ДОБАВЛЕНИЕ ТОВАРА В КОРЗИНУ
 
-const cartWrapper = document.getElementsByClassName('.cart__wrapper');
+// const cartWrapper = document.getElementsByClassName('.cart__wrapper');
 
-console.log(cartWrapper);
-window.addEventListener('click', function(event){
-    if(event.target.hasAttribute('data-cart')){
-      const card =   event.target.closest('.item');
-      const productInfo = {
-          id: card.dataset.id,
-          imgSrc: card.querySelector('.item__image').getAttribute('src'),
-          title: card.querySelector('.item__footer_title').innerText,
-          price: card.querySelector('.item__footer_price').innerText
-      }
+// console.log(cartWrapper);
+// window.addEventListener('click', function(event){
+//     if(event.target.hasAttribute('data-cart')){
+//       const card =   event.target.closest('.item');
+//       const productInfo = {
+//           id: card.dataset.id,
+//           imgSrc: card.querySelector('.item__image').getAttribute('src'),
+//           title: card.querySelector('.item__footer_title').innerText,
+//           price: card.querySelector('.item__footer_price').innerText
+//       }
      
-      const cartItemHTML = `<div class="container__basked_main">
-      <div class="row ">
-          <div class=" col-3 container__basket_main_img">
+//       const cartItemHTML = `<div class="container__basked_main">
+//       <div class="row ">
+//           <div class=" col-3 container__basket_main_img">
               
-              <img class="container__basket__main_img_parent" src="./image/chair_4.png"  alt="">
-              <h5>Кресло Matiss</h5>
-          </div>
-          <div class=" col-3 container__basket_content">
-              <div class="container__basket_content_discription">
-                  <div class="dropdown color-picker ">
-                      <div class="dropdown-text">Бутылочно-зеленый</div>
-                      <input class="dropdown-value" type="hidden" value="Зеленый" readonly>
-                      <div class="option">
-                          <div class="dropdown-item" data-value="Антрацит">
-                              Антрацит
-                          </div>
-                          <div class="dropdown-item" data-value="Бутылочно-зеленый">
-                              Бутылочно-зеленый
-                          </div>
-                          <div class="dropdown-item" data-value="Коричневый">
-                              Коричневый
-                          </div>
-                      </div>
-                  </div>
-              </div>
+//               <img class="container__basket__main_img_parent" src="./image/chair_4.png"  alt="">
+//               <h5>Кресло Matiss</h5>
+//           </div>
+//           <div class=" col-3 container__basket_content">
+//               <div class="container__basket_content_discription">
+//                   <div class="dropdown color-picker ">
+//                       <div class="dropdown-text">Бутылочно-зеленый</div>
+//                       <input class="dropdown-value" type="hidden" value="Зеленый" readonly>
+//                       <div class="option">
+//                           <div class="dropdown-item" data-value="Антрацит">
+//                               Антрацит
+//                           </div>
+//                           <div class="dropdown-item" data-value="Бутылочно-зеленый">
+//                               Бутылочно-зеленый
+//                           </div>
+//                           <div class="dropdown-item" data-value="Коричневый">
+//                               Коричневый
+//                           </div>
+//                       </div>
+//                   </div>
+//               </div>
               
-          </div>
-          <div class=" col-2 container__basket_content">
-              <div class="container__basket_content_discription">
-                  <div class="dropdown color-picker dropdown__absked_size">
-                      <div class="dropdown-text">S</div>
-                      <input class="dropdown-value" type="hidden" value="S" readonly>
-                      <div class="option">
-                          <div class="dropdown-item" data-value="S">
-                              S
-                          </div>
-                          <div class="dropdown-item" data-value="M">
-                              M
-                          </div>
-                          <div class="dropdown-item" data-value="L">
-                              L
-                          </div>
-                          <div class="dropdown-item" data-value="XL">
-                              XL
-                          </div>
-                      </div>
-                  </div>
-              </div>
+//           </div>
+//           <div class=" col-2 container__basket_content">
+//               <div class="container__basket_content_discription">
+//                   <div class="dropdown color-picker dropdown__absked_size">
+//                       <div class="dropdown-text">S</div>
+//                       <input class="dropdown-value" type="hidden" value="S" readonly>
+//                       <div class="option">
+//                           <div class="dropdown-item" data-value="S">
+//                               S
+//                           </div>
+//                           <div class="dropdown-item" data-value="M">
+//                               M
+//                           </div>
+//                           <div class="dropdown-item" data-value="L">
+//                               L
+//                           </div>
+//                           <div class="dropdown-item" data-value="XL">
+//                               XL
+//                           </div>
+//                       </div>
+//                   </div>
+//               </div>
               
-          </div>
-          <div class="col-2 container__basket_price">
-              <div class="container__basket_count ">
-                  <div class="container__basket_count_minus basket_count" data-action="minus">
-                      <span></span>
-                  </div>
-                  <div class="container__basket_content_number">
-                      <span class="basket__number" data-counter >3</span>
-                  </div>
-                  <div class="container__basket_count_plus basket_count" data-action="plus">
-                      <span></span>
-                  </div>
-              </div>
+//           </div>
+//           <div class="col-2 container__basket_price">
+//               <div class="container__basket_count ">
+//                   <div class="container__basket_count_minus basket_count" data-action="minus">
+//                       <span></span>
+//                   </div>
+//                   <div class="container__basket_content_number">
+//                       <span class="basket__number" data-counter >3</span>
+//                   </div>
+//                   <div class="container__basket_count_plus basket_count" data-action="plus">
+//                       <span></span>
+//                   </div>
+//               </div>
               
-          </div>
-          <div class="col-2 container__basket_price ">
-              <div class="container__basket_price_button">
-                  <h5>105 690 ₽</h5>
-              <div class="basket_count_delite_pad">
-                  <div class="container__basket_count_plus_delite basket_count_delite basket_count">
-                      <span></span>
-                  </div>
-              </div>
-              </div>
+//           </div>
+//           <div class="col-2 container__basket_price ">
+//               <div class="container__basket_price_button">
+//                   <h5>105 690 ₽</h5>
+//               <div class="basket_count_delite_pad">
+//                   <div class="container__basket_count_plus_delite basket_count_delite basket_count">
+//                       <span></span>
+//                   </div>
+//               </div>
+//               </div>
               
               
-          </div>
-      </div>
-  </div>`;
+//           </div>
+//       </div>
+//   </div>`;
 
 
-  cartWrapper.insertAdjacentHTML('beforeend', cartItemHTML);
-    }
-});
+//   cartWrapper.insertAdjacentHTML('beforeend', cartItemHTML);
+//     }
+// });

@@ -1,0 +1,138 @@
+h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: inherit;
+    font-family: "Bebas Neue", sans-serif;
+    color: #24160B;
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "Onest", sans-serif;
+    color: #24160B;
+    margin: 0px;
+    padding: 0px;
+}
+
+button {
+    border: 1px solid #24160B;
+    font-family: "Onest", sans-serif;
+    
+    font-size: 14px;
+    font-weight: 700;
+    background-color: transparent;
+}
+
+.personal__cabinet_flex {
+    display: flex;
+    justify-content: center;
+}
+.personal__cabinet_header {
+    margin-bottom: 65px;
+}
+.personal__cabinet_header_text {
+    margin-bottom: 50px;
+}
+.personal__cabinet {
+    margin-top: 120px;
+    margin-bottom: 300px;
+    width: 647px;
+    
+}
+/* РАБОТА СО ССЫЛКАМИ */
+.menu__all_furniture-header-span {
+    margin: 0 9px;
+}
+.menu__all_furniture-header {
+    margin-top: 0;
+}
+.menu__all_furniture-header ul {
+    padding: 0px;
+}
+.menu__all_furniture-header ul li {
+    font-size: 18px;
+}
+.menu__all_furniture-header-span {
+    margin-top: 0;
+}
+.menu__all_furniture-header .all__furniture_active::after {
+bottom: -3px;
+}
+.menu__all_furniture-header ul li a:hover::after  {
+    bottom: -3px;
+}
+.personal__cabinet_flex_menu {
+    display: flex;
+    justify-content: space-between;
+}
+.personal__cabinet_add_adress-btn {
+    margin-top: 30px;
+}
+.personal__cabinet_add_adress-btn button {
+    padding: 17px 94px;
+    
+}
+.personal__cabinet_add_adress-btn button:hover {
+    background-color: #24160B;
+    color: #fcf8f4;
+}
+
+
+/* ДОБАВИТЬ АДРЕСС */
+.adress__express_two_form input {
+    width: 315px;
+}
+.ordering__input_personal_cabinet {
+    display: none;
+}
+.insurance {
+    margin-top: 0;
+}
+.custom-checkbox_modal_insurance:checked+label::before {
+    background-color: #24160B;
+}
+.ordering__input_personal_cabinet-btn {
+    margin-top: 30px;
+}
+.ordering__input_personal_cabinet-btn button{
+    width: 100%;
+    padding: 17px 0px;
+}
+.ordering__input_personal_cabinet-btn button:hover {
+    background-color: #24160B;
+    color: #fcf8f4;
+}
+.way__to_get-btn button{
+    text-transform: inherit;
+}
+.way__to_get-btn_second {
+    margin-left: 16px;
+}
+.personal__cabinet_new_addres_plus {
+    display: flex;
+    align-items: center;
+}
+.personal__cabinet_new_addres {
+    margin-top: 20px;
+    display: inline-block;
+    
+}
+.personal__cabinet_new_addres_text {
+    margin-left: 10px;
+}
+.personal__cabinet_new_addres:hover{
+    cursor: pointer;
+}
+.personal__cabinet_new_addres:hover .basket_count{
+    border-color: #24160B;
+    background-color: #24160B;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.personal__cabinet_new_addres:hover .basket_count::before, 
+.personal__cabinet_new_addres:hover .basket_count::after {
+    background-color: #fcf8f4;
+}
+

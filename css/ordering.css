@@ -487,3 +487,7 @@ width: 150px;
     display: none;
     margin-top: 20px;
 }
+.way__to_get-btn button {
+    text-transform: inherit;
+    background-color: #FEF7F0;
+}

@@ -54,6 +54,10 @@ hr {
 }
 
 
+.collapsing {
+    transition: height 0.6s ease;;
+}
+
 
 
 
