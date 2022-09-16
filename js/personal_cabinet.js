@@ -11,7 +11,7 @@ function showAdresPersonalCabinet(){
 //     document.getElementById('ordering__input_personal_cabinet').style.display = 'none';
 //   }
 
-    const personalCabinetAddres = document.querySelector('.personal__cabinet');
+    const personalCabinetAddres = document.querySelector('.push__adress');
 
   window.addEventListener('click', function(event){
 
@@ -40,7 +40,7 @@ function showAdresPersonalCabinet(){
      </div>
      <div class="way__to_get-btn">
          <button class="way__to_get-btn_first">Редактировать</button>
-         <button class="way__to_get-btn_second">Удалить</button>
+         <button class="way__to_get-btn_second" onclick="deleteNewAddres();">Удалить</button>
      </div>
  </div>`;
 
@@ -74,14 +74,21 @@ function showAdresPersonalCabinet(){
 
   function shoNewAddres(){
     displayAddres = !displayAddres;
-    console.log(displayAddres);
+    
     if(displayAddres) {
+        document.getElementById('personal__cabinet_new_addres').style.display = 'none';
         document.getElementById('ordering__input_personal_cabinet').style.display = 'block';
     } else {
         document.getElementById('ordering__input_personal_cabinet').style.display = 'none';
+        
     }
     
     
+  }
+
+  function deleteNewAddres(){
+    
+    document.getElementById('way__to_get_personal_cabinet').style.display = 'none';
   }
 
 

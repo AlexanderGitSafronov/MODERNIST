@@ -1,0 +1,39 @@
+.number__confirmation_flex {
+    display: flex;
+    justify-content: center;
+}
+.number__confirmation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    width: 492px;
+}
+.number__confirmation_header {
+    margin-bottom: 20px;
+}
+.number__confirmation_container p {
+    margin-bottom: 10px;
+}
+.number__confirmation_container {
+    width: 375px;
+}
+.ordering__input {
+    margin-top: 34px;
+}
+.ordering__input input {
+    border: 1px solid #999A81;
+}
+.resend__sms button {
+    color: #999A81;
+    border: none;
+    padding: 0px;
+    font-size: 12px;
+    font-family: "Onest", sans-serif;
+    text-transform: inherit ;
+    border-bottom: 1px dashed #999A81;
+}
+.resend__sms button:hover {
+    color: #24160B;
+}

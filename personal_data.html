@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="./css/ordering.css">
     <link rel="stylesheet" href="./css/order_created.css">
     <link rel="stylesheet" href="./css/personal_cabinet.css">
+    <link rel="stylesheet" href="./css/personal_data.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   </head>
   <body>
@@ -484,9 +485,9 @@
                             <span class="menu__all_furniture-header-span">|</span>
                               <li><a href="./purchase_history.html">ИСТОРИЯ ЗАКАЗОВ</a></li>
                               <span class="menu__all_furniture-header-span">|</span>
-                              <li><a href="" class="all__furniture_active">АДРЕСА</a></li>
+                              <li><a href="./personal_cabinet.html" >АДРЕСА</a></li>
                               <span class="menu__all_furniture-header-span">|</span>
-                              <li><a href="./personal_data.html">ЛИЧНЫЕ ДАННЫЕ</a></li>
+                              <li><a href="./personal_data.html" class="all__furniture_active">ЛИЧНЫЕ ДАННЫЕ</a></li>
                           </ul>
                       </nav>
                     </div>
@@ -495,86 +496,31 @@
                     </div>
                 </div>
             </div>
-            <div class="personal__cabinet_add_adress" id="personal__cabinet_add_adress">
-                <div class="personal__cabinet_add_adress_text">
-                    <p>Не добавлен действительный адрес</p>
-                </div>
-                <div class="personal__cabinet_add_adress-btn">
-                    <button onclick="showAdresPersonalCabinet();">добавить адрес</button>
-                </div>
-                
-            </div>
-
-            <div class="push__adress">
-
-            </div>
-
-            
-
-
-
-            <!-- ПОЛЕ ВВОДА ДАНЫХ В ПОЛЯ ДЛЯ ДОБАВЛЕНИЯ АДЕРССА -->
-            <!-- <div class="way__to_get way__to_get_personal_cabinet" id="way__to_get_personal_cabinet" >
-                <div class="way__to_get_discription">
-                    <h5>Адрес 1 (по умолчанию) </h5>
-                <p class="way__to_get_adress">Краснодарский край, г. Краснодар, ул. Красная 176 /5, под. 2, 
-                    этаж 12, кв. 356</p>
-                </div>
-                <div class="way__to_get-btn">
-                    <button class="way__to_get-btn_first">Редактировать</button>
-                    <button class="way__to_get-btn_second">Удалить</button>
-                </div>
-            </div> -->
-
-            <!-- КНОПКА С ПЛЮСОМ НОВГО АДРЕСА -->
-                <!-- <div class="personal__cabinet_new_addres" id="personal__cabinet_new_addres">
-                    <div class="personal__cabinet_new_addres_plus">
-                                <div class="container__basket_count_plus basket_count" data-action="plus">
-                                    <span></span>
-                                </div>
-                                <div class="personal__cabinet_new_addres_text">
-                                    <h5>Добавить адрес</h5>
-                                </div>
-                    </div>
-                    
-                </div> -->
-                
-                            <!-- ПОЯВЛЯЕТСЯ ПОЛЕ ЕСЛИ НАЖАТЬ ДОАБВИТЬ АДРЕСС -->
-            <div class="ordering__input ordering__input_personal_cabinet" id="ordering__input_personal_cabinet" data-id="01">
-                <h4>Новый адрес</h4>
-               <div class="adress__express" >
-                <form class="organization__w" action="">
-                    <input type='text' name='cyty' class='input__name' value="1212"  placeholder='Название адреса (пример “Дом, офис”)'/>
-                    
-                </form>
-                <form class="adress__express_two_form" action="">
-                    <input type='text' name='cyty' class='input__cyty' value=""  placeholder='Город'/>
-                    <input type='text' name='street' class='input__street' value=""  placeholder='Улица'/>
-                </form>
-                <form class=" four__input" action="">
-                    <input type='text' name='home' class='input__home' value=""  placeholder='Дом'/>
-                    <input type='text' name='frame' class='input__frame' value=""  placeholder='Корпус'/>
-                    <input type='text' name='entrance' class='input__entrance' value=""  placeholder='Подъезд'/>
-                    <input type='text' name='floor' class='input__floor' value=""  placeholder='Этаж'/>
-                </form>
-                
-               </div>
-
-               <div class="insurance">                  
-                <div class="insurance__content">
-                    <form action="">
-                        <input type="checkbox" class="custom-checkbox_modal custom-checkbox_modal_insurance" id="insurance__input">
-                        <label for="insurance__input" class="insurance__input"  >Установить в качестве адреса по умолчанию</label>
+    
+            <div class="personal__data">
+                <div class="ordering__input ordering__input_personal__data" id="ordering__input_personal__data" data-id="01">
+                    <h4>Личные данные</h4>
+                   <div class="adress__express" >
+                    <form class="organization__w" action="">
+                        <input type='text' name='personal__data_name' class='personal__data_name' value=""  placeholder='ФИО'/>
                     </form>
-                </div>
-
-                <div class="ordering__input_personal_cabinet-btn">
-                    <button data-adress >добавить адрес</button>
-                </div>
-                
-            
+                    <form class="adress__express_two_form" action="">
+                        <input type='tel' name='phone__personal_data' class='phone__personal_data' value=""  placeholder='Телефон'/>
+                    </form>
+                    <form class=" four__input" action="">
+                        <input type='email' name='email__personal_data' class='email__personal_data'  placeholder='Электронная почта'/>
+                        
+                    </form>
+                    
+                   </div>
+    
+                   <div class="save__personal_data">
+                       <button>сохранить</button>
+                   </div>
                 </div>
             </div>
+
+           
                
          </div>
       </div>    

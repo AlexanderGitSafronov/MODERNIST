@@ -9,6 +9,7 @@ body {
     box-sizing: border-box;
   font-family: "Bebas Neue", sans-serif;
   background-color: #fcf8f4;
+  color: #24160B;
 }
 h1 {
     font-family: "Bebas Neue", sans-serif;
@@ -1872,7 +1873,9 @@ a {
 .payment__goods_card ul li {
     padding-bottom: 0px;
 }
-
+.ordering__input_personal_cabinet {
+    margin-top: 60px;
+}
 
 
 

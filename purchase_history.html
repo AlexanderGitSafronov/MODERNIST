@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="./css/ordering.css">
     <link rel="stylesheet" href="./css/order_created.css">
     <link rel="stylesheet" href="./css/personal_cabinet.css">
+    <link rel="stylesheet" href="./css/personal_data.css">
+    <link rel="stylesheet" href="./css/purchase_history.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   </head>
   <body>
@@ -482,11 +484,11 @@
                           <ul >
                               <li><a href="./personal_cabinet_favorites.html" >ИЗБРАНОЕ</a></li>
                             <span class="menu__all_furniture-header-span">|</span>
-                              <li><a href="./purchase_history.html">ИСТОРИЯ ЗАКАЗОВ</a></li>
+                              <li><a href="#" class="all__furniture_active">ИСТОРИЯ ЗАКАЗОВ</a></li>
                               <span class="menu__all_furniture-header-span">|</span>
-                              <li><a href="" class="all__furniture_active">АДРЕСА</a></li>
+                              <li><a href="./personal_cabinet.html" >АДРЕСА</a></li>
                               <span class="menu__all_furniture-header-span">|</span>
-                              <li><a href="./personal_data.html">ЛИЧНЫЕ ДАННЫЕ</a></li>
+                              <li><a href="./personal_data.html" >ЛИЧНЫЕ ДАННЫЕ</a></li>
                           </ul>
                       </nav>
                     </div>
@@ -495,87 +497,337 @@
                     </div>
                 </div>
             </div>
-            <div class="personal__cabinet_add_adress" id="personal__cabinet_add_adress">
-                <div class="personal__cabinet_add_adress_text">
-                    <p>Не добавлен действительный адрес</p>
-                </div>
-                <div class="personal__cabinet_add_adress-btn">
-                    <button onclick="showAdresPersonalCabinet();">добавить адрес</button>
-                </div>
-                
-            </div>
-
-            <div class="push__adress">
-
-            </div>
-
             
 
-
-
-            <!-- ПОЛЕ ВВОДА ДАНЫХ В ПОЛЯ ДЛЯ ДОБАВЛЕНИЯ АДЕРССА -->
-            <!-- <div class="way__to_get way__to_get_personal_cabinet" id="way__to_get_personal_cabinet" >
-                <div class="way__to_get_discription">
-                    <h5>Адрес 1 (по умолчанию) </h5>
-                <p class="way__to_get_adress">Краснодарский край, г. Краснодар, ул. Красная 176 /5, под. 2, 
-                    этаж 12, кв. 356</p>
-                </div>
-                <div class="way__to_get-btn">
-                    <button class="way__to_get-btn_first">Редактировать</button>
-                    <button class="way__to_get-btn_second">Удалить</button>
-                </div>
-            </div> -->
-
-            <!-- КНОПКА С ПЛЮСОМ НОВГО АДРЕСА -->
-                <!-- <div class="personal__cabinet_new_addres" id="personal__cabinet_new_addres">
-                    <div class="personal__cabinet_new_addres_plus">
-                                <div class="container__basket_count_plus basket_count" data-action="plus">
-                                    <span></span>
-                                </div>
-                                <div class="personal__cabinet_new_addres_text">
-                                    <h5>Добавить адрес</h5>
-                                </div>
+            <div class="purchase__history">
+                <div class="purchase__history_order">
+                    <div class="purchase__history_order_flex">
+                        <div class="purchase__history_order_header_text">
+                            <h4>Заказ №22 <span>от 02.07.2022</span> </h4>
+                        </div>
+                        <div class="purchase__history_order_footer_text">
+                            <img src="./image/awaiting_payment.svg" alt="">
+                            <p>Ожидает оплаты</p>
+                        </div>
                     </div>
-                    
-                </div> -->
-                
-                            <!-- ПОЯВЛЯЕТСЯ ПОЛЕ ЕСЛИ НАЖАТЬ ДОАБВИТЬ АДРЕСС -->
-            <div class="ordering__input ordering__input_personal_cabinet" id="ordering__input_personal_cabinet" data-id="01">
-                <h4>Новый адрес</h4>
-               <div class="adress__express" >
-                <form class="organization__w" action="">
-                    <input type='text' name='cyty' class='input__name' value="1212"  placeholder='Название адреса (пример “Дом, офис”)'/>
-                    
-                </form>
-                <form class="adress__express_two_form" action="">
-                    <input type='text' name='cyty' class='input__cyty' value=""  placeholder='Город'/>
-                    <input type='text' name='street' class='input__street' value=""  placeholder='Улица'/>
-                </form>
-                <form class=" four__input" action="">
-                    <input type='text' name='home' class='input__home' value=""  placeholder='Дом'/>
-                    <input type='text' name='frame' class='input__frame' value=""  placeholder='Корпус'/>
-                    <input type='text' name='entrance' class='input__entrance' value=""  placeholder='Подъезд'/>
-                    <input type='text' name='floor' class='input__floor' value=""  placeholder='Этаж'/>
-                </form>
-                
-               </div>
-
-               <div class="insurance">                  
-                <div class="insurance__content">
-                    <form action="">
-                        <input type="checkbox" class="custom-checkbox_modal custom-checkbox_modal_insurance" id="insurance__input">
-                        <label for="insurance__input" class="insurance__input"  >Установить в качестве адреса по умолчанию</label>
-                    </form>
-                </div>
-
-                <div class="ordering__input_personal_cabinet-btn">
-                    <button data-adress >добавить адрес</button>
+                    <div class="purchase__history_order_flex purchase__history_order_pad">
+                        <div class="purchase__history_order_header_text">
+                            <p>2 товара на сумму 152 590 ₽</p>
+                         <button>Оплатить</button>
+                        </div>
+                        <div class="purchase__history_order_footer_text">
+                            <div class="order__details">
+                                <button>Детали заказа</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 
-            
-                </div>
             </div>
+
+
+
+
+
+
+
+
+            <div class="purchase__history ">
+                <div class="purchase__history_order order__details_open_color">
+                    <div class="purchase__history_order_flex">
+                        <div class="purchase__history_order_header_text">
+                            <h4>Заказ №21 <span>от 12.06.2022</span> </h4>
+                        </div>
+                        <div class="purchase__history_order_footer_text">
+                            <img src="./image/orderin_production.svg" alt="">
+                            <p>Заказ в производстве</p>
+                        </div>
+                    </div>
+                    <div class="purchase__history_order_flex purchase__history_order_pad">
+                        <div class="purchase__history_order_header_text">
+                            <p>5 товаров на сумму 326 256 ₽</p>
+                         
+                        </div>
+                        <div class="purchase__history_order_footer_text">
+                            <div class="order__details">
+                                <button class=" click__order__details" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" onclick="clickOrderDetails();">Детали заказа</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                        <div class="order__details_open ">
+                            <div class="purchase__history_order order__details_open_color_op">
+                                <div class="purchase__history_order_flex">
+                                    <div class="purchase__history_order_header_text">
+                                        <h5>Способ получения: </h5>
+                                    </div>
+                                    
+                                </div>
+                                <div class="order__details_delivery">
+                                    <div class="purchase__history_order_flex purchase__history_order_pad">
+                                        <div class="purchase__history_order_header_text">
+                                            <p>Доставка</p>
+                                         
+                                        </div>
+                                        <div class="purchase__history_order_footer_text ">
+                                            <div class="order__details">
+                                                <p>Трек номер: <span>A568SRT566G</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+        
+                                <div class="order__details_open_discription">
+                                    <div class="purchase__history_order_flex">
+                                        <div class="purchase__history_order_header_text">
+                                            <h5>Адрес:</h5>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="purchase__history_order_flex purchase__history_order_pad">
+                                        <div class="purchase__history_order_header_text">
+                                            <p>ДКраснодарский край, г. Краснодар, кл Красная 176 /5, под. 2, <br>
+                                                этаж 12, кв. 356</p>
+                                         
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+        
+        
+                                <div class="order__details_open_discription">
+                                    <div class="purchase__history_order_flex">
+                                        <div class="purchase__history_order_header_text">
+                                            <h5>Время исполнения:</h5>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="purchase__history_order_flex purchase__history_order_pad">
+                                        <div class="purchase__history_order_header_text">
+                                            <p>Расчетное время: 15 июля 2022 г. </p>
+                                         
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+        
+                                <div class="order__details_open_discription order__content_open_details">
+                                    <div class="purchase__history_order_flex">
+                                        <div class="purchase__history_order_header_text">
+                                            <h5>Содержимое заказа:</h5>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="purchase__history_order_flex purchase__history_order_pad ">
+                                        <div class="purchase__history_order_header_text">
+                                         <div class="order__content_open_product">
+                                                <div class="order__content_open_img_footer">
+                                                    <img src="./image/chair_4.png"  alt="">
+                                                </div>
+                                                <div class="order__content_open_product_end">
+                                                    <div class="order__content_open_discription_footer">
+                                                        <h6>Кресло Matiss</h6>
+                                                        <p>Оливковый</p>
+                                                    </div>
+                                                    <div class="order__content_open_price_footer">
+                                                        <div class="order__content_open_price_footer_end_price">
+                                                            <p>Цена: <span>135 690 ₽</span></p>
+                                                        </div>
+                                                       
+                                                        <p>Товаров: <span>3 шт.</span></p>
+                                                    </div>
+                                                </div>
+                                                
+                                         </div>
+                                        </div>
+                                        
+                                    </div>
+        
+                                    <div class="purchase__history_order_flex purchase__history_order_pad ">
+                                        <div class="purchase__history_order_header_text">
+                                         <div class="order__content_open_product">
+                                                <div class="order__content_open_img_footer">
+                                                    <img src="./image/puff_2.png"  alt="">
+                                                </div>
+                                                <div class="order__content_open_product_end">
+                                                    <div class="order__content_open_discription_footer">
+                                                        <h6>Пуф NIKA</h6>
+                                                        <p>Изумруд</p>
+                                                    </div>
+                                                    <div class="order__content_open_price_footer">
+                                                        <div class="order__content_open_price_footer_end_price">
+                                                            <p>Цена: <span>135 690 ₽</span></p>
+                                                        </div>
+                                                       
+                                                        <p>Товаров: <span>3 шт.</span></p>
+                                                    </div>
+                                                </div>
+                                                
+                                         </div>
+                                        </div>
+                                        
+                                    </div>
+        
+                                    <div class="purchase__history_order_flex purchase__history_order_pad ">
+                                        <div class="purchase__history_order_header_text">
+                                         <div class="order__content_open_product">
+                                                <div class="order__content_open_img_footer">
+                                                    <img src="./image/out_work.png"  alt="">
+                                                </div>
+                                                <div class="order__content_open_product_end">
+                                                    <div class="order__content_open_discription_footer">
+                                                        <h6>Диван Madrid</h6>
+                                                        <p>Бежевый</p>
+                                                    </div>
+                                                    <div class="order__content_open_price_footer">
+                                                        <div class="order__content_open_price_footer_end_price">
+                                                            <p>Цена: <span>135 690 ₽</span></p>
+                                                        </div>
+                                                       
+                                                        <p>Товаров: <span>3 шт.</span></p>
+                                                    </div>
+                                                </div>
+                                                
+                                         </div>
+                                        </div>
+                                        
+                                    </div>
+        
+        
+        
+        
+        
+        
+        
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                  </div>
+
+                
+
+                
+            </div>
+
+           
                
+            <div class="purchase__history">
+                <div class="purchase__history_order">
+                    <div class="purchase__history_order_flex">
+                        <div class="purchase__history_order_header_text">
+                            <h4>Заказ №20 <span>от 02.07.2022</span> </h4>
+                        </div>
+                        <div class="purchase__history_order_footer_text">
+                            <img src="./image/awaiting_shipment.svg" alt="">
+                            <p>Ожидает отправки</p>
+                        </div>
+                    </div>
+                    <div class="purchase__history_order_flex purchase__history_order_pad">
+                        <div class="purchase__history_order_header_text">
+                            <p>2 товара на сумму 152 590 ₽</p>
+                        
+                        </div>
+                        <div class="purchase__history_order_footer_text">
+                            <div class="order__details">
+                                <button>Детали заказа</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+
+            <div class="purchase__history">
+                <div class="purchase__history_order">
+                    <div class="purchase__history_order_flex">
+                        <div class="purchase__history_order_header_text">
+                            <h4>Заказ №19 <span>от 02.07.2022</span> </h4>
+                        </div>
+                        <div class="purchase__history_order_footer_text">
+                            <img src="./image/sent.svg" alt="">
+                            <p>Отправлен 01.07.2022</p>
+                        </div>
+                    </div>
+                    <div class="purchase__history_order_flex purchase__history_order_pad">
+                        <div class="purchase__history_order_header_text">
+                            <p>2 товара на сумму 152 590 ₽</p>
+                        
+                        </div>
+                        <div class="purchase__history_order_footer_text">
+                            <div class="order__details">
+                                <button>Детали заказа</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+
+            <div class="purchase__history">
+                <div class="purchase__history_order">
+                    <div class="purchase__history_order_flex">
+                        <div class="purchase__history_order_header_text">
+                            <h4>Заказ №18 <span>от 02.07.2022</span> </h4>
+                        </div>
+                        <div class="purchase__history_order_footer_text">
+                            <img src="./image/delivered.svg" alt="">
+                            <p>Доставлен 18.05.2022</p>
+                        </div>
+                    </div>
+                    <div class="purchase__history_order_flex purchase__history_order_pad">
+                        <div class="purchase__history_order_header_text">
+                            <p>2 товара на сумму 152 590 ₽</p>
+                        
+                        </div>
+                        <div class="purchase__history_order_footer_text">
+                            <div class="order__details">
+                                <button>Детали заказа</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="purchase__history">
+                <div class="purchase__history_order">
+                    <div class="purchase__history_order_flex">
+                        <div class="purchase__history_order_header_text">
+                            <h4>Заказ №17 <span>от 02.07.2022</span> </h4>
+                        </div>
+                        <div class="purchase__history_order_footer_text">
+                            <img src="./image/canceled.svg" alt="">
+                            <p>Отменен 17.02.2022</p>
+                        </div>
+                    </div>
+                    <div class="purchase__history_order_flex purchase__history_order_pad">
+                        <div class="purchase__history_order_header_text">
+                            <p>2 товара на сумму 152 590 ₽</p>
+                        
+                        </div>
+                        <div class="purchase__history_order_footer_text">
+                            <div class="order__details">
+                                <button>Детали заказа</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+
+
+
          </div>
       </div>    
      
@@ -661,6 +913,7 @@
 
     <script src="/js/index.js"></script>
     <script src="/js/personal_cabinet.js"></script>
+    <script src="/js/purchase_history.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"

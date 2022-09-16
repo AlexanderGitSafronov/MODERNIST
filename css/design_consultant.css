@@ -1,0 +1,205 @@
+.design__consultant_container h1 {
+    font-size: 60px;
+    line-height: 40px;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Bebas Neue", sans-serif;
+}
+.design__consultant_container h2 {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    font-family: "Bebas Neue", sans-serif;
+    
+}
+.design__consultant_container h3 {
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    font-family: "Bebas Neue", sans-serif;
+    
+}
+.design__consultant_container h4 {
+    
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    line-height: 25px;
+    font-family: "Onest", sans-serif;
+}
+.design__consultant_container p {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    line-height: 22px;
+    font-family: "Onest", sans-serif;
+}
+.design__consultant_header {
+    padding-bottom: 60px;
+    
+}
+
+.design__consultant_header_text h1 {
+    margin-bottom: 20px;
+}
+.design__consultant_header_disription {
+    padding: 0px;
+}
+.design__consultant_header_image {
+    padding: 0px;
+}
+.carousel-indicators [data-bs-target] {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.design__consultant_header_disription {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ 
+}
+.design__consultant_header_text_top {
+    padding: 60px;
+    
+}
+.design__consultant_header_text_top h1 {
+    margin-bottom: 20px;
+}
+.design__consultant_header_text_bottom {
+    padding-bottom: 60px;
+    padding-left: 127px;
+    padding-right: 32px;
+}
+
+.design__consultant_content {
+    padding: 0px;
+    border-top: 1px solid #999A81;
+    border-bottom: 1px solid #999A81;
+    cursor: pointer;
+}
+.design__consultant_content_first {
+    padding: 60px 49px 58px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.design__consultant_content_second {
+    padding: 60px 50px 60px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.design__consultant_content_third {
+    padding: 60px 30px 60px 49px;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.design__consultant_content_img img{
+    /* width: 100%; */
+
+}
+.design__consultant_content_discription p {
+    font-size: 16px;
+    font-weight: 300;
+    padding-right: 100px;
+}
+.design__consultant_content_discription h3 {
+    margin-bottom: 12px;
+}
+.design__consultant_content_discription {
+    margin-top: 32px;
+    
+}
+.design__consultant_content_second {
+    border-left: 1px solid #999A81;
+    border-right: 1px solid #999A81;
+}
+
+.design__consultant_content_second .design__consultant_content_discription {
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+.design__consultant_content_img {
+    overflow: hidden;
+}
+.design__consultant_content_img img{
+    /* object-fit: cover; */
+    width: 100%;
+}
+.design__consultant_content img  {
+    transition: 0.5s all ease;
+}
+.design__consultant_content:hover img {
+    transform: scale(1.4);
+}
+
+
+.design__consultant_content_third_section {
+    margin: 60px 0px;
+    cursor: pointer;
+}
+.disign_consultant_big {
+    padding: 0px;
+}
+.disign_consultant_big {
+    overflow: hidden;
+}
+.disign_consultant_big img {
+    transition: 0.5s all ease;
+}
+.design__consultant_content_third_section:hover img{
+    transform: scale(1.3);
+}
+.design__consultant_content_third_section img {
+    width: 100%;
+}
+
+.design__consultant_content_discription_second {
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+.design__consultant_content_second .design__consultant_content_discription_second_midle {
+    margin-top: 32px;
+    margin-bottom: 0px;
+}
+.design__consultant_five_section {
+    border-bottom: 1px solid #999A81;
+}
+.design__consultant_content_border {
+    border-right: 1px solid #999A81;
+}
+.design__consultant_content_third_pos {
+    position: relative;
+}
+.design__consultant_content_third_text_center h1{   
+    color: #FCF8F4;
+
+}
+.design__consultant_content_third_text_center {
+    position: absolute;
+    top: 46%;
+    left: 15%;
+    
+}
+.bg_black {
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(36, 22, 11, 0.5);
+    width: 100%;
+    height: 100%;
+}
+.design__consultant_pad {
+    margin-top: 60px;
+}

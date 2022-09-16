@@ -312,8 +312,9 @@ padding: 0;
     font-size: 12px;
     font-weight: 400;
 }
-.offcanvas-footer_privacy_policy span {
+.offcanvas-footer_privacy_policy a {
     color: #EFAE35;
+    font-weight: 300;
 }
 
 #div2 {

@@ -1,0 +1,15 @@
+
+.personal__data .ordering__input_personal__data{
+    width: 345px;
+}
+.personal__data input{
+    width: 100%;
+}
+.save__personal_data button {
+    width: 100%;
+    padding: 17px 143px;
+}
+.save__personal_data button:hover {
+    background-color: #24160B;
+    color: #fcf8f4;
+}

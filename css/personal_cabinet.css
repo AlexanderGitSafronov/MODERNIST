@@ -24,7 +24,9 @@ button {
     font-weight: 700;
     background-color: transparent;
 }
-
+.personal__cabinet_exit a:hover{
+    color: #24160B;
+}
 .personal__cabinet_flex {
     display: flex;
     justify-content: center;
@@ -135,4 +137,6 @@ bottom: -3px;
 .personal__cabinet_new_addres:hover .basket_count::after {
     background-color: #fcf8f4;
 }
-
+.way__to_get_personal_cabinet  {
+    margin-bottom: 20px;
+}
