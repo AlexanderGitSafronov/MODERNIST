@@ -1,0 +1,19 @@
+.contacts__information_bottom {
+    padding: 84px 286px 84px 111px;
+}
+p {
+    margin-bottom: 32px;
+}
+.contacts h6 {
+    margin-top: 50px;
+    margin-bottom: 32px;
+}
+.contacts__information_bottom_content ul li {
+    margin-bottom: 16px;
+    font-size: 14px;
+    font-family: "Onest", sans-serif;
+    font-weight: 300;
+}
+.contacts__information_bottom {
+    padding: 84px 286px 200px 111px;
+}

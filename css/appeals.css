@@ -1,0 +1,56 @@
+.contacts h6 {
+    margin-bottom: 5px;
+}
+.appeals_button button{
+    padding: 17px 113px;
+    background-color: #24160B;
+    color: #FCF8F4;
+}
+.appeals_button {
+    margin-top: 90px;
+    margin-bottom: 200px;
+}
+.appeals__message {
+    padding: 21px 24px;
+    border: 1px solid rgba(153, 154, 129, 0.5) ;
+    
+}
+.appeals__message_top p {
+    font-weight: 300;
+    font-size: 12px;
+    font-family: "Onest", sans-serif;
+    color: rgba(36, 22, 11, 0.5);
+}
+.appeals__message_bottom p {
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Onest", sans-serif;
+}
+.appeals__message_div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.appeals__message_status_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.appeals {
+    margin-bottom: 20px;
+}
+.appeals__response_received {
+    display: flex;
+    align-items: center;
+}
+.appeals__response_received p {
+    color: rgba(36, 22, 11, 0.5) ;
+}
+.appeals__orange_circle {
+    margin-left: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #EFAE35;
+}

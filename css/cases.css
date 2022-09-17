@@ -127,16 +127,16 @@
 }
 .white__circle {
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 23px;
+    height: 23px;
     background-color: #fff;
     border-radius: 50%;
 }
 .white__circle::before {
     content: '';
     position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 23px;
+    height: 23px;
     border: 1px solid #fff;
     border-radius: 50%;
     top: 0px;
@@ -145,8 +145,8 @@
     transition: 0.5s all ease;
 }
 .white__circle:hover::before {
-    width: 30px;
-    height: 30px;
+    width: 33px;
+    height: 33px;
    
     top: -5px;
     left:-5px;

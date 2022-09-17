@@ -1,0 +1,6 @@
+.insurance__logo {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    margin-top: 50px;
+}

@@ -930,7 +930,7 @@ a {
 .footer__left_text {
     display: flex;
     flex-direction: column;
-    padding: 0px 0px 0px 1px;
+    padding: 0px 0px 0px 0px;
 }
 .footer__right_text {
     padding: 0px 1px 0px 0px;

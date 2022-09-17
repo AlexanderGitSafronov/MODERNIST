@@ -85,6 +85,7 @@
     border-top: 1px solid #999A81;
     border-bottom: 1px solid #999A81;
     cursor: pointer;
+    flex: 1;
 }
 .design__consultant_content_first {
     padding: 60px 49px 58px 30px;
