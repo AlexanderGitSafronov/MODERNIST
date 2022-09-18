@@ -341,6 +341,7 @@ width: 150px;
     padding-bottom: 17px;
     padding-left: 15px;
     border: 1px solid rgba(153, 154, 129, 0.5);
+    resize: none;
     margin-bottom: 40px;
 }
 .organization__w textarea::placeholder {
@@ -363,6 +364,7 @@ width: 150px;
 .way__to_get_two {
     display: none;
 }
+
 .express__adress_home {
     display: flex;
     justify-content: space-between;

@@ -515,7 +515,11 @@
                         
 
                         <div class="appeals_button">
-                            <button>новое обращение</button>
+                            <button class="" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModalAppeals" data-whatever="@mdo">новое обращение</button>
+                        </div>
+
+                        <div class="appeals_button">
+                            <button class="" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModalAppealsNotAutorization" data-whatever="@mdo">новое обращение</button>
                         </div>
 
 
@@ -587,7 +591,7 @@
                                                 <p>Статус</p>
                                             </div>
                                             <div class="appeals__message_bottom appeals__response_received">
-                                                <p>Ответ получен</p>
+                                                <a href="" class="" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModalAppealsAnswer" data-whatever="@mdo">Ответ получен</a>
                                                 <div class="appeals__orange_circle">
 
                                                 </div>
@@ -611,7 +615,268 @@
                     </div>
                 </div>
 
+            <!-- МОДЕЛЬНОЕ ОКНО АВТОРИЗАЦИЯ -->
+                <div class="appeals__answer_not_autorization">
+                    <div class="modal fade" id="exampleModalAppealsNotAutorization" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true"></span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h5 class="modal-title" id="exampleModalLabel">Войдите или зарегистрируйтесь</h5>
+                                <p>для того что бы оставить обращение</p>
+
+                                <div class="authorization">
+                <div class="ordering__input "  data-id="01">
+                   <div class="adress__express" >
+                    <form class="organization__w" action="">
+                        <input type='text' name='sms__code' class='sms__code' value=""  placeholder='Телефон или E-mail'/>
+                    </form>
+                   </div>
+                </div>
+                <div class="authorization__get_code">
+                    <button class="" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModalAppealsNotAutorizationSms" data-whatever="@mdo">получить код</button>
+                </div>
+                <div class="offcanvas-footer_privacy_policy">
+                   <p> Нажимая кнопку "Получить код", Вы соглашаетесь с условиями <a href="">политики конфиденциальности</a>  </p>
+                </div>
+                <div class="number__confirmation_border">
+
+                </div>
+                <div class="number__confirmation_footer">
+                    <div class="number__confirmation_footer_text">
+                        <p>Через соцсети:</p>
+                    </div>
+                    <div class="number__confirmation_social_networks">
+                        <a href=""><img src="./image/google_black.svg" alt=""></a>
+                        <a href=""><img src="./image/facebook_black.svg" alt=""></a>
+                        <a href=""><img src="./image/yandexBrowser_black.svg" alt=""></a>
+                        <a href=""><img src="./image/vk_black.svg" alt=""></a>
+                        <a href=""><img src="./image/mail_ru_black.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
                 
+                            </div>
+                            
+                          </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- МОДЕЛЬНОЕ ОКНО АВТОРИЗАЦИЯ ПОЛУЧЕНИЕ СМС-->
+                <div class="appeals__answer_number confirmation">
+                    <div class="modal fade" id="exampleModalAppealsNotAutorizationSms" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true"></span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="appeals__answer_number_header">
+                                    <a class="appeals__answer_number_beck"  type="button"  data-bs-toggle="modal" data-bs-target="#exampleModalAppealsNotAutorization" data-whatever="@mdo">
+                                        <img src="./image/arrow_left_sms.svg" alt="">
+                                    </a>
+                                    
+                                        <h5 class="modal-title" id="exampleModalLabel">подтверждение номера</h5>
+                                    
+                                    
+                                </div>
+                                
+                                <p>Мы отправили СМС на номер</p>
+                                <div class="appeals__answer_number_number">
+                                    <p>+ 7 899 999 99 99</p>
+                                </div>
+                                <div class="authorization">
+                <div class="ordering__input "  data-id="01">
+                   <div class="adress__express" >
+                    <form class="organization__w" action="">
+                        <input type='text' name='sms__code' class='sms__code' value=""  placeholder='Код из СМС'/>
+                    </form>
+                   </div>
+                </div>
+                <div class="appeals__answer_number_resend">
+                    <a href="">Отправить повторно</a>
+                </div>
+                
+            </div>
+
+                
+                            </div>
+                            
+                          </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="appeals__answer_appeals">
+                    <div class="modal fade" id="exampleModalAppealsAnswer" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true"></span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h5 class="modal-title" id="exampleModalLabel">ОБРАЩЕНИЕ № 235546</h5>
+                              <div class="appeals__answer_appeals_chapter d-flex">
+                                <p>Раздел:</p>
+                                <p>Доставка товара</p>
+                              </div>
+                                <div class="appeals__answer_appeals_topic d-flex">
+                                    <p>Тема:</p>
+                                    <p>Как отслеживать доставку товара</p>
+                                </div>
+                                <div class="appeals__answer_appeals_date d-flex">
+                                    <p>Дата:</p>
+                                    <p>17.04.2022</p>
+                                </div>
+                                
+                                <div class="appeals__answer_appeals_question">
+                                    <p>Добрый день. Хотелось бы узнать, как отслеживать прогресс по моему заказу?</p>
+                                </div>
+
+
+                                <h5>ответ modernist</h5>
+
+                                <div class="appeals__answer_appeals_answer">
+                                    <p>Добрый день. Вся информация по вашему заказу, храниться в личном кабинете в разделе «История заказов». Там так же будет трек номер заказа, для того, чтобы вы могли отслеживать его после отгрузки на доставку.</p>
+                                </div>
+
+                                
+
+                
+                            </div>
+                            
+                          </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                  <!-- МОДЕЛЬНОЕ ОКНО НОВОЕ ОБРАЩЕНИЕ -->
+
+                <div class="appeals__new_appeals">
+                    <div class="modal fade" id="exampleModalAppeals" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true"></span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h5 class="modal-title" id="exampleModalLabel">Создание обращения</h5>
+                              
+                                <div class="dropdown ">
+                                    <div class="dropdown-text">
+                                        <p>Тема</p>
+                                        <div class="dropdown-text_input">
+                                            
+                                        </div>
+                                    </div>
+            
+                                    <input class="dropdown-value" type="hidden" value="Зеленый" readonly>
+                                    <div class="option">
+                                        <div class="dropdown-item" data-value="(Д) 204см  x (В) 80см x (Г) 81см">
+                                            <span class=""></span> (Д) 204см  x (В) 80см x (Г) 81см
+                                        </div>
+                                        <div class="dropdown-item" data-value="(Д) 204см  x (В) 50см x (Г) 81см">
+                                            <span class=""></span> (Д) 204см  x (В) 50см x (Г) 81см
+                                        </div>
+                                        <div class="dropdown-item" data-value="(Д) 204см  x (В) 10см x (Г) 81см'">
+                                            <span class=""></span> (Д) 204см  x (В) 10см x (Г) 81см
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="dropdown ">
+                                    <div class="dropdown-text">
+                                        <p>Раздел</p>
+                                        <div class="dropdown-text_input">
+                                            
+                                        </div>
+                                    </div>
+            
+                                    <input class="dropdown-value" type="hidden" value="Зеленый" readonly>
+                                    <div class="option">
+                                        <div class="dropdown-item" data-value="(Д) 204см  x (В) 80см x (Г) 81см">
+                                            <span class=""></span> (Д) 204см  x (В) 80см x (Г) 81см
+                                        </div>
+                                        <div class="dropdown-item" data-value="(Д) 204см  x (В) 50см x (Г) 81см">
+                                            <span class=""></span> (Д) 204см  x (В) 50см x (Г) 81см
+                                        </div>
+                                        <div class="dropdown-item" data-value="(Д) 204см  x (В) 10см x (Г) 81см'">
+                                            <span class=""></span> (Д) 204см  x (В) 10см x (Г) 81см
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="appeals__footer_modal_appeals">
+                                    <form action="">
+                                        <textarea name="" id="" cols="20" rows="7" placeholder="Обращение"></textarea>
+                                    </form>
+                                </div>
+
+                
+                            </div>
+                            <div class="modal-footer">
+                              <div class="modal-btn ">
+                                <button data-bs-toggle="modal" data-bs-target="#exampleModalAppeals2" data-whatever="@mdo">новое обращение</button>
+                                
+                            </div>
+                            <div class="modal-footer_discription">
+                                <p>Максимальный срок предоставления ответа на обращение составляет 24 часа </p>
+                               
+                            </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+    
+    <!-- МОДЕЛЬНОЕ ОКНО ДИЗАЙН КОНСУЛЬТАНТ -->
+    <!-- VМОДЕЛЬНОЕ ОКНО ПОСЛЕ ЗАЯВКИ -->
+    <div class="appeals__new_appeals_complete">
+        <div class="modal fade" id="exampleModalAppeals2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true"></span>
+                    </button>
+                </div>
+                <div class="modal-body modal-body-performed">
+                    <h5 class="modal-title" id="exampleModalLabel">Ваша заявка успешно отправлена</h5>
+                    <p>В ближайшее время, наш менеджер <br>
+                        свяжется с Вами</p>
+                </div>
+                <div class="modal-footer">
+                  <div class="modal-btn">
+                      <a href="#"><button data-bs-dismiss="modal" aria-label="Close">Вернуться в каталог</button></a>
+                    
+                </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    
+
+
               </div>
           </div>
       </div>

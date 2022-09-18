@@ -17,3 +17,6 @@ p {
 .contacts__information_bottom {
     padding: 84px 286px 200px 111px;
 }
+ul {
+    padding-left: 15px;
+}
