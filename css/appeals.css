@@ -231,6 +231,8 @@
     justify-content: space-between;
     width: 58%;
 }
+
+/* МОДЕЛЬНОЕ ОКНО ПОДТВЕРЖДЕНИЯ НОМЕРА */
 .appeals__answer_number_header {
     display: flex;
     align-items: center;
@@ -280,3 +282,7 @@
 .appeals__answer_number .ordering__input input::placeholder {
     color: #999A81;
 }
+
+/* .dropdown-text p {
+    color: #24160B;
+} */

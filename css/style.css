@@ -454,6 +454,9 @@ a {
     color: #fff;
     
 }
+.basket__true a {
+    color: #fff;
+}
 .catalode a {
     color: #fff;
 }
@@ -924,9 +927,9 @@ a {
 .footer span {
     display: block;
 }
-.footer span:hover {
+/* .footer span:hover {
     color: #EFAE35;
-}
+} */
 .footer__left_text {
     display: flex;
     flex-direction: column;
@@ -962,11 +965,11 @@ a {
     stroke: #000;
     fill: #000;
 }
-.footer__media svg:hover {
+/* .footer__media svg:hover {
 
     stroke: #efae35;
     fill: #EFAE35;
-}
+} */
 .footer__text_small {
     border: 1px solid #999a81;
     padding: 6px 10px;
@@ -1730,6 +1733,8 @@ a {
         overflow: hidden;
     }
     .dropdown-text p {
+        display: flex;
+        align-items: center;
         pointer-events: none;
         margin-bottom: 0;
         white-space: nowrap;
@@ -1893,13 +1898,18 @@ a {
     font-size: 28px;
     font-weight: 700;
     margin-bottom: 15px;
+    font-family: "Bebas Neue", sans-serif;
 }
-.modal__site_proffesionalroffesional .modal-body p {
+.modal__site_proffesional  .modal-body p {
     font-size: 16px;
     font-weight: 400;
     font-family: "Onest", sans-serif;
     margin-bottom: 20px;
 }
+.modal__site_proffesional  .modal-body .carousel-inner p {
+    font-size: 14px;
+}
+
 .modal__site_proffesional .modal-dialog {
     max-width: 600px;
     
@@ -1940,7 +1950,7 @@ a {
 .modal__site_proffesional .carousel-caption {
     position: static;
     color: rgba(36, 22, 11, 1);
-    height: 160px;
+    height: 120px;
     padding-top: 20px;
     padding-bottom: 1.25rem;
      text-align: left;

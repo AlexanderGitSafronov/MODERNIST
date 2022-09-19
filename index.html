@@ -59,7 +59,7 @@
                 </svg>
               </div>
               
-              <div class="basket__true">Корзина</div>
+              <div class="basket__true"><a href="./basked.html">Корзина</a> </div>
               <div class="quantity__cart">
                   <a  data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" href="">1</a>
               </div>
@@ -107,7 +107,7 @@
                 </svg>
               </div>
               
-              <div class="basket__true">Корзина</div>
+              <div class="basket__true"><a href="./basked.html">Корзина</a> </div>
               <div class="quantity__cart">
                 <a  data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" href="">1</a>
             </div>
@@ -122,22 +122,27 @@
     
     <div class="offcanvas-body offcanvas-body_burger">
         <div class="customer__service_burger">
-            <a href="">
+            <a href="./installment_customer_service.html">
                 <p>Клиентский сервис</p>
               </a>
         </div>
+        <div class="design__assistant_burger">
+          <a href="./design_consultant.html">
+              <p>Дизайн ассистент</p>
+            </a>
+      </div>
         <div class="cases__burger">
-            <a href="">
+            <a href="./cases.html">
                 <p>Кейсы</p>
               </a>
         </div>
         <div class="shipping__payment_burger">
-            <a href="">
+            <a href="./delivery.html">
                 <p>Доставка и оплата</p>
               </a>
         </div>
         <div class="website__professionals_burger">
-            <a href="">
+            <a href="" class="btn-consultant" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModalProf" data-whatever="@mdo">
                 <p>Версия сайта для профессионалов</p>
               </a>
         </div>
@@ -147,7 +152,7 @@
               </a>
         </div>
         <div class="connect__us_burger">
-            <a href="">
+            <a href="./contacts.html">
                 <p>Связаться с нами </p>
               </a>
         </div>
@@ -263,7 +268,7 @@
         <p>Cтоимость доставки расчитывается при оформление дзаказа</p>
         <div class="offcanvas-footer_bootom-btn">
             <div class="first__button">
-                <button>перейти в корзину</button>
+                <button onclick="javascript:location.href='./basked.html';">перейти в корзину</button>
             </div>
             <div class="two__button">
                 <button>оФОРМИТЬ ЗАКАЗ </button>
@@ -1419,7 +1424,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4 choice__category_wrapper choice__category_3 products__sections-bg">
+                <div class="col-4 choice__category_wrapper choice__category_3 products__sections-bg" onclick="javascript:location.href='./stock.html';">
                     <h2>АКЦИИ</h2>
                     <div class="choice__category_circle">
                         <div class="circle">
@@ -1550,16 +1555,16 @@
         <div class="row ">
             <div class="col-9 footer__left_text ">
                 <div class="footer_text">
-                    <a href="#"><span>МОЙ АККАУНТ</span></a>
+                    <a href="./authorization.html"><span>МОЙ АККАУНТ</span></a>
                 </div>
                 <div class="footer_text">
-                    <a href="#"><span>Клиентский сервис</span></a>
+                    <a href="./installment_customer_service.html"><span>Клиентский сервис</span></a>
                 </div>
                 <div class="footer_text">
-                    <a href="#"><span>кейсы</span></a>
+                    <a href="./cases.html"><span>кейсы</span></a>
                 </div>
                 <div class="footer_text">
-                    <a href="#"><span>дОСТАВКА И ОПЛАТА</span></a>
+                  <a href="./design_consultant.html"><span>Дизайн ассистент</span></a>
                 </div>
                 <div class="footer_text">
                   
@@ -1583,14 +1588,15 @@
                     <a href="#"><span>Вопросы и ответы</span></a>
                 </div>
                 <div class="footer__text_small">
-                    <a href="#"><span>Связаться с нами</span></a>
+                    <a href="./contacts.html"><span>Связаться с нами</span></a>
+                </div>
+                <div class="footer__text_small">
+                  <a href="./delivery.html"><span>Доставка и оплата</span></a>
                 </div>
                 <div class="footer__text_small">
                     <a href="#"><span>Политика конфиденциальности</span></a>
                 </div>
-                <div class="footer__text_small">
-                    <a href="#"><span>.</span></a>
-                </div>
+                
             </div>
         </div>
     </div>
@@ -1604,9 +1610,8 @@
     
 </div>
 
-
+ <!-- МОДЕЛЬНОЕ ОКНО ВЕРСИЯ САЙТА ДЛЯ ПРОФЕСИОНАЛОВ -->
   <div class="modal__site_proffesional">
-    <!-- МОДЕЛЬНОЕ ОКНО ВЕРСИЯ САЙТА ДЛЯ ПРОФЕСИОНАЛОВ -->
     <div class="modal fade" id="exampleModalProf" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">

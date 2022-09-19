@@ -131,16 +131,24 @@ $(window).scroll(function(){
 // }
 
 
+
+
 $('.dropdown .dropdown-text ').click(function(event) {
-    $(event.target).parent('.dropdown').toggleClass('dropdown__active');
+  if(event.target.closest('.dropdown__active')) {
+    $('.dropdown__active').removeClass('dropdown__active');
+  } else {
+    $('.dropdown__active').removeClass('dropdown__active');
+    $(event.target).parent('.dropdown').addClass('dropdown__active');
+  }
+    
 })
 
 $('.dropdown [data-value]').click(function(event) {
   var dropdown = $(event.target).parent().parent('.dropdown')
   var value = event.target.dataset['value'];
-  var displayData = $(event.target).html()
-;
-  var displayText = $(event.target).parent().parent('.dropdown').children('.dropdown-text');
+  var displayData = $(event.target).html();
+
+  var displayText = $(event.target.closest('.dropdown').querySelector('.dropdown-text p'));
   var displayValue = $(event.target).parent().parent('.dropdown').children('.dropdown-value');
   displayValue.val(value);
   displayText.html(displayData);
@@ -148,7 +156,14 @@ $('.dropdown [data-value]').click(function(event) {
 })
 
 
+// ЗАКРЫВАЮ СЕЛЕКТ ПО КЛИКУ ВНЕ 
+$('body').click(function(event) {
+  const activeDropdowns = $('.dropdown__active');
 
+  if(!event.target.closest('.dropdown') && activeDropdowns.length) {
+    activeDropdowns.each(d => activeDropdowns[d].classList.remove('.dropdown__active'))
+  }
+})
 
 
 

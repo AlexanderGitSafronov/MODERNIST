@@ -59,7 +59,7 @@
                       />
                     </svg>
                   </div>
-                  <div class="basket__true">Корзина</div>
+                  <div class="basket__true"><a href="./basked.html">Корзина</a> </div>
                   <div class="quantity__cart">
                     <a  data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" href="">1</a>
                 </div>
@@ -105,7 +105,7 @@
                 </svg>
               </div>
               
-              <div class="basket__true">Корзина</div>
+              <div class="basket__true"><a href="./basked.html">Корзина</a> </div>
               <div class="quantity__cart">
                 <a  data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" href="">1</a>
             </div>
@@ -136,22 +136,27 @@
     
     <div class="offcanvas-body offcanvas-body_burger">
         <div class="customer__service_burger">
-            <a href="">
+            <a href="./installment_customer_service.html">
                 <p>Клиентский сервис</p>
               </a>
         </div>
+        <div class="design__assistant_burger">
+            <a href="./design_consultant.html">
+                <p>Дизайн ассистент</p>
+              </a>
+        </div>
         <div class="cases__burger">
-            <a href="">
+            <a href="./cases.html">
                 <p>Кейсы</p>
               </a>
         </div>
         <div class="shipping__payment_burger">
-            <a href="">
+            <a href="./delivery.html">
                 <p>Доставка и оплата</p>
               </a>
         </div>
         <div class="website__professionals_burger">
-            <a href="">
+            <a href="" class="btn-consultant" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModalProf" data-whatever="@mdo">
                 <p>Версия сайта для профессионалов</p>
               </a>
         </div>
@@ -161,7 +166,7 @@
               </a>
         </div>
         <div class="connect__us_burger">
-            <a href="">
+            <a href="./contacts.html">
                 <p>Связаться с нами </p>
               </a>
         </div>
@@ -278,7 +283,7 @@
           <p>Cтоимость доставки расчитывается при оформление дзаказа</p>
           <div class="offcanvas-footer_bootom-btn">
               <div class="first__button">
-                  <button>перейти в корзину</button>
+                  <button onclick="javascript:location.href='./basked.html';">перейти в корзину</button>
               </div>
               <div class="two__button">
                   <button>оФОРМИТЬ ЗАКАЗ </button>
@@ -495,19 +500,19 @@
         <div class="row ">
             <div class="col-8 footer__left_text ">
                 <div class="footer_text">
-                    <a href="#"><span>МОЙ АККАУНТ</span></a>
+                    <a href="./authorization.html"><span>МОЙ АККАУНТ</span></a>
                 </div>
                 <div class="footer_text">
-                    <a href="#"><span>Клиентский сервис</span></a>
+                    <a href="./installment_customer_service.html"><span>Клиентский сервис</span></a>
                 </div>
                 <div class="footer_text">
-                    <a href="#"><span>кейсы</span></a>
+                    <a href="./cases.html"><span>кейсы</span></a>
                 </div>
                 <div class="footer_text">
-                    <a href="#"><span>дОСТАВКА И ОПЛАТА</span></a>
+                    <a href="./design_consultant.html"><span>Дизайн ассистент</span></a>
                 </div>
                 <div class="footer_text">
-                    <a href="#"><span>версия сайта ДЛЯ ПРОФЕССИОНАЛОВ</span></a>
+                    <a href="#" class="btn-consultant" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModalProf" data-whatever="@mdo"><span>версия сайта ДЛЯ ПРОФЕССИОНАЛОВ</span></a>
                 </div>
                 
             </div>
@@ -527,13 +532,14 @@
                     <a href="#"><span>Вопросы и ответы</span></a>
                 </div>
                 <div class="footer__text_small">
-                    <a href="#"><span>Связаться с нами</span></a>
+                    <a href="./contacts.html"><span>Связаться с нами</span></a>
+                </div>
+                
+                <div class="footer__text_small">
+                    <a href="./delivery.html"><span>Доставка и оплата</span></a>
                 </div>
                 <div class="footer__text_small">
                     <a href="#"><span>Политика конфиденциальности</span></a>
-                </div>
-                <div class="footer__text_small">
-                    <a href="#"><span>.</span></a>
                 </div>
             </div>
         </div>
@@ -548,7 +554,65 @@
     
 </div>
 
-
+    <!-- МОДЕЛЬНОЕ ОКНО ВЕРСИЯ САЙТА ДЛЯ ПРОФЕСИОНАЛОВ -->
+    <div class="modal__site_proffesional">
+        <div class="modal fade" id="exampleModalProf" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              
+              <div class="modal-body">
+                  <h5 class="modal-title" id="exampleModalLabel">версия сайта для профессионалов</h5>
+                  <p>предназначена для дизайнеров, поставщиков и HoReCa. Открывает расширененны функционал такой как:</p>
+      
+                  <div id="carouselExampleIndicators" class="carousel slide cycle" data-bs-ride="carousel">
+                    
+                    <div class="carousel-inner" >
+                      <div class="carousel-item active " >
+                        <img src="./image/modal_prof.svg" class="d-block w-100" alt="...">
+                        <div class="carousel__discription carousel-caption ">
+                          <p>Возможность скачать коллекцию 3D моделей мебели, которые можно использовать в различных графических програаммах, для визуализации интерьера.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./image/modal_prof2.png" class="d-block w-100" alt="...">
+                        <div class="carousel__discription carousel-caption ">
+                          <p>Возможность создавать подборки мебели, хранить их в личном кабинете, а так же делиться ими с клиентами.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./image/modal_prof3.png" class="d-block w-100" alt="...">
+                        <div class="carousel__discription carousel-caption ">
+                          <p>Крупные заказчики смогут осуществлять оптовые закупки с просчетом времени готовности заказа</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./image/modal_prof4.png" class="d-block w-100" alt="...">
+                        <div class="carousel__discription carousel-caption ">
+                          <p>Так же все профессионалы получат доступ к диалоговому окну и смогут общаться с менеджерами компании на сайте, без использования сторонних приложений.</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                  </div>
+      
+      
+      
+              </div>
+              <div class="modal-footer">
+                <div class="modal-btn ">
+                  <button >войти как профессионал</button>
+                 </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      </div>
 
 
 

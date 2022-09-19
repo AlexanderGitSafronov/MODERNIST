@@ -13,6 +13,8 @@
     font-weight: 700;
     font-family: "Onest", sans-serif;
     text-transform: uppercase;
+    background-color: #24160B;
+    color: #fcf8f4;
 }
 .authorization {
     width: 375px;
@@ -45,3 +47,56 @@
     justify-content: space-between;
     width: 64%;
 }
+
+
+/* МОДЕЛЬНОЕ ОКНО ПОДТВЕРЖДЕНИЯ НОМЕРА */
+.appeals__answer_number_header {
+    display: flex;
+    align-items: center;
+}
+.appeals__answer_number_beck {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    background-color: rgba(153, 154, 129, 0.3);
+}
+.appeals__answer_number .modal-body h5 {
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Bebas Neue", sans-serif;
+    
+    padding-top: 7px;
+}
+.appeals__answer_number .modal-body p {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Onset", sans-serif;
+    margin-bottom: 12px;
+    margin-top: 15px;
+}
+.appeals__answer_number .appeals__answer_number_number p {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Onset", sans-serif;
+    padding-top: 0;
+    margin-bottom: 24px;
+}
+.appeals__answer_number_resend a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #999A81;
+    font-family: "Onset", sans-serif;
+    border-bottom: 1px dashed #999A81;
+    
+}
+.appeals__answer_number_resend {
+    margin-bottom: 50px;
+}
+.appeals__answer_number .ordering__input input{
+    border-color: #999A81;
+}
+.appeals__answer_number .ordering__input input::placeholder {
+    color: #999A81;
+}
+
