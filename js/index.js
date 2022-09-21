@@ -26,13 +26,16 @@ tableElements.forEach(function (element) {
 $('.item').click(function(event) {
   
   if(event.target.closest('.elipse__choise2')) {
-    $('.item__image_item1').removeClass('item__image_opacity');
-      $('.item__image_item2').addClass('item__image_opacity');
+    $(event.target).find('.item__image_item1').removeClass('item__image_opacity');
+    $(event.target).find('.item__image_item2').addClass('item__image_opacity');
+      console.log(event.target);
+      console.log($(event.target).find('.item__image_item2'));
       $('.elipse__choise1').removeClass('elipse__active');
       $('.elipse__choise2').addClass('elipse__active');
   } else {
-    $('.item__image_item1').addClass('item__image_opacity');
-  $('.item__image_item2').removeClass('item__image_opacity');
+    $(event.target).find('.item__image_item1').addClass('item__image_opacity');
+    $(event.target).find('.item__image_item2').removeClass('item__image_opacity');
+    console.log(event.target);
   $('.elipse__choise1').addClass('elipse__active');
   $('.elipse__choise2').removeClass('elipse__active');
   }
