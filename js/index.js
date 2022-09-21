@@ -11,37 +11,44 @@ tableElements.forEach(function (element) {
 
 
 // Смена цвета товара по клику 
-// document.querySelector('.elipse__choise2').addEventListener('click', function (){
-//   $('.item__image_item1').removeClass('item__image_opacity');
-//   $('.item__image_item2').addClass('item__image_opacity');
-  
-    
-// })
-// document.querySelector('.elipse__choise1').addEventListener('click', function (){
-//   $('.item__image_item1').addClass('item__image_opacity');
-//   $('.item__image_item2').removeClass('item__image_opacity');
-  
-    
-// })
+
 $('.item').click(function(event) {
-  
-  if(event.target.closest('.elipse__choise2')) {
-    $(event.target).find('.item__image_item1').removeClass('item__image_opacity');
-    $(event.target).find('.item__image_item2').addClass('item__image_opacity');
-      console.log(event.target);
-      console.log($(event.target).find('.item__image_item2'));
-      $('.elipse__choise1').removeClass('elipse__active');
-      $('.elipse__choise2').addClass('elipse__active');
-  } else {
-    $(event.target).find('.item__image_item1').addClass('item__image_opacity');
-    $(event.target).find('.item__image_item2').removeClass('item__image_opacity');
-    console.log(event.target);
-  $('.elipse__choise1').addClass('elipse__active');
-  $('.elipse__choise2').removeClass('elipse__active');
+  var itemElement = $(event.target).closest('.item');
+  if($(event.target).hasClass('elipse__choise1')) {
+    
+    itemElement.find('.elipse__choise1').addClass('elipse__active');
+    itemElement.find('.elipse__choise2').removeClass('elipse__active');
+
+    itemElement.find('.item__image').addClass('item__image_opacity');
+    itemElement.find('.item__image3').removeClass('item__image_opacity');
+  }
+  if($(event.target).hasClass('elipse__choise2')) {
+    itemElement.find('.elipse__choise2').addClass('elipse__active');
+    itemElement.find('.elipse__choise1').removeClass('elipse__active');
+
+    itemElement.find('.item__image').removeClass('item__image_opacity');
+    itemElement.find('.item__image3').addClass('item__image_opacity');
   }
 })
 
+$('.item__big').click(function(event) {
+  var itemElement = $(event.target).closest('.item__big');
+  if($(event.target).hasClass('elipse__choise1')) {
+    
+    itemElement.find('.elipse__choise1').addClass('elipse__active');
+    itemElement.find('.elipse__choise2').removeClass('elipse__active');
 
+    itemElement.find('.item__image').addClass('item__image_opacity');
+    itemElement.find('.item__image3').removeClass('item__image_opacity');
+  }
+  if($(event.target).hasClass('elipse__choise2')) {
+    itemElement.find('.elipse__choise2').addClass('elipse__active');
+    itemElement.find('.elipse__choise1').removeClass('elipse__active');
+
+    itemElement.find('.item__image').removeClass('item__image_opacity');
+    itemElement.find('.item__image3').addClass('item__image_opacity');
+  }
+})
 
 
 //ПОЯВЛЯЕТСЯ МЕНЮ ХЕДЕР СКРОЛЛ
@@ -215,16 +222,7 @@ $(document).ready(function(){
   });
 
 
-// let hoho = document.querySelector('.hoho');
-// hoho.addEventListener('click', () =>  {
-//     if(hoho.classList.contains('glyphicon-plus')) {
-//         hoho.classList.add('glyphicon-minus');
-//         hoho.classList.remove('glyphicon-plus');
-//     } else {
-//         hoho.classList.add('glyphicon-plus');
-//         hoho.classList.remove('glyphicon-minus');
-//     }
-// })
+
 
 
 

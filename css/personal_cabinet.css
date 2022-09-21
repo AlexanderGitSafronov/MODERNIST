@@ -86,8 +86,11 @@ bottom: -3px;
 .adress__express_two_form input {
     width: 315px;
 }
-.ordering__input_personal_cabinet {
+/* .ordering__input_personal_cabinet {
     display: none;
+} */
+.organization__w {
+    width: 100%;
 }
 .insurance {
     margin-top: 0;
@@ -139,4 +142,52 @@ bottom: -3px;
 }
 .way__to_get_personal_cabinet  {
     margin-bottom: 20px;
+}
+
+.form__item_adress {
+    position: relative;
+}
+.form__item_adress label {
+    position: absolute;
+    left: 15px;
+    top: 21px;
+    transition: top 0.5s;
+    font-family: "Onest", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: rgba(36, 22, 11, 0.5);
+    cursor: text;
+  }
+  .form__item_adress input::placeholder {
+    color: transparent;
+  }
+  .form__item_adress input:focus+label,
+  .form__item_adress input:not(:placeholder-shown)+label {
+      top: 5px;
+      
+  }
+   .ordering__input input {
+      padding-bottom: 4px;
+      padding-top: 30px;
+      font-weight: 400;
+      text-transform: capitalize;
+  }
+  
+  
+  .check__input {
+         position: absolute;
+        right: 15px;
+        top: 50%;
+        display: none;
+  }
+  .ordering__input .form__item_adress input:focus,
+  .ordering__input .form__item_adress input:not(:placeholder-shown){
+      background-color: #fff;
+  }
+
+  input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
 }

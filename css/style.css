@@ -1087,10 +1087,10 @@ a {
   .elipse__choise2 {
       cursor: pointer;
   }
-  .item__image_item1 {
+  .item__image {
       opacity: 0;
   }
-  .item__image_item2 {
+  .item__image3 {
       opacity: 0;
   }
   .item__image_opacity{
@@ -1099,9 +1099,9 @@ a {
   }
   .elipse__active {
     position: relative;
-    border: 1px solid #24160B;
+    border: 1px solid #fff;
     border-radius: 50%;
-    
+    box-shadow: 0px 0px 0px 1px #000;
    
   }
   .elipse__active::before {
