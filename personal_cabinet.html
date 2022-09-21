@@ -570,80 +570,80 @@
 
 
                 <form  action="">
-                    <div class="organization__w form__item_adress">
-                        <input type='text'  name='cyty' class='input__name' id="form-place" placeholder="Название адреса (пример “Дом, офис”)" />
-                        <label for="form-place">Название адреса (пример “Дом, офис”)</label>
-                        
+                    <div class="ordering__input_form">
+                        <div class="organization__w form__item_adress">
+                            <input type='text' required  name='cyty' class='input__name' id="form-place" placeholder="Название адреса (пример “Дом, офис”)" />
+                            <label for="form-place">Название адреса (пример “Дом, офис”)</label>
+                            
+                        </div>
+                        <div class="adress__express_two_form" action="">
+                            <div class="form__item_adress">
+                                <input type='text' name='cyty' class='input__cyty' id="form-city" value=""  placeholder='Город'/>
+                                <label for="form-city">Город</label>
+                            </div>
+                            <div class="form__item_adress">
+                                <input type='text' name='street' class='input__street' id="form-street" value=""  placeholder='Улица'/>
+                                <label for="form-street">Улица</label>
+                            </div>
+                            
+                        </div>
+                        <div class=" four__input" action="">
+                            <div class="form__item_adress">
+                                <input type='number' name='home' class='input__home' id="form-home" value=""  placeholder='Дом'/>
+                                <label for="form-home">Дом</label>
+                                <div class="check__input">
+                                    <svg width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 4.86427L5.39614 9.60386L14 1.00003" stroke="#999A81" stroke-width="1.5"/>
+                                        </svg>
+                                </div>
+                            </div>
+                            <div class="form__item_adress">
+                                <input type='number' name='frame' class='input__frame' id="form-frame" value=""  placeholder='Корпус'/>
+                                <label for="form-frame">Корпус</label>
+                                <div class="check__input">
+                                    <svg width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 4.86427L5.39614 9.60386L14 1.00003" stroke="#999A81" stroke-width="1.5"/>
+                                        </svg>
+                                </div>
+                            </div>
+                            <div class="form__item_adress">
+                                <input type='number' name='entrance' class='input__entrance' id="form-entrance" value=""  placeholder='Подъезд'/>
+                                <label for="form-entrance">Подъезд</label>
+                                <div class="check__input">
+                                    <svg width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 4.86427L5.39614 9.60386L14 1.00003" stroke="#999A81" stroke-width="1.5"/>
+                                        </svg>
+                                </div>
+                            </div>
+                            <div class="form__item_adress">
+                                <input type='number' name='floor' class='input__floor' id="form-floor" value=""  placeholder='Этаж'/>
+                                <label for="form-floor">Этаж</label>
+                                <div class="check__input">
+                                    <svg width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 4.86427L5.39614 9.60386L14 1.00003" stroke="#999A81" stroke-width="1.5"/>
+                                        </svg>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     
+
+                    <div class="insurance">                  
+                        <div class="insurance__content">
+                            <form action="">
+                                <input type="checkbox" class="custom-checkbox_modal custom-checkbox_modal_insurance" id="insurance__input">
+                                <label for="insurance__input" class="insurance__input"  >Установить в качестве адреса по умолчанию</label>
+                            </form>
+                        </div>
+        
+                        <div class="ordering__input_personal_cabinet-btn">
+                            <button data-adress >добавить адрес</button>
+                        </div>
+                    </div>
                 </form>
-                <form class="adress__express_two_form" action="">
-                    <div class="form__item_adress">
-                        <input type='text' name='cyty' class='input__cyty' id="form-city" value=""  placeholder='Город'/>
-                        <label for="form-city">Город</label>
-                    </div>
-                    <div class="form__item_adress">
-                        <input type='text' name='street' class='input__street' id="form-street" value=""  placeholder='Улица'/>
-                        <label for="form-street">Улица</label>
-                    </div>
-                    
-                </form>
-                <form class=" four__input" action="">
-                    <div class="form__item_adress">
-                        <input type='number' name='home' class='input__home' id="form-home" value=""  placeholder='Дом'/>
-                        <label for="form-home">Дом</label>
-                        <div class="check__input">
-                            <svg width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 4.86427L5.39614 9.60386L14 1.00003" stroke="#999A81" stroke-width="1.5"/>
-                                </svg>
-                        </div>
-                    </div>
-                    <div class="form__item_adress">
-                        <input type='number' name='frame' class='input__frame' id="form-frame" value=""  placeholder='Корпус'/>
-                        <label for="form-frame">Корпус</label>
-                        <div class="check__input">
-                            <svg width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 4.86427L5.39614 9.60386L14 1.00003" stroke="#999A81" stroke-width="1.5"/>
-                                </svg>
-                        </div>
-                    </div>
-                    <div class="form__item_adress">
-                        <input type='number' name='entrance' class='input__entrance' id="form-entrance" value=""  placeholder='Подъезд'/>
-                        <label for="form-entrance">Подъезд</label>
-                        <div class="check__input">
-                            <svg width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 4.86427L5.39614 9.60386L14 1.00003" stroke="#999A81" stroke-width="1.5"/>
-                                </svg>
-                        </div>
-                    </div>
-                    <div class="form__item_adress">
-                        <input type='number' name='floor' class='input__floor' id="form-floor" value=""  placeholder='Этаж'/>
-                        <label for="form-floor">Этаж</label>
-                        <div class="check__input">
-                            <svg width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 4.86427L5.39614 9.60386L14 1.00003" stroke="#999A81" stroke-width="1.5"/>
-                                </svg>
-                        </div>
-                    </div>
-                    
-                    
-                    
-                    
-                </form>
-                <div class="insurance">                  
-                    <div class="insurance__content">
-                        <form action="">
-                            <input type="checkbox" class="custom-checkbox_modal custom-checkbox_modal_insurance" id="insurance__input">
-                            <label for="insurance__input" class="insurance__input"  >Установить в качестве адреса по умолчанию</label>
-                        </form>
-                    </div>
-    
-                    <div class="ordering__input_personal_cabinet-btn">
-                        <button data-adress >добавить адрес</button>
-                    </div>
-                    
                 
-                    </div>
+                
+                
 
 
 

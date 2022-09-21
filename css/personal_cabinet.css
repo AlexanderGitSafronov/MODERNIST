@@ -191,3 +191,18 @@ bottom: -3px;
     -webkit-appearance: none;
     margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
 }
+.ordering__input .ordering__input_form {
+    
+    width: 100%;
+}
+.adress__express_two_form {
+    display: flex;
+    justify-content: space-between;
+}
+.four__input {
+    display: flex;
+    justify-content: space-between;
+}
+.ordering__input form {
+    display: block;
+}
