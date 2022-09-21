@@ -126,3 +126,6 @@ width: 38%;
     background-color: #24160B;
     color: #fcf8f4;
 }
+.offcanvas-footer_bootom p {
+    margin-bottom: 10px;
+}

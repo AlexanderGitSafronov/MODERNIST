@@ -37,7 +37,9 @@ font-size: 14px;
 font-weight: 500;
 font-family: "Onest", sans-serif;
 }
-
+.offcanvas-footer_right {
+    margin-top: 85px;
+}
 .field__number {
     font-size: 18px;
     font-weight: 700;
@@ -46,6 +48,10 @@ font-family: "Onest", sans-serif;
 button {
     font-family: "Onest", sans-serif;
     text-transform: uppercase;
+}
+.ordering__content_flex {
+    display: flex;
+    justify-content: center;
 }
 .custom-radio {
     margin-left: 24px;
@@ -255,64 +261,64 @@ align-items: center;
 
 
 .ordering__basked {
-    padding-left: 30px;
-    padding-right: 164px;
+    padding-left: 50px;
+    padding-right: 144px;
     padding-bottom: 100px;
 }
-.ordering__basked_header_txt {
+ .ordering__basked_header_txt {
     margin-bottom: 30px;
 }
-.container__basket_price {
+.ordering__border_left .container__basket_price {
     justify-content: center;
 }
-.container__basket_img_parent{
+.ordering__basked .container__basket_img_parent{
     max-height: none;
 }
-.container__basket_content {
+.ordering__basked .container__basket_content {
     padding-left: 0px;
 }
-.container__basket_content_discription {
+.ordering__basked .container__basket_content_discription {
     margin-bottom: 0;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
 }
-.container__basket_content_discription p{
+.ordering__basked .container__basket_content_discription p{
     margin-bottom: 0;
 }
-.offcanvas-footer_right {
+.ordering__basked .offcanvas-footer_right {
     margin-top: 0;
 }
-.offcanvas-footer_right {
+.ordering__basked .offcanvas-footer_right {
 padding: 0;
 }
-.ordering__basked_left_discription {
+.ordering__basked .ordering__basked_left_discription {
     border-bottom: 1px solid #999A81;
     padding-top: 32px;
 }
-.ordering__basked_left_discription span {
+.ordering__basked .ordering__basked_left_discription span {
     font-weight: 400;
 }
 
-.offcanvas-footer_header {
+.ordering__basked .offcanvas-footer_header {
     margin-top: 25px;
 }
-.offcanvas-footer_bootom {
+.ordering__basked .offcanvas-footer_bootom {
     margin-top: 0;
 }
-.offcanvas-footer_bootom-btn {
+.ordering__basked .offcanvas-footer_bootom-btn {
     display: block;
 }
-.offcanvas-footer_bootom-btn button {
+.ordering__basked .offcanvas-footer_bootom-btn button {
     width: 100%;
 }
-.offcanvas-footer_privacy_policy p {
+.ordering__basked .offcanvas-footer_privacy_policy p {
     margin-top: 16px;
     font-size: 12px;
     font-weight: 400;
 }
-.offcanvas-footer_privacy_policy a {
+.ordering__basked .offcanvas-footer_privacy_policy a {
     color: #EFAE35;
     font-weight: 300;
 }

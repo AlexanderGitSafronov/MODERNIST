@@ -9,6 +9,38 @@ tableElements.forEach(function (element) {
 
 
 
+
+// Смена цвета товара по клику 
+// document.querySelector('.elipse__choise2').addEventListener('click', function (){
+//   $('.item__image_item1').removeClass('item__image_opacity');
+//   $('.item__image_item2').addClass('item__image_opacity');
+  
+    
+// })
+// document.querySelector('.elipse__choise1').addEventListener('click', function (){
+//   $('.item__image_item1').addClass('item__image_opacity');
+//   $('.item__image_item2').removeClass('item__image_opacity');
+  
+    
+// })
+$('.item').click(function(event) {
+  
+  if(event.target.closest('.elipse__choise2')) {
+    $('.item__image_item1').removeClass('item__image_opacity');
+      $('.item__image_item2').addClass('item__image_opacity');
+      $('.elipse__choise1').removeClass('elipse__active');
+      $('.elipse__choise2').addClass('elipse__active');
+  } else {
+    $('.item__image_item1').addClass('item__image_opacity');
+  $('.item__image_item2').removeClass('item__image_opacity');
+  $('.elipse__choise1').addClass('elipse__active');
+  $('.elipse__choise2').removeClass('elipse__active');
+  }
+})
+
+
+
+
 //ПОЯВЛЯЕТСЯ МЕНЮ ХЕДЕР СКРОЛЛ
 $(window).scroll(function(){
     var scrollTop = $(this).scrollTop();
@@ -105,12 +137,7 @@ $(window).scroll(function(){
       }
   });
 
-//   ПОИСКОВИК
-//  document.querySelector(".svg__click ").addEventListener("click", function () {
-//     $('.search').toggleClass("search__fixed");
-//     $('.svg__click').toggleClass("search__active");
-    
-//   });
+
 
   
 // СЕЛКТ ВЫБОРА НА СТРАНИЦЕ КАРТОЧКИ О ТОВАРЕ !!!!!!!!!!!!!!!!!!!!!!!!!!!

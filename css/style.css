@@ -217,6 +217,9 @@ a {
     padding-bottom: 34px;
     padding-top: 34px;
 }
+.offcanvas-body_right {
+    overflow: scroll;
+}
 .offcanvas-header_right-pad {
     padding-bottom: 24px;
     padding-top: 24px;
@@ -361,8 +364,10 @@ a {
 .offcanvas-footer_bootom {
     margin-top: 55px;
 }
+
 .offcanvas-footer_bootom p{
     color: #24160B;
+    font-size: 14px;
 }
 .offcanvas-footer_bootom-btn {
     display: flex;
@@ -545,8 +550,12 @@ a {
 
 /* HEADER END */
 /* PRODUCT SECTION */
+.product__pad {
+    border: 1px solid #999A81;
+}
 .product__padding {
     padding: 0px 1px;
+    
 }
 .products__sections {
   color: #24160b;
@@ -1014,7 +1023,7 @@ a {
     display: flex;
     flex-direction: column;
     border: 1px solid #999a81;
-    height: 1435px;
+    height: 1436px;
     padding: 0px;
 }
 /*ВЫСОТА КАРТОЧКИ ТОВАРА И НИЖНИЙ ОТСТУП */
@@ -1025,6 +1034,7 @@ a {
 /* ЗАКОНЧИЛИСЬ НАСТРОЙКИ КАРТОЧКИ ТОВАРА */
 .item__big_madrid {
     height: 800px;
+    
 }
 .item__header {
     position: absolute;
@@ -1049,7 +1059,8 @@ a {
     position: relative;
   }
   .item__image,
-  .item__image2 {
+  .item__image2,
+  .item__image3 {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -1068,8 +1079,45 @@ a {
     transform: translate(-50%, -50%);
     transition: opacity 400ms ease-in-out;
   }
-  
-  
+
+  /* ПЕРЕКЛЮЧАТЕЛЬ ЦВЕТА */
+  .elipse__choise1 {
+     cursor: pointer;
+  }
+  .elipse__choise2 {
+      cursor: pointer;
+  }
+  .item__image_item1 {
+      opacity: 0;
+  }
+  .item__image_item2 {
+      opacity: 0;
+  }
+  .item__image_opacity{
+      opacity: 1;
+      transition: 1s opacity ease;
+  }
+  .elipse__active {
+    position: relative;
+    border: 1px solid #24160B;
+    border-radius: 50%;
+    
+   
+  }
+  .elipse__active::before {
+      content: '';
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      border: 1px solid green;
+      width: 40px;
+      height: 40px;
+      background-color: #A44016;
+      border-radius: 50%;
+  }
+
+
+
   .item__content {
     position: relative;
     height: 100%;
@@ -1332,40 +1380,38 @@ a {
 
 
 /* МЕНЮ ПОИСКОВИК ВЫПЛЫВАЮЩИЙ */
-.search {
-    border: 1px solid #999a81;
-    width: 100%;
+.offcanvas.offcanvas-top{
+    height: 200px;
+}
+.offcanvas-body_search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #fcf8f4;
-    position: fixed;
-    top: 0px;
+    margin-top: 0;
+}
+.search {
+   
     width: 100%;
-    z-index: 9;
-    transition: transform 0.4s;
-    transform: translateY(-100%);
+    
+  
+
+ 
+ 
+    
 }
-.search__fixed {
-    transform: translateY(0%); 
-    transition: transform 0.5s;
-}
+
 .search__menu {
     width: 100%;
-    height: 350px;
     display: flex;
-    align-items: center;justify-content: center;   
-    padding-top: 80px;
+    align-items: center;
+    justify-content: center;   
+    
 }
-.search__active {
-    stroke: #efae35 !important;
-}
-.search__menu_pad {
-    padding-top: 60px;
-    transition: padding 0.5s;
-    height: 350px;
-    transition: height 0.5s;
 
-}
+
 .search__menu input {
-    width: 40%;
+    width: 573px;
     border:none;
     font-family: "Onset", sans-serif;
     background-color: #fcf8f4;
@@ -1395,11 +1441,11 @@ a {
 }
 .search__menu button {
     margin-bottom: 3px;
-    width: 12%;
+    
     display: inline-block;
     font-size: 14px;
     background-color: #24160b;
-    padding: 10px 0px;
+    padding: 10px 50px;
     font-weight: 400;
     color: #fff;
     text-transform: uppercase;
@@ -1970,3 +2016,13 @@ a {
     
     list-style: none;
 }
+
+
+/* ПОИСКОВИК */
+.offcanvas-header_search{
+    border-bottom: none;
+    display: flex;
+    justify-content: end;
+    padding: 37px 32px 50px 10px;
+}
+

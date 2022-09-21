@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/goods_card.css">
+    
     <link rel="stylesheet" href="./css/ordering.css">
     <link rel="stylesheet" href="./css/order_created.css">
     <link rel="stylesheet" href="./css/personal_cabinet.css">
@@ -41,7 +42,8 @@
                   </div>
                   <div class="col-md-4 text-end align-middle basket">
                     <div class="img_search">
-                      <svg class="svg__click"
+                      <a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                        <svg
                         width="28"
                         height="28"
                         viewBox="0 0 28 28"
@@ -65,6 +67,8 @@
                           stroke-linejoin="round"
                         />
                       </svg>
+                      </a>
+                      
                     </div>
                     <div class="basket__true"><a href="./basked.html">Корзина</a> </div>
                     <div class="quantity__cart">
@@ -86,7 +90,8 @@
               </div>
               <div class="col-md-4 text-end align-middle basket">
                 <div class="img_search">
-                  <svg
+                  <a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                    <svg
                     width="28"
                     height="28"
                     viewBox="0 0 28 28"
@@ -110,6 +115,8 @@
                       stroke-linejoin="round"
                     />
                   </svg>
+                  </a>
+                  
                 </div>
                 
                 <div class="basket__true"><a href="./basked.html">Корзина</a> </div>
@@ -124,17 +131,7 @@
      
    
   
-    <div class="container-fluid search">
-      <div class="row">
-          <div class="col-12">
-              <div class="search__menu">
-                  <label for="recipient-name" class="label"></label>
-                  <input type="text" class="form_search" id="search" placeholder="Поиск товара">
-                  <button>ПОиск</button>
-                </div>
-          </div>
-      </div>
-    </div>
+ 
   <!-- БУРГЕР МЕНЮ -->
   <div class="offcanvas offcanvas-start"  tabindex="-1" id="staticBackdrop_burger" aria-labelledby="staticBackdropLabel">
       <div class="offcanvas-header">
@@ -185,6 +182,28 @@
       </div>
     </div>
   <!-- БУРГЕР МЕНЮ -->
+
+<!-- ПОИСКОВИК -->
+<div class="offcanvas offcanvas-top offcanvas_search" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+  <!-- <div class="offcanvas-header offcanvas-header_search">
+   
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div> -->
+  <div class="container-fluid offcanvas-body offcanvas-body_search">
+    <div class="row ">
+          <div class="col-12 search">
+              <div class="search__menu">
+                  <label for="recipient-name" class="label"></label>
+                  <input type="text" class="form_search" id="search" placeholder="Поиск товара">
+                  <button>ПОиск</button>
+                </div>
+          </div>
+      
+    </div>
+  </div>
+</div>
+<!-- КОНЕЦ ПОИСКОВИКА -->
+
   <!-- КОРЗИНА МЕНЮ -->
   <div class="offcanvas  offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
       <div class=" offcanvas-header_right">
@@ -730,7 +749,7 @@
                         </svg></span></a>
                 </div>
                 <div class="footer__text_small">
-                    <a href="#"><span>Вопросы и ответы</span></a>
+                    <a href="./questions_and_answers.html"><span>Вопросы и ответы</span></a>
                 </div>
                 <div class="footer__text_small">
                     <a href="./contacts.html"><span>Связаться с нами</span></a>

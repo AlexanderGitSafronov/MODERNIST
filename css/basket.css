@@ -1,4 +1,6 @@
-
+.offcanvas-footer_right {
+    margin-top: 60px;
+}
 .basked__main_content_first {
     padding: 0px;
 }
@@ -57,32 +59,32 @@ margin-left: 10px;
     font-family: "Onest", sans-serif;
 }
 
-.basked__header_first {
+.basked__main_content .basked__header_first {
     display: flex;
   justify-content: start;
 }
-.basked__header_first h5 {
+.basked__main_content .basked__header_first h5 {
     margin-left: 10px;
 }
-.basked__header_five h5{
+.basked__main_content .basked__header_five h5{
   padding-right: 60px;
 }
-.basked__main_content {
+.basked__main_content .basked__main_content {
     margin-bottom: 120px;
 }
 
-.container__basked_main {
+.basked__main_content .container__basked_main {
     padding: 18px 0px 18px 10px ;
     border-bottom: 1px solid #999A81;
 }
-.container__basket_main_img {
+.basked__main_content .container__basket_main_img {
     display: flex;
     align-items: center;
     position: relative;
    
     
 }
-.container__basket__main_img_parent{
+.basked__main_content .container__basket__main_img_parent{
     position: absolute;
     left: 15%;
     top: 50%;
@@ -91,35 +93,35 @@ margin-left: 10px;
     transform: translate(-50%, -50%);
     object-fit: cover;
 }
-.container__basket_main_img h5 {
+.basked__main_content .container__basket_main_img h5 {
     margin-left: 30%;
     font-size: 14px;
     font-family: "Onest", sans-serif;
     font-weight: 300;
 }
 
-.container__basket_content {
+.basked__main_content .container__basket_content {
     padding-left: 0;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.container__basket_content_discription {
+.basked__main_content .container__basket_content_discription {
     margin-bottom: 0;
 }
 /*  */
-.container__basket_price {
+.basked__main_content .container__basket_price {
    display: flex;
    align-items: inherit;
    justify-content: center;
    
 }
-.container__basket_price_button {
+.basked__main_content .container__basket_price_button {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-.container__basket_price_button h5 {
+.basked__main_content .container__basket_price_button h5 {
     padding-top: 9px;
     font-size: 14px;
     font-weight: 400;
@@ -127,7 +129,7 @@ margin-left: 10px;
     padding-left: 35px;
 }
 
-.basket_count_delite::before {
+.basked__main_content .basket_count_delite::before {
     content: '';
     position: absolute;
     top: 0;
@@ -141,7 +143,7 @@ margin-left: 10px;
     transform: rotate(45deg);
 }
 
-.container__basket_count_plus_delite::after {
+.basked__main_content .container__basket_count_plus_delite::after {
     content: '';
     position: absolute;
     top: 0;
@@ -154,7 +156,7 @@ margin-left: 10px;
     background-color: #999A81;
     transform: rotate(45deg);
 }
-.basket_count {
+.basked__main_content .basket_count {
     position: relative;
     border: 1px solid #999A81;
     width: 28px;
@@ -162,48 +164,48 @@ margin-left: 10px;
     border-radius: 50%;
     transition:0.3s all;
 }
-.basket_count:hover {
+.basked__main_content .basket_count:hover {
     border: 1px solid #24160B;
     
 }
-.basket_count_delite:hover {
+.basked__main_content .basket_count_delite:hover {
     background-color: transparent;
 }
-.basket_count_delite:hover::before{
+.basked__main_content .basket_count_delite:hover::before{
     background-color: #24160B;
 }
-.container__basket_count_plus_delite:hover::after {
+.basked__main_content .container__basket_count_plus_delite:hover::after {
     background-color: #24160B;
 }
-.container__basket_count {
+.basked__main_content .container__basket_count {
     justify-content: center;
     padding-top: 4px;
 }
-.basket_count_delite_pad {
+.basked__main_content .basket_count_delite_pad {
     padding-top: 4px;
 }
 
-.basked__main_content_second {
+.basked__main_content .basked__main_content_second {
     padding: 45px;
     width: 488px;
     margin-left: 100px;
     border: 1px solid #999A81;
 }
-.basked__main_content_second h3{
+.basked__main_content .basked__main_content_second h3{
     margin-bottom: 26px;
     font-weight: 700;
     font-size: 28px;
 }
-.basket__number_goods {
+.basked__main_content .basket__number_goods {
     display: flex;
     justify-content: space-between;
 }
-.basket__number_goods p{
+.basked__main_content .basket__number_goods p{
     font-family: "Onest", sans-serif;
     font-size: 16px;
     color: #24160B;
 }
-.basket__number_goods h5 {
+.basked__main_content .basket__number_goods h5 {
     font-family: "Onest", sans-serif;
     font-size: 18px;
     color: #24160B;
