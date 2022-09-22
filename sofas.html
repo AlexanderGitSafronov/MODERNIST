@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./css/fonts.css">
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
   </head>
   <body>
     <div class="section ">
@@ -1075,44 +1076,52 @@
 
     <!-- МОДЕЛЬНОЕ ОКНО ДИЗАЙН КОНСУЛЬТАНТ -->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true"></span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <h5 class="modal-title" id="exampleModalLabel">ОСТАВИТЬ ЗАЯВКУ</h5>
-              <form>
-                <div class="form-group">
-                  <label for="recipient-name" class="col-form-label"></label>
-                  <input type="text" class="form-control" id="recipient-name" placeholder=Имя>
-                </div>
-                <div class="form-group">
-                  <label for="message-text" class="col-form-label"></label>
-                  <input type="tel" class="form-control" id="message-text" placeholder="Телефон">
-                </div>
-                <div class=" form-group_flex">
-                    <input type="checkbox" class="custom-checkbox_modal" id="chack__box_modal" placeholder="Телефон">
-                    <label for="chack__box_modal" class="label_check">Использовать эти данные при регистрации</label>
-                  </div>
-              </form>
-
-            </div>
-            <div class="modal-footer">
-              <div class="modal-btn ">
-                <button data-bs-toggle="modal" data-bs-target="#exampleModal_2" data-whatever="@mdo">ОТПРАВИТЬ</button>
-                
-            </div>
-            <div class="modal-footer_discription">
-                <p>Нажимая кнопку "Отправить", Вы соглашаетесь с условиями  </p>
-                <a href="">политики конфиденциальности</a>
-            </div>
-            </div>
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true"></span>
+              </button>
           </div>
+          <form action="" id="form-validation">
+            <div class="modal-body">
+              <h5 class="modal-title" id="exampleModalLabel">ОСТАВИТЬ ЗАЯВКУ</h5>
+            <div class="modal__form_group">
+              <div class="form-group">
+                
+                <input type="text" required class="modal-name" id="modal-name" placeholder=Имя>
+                <label for="modal-name">Имя</label>
+              </div>
+              <div class="form-group">
+                
+                <input type="number" required class="modal-tel" id="modal-tel" placeholder="Телефон">
+                <label for="modal-tel">Телефон</label>
+              </div>
+            </div>
+              
+              <div class=" form-group_flex">
+                  <input type="checkbox" class="custom-checkbox_modal" id="chack__box_modal" placeholder="Телефон">
+                  <label for="chack__box_modal" class="label_check">Использовать эти данные при регистрации</label>
+                </div>
+            
+
+          </div>
+          <div class="modal-footer">
+            <div class="modal-btn ">
+               <!-- <button data-bs-toggle="modal" id="modal-button-send" data-bs-target="#exampleModal_2" data-whatever="@mdo">ОТПРАВИТЬ</button> -->
+              
+              <button   id="modal-button-send" >ОТПРАВИТЬ</button>
+          </div>
+          <div class="modal-footer_discription">
+              <p>Нажимая кнопку "Отправить", Вы соглашаетесь с условиями  </p>
+              <a href="">политики конфиденциальности</a>
+          </div>
+          </div>
+          </form>
+          
         </div>
-    </div>
+      </div>
+  </div>
     <!-- МОДЕЛЬНОЕ ОКНО ДИЗАЙН КОНСУЛЬТАНТ -->
     <!-- VМОДЕЛЬНОЕ ОКНО ПОСЛЕ ЗАЯВКИ -->
     <div class="modal fade" id="exampleModal_2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -1318,7 +1327,7 @@
     </div>
 </div>
 </div>
-
+<script src="./js/index_modal_consultant.js"></script>
     <script src="/js/index.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"

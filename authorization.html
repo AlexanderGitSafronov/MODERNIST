@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="./css/number_confirmation.css">
     <link rel="stylesheet" href="./css/authorization.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
   </head>
   <body>
     <div class="section header__all_furniture goods_card">
@@ -502,14 +503,20 @@
             <div class="authorization">
                 <div class="ordering__input "  data-id="01">
                    <div class="adress__express" >
-                    <form class="organization__w" action="">
-                        <input type='text' name='sms__code' class='sms__code' value=""  placeholder='Телефон или E-mail'/>
-                    </form>
+                     <form action="" id="personal__authorization_validation">
+                      <div class="organization__w form__item_adress" action="">
+                        <input type='text' required name='phone__or_email' class='phone__or_email' id="phone__or_email" value=""  placeholder='Телефон или E-mail'/>
+                        <label for="phone__or_email">Телефон или E-mail</label>
+                      </div>
+                      <div class="authorization__get_code">
+                            <button id="authorization__button" >получить код</button>
+                        <!-- <button class="" id="authorization__button" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModalAppealsNotAutorizationSms" data-whatever="@mdo">получить код</button> -->
+                    </div>
+                     </form>
+                    
                    </div>
                 </div>
-                <div class="authorization__get_code">
-                    <button class="" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModalAppealsNotAutorizationSms" data-whatever="@mdo">получить код</button>
-                </div>
+                
                 <div class="offcanvas-footer_privacy_policy">
                    <p> Нажимая кнопку "Получить код", Вы соглашаетесь с условиями <a href="">политики конфиденциальности</a>  </p>
                 </div>
@@ -715,8 +722,7 @@
       </div>
       </div>
 
-
-
+    <script src="./js/authorization_val.js"></script>
     <script src="/js/index.js"></script>
     <script src="/js/personal_cabinet.js"></script>
     <script

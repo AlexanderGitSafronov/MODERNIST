@@ -23,6 +23,7 @@
 .offcanvas-footer_privacy_policy p{
     font-size: 12px;
     font-weight: 300;
+    margin-top: 8px;
    
 }
 .number__confirmation_border {
@@ -99,4 +100,5 @@
 .appeals__answer_number .ordering__input input::placeholder {
     color: #999A81;
 }
+
 

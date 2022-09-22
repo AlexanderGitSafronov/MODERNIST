@@ -1286,7 +1286,7 @@ a {
   background-color: #fcf8f4;
   border-color: #bdbdbd;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+  
 }
 .form-group input:disabled,
 .form-group input:read-only {
@@ -2026,3 +2026,84 @@ a {
     padding: 37px 32px 50px 10px;
 }
 
+
+/* МОДЕЛЬНОЕ ОКНО ВАЛИДАЦИЯ */
+
+.form-group {
+    position: relative;
+}
+.form-group label {
+    position: absolute;
+    left: 20px;
+    top: 21px;
+    transition: top 0.5s;
+    font-family: "Onest", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(36, 22, 11, 0.5);
+    cursor: text;
+  }
+  .form-group input::placeholder {
+    color: transparent;
+  }
+  .form-group input:focus+label,
+  .form-group input:not(:placeholder-shown)+label {
+      top: 5px;
+      
+  }
+   .modal__form_group input {
+      padding-bottom: 4px;
+      padding-top: 30px;
+      font-weight: 400;
+      text-transform: capitalize;
+      margin-bottom: 0px;
+  }
+  
+  
+  
+  .modal__form_group .form-group input:focus,
+  .modal__form_group .form-group input:not(:placeholder-shown){
+      background-color: #fff;
+  }
+
+  input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+.modal__form_group .ordering__input_form {
+    
+    width: 100%;
+}
+.adress__express_two_form {
+    display: flex;
+    justify-content: space-between;
+}
+.four__input {
+    display: flex;
+    justify-content: space-between;
+}
+.modal__form_group form {
+    display: block;
+}
+/* .form__item_adress  .input__name:required {
+    border: 1px solid red;
+} */
+
+.form-group .red:invalid {
+    border: 1px solid #E28F7C;
+    background-color: #F9EDE9;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+.just-validate-error-label {
+    color: #E28F7C !important;
+    font-family: "Onest", sans-serif;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-left: 5px;
+}

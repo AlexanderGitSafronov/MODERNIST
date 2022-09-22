@@ -431,3 +431,87 @@ window.addEventListener('click', function(event){
 //   cartWrapper.insertAdjacentHTML('beforeend', cartItemHTML);
 //     }
 // });
+
+
+
+
+
+// ВАЛИДАЦИЯ ФОРМЫ
+// const formValidation = document.querySelector('.form-validation');
+// const btnAdress = formValidation.querySelector('.btn-addres');
+
+// const place = formValidation.querySelector('.form-place');
+// const cyty = formValidation.querySelector('.input__cyty');
+// const street = formValidation.querySelector('.input__street');
+// const home = formValidation.querySelector('.input__home');
+// const frame = formValidation.querySelector('.input__frame');
+// const entrance = formValidation.querySelector('.input__entrance');
+// const floor = document.querySelector('.input__floor');
+
+// const fields = formValidation.querySelectorAll('.field');
+
+// const inputAdress = document.querySelector('.form__item_adress');
+
+
+// const errors = formValidation.querySelector ('.error__text');
+
+// let errors = formValidation.querySelectorAll('.error');
+
+
+
+// formValidation.addEventListener('submit', function (event){
+//   event.preventDefault()
+
+
+  
+//   for (var i = 0; i < errors.length; i++) {
+//     fields.removeClass('error');
+//   }
+
+//   for(let i = 0; i < fields.length; i++){
+//     if(!fields[i].value){
+//       console.log('fields is blank', fields[i]);
+//       var error = document.createElement('div');
+//     error.className='error';
+//     error.style.color = 'red';
+//     error.innerHTML = 'Cannot be blank';
+//     formValidation[i].parentElement.insertBefore(error, fields[i]);
+
+//     }
+//   }
+
+  
+  // for(let i = 0; i < errors.length; i++) {
+  //   errors[i].remove();
+  // }
+
+ 
+  //   if(!place.value){
+      
+  //     let error = `<div class = 'error__text'>Введите</div>`
+  //     inputAdress.insertAdjacentHTML('beforeend', error);
+
+  //   }
+
+  
+
+
+  
+
+
+// })
+
+
+
+
+
+
+
+
+// $('document').ready(function() {
+//   $('#btn-addres').on('click', function() {
+//     $('input[required]').addClass('red');
+//   });
+// });
+
+
