@@ -44,7 +44,8 @@ a {
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
-    color: #fff;
+    color: #FCF8F4;
+    
   }
   .container__header {
     padding: 4.1vh 4vw;
@@ -441,6 +442,7 @@ a {
 .clear__all_basket_position {
     border-bottom: none;
     padding-top: 16px;
+
 }
 
 /* КОНЕЦ МЕНЮ КАТАЛОГ */
@@ -630,7 +632,7 @@ a {
   justify-content: space-between;
   padding: 0;
   position: relative;
-
+   
 }
 .product__click {
   position: relative;
@@ -788,6 +790,10 @@ a {
   url(/image/summer__sale.png);
   background-size: cover;
   background-repeat: no-repeat;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   
 }
 .summer__sale_border {
@@ -828,6 +834,7 @@ a {
     background-repeat: no-repeat;
     color: #fff;
     text-align: center;
+    height: 960px;
     
 }
 .choice__category_2 {
@@ -837,7 +844,7 @@ a {
   background-repeat: no-repeat;
   color: #fff;
     text-align: center;
-    
+    height: 960px;
 }
 .choice__category_3 {
     background: linear-gradient(rgba(36, 22, 11, 0.5), rgba(36, 22, 11, 0.5)),
@@ -846,7 +853,7 @@ a {
   background-repeat: no-repeat;
   color: #fff;
     text-align: center;
-    
+    height: 960px;
 }
 .choice__category_circle {
     display: flex;
@@ -886,6 +893,10 @@ a {
     url(/image/design_consultant.png);
     background-size: cover;
     background-repeat: no-repeat;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .design__consultant_border {
@@ -1304,7 +1315,7 @@ a {
     display: inline-flex;
     align-items: center;
     user-select: none;
-    margin-top: 20px;
+    
     font-family: "Onset", sans-serif;
 } 
 .custom-checkbox_modal+label::before {
@@ -1316,7 +1327,7 @@ a {
     flex-grow: 0;
     border: 1px solid #adb5bd;
     border-radius: 0.25em;
-    margin-right: 0.5em;
+    margin-right: 15px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 50% 50%;
@@ -1330,8 +1341,9 @@ a {
 .modal-title {
     font-size: 24px;
     font-weight: 700;
+    margin-bottom: 20px;
 }
- 
+
  .modal-header {
      border: none;
      
@@ -2035,7 +2047,8 @@ a {
 .form-group label {
     position: absolute;
     left: 20px;
-    top: 21px;
+    top: 50%;
+    transform: translateY(-50%);
     transition: top 0.5s;
     font-family: "Onest", sans-serif;
     font-size: 14px;

@@ -15,6 +15,7 @@
     
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/media.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
     <script src="./js/inputmask.min.js"></script>
@@ -701,7 +702,7 @@
               </div>
     
               <div class="images_parent">
-                <img class="item__image" src="./image/sofa_madrid.png" width="80%" alt="item" />
+                <img class="item__image item__image_opacity" src="./image/sofa_madrid.png" width="80%" alt="item" />
                 <img class="item__image2" src="./image/background_big.png" alt="item_2" />
               </div>
     
@@ -891,15 +892,18 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-12 summer__sale_border summer__sale_bg">
-            <div class="head__text text-center summer__sale_text">
-              <h1>ЛЕТНЯЯ РАСПРОДАЖА!</h1>
-              <p>Скидки до 25% на коллекцию мебели 2021 года</p>
+            <div>
+              <div class="head__text text-center summer__sale_text">
+                <h1>ЛЕТНЯЯ РАСПРОДАЖА!</h1>
+                <p>Скидки до 25% на коллекцию мебели 2021 года</p>
+              </div>
+              <div class="head__text-button text-center summer__sale_pad">
+                <form action="#" target="_blank">
+                  <button>смотреть товары</button>
+                </form>
+              </div>
             </div>
-            <div class="head__text-button text-center summer__sale_pad">
-              <form action="#" target="_blank">
-                <button>смотреть товары</button>
-              </form>
-            </div>
+            
           </div>
         </div>
       </div>
@@ -1050,7 +1054,7 @@
                   </div>
         
                   <div class="images_parent">
-                    <img class="item__image" src="./image/grey_puf.png" alt="item" />
+                    <img class="item__image item__image_opacity" src="./image/grey_puf.png" alt="item" />
                     <img class="item__image2" src="./image/background_big.png" alt="item_2" />
                   </div>
         
@@ -1648,15 +1652,18 @@
         <div class="container-fluid">
             <div class="row">
               <div class="col-12 design__consultant_border design__consultant_bg">
-                <div class="head__text text-center summer__sale_text">
-                  <h1>ДИЗАЙН КОНСУЛЬТАНТ</h1>
-                  <p>Поможем подобрать подходящую мебель для вашего интерьера </p>
+                <div>
+                  <div class="head__text text-center summer__sale_text">
+                    <h1>ДИЗАЙН КОНСУЛЬТАНТ</h1>
+                    <p>Поможем подобрать подходящую мебель для вашего интерьера </p>
+                  </div>
+                  <div class="head__text-button text-center summer__sale_pad">
+                    
+                      <button  class="btn-consultant" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" data-whatever="@mdo">отправить заявку</button>
+                    
+                  </div>
                 </div>
-                <div class="head__text-button text-center summer__sale_pad">
-                  
-                    <button  class="btn-consultant" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" data-whatever="@mdo">отправить заявку</button>
-                  
-                </div>
+                
               </div>
             </div>
           </div>
@@ -1698,8 +1705,8 @@
             </div>
             <div class="modal-footer">
               <div class="modal-btn ">
-                <!-- <button data-bs-toggle="modal" id="modal-button-send" data-bs-target="#exampleModal_2" data-whatever="@mdo">ОТПРАВИТЬ</button> -->
-                <button   id="modal-button-send" >ОТПРАВИТЬ</button>
+                <button data-bs-toggle="modal" id="modal-button-send" data-bs-target="#exampleModal_2" data-whatever="@mdo">ОТПРАВИТЬ</button>
+                <!-- <button   id="modal-button-send" >ОТПРАВИТЬ</button> -->
             </div>
             <div class="modal-footer_discription">
                 <p>Нажимая кнопку "Отправить", Вы соглашаетесь с условиями  </p>

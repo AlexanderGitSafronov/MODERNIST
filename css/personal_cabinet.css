@@ -237,4 +237,6 @@ bottom: -3px;
     display: block;
     
   }
-  
+  .ordering__input .ordering__input_form {
+      display: block;
+  }

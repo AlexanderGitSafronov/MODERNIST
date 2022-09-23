@@ -1,1 +1,511 @@
-@media 
+@media (max-width: 1680px) {
+    .head__text{
+        margin-top: 112px;
+    }
+    .head__text-button button{
+        margin-bottom: 97px;
+    }
+    
+  }
+  @media (max-width: 1600px) {
+    .head__text{
+        margin-top: 97px;
+    }
+    .head__text-button button{
+        margin-bottom: 100px;
+        margin-top: 40px;
+    }
+    .head__text p {
+        line-height: 12px;
+    }
+    
+  }
+@media (max-width: 1536px) {
+    .head__text{
+        margin-top: 75px;
+    }
+    .head__text-button button{
+        margin-bottom: 95px;
+    }
+    .circle {
+        width: 55px;
+        height: 55px;
+    }
+  }
+  @media (max-width: 1440px) {
+    /* Шапка */
+    .container__header {
+        padding: 2.1vh 4vw;
+    }
+    .header__bg {
+        padding: 2.1vh 4vw;
+        
+    }
+    /* Меню */
+    .offcanvas-body {
+        margin-top: 10px;
+    }
+    .cataloge__flex p {
+        
+        padding: 15px 0px;
+    }
+    .offcanvas-header {
+        padding: 25px 0px 25px 10px;
+    }
+    .offcanvas-header_pad {
+        padding: 23px 0px 23px 10px;
+      
+    }
+    .offcanvas-body_burger p {
+        margin: 0px;
+        padding: 10px 0px;
+        padding-left: 10px;
+        font-size: 18px;
+    }
+    /*Поисковик */
+
+    .offcanvas-body_search {
+        margin-top: 0;
+    
+    }
+    .offcanvas.offcanvas-top {
+        height: 175px;
+    }
+
+    /* Корзина */
+    .offcanvas.offcanvas-end {
+        width: 490px;
+    }
+    .offcanvas-header_right-pad {
+        padding-bottom: 14px;
+        padding-top: 14px;
+    }
+    .offcanvas-header_right {
+        padding-bottom: 14px;
+        padding-top: 14px;
+    }
+    .offcanvas-header_right h5 {
+        font-size: 31px; 
+    }
+    .container__basket {
+        padding: 18px 22px 23px;
+    }
+    .container__basket_content_discription {
+        margin-bottom: 0px;
+    }
+    .container__basket_content h5 {
+        font-size: 14px;
+        margin-bottom: 2px;
+    }
+    .container__basket_content p {
+        font-size: 12px;
+    }
+    .basket_count {
+        width: 25px;
+        height: 25px;
+    }
+    .basket_count::before {
+        width: 11px;
+    }
+    .container__basket_count_plus::after {
+        height: 11px;
+    }
+    .container__basket_price h5 {
+        font-size: 18px;
+    }
+    .container__basket_price a {
+        font-size: 12px;
+    }
+    .offcanvas-footer_right {
+        margin-top: 37px;
+        padding: 22px 26px 23px;
+    }
+    .offcanvas-footer_bootom {
+        margin-top: 24px;
+    }
+    .offcanvas-footer_bootom-btn button {
+        padding: 12px 32px; 
+        font-size: 14px;
+    }
+.offcanvas-footer_header h5 {
+    font-size: 25px;
+}
+.offcanvas-footer_bootom p {
+    font-size: 12px;
+}
+
+
+
+
+    
+    .head__text{
+        margin-top: 132px;
+    }
+    
+    h1 {
+        
+        line-height: 165px;
+    }
+    .head__text h1 {
+        font-size: 160px;
+        
+    }
+    .head__text p {
+        font-size: 18px;
+        line-height: 11px;
+        
+        
+    }
+    .head__text-button button{
+        margin-top: 30px;
+        margin-bottom: 99px;
+        padding: 15px 42px;
+    }
+    .item__title {
+        font-size: 25px;
+    }
+    .item {
+        height: 470px;
+    }
+    .item__midle_size {
+        height: 570px;
+    }
+    .item__big {
+        height: 1140px;
+        
+    }
+    .item__big_madrid {
+        height: 700px;
+    }
+    .choice__category h2 {
+        margin-top: 335px;
+        margin-bottom: 250px;
+        font-size: 60px;
+    }
+    .discription__sofa h3 {
+        font-size: 50px;
+    }
+    
+    .circle {
+        width: 45px;
+        height: 45px;
+    }
+    .choice__category_1 {
+        height: 800px;
+    }
+    .choice__category_2 {
+        height: 800px;
+    }
+    .choice__category_3 {
+        height: 800px;
+    }
+    .design__consultant_bg {
+        height: 600px;
+    }
+    .out__work_text h2 {
+        font-size: 70px;
+        margin-top: 140px;
+    }
+    .out__work_image {
+        margin-bottom: 130px;
+    }
+    p {
+        font-size: 18px;
+    }
+    .footer__media a {
+        margin: 80px 36px;
+    }
+    .footer a {
+        
+        font-size: 36px;
+        
+    }
+    .footer__text_small a {
+        font-size: 12px;
+    }
+    .footer__text_small {
+     
+        padding: 8px 10px;
+        
+    }
+  }
+  @media (max-width: 1366px) {
+    .head__text {
+        margin-top: 112px;
+    }
+    .head__text-button button {
+        margin-bottom: 94px;
+       
+        padding: 15px 42px;
+        font-size: 12px;
+        margin-top: 25px;
+    }
+  }
+  @media (max-width: 1280px) {
+    .head__text {
+        margin-top: 105px;
+    }
+    .head__text-button button {
+        margin-bottom: 85px;
+        padding: 15px 39px;
+        font-size: 12px;
+        margin-top: 25px;
+    }
+    h1 {
+        line-height: 140px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .head__text p {
+        line-height: 17px;
+        font-size: 16px;
+    }
+    /* Модальное окно */
+    .modal-dialog {
+        max-width: 400px;
+    }
+    .custom-checkbox_modal+label {
+        font-size: 12px;
+    }
+    .modal-title {
+        font-size: 20px;
+    }
+    .modal-footer_discription p {
+        font-size: 10px;
+        line-height: 0px;
+    }
+    .modal-footer_discription a {
+        font-size: 10px;
+    }
+    .modal-btn button {
+        padding: 14px 0px;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .modal-footer {
+        padding: 4% 8.8%;
+    }
+    .form-group {
+        margin-bottom: 15px;
+    }
+    .form-group input {
+        height: 45px;
+    }
+    .form-group input:focus+label, .form-group input:not(:placeholder-shown)+label {
+        top: 11px;
+    }
+    /*Корзина */
+    .offcanvas-header_right {
+        padding-bottom: 17px;
+        padding-top: 16px;
+    }
+    .offcanvas.offcanvas-end {
+        width: 410px;
+    }
+    .offcanvas-footer_bootom-btn button {
+        font-size: 12px;
+        padding: 12px 22px;
+    }
+    .offcanvas-footer_header h5 {
+        font-size: 22px;
+    }
+    /* Меню */
+    .offcanvas.offcanvas-start {
+        width: 380px;
+    }
+    .offcanvas-body_burger p {
+        font-size: 16px;
+    }
+    .catalog__close {
+        font-size: 16px;
+    }
+    .modal-btn_clear_basket button {
+        padding: 15px 35px;
+    }
+  }
+  @media (max-width: 1024px) {
+    h1 {
+        font-size: 120px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .head__text p {
+        font-size: 14px;
+    }
+    .head__text h1 {
+        font-size: 120px;
+        line-height: 110px;
+    }
+    .head__text {
+        margin-top: 75px;
+    }
+    .head__text-button button {
+        margin-top: 12px;
+    }
+    .head__text-button button {
+            margin-bottom: 62px;
+            padding: 12px 35px;
+            font-size: 10px;
+            margin-top: 20px;
+    }
+    .discription__sofa h3 {
+        font-size: 40px;
+    }
+    .item__title {
+        font-size: 20px;
+    }
+    .item {
+        height: 370px;
+    }
+    .item__midle_size {
+        height: 470px;
+    }
+    .item__big {
+        height: 940px;
+    }
+    .item__big_madrid {
+        height: 600px ;
+    }
+    .item__footer_title_choise p {
+        font-size: 14px;
+    }
+    .discription__sofa_two p {
+        font-size: 14px;
+    }
+    .item__footer p {
+        margin: 30px 0px 17px 0px;
+    }
+    .price {
+        font-size: 12px;
+    }
+    .silver__price {
+        margin-right: 12px;
+    }
+    .item__footer_price {
+        font-size: 12px;
+    }
+    .item__footer_title_choise img {
+        width: 20%;
+    }
+    .item__button button {
+        font-size: 10px;
+    }
+    .summer__sale_bg {
+        height: 500px;
+    }
+    .choice__category_1 {
+        height: 500px;
+    }
+    .choice__category_2 {
+        height: 500px;
+    }
+    .choice__category_3 {
+        height: 500px;
+    }
+    .choice__category h2 {
+        margin-top: 200px;
+        margin-bottom: 0px;
+        font-size: 40px;
+    }
+    .choice__category_circle {
+        margin-bottom: 75px;
+    }
+    .choice__category_wrapper svg {
+        width: 20px;
+        height: 20px;
+        stroke: #fff;
+    }
+    .design__consultant_bg {
+        height: 500px;
+    }
+    .out__work_text h2 {
+        font-size: 60px;
+        margin-top: 100px;
+  }
+  .footer__media a {
+    margin: 63px 30px;
+    }
+    .footer a {
+        font-size: 29px;
+    }
+    .footer__text_small a {
+        font-size: 10px;
+    }
+    .footer__text_small {
+     
+        padding: 8px 10px;
+        
+    }
+    .footer_text {
+        border: 1px solid #999a81;
+        padding: 6px 2px;
+    }
+    .footer__text_small {
+        padding: 6px 10px;
+    }
+
+    
+    /*Корзина */
+    .offcanvas-header_right {
+        padding-bottom: 17px;
+        padding-top: 16px;
+    }
+    .offcanvas.offcanvas-end {
+        width: 345px;
+    }
+    .offcanvas-footer_bootom-btn button {
+        font-size: 12px;
+        padding: 12px 22px;
+    }
+    .offcanvas-footer_header h5 {
+        font-size: 18px;
+    }
+    .offcanvas-footer_bootom p {
+        font-size: 9px;
+    }
+    .container__basket_content_number {
+        padding: 0px 8px;
+    }
+    .basket_count {
+        width: 20px;
+        height: 20px;
+    }
+    .basket_count::before {
+        width: 10px;
+    }
+    .container__basket_count_plus::after {
+        height: 10px;
+    }
+    .offcanvas-header_right h5 {
+        font-size: 26px;
+    }
+    .offcanvas-footer_bootom-btn button {
+        font-size: 10px;
+        padding: 12px 18px;
+    }
+    /* Меню */
+    .offcanvas.offcanvas-start {
+        width: 320px;
+    }
+    .offcanvas-body_burger p {
+        font-size: 14px;
+    }
+    .catalog__close {
+        font-size: 16px;
+    }
+    .container__basket_content h5 {
+        font-size: 12px;
+        margin-bottom: 2px;
+    }
+    .container__basket_price h5 {
+        font-size: 16px;
+    }
+    .container__basket_price a {
+        font-size: 10px;
+    }
+    .basket__number {
+        font-size: 12px;
+    }
+}

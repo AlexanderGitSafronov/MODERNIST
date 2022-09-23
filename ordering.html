@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="./css/goods_card.css">
     <link rel="stylesheet" href="./css/ordering.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
   </head>
   <body>
     <div class="section header__all_furniture goods_card">
@@ -490,6 +491,9 @@
       <!-- HEADER END -->
   
     <div class="container-fluid ">
+     <form action="" id="ordering__validation">
+
+      
         <div class="row ordering__content_flex" >
             <div class="col-1">
                 <div class="ordering__link_top">
@@ -502,7 +506,7 @@
                         <a href="">Назад</a>
                     </div>
                    </div>
-            </div>
+            </div>  
             <div class="col-5 ordering__border_right">
                 <div class="ordering">
                     <div class="buyer__data">
@@ -528,62 +532,112 @@
                         </div>
                         <div id='div1'>
                             <div class="ordering__input">
-                                <form action="">
-                                    <input type='text' name='name' class='name'  placeholder='Имя'/>
-                                    <input type='text' name='last_name' class='last__name'  placeholder='Фамилия'/>
-                                </form>
+                                <div class="ordering__input_form" action="">
+                                    <div class="form__item_adress">
+                                        <input type='text' required name='name__ordering' class='name__ordering' id="name__ordering" placeholder='Имя'/>
+                                        <label for="name__ordering">Имя</label>
+                                    </div>
+                                    <div class="form__item_adress">
+                                        <input type='text' required name='last__name_ordering' class='last__name_ordering' id="last__name_ordering" placeholder='Фамилия'/>
+                                        <label for="last__name_ordering">Фамилия</label>
+                                    </div>
+                                    
+                                    
+                                </div>
                             </div>
                             <div class="ordering__input">
-                                <form action="">
-                                    <input type='phone' name='phone' class='phone'  placeholder='Телефон'/>
-                                    <input type='email' name='email' class='email'  placeholder='E-mail'/>
-                                </form>
+                                <div class="ordering__input_form" action="">
+                                    <div class="form__item_adress">
+                                        <input type='nimber' required  name='phone__ordering' class='phone__ordering' id="phone__ordering"  placeholder='Телефон'/>
+                                        <label for="phone__ordering">Телефон</label>
+                                    </div>
+                                    <div class="form__item_adress">
+                                        <input type='email' required  name='email__ordering' class='email__ordering' id="email__ordering" placeholder='E-mail'/>
+                                        <label for="email__ordering">E-mail</label>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="way__to_get ready__legal_entity">
-                            <div class="way__to_get_discription">
-                                <h5>ООО “Фортуна” </h5>
-                            <p class="way__to_get_adress">350024, Краснодарский край, г Краснодар, Московская ул, д. 116/3, ИНН 2311035194, КПП 200101001, ОГРН 1220300029041</p>
-                            </div>
-                            <div class="way__to_get-btn">
-                                <button>Редактировать</button>
-                            </div>
+                            <form action="">
+                                <div class="way__to_get_discription">
+                                    <h5>ООО “Фортуна” </h5>
+                                <p class="way__to_get_adress">350024, Краснодарский край, г Краснодар, Московская ул, д. 116/3, ИНН 2311035194, КПП 200101001, ОГРН 1220300029041</p>
+                                </div>
+                                <div class="way__to_get-btn">
+                                    <button>Редактировать</button>
+                                </div>
+                            </form>
+                            
                         </div>
                         <div id='div2'>
                             <div class="ordering__input">
                                 <h4>Контакты представителя</h4>
                                <div class="how__name">
-                                <form action="">
-                                    <input type='text' name='how__name_input' class='how__name_input'  placeholder='Как к вам обращаться'/>
-                                </form>
+                                <div class="form__item_adress">
+                                    <input type='text' required name='how__name_input' class='how__name_entity' id="how__name_entity"  placeholder='Как к вам обращаться'/>
+                                    <label for="how__name_input">Как к вам обращаться</label>
+                                </div>
                                </div>
                             </div>
                             <div class="ordering__input">
-                                <form action="">
-                                    <input type='phone' name='phone' class='phone'  placeholder='Телефон'/>
-                                    <input type='email' name='email' class='email'  placeholder='E-mail'/>
-                                </form>
+                                <div class="ordering__input_form" action="">
+                                    <div class="form__item_adress">
+                                        <input type='phone' required name='phone__entity' class='phone__entity' id="phone__entity" placeholder='Телефон'/>
+                                        <label for="phone__entity">Телефон</label>
+                                    </div>
+                                    <div class="form__item_adress">
+                                        <input type='email' required name='email__entity' class='email__entity' id="email__entity"  placeholder='E-mail'/>
+                                        <label for="email__entity">E-mail</label>
+                                    </div>
+                                    
+                                    
+                                </div>
                             </div>
                             <div class="ordering__input">
                                 <h4>Контакты представителя</h4>
                                <div class="organization">
-                                <form class="organization__w" action="">
-                                    <input type='text' name='name__organization' class='name__organization'  placeholder='Название организации'/>
-                                </form>
-                                <form class="organization__w" action="">
-                                    <input type='text' name='name__seal' class='name__seal'  placeholder='Название (для печати)'/>
-                                </form>
+                                <div class="organization__w" action="">
+                                    <div class="form__item_adress">
+                                        <input type='text' required name='name__organization_entity' class='name__organization_entity' id="name__organization_entity" placeholder='Название организации'/>
+                                        <label for="name__organization_entity">Название организации</label>
+                                    </div>
+                                    
+                                </div>
+                                <div class="organization__w" action="">
+                                    <div class="form__item_adress">
+                                        <input type='text' required name='name__seal_entity' class='name__seal_entity' id="name__seal_entity"  placeholder='Название (для печати)'/>
+                                        <label for="name__seal_entity">Название (для печати)</label>
+                                    </div>
+                                    
+                                </div>
                                 <div class="ordering__input">
-                                    <form action="">
-                                        <input type='text' name='kpp' class='kpp'  placeholder='КПП'/>
-                                        <input type='text' name='ihh' class='ihh'  placeholder='ИНН'/>
-                                    </form>
-                                    <form class="organization__w" action="">
-                                        <input type='text' name='name__seal' class='name__seal'  placeholder='Юридический адрес'/>
-                                    </form>
-                                    <form class="organization__w" action="">
-                                        <input type='text' name='name__seal' class='name__seal'  placeholder='Почтовый адрес'/>
-                                    </form>
+                                    <div class="ordering__input_form" action="">
+                                        <div class="form__item_adress">
+                                            <input type='text' required name='kpp__entity' class='kpp__entity' id="kpp__entity"  placeholder='КПП'/>
+                                            <label for="kpp__entity">КПП</label>
+                                        </div>
+                                        <div class="form__item_adress">
+                                            <input type='text' required name='ihh__entity' class='ihh__entity' id="ihh__entity" placeholder='ИНН'/>
+                                            <label for="ihh__entity">ИНН</label>
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                    <div class="organization__w" action="">
+                                        <div class="form__item_adress">
+                                            <input type='text' required name='adress__entity' class='adress__entity' id="adress__entity"  placeholder='Юридический адрес'/>
+                                            <label for="adress__entity">Юридический адрес</label>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="organization__w" action="">
+                                        <div class="form__item_adress">
+                                            <input type='text' required name='mailing__address_entity' class='mailing__address_entity' id="mailing__address_entity" placeholder='Почтовый адрес'/>
+                                            <label for="mailing__address_entity">Почтовый адрес</label>
+                                        </div>
+                                        
+                                    </div>
                                 </div>
                                </div>
                             </div>
@@ -626,21 +680,82 @@
                             <div class="ordering__input">
                                 <h4>Адрес доставки</h4>
                                <div class="adress__express">
-                                <form class="" action="">
-                                    <input type='text' name='cyty' class='cyty'  placeholder='Город'/>
-                                    <input type='text' name='cyty' class='cyty'  placeholder='Улица'/>
-                                </form>
-                                <form class=" four__input" action="">
-                                    <input type='text' name='home' class='home'  placeholder='Дом'/>
-                                    <input type='text' name='frame' class='frame'  placeholder='Корпус'/>
-                                    <input type='text' name='entrance' class='entrance'  placeholder='Подъезд'/>
-                                    <input type='text' name='floor' class='floor'  placeholder='Этаж'/>
-                                </form>
+                                <div class=" ordering__input_form" action="">
+                                    <div class="form__item_adress">
+                                        <input type='text' required name='cyty__ordering' class='cyty__ordering' id="cyty__ordering" placeholder='Город'/>
+                                        <label for="cyty__ordering">Город</label>
+                                    </div>
+                                    <div class="form__item_adress">
+                                        <input type='text' required name='street__ordering' class='street__ordering' id="street__ordering"  placeholder='Улица'/>
+                                        <label for="street__ordering">Улица</label>
+                                    </div>
+                                    
+                                    
+                                </div>
+                                
+                                <div class=" four__input" action="">
+                                    <div class="from__errors">
+                                        <div class="form__item_adress">
+                                            <input type='number' required name='home__ordering' class='home__ordering'  id="home__ordering" placeholder='Дом'/>
+                                            <label for="home__ordering">Дом</label>
+                                            <div class="check__input">
+                                                <svg width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1 4.86427L5.39614 9.60386L14 1.00003" stroke="#999A81" stroke-width="1.5"/>
+                                                    </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="from__errors">
+                                        <div class="form__item_adress">
+                                            <input type='number' required name='frame__ordering' class='frame__ordering' id="frame__ordering" placeholder='Корпус'/>
+                                            <label for="frame__ordering">Корпус</label>
+                                            <div class="check__input">
+                                                <svg width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1 4.86427L5.39614 9.60386L14 1.00003" stroke="#999A81" stroke-width="1.5"/>
+                                                    </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="from__errors">
+                                        <div class="form__item_adress">
+                                            <input type='number' required name='entrance__ordering' class='entrance__ordering' id="entrance__ordering" placeholder='Подъезд'/>
+                                            <label for="entrance__ordering">Подъезд</label>
+                                            <div class="check__input">
+                                                <svg width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1 4.86427L5.39614 9.60386L14 1.00003" stroke="#999A81" stroke-width="1.5"/>
+                                                    </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="from__errors">
+                                        <div class="form__item_adress">
+                                            <input type='number' required name='floor__ordering' class='floor__ordering' id="floor__ordering" placeholder='Этаж'/>
+                                            <label for="floor__ordering">Этаж</label>
+                                            <div class="check__input">
+                                                <svg width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1 4.86427L5.39614 9.60386L14 1.00003" stroke="#999A81" stroke-width="1.5"/>
+                                                    </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    
+                                    
+                                    
+                                </div>
                                 <div class="ordering__input">
                                     
-                                    <form class="organization__w" action="">
-                                        <textarea name="" id="" cols="100" rows="3" placeholder="Комментарий"></textarea>
-                                    </form>
+                                    <div class="ordering__input_form organization__w" action="">
+                                        <div class="form__item_adress">
+                                            <textarea name="" id="" cols="100" rows="3" placeholder="Комментарий"></textarea>
+                                            <label for="form-place">Комментарий</label>
+                                        </div>
+                                        
+                                    </div>
                                     
                                 </div>
                                </div>
@@ -686,7 +801,7 @@
                                 <div class="transport__company_header">
                                     <h4>Выберите транспортную компанию</h4>
                                 </div>
-                                <form action="">
+                                <div action="">
                                     <div class="transport__company_content">
                                         <div class="transport__company_checkbox">
                                             
@@ -737,7 +852,7 @@
                                                 <p>3 100 ₽ </p>
                                             </div>
                                     </div>
-                                </form>
+                                </div>
                                 <div class="insurance">
                                     
                                         <div class="insurance__content">
@@ -767,7 +882,7 @@
                             </div>
                         </div>
                         <div class="ordering__checkbox">
-                            <form action="">
+                            <div action="">
                                 <label class="custom-radio">
                                     <input type="radio" checked name="online" value="indigo" onclick="showOnline();">
                                     <span class="label__radio">Онлайн</span>
@@ -784,7 +899,7 @@
                                     <input type="radio" name="online" value="indigo" onclick="cashOnDelivery();">
                                     <span class="label__radio">Наложенным платежом</span>
                                   </label>
-                            </form>
+                                </div>
                         </div>
                         <div class="way__to_get payment__method " id="show__online">
                             <div class="payment__method_header">
@@ -807,7 +922,10 @@
                                     <h6>от 16 765 ₽/мес.</h6>
                                 </div>
                                 <div class="installment__plan-btn">
-                                    <button>оформить</button>
+                                   
+                                        <button>оформить</button>
+                                    
+                                    
                                 </div>
                             </div>
                             <div class="way__to_get payment__method">
@@ -862,23 +980,39 @@
                             <div class="cash__on_delivery_content">
                                 <div class="lift">
                                     <div class="service__lift service__delivery">
-                                        <form action=""> 
+                                        <div action=""> 
                                             <input type="checkbox" class="custom-checkbox_modal" id="label_check_delivery" onclick="serviceDelivery();" >
                                             <label for="label_check_delivery" class="label_check_delivery">Получать будет другой человек</label>
-                                        </form>
+                                        </div>
                                     </div>
                                     <div class="cash__on_delivery_content_name" id="cash__on_delivery_content_name">
                                         <div class="ordering__input">
-                                            <form action="">
-                                                <input type='text' name='name' class='name'  placeholder='Имя'/>
-                                                <input type='text' name='last_name' class='last__name'  placeholder='Фамилия'/>
-                                            </form>
+                                            <div class="ordering__input_form" action="">
+                                                <div class="form__item_adress">
+                                                    <input type='text' required name='another__name_ordering' class='another__name_ordering' id="another__name_ordering"  placeholder='Имя'/>
+                                                    <label for="another__name_ordering">Имя</label>
+                                                </div>
+                                                <div class="form__item_adress">
+                                                    <input type='text' required name='another__last_name_ordering' class='another__last_name_ordering' id="another__last_name_ordering" placeholder='Фамилия'/>
+                                                    <label for="another__last_name_ordering">Фамилия</label>
+                                                </div>
+                                                
+                                                
+                                            </div>
                                         </div>
                                         <div class="ordering__input">
-                                            <form action="">
-                                                <input type='text' name='patronymic' class='patronymic'  placeholder='Отчество'/>
-                                                <input type='phone' name='phone' class='phone'  placeholder='Телефон'/>
-                                            </form>
+                                            <div class="ordering__input_form" action="">
+                                                <div class="form__item_adress">
+                                                    <input type='text'  required name='another__patronymic_ordering' class='another__patronymic_ordering' id="another__patronymic_ordering" placeholder='Отчество'/>
+                                                    <label for="another__patronymic_ordering">Отчество</label>
+                                                </div>
+                                                <div class="form__item_adress">
+                                                    <input type='phone' required name='another__phone_ordering' class='another__phone_ordering' id="another__phone_ordering" placeholder='Телефон'/>
+                                                    <label for="another__phone_ordering">Телефон</label>
+                                                </div>
+                                                
+                                                
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1025,7 +1159,7 @@
                             <div class="offcanvas-footer_bootom">
                               <div class="offcanvas-footer_bootom-btn">
                                   <div class="two__button">
-                                      <button>подтвердить заказ</button>
+                                      <button id="ordering__button">подтвердить заказ</button>
                                   </div>
                                   <div class="offcanvas-footer_privacy_policy">
                                       <p>Подтверждая заказ, Вы соглашаетесь с условиями <a href="">политики конфиденциальности</a>  </p>
@@ -1038,6 +1172,7 @@
                 </div>
             </div>
         </div>
+    </form>    
     </div>
 
 
@@ -1183,6 +1318,7 @@
   </div>
 
 
+    <script src="./js/ordering_val.js"></script>
     <script src="/js/index.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"

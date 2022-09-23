@@ -172,7 +172,7 @@ button {
       text-transform: capitalize;
   }
 
-  .ordering__input form {
+  .ordering__input .ordering__input_form {
       display: flex;
       justify-content: space-between;
   }
@@ -500,3 +500,108 @@ width: 150px;
     text-transform: inherit;
     background-color: #FEF7F0;
 }
+
+
+
+
+
+.form__item_adress {
+    position: relative;
+}
+.form__item_adress label {
+    position: absolute;
+    left: 15px;
+    top: 21px;
+    transition: top 0.5s;
+    font-family: "Onest", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: rgba(36, 22, 11, 0.5);
+    cursor: text;
+  }
+  .form__item_adress input::placeholder {
+    color: transparent;
+  }
+  .form__item_adress textarea::placeholder {
+    color: transparent;
+  }
+  .form__item_adress input:focus+label,
+  .form__item_adress input:not(:placeholder-shown)+label,
+  .form__item_adress textarea:focus+label,
+  .form__item_adress textarea:not(:placeholder-shown)+label  {
+      top: 5px;
+      
+  }
+  .form__item_adress textarea {
+      width: 100%;
+  }
+   .ordering__input input {
+      padding-bottom: 4px;
+      padding-top: 30px;
+      font-weight: 400;
+      text-transform: capitalize;
+      margin-bottom: 0px;
+  }
+  
+  
+  
+  .ordering__input .form__item_adress input:focus,
+  .ordering__input .form__item_adress input:not(:placeholder-shown),
+  .ordering__input .form__item_adress textarea:focus,
+  .ordering__input .form__item_adress textarea:not(:placeholder-shown){
+      background-color: #fff;
+  }
+
+  input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+.ordering__input .ordering__input_form {
+    
+    width: 100%;
+}
+.adress__express_two_form {
+    display: flex;
+    justify-content: space-between;
+}
+.four__input {
+    display: flex;
+    justify-content: space-between;
+}
+.ordering__input form {
+    display: block;
+}
+/* .form__item_adress  .input__name:required {
+    border: 1px solid red;
+} */
+
+.form__item_adress .red:invalid {
+    border: 1px solid #E28F7C;
+    background-color: #F9EDE9;
+}
+
+
+.form__item_adress {
+    margin-bottom: 20px;
+}
+.just-validate-error-label {
+    color: #E28F7C !important;
+    font-family: "Onest", sans-serif;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.check__input  {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: none;
+}
+.form__item_adress input:valid + label + .check__input{
+    display: block;
+    
+  }
+  
