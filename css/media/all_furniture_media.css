@@ -1,233 +1,96 @@
 @media (max-width: 1680px) {
-    .head__text{
-        margin-top: 112px;
+    .head__tex_furniture {
+        margin-top: 106px;
+        margin-bottom: 228px;
     }
-    .head__text-button button{
-        margin-bottom: 97px;
+    .head__text h1 {
+        font-size: 175px;
     }
     
   }
   @media (max-width: 1600px) {
-    .head__text{
-        margin-top: 97px;
+    .div__plug_header {
+        height: 117px;
     }
-    .head__text-button button{
-        margin-bottom: 100px;
-        margin-top: 40px;
+    .head__tex_furniture {
+        margin-top: 106px;
+        margin-bottom: 199px;
     }
-    .head__text p {
-        line-height: 12px;
+    .menu__all_furniture-header-bg {
+        top: 84px;
     }
-    
+    .head__text h1 {
+        font-size: 170px;
+    }
   }
 @media (max-width: 1536px) {
-    .head__text{
-        margin-top: 75px;
+    .div__plug_header {
+        height: 114px;
     }
-    .head__text-button button{
-        margin-bottom: 95px;
+    .head__tex_furniture {
+        margin-top: 106px;
+        margin-bottom: 175px;
     }
-    .circle {
-        width: 55px;
-        height: 55px;
+    .menu__all_furniture-header-bg {
+        top: 76px;
     }
+    .head__text h1 {
+        font-size: 155px;
+    }
+    .summer__sale_text p {
+        color: #fff;
+        font-size: 18px;
+    }
+   
   }
   @media (max-width: 1440px) {
     /* Шапка */
-    .container__header {
-        padding: 2.1vh 4vw;
+    .container__header_all {
+        padding: 2.5vh 4vw;
     }
-    .header__bg {
-        padding: 2.1vh 4vw;
-        
+    .container__header_all_pad {
+      padding: 1.5vh 4vw;
     }
-    /* Меню */
-    .offcanvas-body {
-        margin-top: 10px;
-    }
-    .cataloge__flex p {
-        
-        padding: 15px 0px;
-    }
-    .offcanvas-header {
-        padding: 25px 0px 25px 10px;
-    }
-    .offcanvas-header_pad {
-        padding: 23px 0px 23px 10px;
-      
-    }
-    .offcanvas-body_burger p {
-        margin: 0px;
-        padding: 10px 0px;
-        padding-left: 10px;
-        font-size: 18px;
-    }
-    /*Поисковик */
-
-    .offcanvas-body_search {
-        margin-top: 0;
-    
-    }
-    .offcanvas.offcanvas-top {
-        height: 175px;
-    }
-
-    /* Корзина */
-    .offcanvas.offcanvas-end {
-        width: 490px;
-    }
-    .offcanvas-header_right-pad {
-        padding-bottom: 14px;
-        padding-top: 14px;
+    .menu__all_furniture-header-bg {
+        top: 40px;
     }
     .offcanvas-header_right {
-        padding-bottom: 14px;
-        padding-top: 14px;
+        padding-bottom: 18px;
+        padding-top: 23px;
     }
-    .offcanvas-header_right h5 {
-        font-size: 31px; 
+    .offcanvas-header_right-pad {
+        padding-bottom: 10px;
+        padding-top: 12px;
     }
-    .container__basket {
-        padding: 18px 22px 23px;
+    .offcanvas-header_pad {
+        padding: 20px 0px 19px 10px;
     }
-    .container__basket_content_discription {
-        margin-bottom: 0px;
+    .offcanvas-header {
+        padding: 30px 0px 27px 10px;
     }
-    .container__basket_content h5 {
-        font-size: 14px;
-        margin-bottom: 2px;
+    .div__plug_header {
+        height: 75px;
     }
-    .container__basket_content p {
-        font-size: 12px;
-    }
-    .basket_count {
-        width: 25px;
-        height: 25px;
-    }
-    .basket_count::before {
-        width: 11px;
-    }
-    .container__basket_count_plus::after {
-        height: 11px;
-    }
-    .container__basket_price h5 {
-        font-size: 18px;
-    }
-    .container__basket_price a {
-        font-size: 12px;
-    }
-    .offcanvas-footer_right {
-        margin-top: 37px;
-        padding: 22px 26px 23px;
-    }
-    .offcanvas-footer_bootom {
-        margin-top: 24px;
-    }
-    .offcanvas-footer_bootom-btn button {
-        padding: 12px 32px; 
-        font-size: 14px;
-    }
-.offcanvas-footer_header h5 {
-    font-size: 25px;
-}
-.offcanvas-footer_bootom p {
-    font-size: 12px;
-}
-
-
-
-
-    
-    .head__text{
-        margin-top: 132px;
-    }
-    
-    h1 {
-        
-        line-height: 165px;
+    .head__tex_furniture h1 {
+        font-size: 165px;
     }
     .head__text h1 {
-        font-size: 160px;
-        
+        font-size: 140px;
     }
-    .head__text p {
-        font-size: 18px;
-        line-height: 11px;
-        
-        
+    .menu__all_furniture-header ul li {
+        font-size: 20px;
     }
-    .head__text-button button{
-        margin-top: 30px;
-        margin-bottom: 99px;
-        padding: 15px 42px;
+    .offcanvas-footer_right {
+        margin-top: 219px;
+        padding: 22px 26px 23px;
     }
-    .item__title {
-        font-size: 25px;
+    .menu__all_furniture-header ul {
+        margin-bottom: 10px;
     }
-    .item {
-        height: 470px;
+    .menu__all_furniture ul li {
+        font-size: 28px;
     }
-    .item__midle_size {
-        height: 570px;
-    }
-    .item__big {
-        height: 1140px;
-        
-    }
-    .item__big_madrid {
-        height: 700px;
-    }
-    .choice__category h2 {
-        margin-top: 335px;
-        margin-bottom: 250px;
-        font-size: 60px;
-    }
-    .discription__sofa h3 {
-        font-size: 50px;
-    }
-    
-    .circle {
-        width: 45px;
-        height: 45px;
-    }
-    .choice__category_1 {
-        height: 800px;
-    }
-    .choice__category_2 {
-        height: 800px;
-    }
-    .choice__category_3 {
-        height: 800px;
-    }
-    .design__consultant_bg {
-        height: 600px;
-    }
-    .out__work_text h2 {
-        font-size: 70px;
-        margin-top: 140px;
-    }
-    .out__work_image {
-        margin-bottom: 130px;
-    }
-    p {
-        font-size: 18px;
-    }
-    .footer__media a {
-        margin: 80px 36px;
-    }
-    .footer a {
-        
-        font-size: 36px;
-        
-    }
-    .footer__text_small a {
-        font-size: 12px;
-    }
-    .footer__text_small {
-     
-        padding: 8px 10px;
-        
-    }
+
   }
   @media (max-width: 1366px) {
     .head__text {
@@ -507,5 +370,199 @@
     }
     .basket__number {
         font-size: 12px;
+    }
+}
+@media (max-width: 800px) {
+    .head__text h1 {
+        font-size: 95px;
+        line-height: 80px;
+    }
+    .head__text p {
+        font-size: 10px;
+    }
+
+    .head__text {
+        margin-top: 32px;
+    }
+    .head__text-button button {
+        margin-bottom: 52px;
+        padding: 9px 25px;
+        font-size: 8px;
+        margin-top: 5px;
+    }
+    .discription__sofa h3 {
+        margin-top: 25px;
+        font-size: 30px;
+    }
+    .discription__sofa_two p {
+        line-height: 20px;
+        width: 70%;
+        margin-bottom: 18px;
+    }
+    .discription__sofa_two p {
+        font-size: 10px;
+    }
+    .button_products button {
+        font-size: 10px;
+    }
+    .item__title {
+        font-size: 15px;
+    }
+    .like svg {
+        width: 20px;
+    }
+    .container__header img{
+        width: 80%;
+    }
+    .catalode, .basket__true, .quantity__cart {
+        
+        font-size: 15px;
+        
+    }
+    .menu__burger_btn span, .menu__burger_btn span::before, .menu__burger_btn span::after {
+        position: absolute;
+        margin-top: -1px;
+        margin-left: -9px;
+        top: 50%;
+        left: 25%;
+        width: 35px;
+        height: 2px;
+        background-color: #fff;
+    }
+    .img_search svg{
+        width: 20px;
+    }
+    .img_search {
+        margin-right: 28px;
+    }
+    .circle {
+        width: 40px;
+        height: 40px;
+    }
+    .design__consultant_bg button {
+        margin-bottom: 0;
+    }
+    .out__work_text h2 {
+        font-size: 50px;
+        
+    }
+    .out__work_text p {
+        font-size: 12px;
+    }
+    .footer__footer {
+        
+        margin-bottom: 20px;
+    }
+    .footer__media a {
+        margin: 53px 20px;
+    }
+    .footer__media .first__footer_svg svg{
+        width: 10px;
+    }
+    .footer__media .second__footer_svg svg {
+        width: 17px;
+    }
+    .footer__media .third__footer_svg svg {
+        width: 21px;
+    }
+    .footer a {
+        font-size: 22px;
+    }
+    .footer__text_small a {
+        font-size: 9px;
+        font-weight: 400;
+    }
+    .footer__text_small {
+        padding: 4px 10px;
+    }
+    .item {
+        height: 290px;
+    }
+    .item__midle_size {
+        height: 380px;
+    }
+    .item__big {
+        height: 760px;
+    }
+    .item__big_madrid {
+        height: 450px;
+    }
+    .item__button button {
+        font-size: 8px;
+        padding: 10px 28px;
+    }
+    .item__button_big button{
+        padding: 10px 60px;
+        
+      }
+
+    .item__footer_title p {
+        font-size: 12px;
+    }
+    .item__footer_price {
+        font-size: 9px;
+    }
+    .item__footer {
+        padding: 0px 12px;
+    }
+    .item__footer p {
+        margin: 15px 0px 13px 0px;
+    }
+    .product__pad {
+        padding: 0 14px;
+    }
+    .item__header {
+        padding: 20px 16px;
+        
+    }
+    .silver__price {
+        margin-right: 8px;
+    }
+    .summer__sale_bg {
+        height: 400px;
+    }
+    .design__consultant_bg {
+        height: 400px;
+    }
+    .out__work_image {
+        margin-bottom: 60px;
+    }
+    .out__work_text h2 {
+        margin-top: 60px;
+    }
+    .search__menu input {
+        width: 380px;
+        font-size: 12px;
+        height: 35px;
+    }
+    .search__menu button {
+        font-size: 12px;
+    }
+    /* Меню */
+    .offcanvas-body_burger p {
+        font-size: 12px;
+    }
+    .offcanvas.offcanvas-start {
+        width: 290px;
+    }
+    .offcanvas.offcanvas-end {
+        width: 300px;
+    }
+    .offcanvas-footer_bootom-btn button {
+        font-size: 8px;
+        padding: 10px 16px;
+    }
+    .basket_count {
+        width: 17px;
+        height: 17px;
+    }
+    .basket_count::before {
+        width: 8px;
+    }
+    .container__basket_count_plus::after {
+        height: 8px;
+    }
+    .offcanvas-header_pad {
+        padding: 30px 0px 23px 10px;
     }
 }

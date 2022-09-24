@@ -491,7 +491,7 @@
       <!-- HEADER END -->
   
     <div class="container-fluid ">
-     <form action="" id="ordering__validation">
+     <form action="" id="ordering__validation" onclick="approveOrder()">
 
       
         <div class="row ordering__content_flex" >
@@ -530,11 +530,11 @@
                                   </label>
                             </form>
                         </div>
-                        <div id='div1'>
+                        <div id='div1' style="display: block">
                             <div class="ordering__input">
                                 <div class="ordering__input_form" action="">
                                     <div class="form__item_adress">
-                                        <input type='text' required name='name__ordering' class='name__ordering' id="name__ordering" placeholder='Имя'/>
+                                        <input type='text'  required name='name__ordering' class='name__ordering' id="name__ordering" placeholder='Имя'/>
                                         <label for="name__ordering">Имя</label>
                                     </div>
                                     <div class="form__item_adress">
@@ -682,11 +682,11 @@
                                <div class="adress__express">
                                 <div class=" ordering__input_form" action="">
                                     <div class="form__item_adress">
-                                        <input type='text' required name='cyty__ordering' class='cyty__ordering' id="cyty__ordering" placeholder='Город'/>
+                                        <input type='text'  name='cyty__ordering' class='cyty__ordering' id="cyty__ordering" placeholder='Город'/>
                                         <label for="cyty__ordering">Город</label>
                                     </div>
                                     <div class="form__item_adress">
-                                        <input type='text' required name='street__ordering' class='street__ordering' id="street__ordering"  placeholder='Улица'/>
+                                        <input type='text' name='street__ordering' class='street__ordering' id="street__ordering"  placeholder='Улица'/>
                                         <label for="street__ordering">Улица</label>
                                     </div>
                                     
@@ -696,7 +696,7 @@
                                 <div class=" four__input" action="">
                                     <div class="from__errors">
                                         <div class="form__item_adress">
-                                            <input type='number' required name='home__ordering' class='home__ordering'  id="home__ordering" placeholder='Дом'/>
+                                            <input type='number'  name='home__ordering' class='home__ordering'  id="home__ordering" placeholder='Дом'/>
                                             <label for="home__ordering">Дом</label>
                                             <div class="check__input">
                                                 <svg width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -708,7 +708,7 @@
                                     
                                     <div class="from__errors">
                                         <div class="form__item_adress">
-                                            <input type='number' required name='frame__ordering' class='frame__ordering' id="frame__ordering" placeholder='Корпус'/>
+                                            <input type='number'  name='frame__ordering' class='frame__ordering' id="frame__ordering" placeholder='Корпус'/>
                                             <label for="frame__ordering">Корпус</label>
                                             <div class="check__input">
                                                 <svg width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -720,7 +720,7 @@
                                     
                                     <div class="from__errors">
                                         <div class="form__item_adress">
-                                            <input type='number' required name='entrance__ordering' class='entrance__ordering' id="entrance__ordering" placeholder='Подъезд'/>
+                                            <input type='number'  name='entrance__ordering' class='entrance__ordering' id="entrance__ordering" placeholder='Подъезд'/>
                                             <label for="entrance__ordering">Подъезд</label>
                                             <div class="check__input">
                                                 <svg width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -732,7 +732,7 @@
                                     
                                     <div class="from__errors">
                                         <div class="form__item_adress">
-                                            <input type='number' required name='floor__ordering' class='floor__ordering' id="floor__ordering" placeholder='Этаж'/>
+                                            <input type='number' name='floor__ordering' class='floor__ordering' id="floor__ordering" placeholder='Этаж'/>
                                             <label for="floor__ordering">Этаж</label>
                                             <div class="check__input">
                                                 <svg width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -985,15 +985,15 @@
                                             <label for="label_check_delivery" class="label_check_delivery">Получать будет другой человек</label>
                                         </div>
                                     </div>
-                                    <div class="cash__on_delivery_content_name" id="cash__on_delivery_content_name">
+                                    <div class="cash__on_delivery_content_name" id="cash__on_delivery_content_name" >
                                         <div class="ordering__input">
                                             <div class="ordering__input_form" action="">
                                                 <div class="form__item_adress">
-                                                    <input type='text' required name='another__name_ordering' class='another__name_ordering' id="another__name_ordering"  placeholder='Имя'/>
+                                                    <input type='text'  name='another__name_ordering' class='another__name_ordering' id="another__name_ordering"  placeholder='Имя'/>
                                                     <label for="another__name_ordering">Имя</label>
                                                 </div>
                                                 <div class="form__item_adress">
-                                                    <input type='text' required name='another__last_name_ordering' class='another__last_name_ordering' id="another__last_name_ordering" placeholder='Фамилия'/>
+                                                    <input type='text'  name='another__last_name_ordering' class='another__last_name_ordering' id="another__last_name_ordering" placeholder='Фамилия'/>
                                                     <label for="another__last_name_ordering">Фамилия</label>
                                                 </div>
                                                 
@@ -1003,11 +1003,11 @@
                                         <div class="ordering__input">
                                             <div class="ordering__input_form" action="">
                                                 <div class="form__item_adress">
-                                                    <input type='text'  required name='another__patronymic_ordering' class='another__patronymic_ordering' id="another__patronymic_ordering" placeholder='Отчество'/>
+                                                    <input type='text'   name='another__patronymic_ordering' class='another__patronymic_ordering' id="another__patronymic_ordering" placeholder='Отчество'/>
                                                     <label for="another__patronymic_ordering">Отчество</label>
                                                 </div>
                                                 <div class="form__item_adress">
-                                                    <input type='phone' required name='another__phone_ordering' class='another__phone_ordering' id="another__phone_ordering" placeholder='Телефон'/>
+                                                    <input type='phone'  name='another__phone_ordering' class='another__phone_ordering' id="another__phone_ordering" placeholder='Телефон'/>
                                                     <label for="another__phone_ordering">Телефон</label>
                                                 </div>
                                                 

@@ -220,6 +220,7 @@ a {
 }
 .offcanvas-body_right {
     overflow: scroll;
+    flex: 1;
 }
 .offcanvas-header_right-pad {
     padding-bottom: 24px;
@@ -348,14 +349,16 @@ a {
 }
 
 .offcanvas-footer_right {
-    margin-top: 37px;
+    margin-top: 64px;
     padding: 32px 32px 35px;
     border-top: 1px solid #24160B;
     background-color: #fef7f0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 }
+
 .offcanvas-footer_header h5{
     font-size: 28px;
     font-weight: 700;
@@ -523,6 +526,7 @@ a {
     font-size: 200px;
     text-transform: uppercase;
     font-weight: 700;
+    color: #fcf8f4;
   }
 .head__text p {
   font-size: 20px;
@@ -901,6 +905,7 @@ a {
 
 .design__consultant_border {
     border: 1px solid #999a81;
+   
 }
 /* НАША РАБОТА */
 
@@ -1238,7 +1243,6 @@ a {
 } */
   .item__button_big button{
     padding: 17px 120px;
-
   }
   /* КОНЕЦ БЛОКА ПРОДУКТА С НАВИДЕНИЕМ ВАДО */
 
@@ -2061,11 +2065,11 @@ a {
   }
   .form-group input:focus+label,
   .form-group input:not(:placeholder-shown)+label {
-      top: 5px;
+      top: 10px;
       
   }
    .modal__form_group input {
-      padding-bottom: 4px;
+      padding-bottom: 10px;
       padding-top: 30px;
       font-weight: 400;
       text-transform: capitalize;

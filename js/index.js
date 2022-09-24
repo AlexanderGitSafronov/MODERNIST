@@ -229,61 +229,7 @@ $(document).ready(function(){
 
 
 
-// СТРАНИЦА ЗАКАЗОВ
 
-function show1(){
-    document.getElementById('div1').style.display ='block';
-    document.getElementById('div2').style.display ='none';
-    document.getElementById('div3').style.display = 'block';
-  }
-  function show2(){
-    document.getElementById('div1').style.display = 'none';
-    document.getElementById('div3').style.display = 'none';
-    document.getElementById('div2').style.display ='block';
-  }
-
-  function show3(){
-    document.getElementById('way__to_get').style.display ='block';
-    document.getElementById('way__to_get_two').style.display ='none';
-    
-  }
-  function show4(){
-    document.getElementById('way__to_get').style.display = 'none';
-    document.getElementById('way__to_get_two').style.display ='block';
-  }
-  function showOnline(){
-    document.getElementById('show__online').style.display ='block';
-    document.getElementById('upon__receipt').style.display = 'none';
-    document.getElementById('installment__plan').style.display = 'none';
-    document.getElementById('cash__on_delivery').style.display ='none';
-  }
-  function showInstallmentPlan(){
-    document.getElementById('installment__plan').style.display = 'block';
-    document.getElementById('show__online').style.display ='none';
-    document.getElementById('upon__receipt').style.display = 'none';
-    document.getElementById('cash__on_delivery').style.display ='none';
-  }
-  function uponReceipt(){
-    document.getElementById('upon__receipt').style.display = 'block';
-    document.getElementById('installment__plan').style.display = 'none';
-    document.getElementById('show__online').style.display ='none';
-    document.getElementById('cash__on_delivery').style.display ='none';
-  }
-  function cashOnDelivery(){
-    document.getElementById('cash__on_delivery').style.display = 'block';
-    document.getElementById('installment__plan').style.display = 'none';
-    document.getElementById('show__online').style.display ='none';
-    document.getElementById('upon__receipt').style.display = 'none';
-  }
-  function serviceDelivery(){
-      if(document.getElementById('cash__on_delivery_content_name').style.display === 'block'){
-        document.getElementById('cash__on_delivery_content_name').style.display = 'none';
-      } else {
-        document.getElementById('cash__on_delivery_content_name').style.display = 'block';
-      }
-    
-    
-  }
   
   
 

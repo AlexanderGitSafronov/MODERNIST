@@ -605,3 +605,9 @@ width: 150px;
     
   }
   
+   .form__item_adress .email__ordering {
+        text-transform: inherit;
+    }
+    .form__item_adress .email__entity {
+        text-transform: inherit;
+    }
