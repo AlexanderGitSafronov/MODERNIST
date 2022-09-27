@@ -65,9 +65,7 @@
     .offcanvas-header_pad {
         padding: 20px 0px 19px 10px;
     }
-    .offcanvas-header {
-        padding: 30px 0px 27px 10px;
-    }
+    
     .div__plug_header {
         height: 75px;
     }
@@ -80,489 +78,170 @@
     .menu__all_furniture-header ul li {
         font-size: 20px;
     }
-    .offcanvas-footer_right {
-        margin-top: 219px;
-        padding: 22px 26px 23px;
-    }
+    
     .menu__all_furniture-header ul {
         margin-bottom: 10px;
     }
     .menu__all_furniture ul li {
         font-size: 28px;
     }
+    .footer__footer {
+        
+        margin-bottom: 0px;
+    }
 
   }
   @media (max-width: 1366px) {
-    .head__text {
-        margin-top: 112px;
-    }
-    .head__text-button button {
-        margin-bottom: 94px;
-       
-        padding: 15px 42px;
-        font-size: 12px;
-        margin-top: 25px;
+   
+    .head__tex_furniture {
+        margin-top: 106px;
+        margin-bottom: 153px;
     }
   }
   @media (max-width: 1280px) {
-    .head__text {
-        margin-top: 105px;
+    .head__tex_furniture h1 {
+        font-size: 140px;
     }
-    .head__text-button button {
-        margin-bottom: 85px;
-        padding: 15px 39px;
-        font-size: 12px;
-        margin-top: 25px;
+    .head__tex_furniture {
+        margin-top: 100px;
+        margin-bottom: 153px;
     }
-    h1 {
-        line-height: 140px;
+    .summer__sale_text {
+        margin-top: 0;
     }
-    p {
-        font-size: 14px;
+    .summer__sale_text h1 {
+        font-size: 125px;
+        line-height: 150px;
     }
-    .head__text p {
-        line-height: 17px;
-        font-size: 16px;
+    .summer__sale_pad button {
+        margin-bottom: 0;
     }
-    /* Модальное окно */
-    .modal-dialog {
-        max-width: 400px;
+    .design__decige_bg {
+        height: 500px;
     }
-    .custom-checkbox_modal+label {
-        font-size: 12px;
+    .menu__all_furniture {
+        margin-top: 28px;
     }
-    .modal-title {
-        font-size: 20px;
+    .menu__all_furniture ul li {
+        font-size: 24px;
     }
-    .modal-footer_discription p {
-        font-size: 10px;
-        line-height: 0px;
-    }
-    .modal-footer_discription a {
-        font-size: 10px;
-    }
-    .modal-btn button {
-        padding: 14px 0px;
-        font-size: 12px;
-        margin-bottom: 10px;
-    }
-    .modal-footer {
-        padding: 4% 8.8%;
-    }
-    .form-group {
-        margin-bottom: 15px;
-    }
-    .form-group input {
-        height: 45px;
-    }
-    .form-group input:focus+label, .form-group input:not(:placeholder-shown)+label {
-        top: 11px;
-    }
-    /*Корзина */
-    .offcanvas-header_right {
-        padding-bottom: 17px;
-        padding-top: 16px;
-    }
-    .offcanvas.offcanvas-end {
-        width: 410px;
-    }
-    .offcanvas-footer_bootom-btn button {
-        font-size: 12px;
-        padding: 12px 22px;
-    }
-    .offcanvas-footer_header h5 {
-        font-size: 22px;
-    }
-    /* Меню */
-    .offcanvas.offcanvas-start {
-        width: 380px;
-    }
-    .offcanvas-body_burger p {
-        font-size: 16px;
-    }
-    .catalog__close {
-        font-size: 16px;
-    }
-    .modal-btn_clear_basket button {
-        padding: 15px 35px;
+   
+    .offcanvas-header_pad {
+        padding: 20px 0px 20px 10px;
     }
   }
   @media (max-width: 1024px) {
-    h1 {
-        font-size: 120px;
-    }
-    p {
-        font-size: 14px;
-    }
-    .head__text p {
-        font-size: 14px;
-    }
-    .head__text h1 {
-        font-size: 120px;
-        line-height: 110px;
-    }
-    .head__text {
-        margin-top: 75px;
-    }
-    .head__text-button button {
-        margin-top: 12px;
-    }
-    .head__text-button button {
-            margin-bottom: 62px;
-            padding: 12px 35px;
-            font-size: 10px;
-            margin-top: 20px;
-    }
-    .discription__sofa h3 {
-        font-size: 40px;
-    }
-    .item__title {
-        font-size: 20px;
-    }
-    .item {
-        height: 370px;
-    }
-    .item__midle_size {
-        height: 470px;
-    }
-    .item__big {
-        height: 940px;
-    }
-    .item__big_madrid {
-        height: 600px ;
-    }
-    .item__footer_title_choise p {
-        font-size: 14px;
-    }
-    .discription__sofa_two p {
-        font-size: 14px;
-    }
-    .item__footer p {
-        margin: 30px 0px 17px 0px;
-    }
-    .price {
-        font-size: 12px;
-    }
-    .silver__price {
-        margin-right: 12px;
-    }
-    .item__footer_price {
-        font-size: 12px;
-    }
-    .item__footer_title_choise img {
-        width: 20%;
-    }
-    .item__button button {
-        font-size: 10px;
-    }
-    .summer__sale_bg {
-        height: 500px;
-    }
-    .choice__category_1 {
-        height: 500px;
-    }
-    .choice__category_2 {
-        height: 500px;
-    }
-    .choice__category_3 {
-        height: 500px;
-    }
-    .choice__category h2 {
-        margin-top: 200px;
-        margin-bottom: 0px;
-        font-size: 40px;
-    }
-    .choice__category_circle {
-        margin-bottom: 75px;
-    }
-    .choice__category_wrapper svg {
-        width: 20px;
-        height: 20px;
-        stroke: #fff;
-    }
-    .design__consultant_bg {
-        height: 500px;
-    }
-    .out__work_text h2 {
-        font-size: 60px;
-        margin-top: 100px;
-  }
-  .footer__media a {
-    margin: 63px 30px;
-    }
-    .footer a {
-        font-size: 29px;
-    }
-    .footer__text_small a {
-        font-size: 10px;
-    }
-    .footer__text_small {
-     
-        padding: 8px 10px;
-        
-    }
-    .footer_text {
-        border: 1px solid #999a81;
-        padding: 6px 2px;
-    }
-    .footer__text_small {
-        padding: 6px 10px;
-    }
-
     
-    /*Корзина */
-    .offcanvas-header_right {
-        padding-bottom: 17px;
-        padding-top: 16px;
+    .head__tex_furniture h1 {
+        font-size: 118px;
     }
-    .offcanvas.offcanvas-end {
-        width: 345px;
+    .head__tex_furniture {
+        margin-top: 63px;
+        margin-bottom: 123px;
     }
-    .offcanvas-footer_bootom-btn button {
-        font-size: 12px;
-        padding: 12px 22px;
+    .menu__all_furniture {
+        margin-top: 22px;
     }
-    .offcanvas-footer_header h5 {
+    .menu__all_furniture ul li {
         font-size: 18px;
     }
-    .offcanvas-footer_bootom p {
-        font-size: 9px;
+    .summer__sale_text h1 {
+        font-size: 100px;
+        line-height: 130px;
     }
-    .container__basket_content_number {
-        padding: 0px 8px;
-    }
-    .basket_count {
-        width: 20px;
-        height: 20px;
-    }
-    .basket_count::before {
-        width: 10px;
-    }
-    .container__basket_count_plus::after {
-        height: 10px;
-    }
-    .offcanvas-header_right h5 {
-        font-size: 26px;
-    }
-    .offcanvas-footer_bootom-btn button {
-        font-size: 10px;
-        padding: 12px 18px;
-    }
-    /* Меню */
-    .offcanvas.offcanvas-start {
-        width: 320px;
-    }
-    .offcanvas-body_burger p {
-        font-size: 14px;
-    }
-    .catalog__close {
+    .summer__sale_text p {
         font-size: 16px;
     }
-    .container__basket_content h5 {
-        font-size: 12px;
-        margin-bottom: 2px;
+    .menu__all_furniture-header ul {
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 0px;
     }
-    .container__basket_price h5 {
-        font-size: 16px;
+    .menu__all_furniture-header-bg {
+        top: 34px;
+        padding: 0px 26px;
     }
-    .container__basket_price a {
-        font-size: 10px;
+    .container__header_all {
+        padding: 2.5vh 2.5vw;
     }
-    .basket__number {
-        font-size: 12px;
+    .container__header_all_pad {
+        padding: 1.5vh 2.5vw;
     }
+    
+
+    
 }
 @media (max-width: 800px) {
-    .head__text h1 {
-        font-size: 95px;
-        line-height: 80px;
+    .container__header_all {
+        padding: 1vh 2vw;
     }
-    .head__text p {
-        font-size: 10px;
+    .container__header_all_pad {
+        padding: 0.5vh 2vw;
     }
-
-    .head__text {
-        margin-top: 32px;
+    .head__tex_furniture {
+        margin-top: 42px;
+        margin-bottom: 68px;
     }
-    .head__text-button button {
-        margin-bottom: 52px;
-        padding: 9px 25px;
-        font-size: 8px;
-        margin-top: 5px;
+    .div__plug_header {
+        height: 55px;
     }
-    .discription__sofa h3 {
+    .menu__all_furniture ul {
+       
+        padding-left: 5px;
+    }
+    .menu__all_furniture-header-bg {
+        top: 19px;
+        padding: 0px 14px;
+    }
+    .menu__all_furniture-header ul {
+        margin-bottom: 0px;
+    }
+    .menu__all_furniture-header-span {
+        margin-top: 2px;
+    }
+    .menu__all_furniture-header ul li {
+        font-size: 14px;
+    }
+    .menu__all_furniture ul {
+        padding-left: 5px;
+        padding-right: 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .head__tex_furniture h1 {
+        font-size: 105px;
+    }
+    .menu__all_furniture ul li {
+        font-size: 14px;
+    }
+    .summer__sale_text h1 {
+        font-size: 75px;
+        line-height: 75px;
+    }
+    .summer__sale_text p {
+        font-size: 12px;
+    }
+    .design__decige_bg {
+        height: 400px;
+    }
+    .offcanvas-header {
+        padding: 22px 0px 22px 10px;
+    }
+    .offcanvas-header_right {
+        padding-bottom: 11px;
+        padding-top: 18px;
+    }
+    .quantity__cart a {
+        padding: 3px 5px 1px;
+        
+    }
+    
+    
+}
+@media (max-width: 768px) {
+    .head__tex_furniture {
         margin-top: 25px;
-        font-size: 30px;
-    }
-    .discription__sofa_two p {
-        line-height: 20px;
-        width: 70%;
-        margin-bottom: 18px;
-    }
-    .discription__sofa_two p {
-        font-size: 10px;
-    }
-    .button_products button {
-        font-size: 10px;
-    }
-    .item__title {
-        font-size: 15px;
-    }
-    .like svg {
-        width: 20px;
-    }
-    .container__header img{
-        width: 80%;
-    }
-    .catalode, .basket__true, .quantity__cart {
-        
-        font-size: 15px;
-        
-    }
-    .menu__burger_btn span, .menu__burger_btn span::before, .menu__burger_btn span::after {
-        position: absolute;
-        margin-top: -1px;
-        margin-left: -9px;
-        top: 50%;
-        left: 25%;
-        width: 35px;
-        height: 2px;
-        background-color: #fff;
-    }
-    .img_search svg{
-        width: 20px;
-    }
-    .img_search {
-        margin-right: 28px;
-    }
-    .circle {
-        width: 40px;
-        height: 40px;
-    }
-    .design__consultant_bg button {
-        margin-bottom: 0;
-    }
-    .out__work_text h2 {
-        font-size: 50px;
-        
-    }
-    .out__work_text p {
-        font-size: 12px;
-    }
-    .footer__footer {
-        
-        margin-bottom: 20px;
-    }
-    .footer__media a {
-        margin: 53px 20px;
-    }
-    .footer__media .first__footer_svg svg{
-        width: 10px;
-    }
-    .footer__media .second__footer_svg svg {
-        width: 17px;
-    }
-    .footer__media .third__footer_svg svg {
-        width: 21px;
-    }
-    .footer a {
-        font-size: 22px;
-    }
-    .footer__text_small a {
-        font-size: 9px;
-        font-weight: 400;
-    }
-    .footer__text_small {
-        padding: 4px 10px;
-    }
-    .item {
-        height: 290px;
-    }
-    .item__midle_size {
-        height: 380px;
-    }
-    .item__big {
-        height: 760px;
-    }
-    .item__big_madrid {
-        height: 450px;
-    }
-    .item__button button {
-        font-size: 8px;
-        padding: 10px 28px;
-    }
-    .item__button_big button{
-        padding: 10px 60px;
-        
-      }
-
-    .item__footer_title p {
-        font-size: 12px;
-    }
-    .item__footer_price {
-        font-size: 9px;
-    }
-    .item__footer {
-        padding: 0px 12px;
-    }
-    .item__footer p {
-        margin: 15px 0px 13px 0px;
-    }
-    .product__pad {
-        padding: 0 14px;
-    }
-    .item__header {
-        padding: 20px 16px;
-        
-    }
-    .silver__price {
-        margin-right: 8px;
-    }
-    .summer__sale_bg {
-        height: 400px;
-    }
-    .design__consultant_bg {
-        height: 400px;
-    }
-    .out__work_image {
-        margin-bottom: 60px;
-    }
-    .out__work_text h2 {
-        margin-top: 60px;
-    }
-    .search__menu input {
-        width: 380px;
-        font-size: 12px;
-        height: 35px;
-    }
-    .search__menu button {
-        font-size: 12px;
-    }
-    /* Меню */
-    .offcanvas-body_burger p {
-        font-size: 12px;
-    }
-    .offcanvas.offcanvas-start {
-        width: 290px;
-    }
-    .offcanvas.offcanvas-end {
-        width: 300px;
-    }
-    .offcanvas-footer_bootom-btn button {
-        font-size: 8px;
-        padding: 10px 16px;
-    }
-    .basket_count {
-        width: 17px;
-        height: 17px;
-    }
-    .basket_count::before {
-        width: 8px;
-    }
-    .container__basket_count_plus::after {
-        height: 8px;
-    }
-    .offcanvas-header_pad {
-        padding: 30px 0px 23px 10px;
+        margin-bottom: 72px;
     }
 }

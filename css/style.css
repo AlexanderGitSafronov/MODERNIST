@@ -805,19 +805,18 @@ a {
 }
 
 .summer__sale_text h1 {
-  
+    
   font-weight: 700;
   line-height: 200px;
   color: #fff;
- 
-  
 }
+
 .summer__sale_text p {
     color: #fff;
     font-size: 20px;
 }
 .summer__sale_pad button {
-    margin-bottom: 230px;
+    margin-bottom: 200px;
   }
 /* КАТАЛОГ*/
 
@@ -1044,7 +1043,7 @@ a {
 }
 /*ВЫСОТА КАРТОЧКИ ТОВАРА И НИЖНИЙ ОТСТУП */
 .item__goods_card {
-    height: 800px;
+    height: 100%;
     margin-bottom: 20px;
 }
 /* ЗАКОНЧИЛИСЬ НАСТРОЙКИ КАРТОЧКИ ТОВАРА */
@@ -1061,7 +1060,10 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 25px 25px;
+    padding: 35px 35px;
+  }
+  .item__content_goods_cart .item__header {
+
   }
   .item__title {
       transform: rotate(90deg);
@@ -1095,7 +1097,10 @@ a {
     transform: translate(-50%, -50%);
     transition: opacity 400ms ease-in-out;
   }
-
+  .images_parent_goods-card img{
+      object-fit: cover;
+      
+  }
   /* ПЕРЕКЛЮЧАТЕЛЬ ЦВЕТА */
   .elipse__choise1 {
      cursor: pointer;
@@ -1340,7 +1345,7 @@ a {
       background-color: #24160B;
       border-color: #999A81;
       background-image: url(../image/checked.svg);
-      
+      background-size: 80%;
   }
 .modal-title {
     font-size: 24px;
@@ -1621,6 +1626,10 @@ a {
     url(/image/decide.png);
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 /* КАРТОЧКА ТОВАРА !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
@@ -1630,6 +1639,10 @@ a {
     padding-right: 155px;
     margin-bottom: 150px;
 }
+.item__goods_card {
+    margin-bottom: 0;
+}
+
     .goods_card {
         height: auto;
         background-image: none;
@@ -1891,15 +1904,15 @@ a {
 .button__card button{
     margin-top: 10px;
     width: 100%;
-    width: 100%;
     display: inline-block;
     font-size: 14px;
-    background-color: #24160b;
+    background-color: #EFAE35;
     padding: 18px 0px;
-    font-weight: 400;
-    color: #fff;
+    font-weight: 500;
+    color: #24160B;
     text-transform: uppercase;
     border: none;
+
 }
 
 .discription__goods_card {

@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/goods_card.css">
     <link rel="stylesheet" href="./css/ordering.css">
+    <link rel="stylesheet" href="./css/media/media.css">
+    <link rel="stylesheet" href="./css/media/goods_card_media.css">
+    <link rel="stylesheet" href="./css/media/ordering_media.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
   </head>
@@ -358,7 +361,7 @@
                   </a>
               </div>
               <div class="catalog__bloc_stock">
-                  <a href="">
+                  <a href="./stock.html">
                       <div class="cataloge__flex">  
                           <div class="stock__svg">
                               <img src="/image/stock.svg" alt="">
@@ -507,7 +510,7 @@
                     </div>
                    </div>
             </div>  
-            <div class="col-5 ordering__border_right">
+            <div class="col-6 ordering__border_right">
                 <div class="ordering">
                     <div class="buyer__data">
                         <div class="buyer__date_header">
@@ -534,8 +537,8 @@
                             <div class="ordering__input">
                                 <div class="ordering__input_form" action="">
                                     <div class="form__item_adress">
-                                        <input type='text'  required name='name__ordering' class='name__ordering' id="name__ordering" placeholder='Имя'/>
-                                        <label for="name__ordering">Имя</label>
+                                            <input type='text'  required name='name__ordering' class='name__ordering' id="name__ordering" placeholder='Имя'/>
+                                            <label for="name__ordering">Имя</label>
                                     </div>
                                     <div class="form__item_adress">
                                         <input type='text' required name='last__name_ordering' class='last__name_ordering' id="last__name_ordering" placeholder='Фамилия'/>
@@ -573,7 +576,7 @@
                         <div id='div2'>
                             <div class="ordering__input">
                                 <h4>Контакты представителя</h4>
-                               <div class="how__name">
+                               <div class="how__name organization__w">
                                 <div class="form__item_adress">
                                     <input type='text' required name='how__name_input' class='how__name_entity' id="how__name_entity"  placeholder='Как к вам обращаться'/>
                                     <label for="how__name_input">Как к вам обращаться</label>
@@ -946,20 +949,22 @@
                         <div class="upon__receipt" id="upon__receipt">
                             <div class="upon__receipt_content">
                                 <div class="dropdown color-picker">
-                                    <div class="dropdown-text">Выберите удобный способ оплаты</div>
-                                    
+                                    <div class="dropdown-text">
+                                        <p>Выберите удобный способ оплаты</p>
+                                        
+                                    </div>
+            
                                     <input class="dropdown-value" type="hidden" value="Наличные" readonly>
                                     <div class="option">
-                                        <div class="dropdown-item" data-value="Антрацит">
-                                            Наличные
-                                           
+                                        <div class="dropdown-item" data-value="Наличные">
+                                            <span class=""></span> Наличные
                                         </div>
                                         <div class="dropdown-item" data-value="Безналичные">
-                                            Безналичные
+                                            <span class=""></span> Безналичные
                                         </div>
-            
                                     </div>
                                 </div>
+                                
                             </div>
                             <div class="way__to_get payment__method">
                                 <div class="payment__method_header">
@@ -980,9 +985,9 @@
                             <div class="cash__on_delivery_content">
                                 <div class="lift">
                                     <div class="service__lift service__delivery">
-                                        <div action=""> 
+                                        <div class="service__delivery_flex" action=""> 
                                             <input type="checkbox" class="custom-checkbox_modal" id="label_check_delivery" onclick="serviceDelivery();" >
-                                            <label for="label_check_delivery" class="label_check_delivery">Получать будет другой человек</label>
+                                            <label for="label_check_delivery" class="label_check_delivery"><span>Получать будет другой человек</span> </label>
                                         </div>
                                     </div>
                                     <div class="cash__on_delivery_content_name" id="cash__on_delivery_content_name" >
@@ -1107,6 +1112,192 @@
                             </div>
                           
                           </div>
+                          <div class="container-fluid container__basket">
+                            <div class="row">
+                                <div class=" col-3 container__basket_img ">
+                                    <img class="container__basket_img_parent" src="./image/chair_4.png"  alt="">
+                                </div>
+                                <div class=" col-4 container__basket_content ">
+                                    <div class="container__basket_content_discription ">
+                                        <h5>Кресло Matiss</h5>
+                                        <p>Зеленый</p>
+                                    </div>
+                                    
+                                </div>
+                                <div class=" col-3 container__basket_content d-flex align-items-center">
+                                  
+                                  <div class="container__basket_count ">
+                                      <div class="container__basket_count_minus basket_count">
+                                          <span></span>
+                                      </div>
+                                      <div class="container__basket_content_number">
+                                          <span class="basket__number">3</span>
+                                      </div>
+                                      <div class="container__basket_count_plus basket_count">
+                                          <span></span>
+                                      </div>
+                                  </div>
+                              </div>
+                                <div class="col-2 container__basket_price ">
+                                    <h5>105 690 ₽</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-fluid container__basket">
+                            <div class="row">
+                                <div class=" col-3 container__basket_img ">
+                                    <img class="container__basket_img_parent" src="./image/chair_4.png"  alt="">
+                                </div>
+                                <div class=" col-4 container__basket_content ">
+                                    <div class="container__basket_content_discription ">
+                                        <h5>Кресло Matiss</h5>
+                                        <p>Зеленый</p>
+                                    </div>
+                                    
+                                </div>
+                                <div class=" col-3 container__basket_content d-flex align-items-center">
+                                  
+                                  <div class="container__basket_count ">
+                                      <div class="container__basket_count_minus basket_count">
+                                          <span></span>
+                                      </div>
+                                      <div class="container__basket_content_number">
+                                          <span class="basket__number">3</span>
+                                      </div>
+                                      <div class="container__basket_count_plus basket_count">
+                                          <span></span>
+                                      </div>
+                                  </div>
+                              </div>
+                                <div class="col-2 container__basket_price ">
+                                    <h5>105 690 ₽</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-fluid container__basket">
+                            <div class="row">
+                                <div class=" col-3 container__basket_img ">
+                                    <img class="container__basket_img_parent" src="./image/chair_4.png"  alt="">
+                                </div>
+                                <div class=" col-4 container__basket_content ">
+                                    <div class="container__basket_content_discription ">
+                                        <h5>Кресло Matiss</h5>
+                                        <p>Зеленый</p>
+                                    </div>
+                                    
+                                </div>
+                                <div class=" col-3 container__basket_content d-flex align-items-center">
+                                  
+                                  <div class="container__basket_count ">
+                                      <div class="container__basket_count_minus basket_count">
+                                          <span></span>
+                                      </div>
+                                      <div class="container__basket_content_number">
+                                          <span class="basket__number">3</span>
+                                      </div>
+                                      <div class="container__basket_count_plus basket_count">
+                                          <span></span>
+                                      </div>
+                                  </div>
+                              </div>
+                                <div class="col-2 container__basket_price ">
+                                    <h5>105 690 ₽</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-fluid container__basket">
+                            <div class="row">
+                                <div class=" col-3 container__basket_img ">
+                                    <img class="container__basket_img_parent" src="./image/chair_4.png"  alt="">
+                                </div>
+                                <div class=" col-4 container__basket_content ">
+                                    <div class="container__basket_content_discription ">
+                                        <h5>Кресло Matiss</h5>
+                                        <p>Зеленый</p>
+                                    </div>
+                                    
+                                </div>
+                                <div class=" col-3 container__basket_content d-flex align-items-center">
+                                  
+                                  <div class="container__basket_count ">
+                                      <div class="container__basket_count_minus basket_count">
+                                          <span></span>
+                                      </div>
+                                      <div class="container__basket_content_number">
+                                          <span class="basket__number">3</span>
+                                      </div>
+                                      <div class="container__basket_count_plus basket_count">
+                                          <span></span>
+                                      </div>
+                                  </div>
+                              </div>
+                                <div class="col-2 container__basket_price ">
+                                    <h5>105 690 ₽</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-fluid container__basket">
+                            <div class="row">
+                                <div class=" col-3 container__basket_img ">
+                                    <img class="container__basket_img_parent" src="./image/chair_4.png"  alt="">
+                                </div>
+                                <div class=" col-4 container__basket_content ">
+                                    <div class="container__basket_content_discription ">
+                                        <h5>Кресло Matiss</h5>
+                                        <p>Зеленый</p>
+                                    </div>
+                                    
+                                </div>
+                                <div class=" col-3 container__basket_content d-flex align-items-center">
+                                  
+                                  <div class="container__basket_count ">
+                                      <div class="container__basket_count_minus basket_count">
+                                          <span></span>
+                                      </div>
+                                      <div class="container__basket_content_number">
+                                          <span class="basket__number">3</span>
+                                      </div>
+                                      <div class="container__basket_count_plus basket_count">
+                                          <span></span>
+                                      </div>
+                                  </div>
+                              </div>
+                                <div class="col-2 container__basket_price ">
+                                    <h5>105 690 ₽</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-fluid  container__basket">
+                            <div class="row">
+                                <div class=" col-3 container__basket_img ">
+                                    <img class="container__basket_img_parent" src="./image/chair_4.png"  alt="">
+                                </div>
+                                <div class=" col-4 container__basket_content ">
+                                    <div class="container__basket_content_discription ">
+                                        <h5>Кресло Matiss</h5>
+                                        <p>Зеленый</p>
+                                    </div>
+                                    
+                                </div>
+                                <div class=" col-3 container__basket_content d-flex align-items-center">
+                                  
+                                  <div class="container__basket_count ">
+                                      <div class="container__basket_count_minus basket_count">
+                                          <span></span>
+                                      </div>
+                                      <div class="container__basket_content_number">
+                                          <span class="basket__number">3</span>
+                                      </div>
+                                      <div class="container__basket_count_plus basket_count">
+                                          <span></span>
+                                      </div>
+                                  </div>
+                              </div>
+                                <div class="col-2 container__basket_price ">
+                                    <h5>105 690 ₽</h5>
+                                </div>
+                            </div>
+                        </div>
                           <div class="container-fluid container__basket">
                               <div class="row">
                                 <div class=" col-3 container__basket_img ">

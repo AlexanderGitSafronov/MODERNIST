@@ -1,0 +1,371 @@
+@media (max-width: 1680px) {
+   
+    .ordering {
+        padding-left: 92px;
+        padding-right: 55px;
+        padding-bottom: 110px;
+    }
+  }
+  @media (max-width: 1600px) {
+    .ordering__input input {
+        width: 306px;
+    }
+     .four__input input {
+        width: 145px;
+    }
+     .transport__company_svg img {
+        padding-right: 222px;
+    }
+     .dropdown {
+        width: 50%;
+    }
+    .ordering, .ordering__basked {
+        padding-top: 95px;
+    }
+    .organization__w input {
+        width: 100%;
+    }
+
+    .basket__fixed .ordering__basked_header_txt {
+        margin-bottom: 18px;
+    }
+    .basket__fixed .container__basket {
+        padding: 32px 12px 27px;
+    }
+    .basket__fixed .container__basket_content_number {
+        padding: 0px 10px;
+    }
+    .basket__fixed .basket_count {
+        width: 24px;
+        height: 24px;
+    }
+    .basket__fixed .ordering__basked .ordering__basked_left_discription {
+        padding-top: 25px;
+    }
+    .basket__fixed .basket_count::before {
+        width: 9px;
+    }
+    .basket__fixed .container__basket_count_plus::after {
+        height: 9px;
+    }
+    .basket__fixed .container__basket_price h5 {
+        font-size: 21px;
+    }
+    .basket__fixed .container__basket_price {
+        padding: 0px;
+    }
+  }
+@media (max-width: 1536px) {
+    .ordering__input input {
+        width: 290px;
+    }
+    .organization__w input {
+        width: 100%;
+    }
+    .four__input input {
+        width: 120px;
+    }
+    .four__input input {
+        width: 137px;
+    }
+    .transport__company_svg img {
+        padding-right: 196px;
+    }
+    .basket__fixed {
+        top: 25px;
+    }
+    h3 {
+        font-size: 26px;
+    }
+    .label__radio {
+        font-size: 13px;
+    }
+    .buyer__data_second {
+        margin-top: 54px;
+    }
+    .dropdown {
+        width: 52%;
+    }
+    .buyer__date_header_text {
+        margin-left: 10px;
+        margin-bottom: 25px;
+    }
+    
+  }
+  @media (max-width: 1440px) {
+    .ordering {
+        padding-left: 68px;
+        padding-right: 30px;
+    }
+    .ordering__basked {
+        padding-right: 108px;
+        padding-left: 30px;
+
+    }
+    p {
+        font-size: 15px;
+    }
+    .basket__fixed {
+        top: 0px;
+    } 
+    .basket__fixed .offcanvas-body_right {
+        height: 289px;
+    }
+  }
+  @media (max-width: 1366px) {
+    .ordering {
+        padding-left: 72px;
+      
+    }
+    
+    .ordering__input input {
+        width: 271px;
+        padding-top: 25px;
+    }
+    .organization__w input {
+        width: 100%;
+    }
+    .four__input input {
+        width: 128px;
+    }
+    
+    .form__item_adress {
+        margin-bottom: 15px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+    .label__radio {
+        font-size: 12px;
+    }
+    p {
+        font-size: 13px;
+    }
+    h5 {
+        font-size: 14px;
+    }
+    .custom-radio>span::before {
+        width: 21px;
+        height: 21px;
+  }
+  .ordering__checkbox {
+    margin-bottom: 15px;
+  }
+  .basket__fixed .container__basket_price h5 {
+    font-size: 18px;
+}
+.way__to_get {
+    padding: 25px 35px;
+
+}
+h6 {
+    font-weight: 600;
+}
+button {
+    font-size: 12px;
+}
+.basket__fixed .container__basket_content p {
+    font-size: 11px;
+}
+.basket__fixed .container__basket_content h5 {
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+.basket__fixed .basket_count {
+    width: 22px;
+    height: 22px;
+}
+.container__basket_content_number {
+    padding: 0px 8px;
+}
+.ordering__basked .ordering__basked_left_discription {
+    padding-top: 25px;
+}
+.ordering__basked .offcanvas-footer_header {
+    margin-top: 22px;
+}
+.ordering__basked .offcanvas-footer_privacy_policy p {
+    font-size: 10px;
+}
+.service__lift {
+
+    padding: 16px 0px 16px 18px;
+}
+.ordering__checkbox_lift {
+    margin-bottom: 0;
+}
+
+.service__lift+label {
+    font-size: 15px;
+}
+.ordering__basked .offcanvas-footer_privacy_policy p {
+    margin-top: 12px;
+}
+.basket__fixed .offcanvas-body_right {
+    height: 269px;
+}
+}
+  @media (max-width: 1280px) {
+    .ordering {
+        padding-right: 20px;
+    }
+    .ordering__basked {
+        padding-left: 20px;
+        padding-right: 83px;
+    }
+    .custom-radio {
+        margin-left: 20px;
+    }
+    .ordering__input input {
+        width: 255px;
+        padding-top: 20px;
+    }
+    .organization__w input {
+        width: 100%;
+    }
+    .four__input input {
+        width: 122px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .label__radio {
+        font-size: 11px;
+    }
+    .transport__company_svg img {
+        padding-right: 170px;
+    }
+    .basket__fixed .container__basket {
+        padding: 25px 12px 20px;
+    }
+    .ordering__basked .ordering__basked_left_discription {
+        padding-top: 20px;
+    }
+    .ordering__basked .offcanvas-footer_header {
+        margin-top: 20px;
+    }
+    .custom-radio>span::before {
+        background-size: 61% 60%;
+    }
+    .form__item_adress label {
+        top: 15px;
+    }
+    .form__item_adress input:focus+label, .form__item_adress input:not(:placeholder-shown)+label, .form__item_adress textarea:focus+label, .form__item_adress textarea:not(:placeholder-shown)+label {
+        top: 4px;
+    }
+    .basket__fixed .offcanvas-body_right {
+        height: 239px;
+    }
+  }
+  @media (max-width: 1024px) {
+    .ordering {
+        padding-right: 10px;
+        padding-left: 0;
+    }
+    .ordering__basked {
+        padding-left: 10px;
+        padding-right: 34px;
+    }
+    .ordering__input input {
+        width: 235px;
+        padding-top: 18px;
+    }
+    .organization__w input {
+        width: 100%;
+    }
+    .four__input input {
+        width: 114px;
+    }
+    .form__item_adress {
+        margin-bottom: 8px;
+    }
+    .just-validate-error-label {
+        font-size: 12px;
+    }
+    .form__item_adress input:focus+label, .form__item_adress input:not(:placeholder-shown)+label, .form__item_adress textarea:focus+label, .form__item_adress textarea:not(:placeholder-shown)+label {
+        top: 4px;
+    }
+    .buyer__date_header_text {
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .buyer__date_header_text h3 {
+        margin-bottom: 0;
+        margin-top: 2px;
+    }
+    .custom-radio>span::before {
+        width: 20px;
+        height: 20px;
+        background-size: 64% 61%;
+    }
+    .custom-radio {
+        margin-left: 14px;
+    }
+    .way__to_get button {
+        font-size: 12px;
+    }
+    button {
+        font-size: 10px;
+    }
+    .installment__plan_content {
+        padding: 15px;
+    }
+    h6 {
+        font-size: 18px;
+    }
+   .ordering .dropdown .dropdown-text {
+        height: 46px;
+    }
+    .ordering .dropdown-text p {
+        font-size: 10px;
+    }
+    .ordering .dropdown::before {
+        border-width: 9.4px 6px 0 6px;
+        top: 18px;
+    }
+    .ordering .dropdown .option:last-child {
+        padding-bottom: 0px;
+    }
+    .ordering .dropdown .option {
+        top: 48px;
+    }
+    .ordering .dropdown .option div:last-child {
+        padding-top: 0px;
+    }
+    .dropdown.dropdown__active::before {
+        top: 16px;
+    }
+    .buyer__data_second {
+        margin-top: 38px;
+    }
+    .basket__fixed .basket_count {
+        width: 18px;
+        height: 18px;
+    }
+    .basket__fixed .container__basket_img_parent {
+        max-width: 85%;
+    }
+    .basket__fixed .container__basket {
+        padding: 15px 12px 16px;
+    }
+    .basket__fixed .container__basket_content h5 {
+        font-size: 12px;
+    }
+    .basket__fixed .container__basket_price h5 {
+        font-size: 17px;
+    }
+    .basket__fixed .offcanvas-body_right {
+        height: 194px;
+    }
+    .transport__company_svg img {
+        padding-right: 133px;
+    }
+}
+@media (max-width: 800px) {
+    
+    
+}
+@media (max-width: 768px) {
+   
+}

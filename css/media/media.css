@@ -31,14 +31,20 @@
         width: 55px;
         height: 55px;
     }
+    .offcanvas.offcanvas-end {
+        width: 552px;
+    }
+    .offcanvas-footer_bootom-btn button{
+        font-size: 13px;
+    }
   }
   @media (max-width: 1440px) {
     /* Шапка */
     .container__header {
-        padding: 2.1vh 4vw;
+        padding: 2.1vh 2.5vw;
     }
     .header__bg {
-        padding: 2.1vh 4vw;
+        padding: 2.1vh 2.5vw;
         
     }
     /* Меню */
@@ -74,7 +80,7 @@
 
     /* Корзина */
     .offcanvas.offcanvas-end {
-        width: 490px;
+        width: 430px;
     }
     .offcanvas-header_right-pad {
         padding-bottom: 14px;
@@ -124,7 +130,7 @@
         margin-top: 24px;
     }
     .offcanvas-footer_bootom-btn button {
-        padding: 12px 32px; 
+        padding: 12px 18px; 
         font-size: 14px;
     }
 .offcanvas-footer_header h5 {
@@ -240,6 +246,13 @@
         font-size: 12px;
         margin-top: 25px;
     }
+    .offcanvas.offcanvas-end {
+        width: 430px;
+    }
+    .offcanvas-footer_bootom-btn button {
+        padding: 12px 21px;
+        font-size: 12px;
+    }
   }
   @media (max-width: 1280px) {
     .head__text {
@@ -325,6 +338,9 @@
     }
   }
   @media (max-width: 1024px) {
+    .img_search {
+        margin-right: 25px;
+    }
     h1 {
         font-size: 120px;
     }
@@ -387,7 +403,7 @@
         font-size: 12px;
     }
     .item__footer_title_choise img {
-        width: 20%;
+        width: 23%;
     }
     .item__button button {
         font-size: 10px;
@@ -453,12 +469,13 @@
         padding-top: 16px;
     }
     .offcanvas.offcanvas-end {
-        width: 345px;
+        width: 352px;
     }
     .offcanvas-footer_bootom-btn button {
         font-size: 12px;
         padding: 12px 22px;
     }
+    
     .offcanvas-footer_header h5 {
         font-size: 18px;
     }
@@ -508,8 +525,16 @@
     .basket__number {
         font-size: 12px;
     }
+    .footer__footer {
+        
+        margin-bottom: 15px;
+    }
+    .offcanvas.offcanvas-top {
+        height: 125px;
+    }
 }
 @media (max-width: 800px) {
+    
     .head__text h1 {
         font-size: 95px;
         line-height: 80px;
@@ -680,26 +705,120 @@
         font-size: 12px;
     }
     .offcanvas.offcanvas-start {
-        width: 290px;
+        width: 270px;
     }
     .offcanvas.offcanvas-end {
-        width: 300px;
+        width: 270px;
     }
+    .container__basket_content h5 {
+        font-size: 10px;
+    }
+    .container__basket_content p {
+        margin-bottom: 9px;
+        font-size: 9px;
+    }
+    .container__basket_price h5 {
+        font-size: 14px;
+    }
+    .container__basket_price a {
+        font-size: 9px;
+    }
+    
     .offcanvas-footer_bootom-btn button {
         font-size: 8px;
         padding: 10px 16px;
     }
     .basket_count {
-        width: 17px;
-        height: 17px;
+        width: 14px;
+        height: 14px;
     }
     .basket_count::before {
-        width: 8px;
+        width: 6px;
     }
     .container__basket_count_plus::after {
-        height: 8px;
+        height: 6px;
     }
     .offcanvas-header_pad {
         padding: 30px 0px 23px 10px;
+    }
+    .footer__footer {
+        margin-bottom: 0px;
+    }
+    .offcanvas-footer_bootom p {
+        font-size: 8px;
+    }
+    .offcanvas-footer_right {
+        margin-top: 30px;
+        padding: 15px 10px 12px;
+    }
+    .offcanvas-footer_bootom {
+        margin-top: 12px;
+    }
+    .container__basket {
+        padding: 12px 12px 17px;
+    }
+    .offcanvas-body_burger p {
+       padding: 7px 0px;
+        padding-left: 0px;
+    }
+    .offcanvas-header {
+        padding: 20px 0px 20px 0px;
+    }
+    .offcanvas-header_pad {
+        padding: 15px 0px 15px 0px;
+    }
+    .cataloge__text {
+        padding-left: 15px;
+    }
+    .cataloge__flex p {
+        padding: 10px 0px;
+    }
+    
+    .offcanvas-body {
+        margin-top: 0px;
+    }
+    .footer__footer {
+        height: 130px;
+    }
+    .menu__burger_btn span, .menu__burger_btn span::before, .menu__burger_btn span::after {
+        position: absolute;
+        margin-top: -1px;
+        margin-left: -9px;
+        top: 50%;
+        left: 25%;
+        width: 35px;
+        height: 1px;
+        background-color: #fff;
+    }
+    .menu__burger_btn span::before {
+        margin-top: 0px;
+    }
+    .menu__burger_btn {
+        margin-bottom: 0;
+    }
+    .quantity__cart a {
+        padding: 5px 5px 1px;
+        background-color: #EFAE35;
+        border-radius: 40%;
+        color: #24160B;
+    }
+    .item__footer_choise {
+        
+        padding: 0px 15px;
+    }
+    .item__footer_title_choise {
+        padding: 0px 0px 14px 0px;
+    }
+    .item__footer_big {
+        padding-bottom: 40px;
+    }
+    @media (max-width: 768px) {
+        .head__tex_furniture {
+            margin-top: 25px;
+            margin-bottom: 72px;
+        }
+        .menu__burger_btn span, .menu__burger_btn span::before, .menu__burger_btn span::after {
+            left: 26%;
+        }
     }
 }

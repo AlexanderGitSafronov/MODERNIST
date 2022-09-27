@@ -1,0 +1,178 @@
+@media (max-width: 1680px) {
+    .section_card {
+        padding-left: 120px;
+        padding-right: 145px;
+    }
+    .dropdown {
+        width: 212px;
+    }
+    .dropdown .option div {
+        font-size: 12px;
+    }
+    .card__price span {
+        font-size: 26px;
+    }
+    .discription__goods_card {
+        margin-top: 120px;
+    }
+    
+  }
+  @media (max-width: 1600px) {
+    .section_card {
+        padding-left: 110px;
+        padding-right: 115px;
+    }
+    .section_card {
+        padding-left: 100px;
+        padding-right: 105px;
+    }
+  }
+@media (max-width: 1536px) {
+    .section_card {
+        padding-left: 90px;
+        padding-right: 95px;
+    }
+    
+   
+  }
+  @media (max-width: 1440px) {
+    .container__header_card {
+        padding: 2.5vh 4vw;
+    }
+    .header__scroll {
+        padding: 1.5vh 4vw;
+    }
+    .header__bg {
+      padding: 1.5vh 4vw;
+    }
+    .dropdown {
+        width: 200px;
+    }
+    
+    .dropdown .option div {
+        padding: 12px 12px;
+    }
+    .dropdown-text p {
+        font-size: 12px;
+    }
+    .dropdown .dropdown-text {
+        height: 52px;
+        font-size: 14px;
+        padding-left: 12px;
+    }
+    .dropdown::before {
+        border-width: 10.4px 7px 0 7px;
+        right: 18px;
+    }
+  }
+  @media (max-width: 1366px) {
+    .section_card {
+        padding-left: 75px;
+        padding-right: 80px;
+    }
+    
+    .card_photo {
+        margin-bottom: 15px;
+    }
+    .section_card {
+        
+        margin-bottom: 100px;
+    }
+    
+  }
+  @media (max-width: 1280px) {
+    .dropdown-flex {
+        display: block;
+    }
+    .dropdown__first_pad {
+        margin-bottom: 20px;
+    }
+    .dropdown {
+        width: 100%;
+    }
+  }
+  @media (max-width: 1024px) {
+    .footer__footer {
+        height: 167px;
+    }
+    
+    }
+@media (max-width: 800px) {
+    .discription__card p {
+        font-size: 10px;
+    }
+    .discription__card h1 {
+        font-size: 35px;
+    }
+    .discription__card {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .nav__card ul {
+        margin-top: 25px;
+    }
+    .nav__card ul li {
+        font-size: 10px;
+    }
+    .dropdown .option div {
+        font-size: 10px;
+    }
+    .dropdown-text p {
+        font-size: 10px;
+    }
+    .dropdown.color-picker .color {
+        width: 15px;
+        height: 15px;
+    }
+    .dropdown .dropdown-text {
+        height: 45px;
+    }
+    .section_card {
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+    .button__card button {
+        padding: 13px 0px;
+        font-size: 12px;
+    }
+    .dropdown::before {
+        top: 18px;
+        border-width: 9.4px 6px 0 6px;
+    }
+    .dropdown.dropdown__active::before {
+        top: 16px;
+    }
+    .card__price span {
+        font-size: 18px;
+    }
+    .card_photo {
+        margin-bottom: 10px;
+    }
+    .discription__goods_card {
+        margin-top: 75px;
+    }
+    .goods__card_header-text a {
+        font-size: 12px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+       
+    }
+    .goods__card_header-text ul li {
+        font-size: 11px;
+        padding-bottom: 6px;
+    }
+    .card-body {
+        padding-top: 0px;
+    }
+    .payment__goods_card p {
+        font-size: 11px;
+        margin-bottom: 8px;
+    }
+    .footer__footer {
+        height: 130px;
+    }
+    
+}
+@media (max-width: 768px) {
+   
+}

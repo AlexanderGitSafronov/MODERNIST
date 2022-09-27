@@ -91,7 +91,7 @@ button {
     stroke: #24160B;
 }
 .ordering {
-    padding-left: 55px;
+    padding-left: 212px;
     padding-right: 55px;
     padding-bottom: 110px;
 }
@@ -277,6 +277,9 @@ align-items: center;
 .ordering__basked .container__basket_content {
     padding-left: 0px;
 }
+.ordering__basked .container__basket {
+    padding: 32px 12px 43px;
+}
 .ordering__basked .container__basket_content_discription {
     margin-bottom: 0;
     display: flex;
@@ -335,9 +338,11 @@ padding: 0;
     width: 100%;
 }
 .four__input input{
-width: 150px;
+width: 154px;
 }
-
+.offcanvas-body_right {
+    height: 350px;
+}
 .organization__w textarea {
     background-color: #fcf8f4;
     font-family: "Onset", sans-serif;
@@ -389,7 +394,9 @@ width: 150px;
     background-color: #C7C8BB;
    padding: 21px 0px 21px 23px;
     height: 100%;
-    
+}
+.service__lift form{
+    display: flex;
 }
 .castom-chekbox_lift {
     padding-top: 5px;
@@ -426,6 +433,7 @@ width: 150px;
 }
 .transport__company_svg img{
     padding-right: 260px;
+    width: 100%;
 }
 .transport__company_price {
     
@@ -483,11 +491,15 @@ width: 150px;
 }
 .dropdown .dropdown-text{
     border: 1px solid rgba(153, 154, 129, 0.5);
-    color: rgba(153, 154, 129, 0.5);
+    color: rgba(153, 154, 129, 0.1);
 }
 /* НАЛОЖЕНЫМ ПЛАТЕЖЕМ */
 .service__delivery {
     width: 100%;
+}
+.service__delivery .service__delivery_flex{
+    display: flex;
+    align-items: center;
 }
 .cash__on_delivery_content {
     margin-bottom: 20px;
@@ -500,6 +512,9 @@ width: 150px;
     text-transform: inherit;
     background-color: #FEF7F0;
 }
+.dropdown-text p {
+    color: rgba(33, 37, 41, 0.5);
+}
 
 
 
@@ -511,7 +526,7 @@ width: 150px;
 .form__item_adress label {
     position: absolute;
     left: 15px;
-    top: 21px;
+    top: 20px;
     transition: top 0.5s;
     font-family: "Onest", sans-serif;
     font-size: 12px;
