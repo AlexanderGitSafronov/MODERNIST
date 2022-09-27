@@ -25,7 +25,13 @@
     .organization__w input {
         width: 100%;
     }
-
+    
+    .four__input_flex_first {
+        padding-right: 8px;
+    }
+    .four__input_flex_second {
+        padding-left: 8px;
+    }
     .basket__fixed .ordering__basked_header_txt {
         margin-bottom: 18px;
     }
@@ -224,7 +230,13 @@ button {
         width: 100%;
     }
     .four__input input {
-        width: 122px;
+        width: 120px;
+    }
+    .four__input_flex_first {
+        padding-right: 7px;
+    }
+    .four__input_flex_second {
+        padding-left: 7px;
     }
     p {
         font-size: 12px;
@@ -275,6 +287,12 @@ button {
     }
     .four__input input {
         width: 114px;
+    }
+    .four__input_flex_first {
+        padding-right: 4px;
+    }
+    .four__input_flex_second {
+        padding-left: 4px;
     }
     .form__item_adress {
         margin-bottom: 8px;
@@ -363,6 +381,94 @@ button {
     }
 }
 @media (max-width: 800px) {
+    .ordering__input .ordering__input_form {
+        display: block;
+    }
+    .form__item_adress input {
+        width: 100%;
+    }
+    .four__input {
+        display: block;
+    }
+    .four__input_flex {
+        display: flex;
+        justify-content: space-between;
+    }
+    .four__input .four__input_pad {
+       width: 98%;
+    }
+    .custom-radio>span::before {
+        width: 16px;
+        height: 16px;
+        background-size: 62% 67%;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .field__number {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #EFAE35;
+        height: 24px;
+        width: 24px;
+        border-radius: 50%;
+    }
+    p {
+        font-size: 10px;
+    }
+    .way__to_get {
+        padding: 15px 15px;
+    }
+    .way__to_get button {
+        font-size: 10px;
+    }
+    .way__to_get button {
+        padding: 9px 18px;
+    }
+    h5 {
+        font-size: 12px;
+    }
+    .way__to_get_discription {
+        margin-bottom: 20px;
+    }
+    .ordering__basked {
+        padding-right: 20px;
+    }
+    .basket__fixed .basket_count {
+        width: 14px;
+        height: 14px;
+    }
+    .basket__fixed .basket_count::before {
+        width: 6px;
+    }
+    .basket__fixed .container__basket_count_plus::after {
+        height: 6px;
+
+    }
+    .four__input_flex_first {
+        padding-right: 0px;
+    }
+    .four__input_flex_second {
+        padding-left: 0px;
+    }
+    .form__item_adress_pad {
+        display: flex;
+        justify-content: end;
+    }
+    .transport__company_content {
+        padding: 10px;
+    }
+    .transport__company_svg img {
+        padding-right: 50px;
+        width: 100%;
+    }
+    .service__lift {
+        width: 100%;
+    }
+    .label__radio {
+        font-size: 10px;
+    }
     
     
 }

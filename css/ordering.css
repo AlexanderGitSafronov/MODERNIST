@@ -338,7 +338,7 @@ padding: 0;
     width: 100%;
 }
 .four__input input{
-width: 154px;
+width: 152px;
 }
 .offcanvas-body_right {
     height: 350px;
@@ -387,17 +387,13 @@ width: 154px;
 .express__to_extrance {
     margin-bottom: 10px;
 }
-.lift {
-    padding: 0px;
-}
+
 .service__lift {
     background-color: #C7C8BB;
    padding: 21px 0px 21px 23px;
     height: 100%;
 }
-.service__lift form{
-    display: flex;
-}
+
 .castom-chekbox_lift {
     padding-top: 5px;
 }
@@ -585,8 +581,11 @@ width: 154px;
     display: flex;
     justify-content: space-between;
 }
-.ordering__input form {
+/* .ordering__input form {
     display: block;
+} */
+.service__lift form{
+    display: flex;
 }
 /* .form__item_adress  .input__name:required {
     border: 1px solid red;
@@ -625,4 +624,17 @@ width: 154px;
     }
     .form__item_adress .email__entity {
         text-transform: inherit;
+    }
+
+    .four__input_flex_first {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding-right: 10px;
+    }
+    .four__input_flex_second {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding-left: 10px;
     }
