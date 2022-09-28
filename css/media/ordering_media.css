@@ -5,6 +5,9 @@
         padding-right: 55px;
         padding-bottom: 110px;
     }
+    .basket__fixed .container__basket_price {
+        padding: 0px;
+    }
   }
   @media (max-width: 1600px) {
     .ordering__input input {
@@ -59,6 +62,12 @@
     }
     .basket__fixed .container__basket_price {
         padding: 0px;
+    }
+    .basket__fixed .container__basket_price {
+        padding: 0px;
+    }
+    .ordering__checkbox_flex_label {
+        margin-left: 3%;
     }
   }
 @media (max-width: 1536px) {
@@ -379,6 +388,9 @@ button {
     .transport__company_svg img {
         padding-right: 133px;
     }
+    .ordering__checkbox_flex_label {
+        margin-left: 2.3%;
+    }
 }
 @media (max-width: 800px) {
     .ordering__input .ordering__input_form {
@@ -395,7 +407,7 @@ button {
         justify-content: space-between;
     }
     .four__input .four__input_pad {
-       width: 98%;
+       width: 100%;
     }
     .custom-radio>span::before {
         width: 16px;
@@ -433,7 +445,7 @@ button {
         margin-bottom: 20px;
     }
     .ordering__basked {
-        padding-right: 20px;
+        padding-right: 10px;
     }
     .basket__fixed .basket_count {
         width: 14px;
@@ -469,9 +481,73 @@ button {
     .label__radio {
         font-size: 10px;
     }
-    
-    
+    .ordering__checkbox_flex_label {
+        margin-left: 0px;
+    }
+    .ordering__checkbox_flex_label .custom-radio {
+        margin-left: 0;
+    }
+    .ordering .dropdown  {
+        width: 65%;
+    }
+    .installment__plan-btn button {
+        padding: 12px 35px;
+    }
+    h6 {
+        font-size: 16px;
+    }
+    .ordering__link_back a {
+        font-size: 12px;
+    }
+    .basket__fixed .container__basket_price h5 {
+        font-size: 14px;
+    }
+    .basket__fixed .container__basket_content h5 {
+        font-size: 11px;
+    }
+    .basket__fixed .offcanvas-body_right {
+        height: 190px;
+    }
+    .ordering__basked .ordering__basked_left_discription {
+        padding-top: 15px;
+    }
+    .ordering__basked .offcanvas-footer_header {
+        margin-top: 15px;
+    }
+    .ordering__basked_left_discription p {
+        margin-bottom: 10px;
+    }
+    .ordering__basked .offcanvas-footer_privacy_policy p {
+        margin-top: 10px;
+    }
+    .offcanvas-header_right h5 {
+        font-size: 21px;
+    }
+   .ordering .custom-radio_installment {
+       margin-left: 0;
+   }
+   .form__item_adress_pad {
+       display: block;
+       margin-left: 4px;
+   }
+   .form__item_adress_pad_first {
+       margin-right: 4px;
+   } 
 }
 @media (max-width: 768px) {
-   
+    .ordering, .ordering__basked {
+        padding-top: 75px;
+    }
+    .basket__fixed .container__basket_price h5 {
+        font-size: 13px;
+    }
+    .way__to_get {
+        padding: 11px 11px;
+    }
+    .payment__method_footer {
+        margin-top: 12px;
+    }
+    .ordering {
+        padding-bottom: 50px;
+    }
 }

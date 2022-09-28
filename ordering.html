@@ -699,7 +699,7 @@
                                 <div class=" four__input" action="">
                                     <div class="four__input_flex_first">
                                         <div class="from__errors">
-                                            <div class="form__item_adress">
+                                            <div class="form__item_adress form__item_adress_pad_first">
                                                 <input type='number'  name='home__ordering' class='home__ordering four__input_pad'  id="home__ordering" placeholder='Дом'/>
                                                 <label for="home__ordering">Дом</label>
                                                 <div class="check__input">
@@ -725,7 +725,7 @@
                                     
                                     <div class="four__input_flex_second">
                                         <div class="from__errors">
-                                            <div class="form__item_adress">
+                                            <div class="form__item_adress form__item_adress_pad_first">
                                                 <input type='number'  name='entrance__ordering' class='entrance__ordering four__input_pad' id="entrance__ordering" placeholder='Подъезд'/>
                                                 <label for="entrance__ordering">Подъезд</label>
                                                 <div class="check__input">
@@ -890,16 +890,19 @@
                             </div>
                         </div>
                         <div class="ordering__checkbox">
-                            <div action="">
+                            <div class="ordering__checkbox_flex" action="">
+                            <div class="">
                                 <label class="custom-radio">
                                     <input type="radio" checked name="online" value="indigo" onclick="showOnline();">
                                     <span class="label__radio">Онлайн</span>
                                   </label>
-                                  <label class="custom-radio">
+                                  <label class="custom-radio custom-radio_installment">
                                     <input type="radio" name="online" value="indigo" onclick="showInstallmentPlan();">
                                     <span class="label__radio">В рассрочку</span>
                                   </label>
-                                  <label class="custom-radio">
+                            </div>
+                               <div class="ordering__checkbox_flex_label">
+                                <label class="custom-radio">
                                     <input type="radio" name="online" value="indigo" onclick="uponReceipt();">
                                     <span class="label__radio">При получении</span>
                                   </label>
@@ -907,6 +910,8 @@
                                     <input type="radio" name="online" value="indigo" onclick="cashOnDelivery();">
                                     <span class="label__radio">Наложенным платежом</span>
                                   </label>
+                               </div> 
+                                  
                                 </div>
                         </div>
                         <div class="way__to_get payment__method " id="show__online">

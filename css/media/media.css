@@ -812,6 +812,8 @@
     .item__footer_big {
         padding-bottom: 40px;
     }
+
+} 
     @media (max-width: 768px) {
         .head__tex_furniture {
             margin-top: 25px;
@@ -820,5 +822,7 @@
         .menu__burger_btn span, .menu__burger_btn span::before, .menu__burger_btn span::after {
             left: 26%;
         }
+        .offcanvas.offcanvas-start {
+            width: 245px;
+        }
     }
-}

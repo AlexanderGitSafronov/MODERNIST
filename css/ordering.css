@@ -638,3 +638,16 @@ width: 152px;
         width: 100%;
         padding-left: 10px;
     }
+
+
+    .ordering__checkbox_flex {
+        display: flex;
+
+
+    }
+    .ordering__checkbox_flex_label {
+        margin-left: 4%;
+    }
+    .basket__fixed .container__basket_price {
+        padding: 0px;
+    }
