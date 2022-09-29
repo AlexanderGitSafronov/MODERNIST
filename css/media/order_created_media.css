@@ -1,0 +1,112 @@
+@media (max-width: 1680px) {
+   
+  }
+  @media (max-width: 1600px) {
+    
+  }
+@media (max-width: 1536px) {
+    
+  }
+  @media (max-width: 1440px) {
+    .order__created {
+        margin: 150px 0px;
+    }
+    .order__created h1 {
+        line-height: 100px;
+        font-size: 55px;
+    }
+    .order__created h2 {
+        font-size: 26px;
+    }
+    .order__created h3 {
+        font-size: 16px;
+    }
+    .order__created p {
+        font-size: 14px;
+    }
+    .order__created .order__created_content {
+        padding: 40px;
+        width: 500px;
+    }
+    .order__created .order__created_discription_right {
+display: flex;
+align-items: center;
+    }
+    .order__created .order__created_discription_left {
+        width: 45%;
+    }
+    .order__created .order__created_footer {
+        width: 500px;
+    }
+    .order__created button {
+        font-size: 12px;
+    }
+    .order__created_footer_btn_big button {
+        padding: 17px 65px;
+    }
+  }
+    @media (max-width: 1366px) {
+  
+}
+    @media (max-width: 1280px) {
+    
+  }
+    @media (max-width: 1024px) {
+   
+}
+    @media (max-width: 800px) {
+    
+        .order__created h1 {
+            line-height: 80px;
+            font-size: 45px;
+        }
+        .order__created h3 {
+            font-size: 14px;
+        }
+        .order__created .order__created_content {
+            padding: 30px;
+            width: 400px;
+            margin-top: 30px;
+    margin-bottom: 30px;
+        }
+        .order__created .order__created_footer {
+            width: 400px;
+        }
+        .order__created button {
+            font-size: 10px;
+        }
+        .order__created_footer_btn_big button {
+            padding: 14px 50px;
+        }
+        .order__created_footer_btn_small button {
+            padding: 14px 30px;
+        }
+        .order__created {
+            margin: 100px 0px;
+        }
+        .order__created h2 {
+            font-size: 22px;
+        }
+        .order__created_content_header {
+            margin-bottom: 22px;
+        }
+        .order__created p {
+            font-size: 11px;
+        }
+        .order__created h6 {
+            font-size: 11px;
+        }
+        .order__created_discription_containtr_middle {
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+        .order__created_discription {
+            display: flex;
+            margin-bottom: 12px;
+        }
+        
+}
+    @media (max-width: 768px) {
+    
+    
+}

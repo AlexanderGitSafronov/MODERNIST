@@ -1,0 +1,88 @@
+@media (max-width: 1680px) {
+   .personal__cabinet h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+   
+  }
+  @media (max-width: 1600px) {
+    .personal__cabinet {
+        width: 547px;
+    }
+  }
+@media (max-width: 1536px) {
+    
+    
+  }
+  @media (max-width: 1440px) {
+    .personal__cabinet_header {
+        margin-bottom: 60px;
+    }
+  }
+  @media (max-width: 1366px) {
+    
+}
+  @media (max-width: 1280px) {
+   .personal__cabinet p {
+        font-size: 20px;
+    }
+    .personal__cabinet .personal__cabinet_add_adress-btn button {
+        padding: 17px 70px;
+    }
+  }
+  @media (max-width: 1024px) {
+  .personal__cabinet h1 {
+       font-size: 50px;
+       line-height: 50px;
+   }
+  .personal__cabinet .menu__all_furniture-header ul li {
+    font-size: 16px;
+}
+.personal__cabinet .personal__cabinet_exit a {
+    font-size: 16px;
+}
+.personal__cabinet {
+    width: 490px;
+}
+.personal__cabinet .personal__cabinet_header {
+    margin-bottom: 45px;
+}
+.personal__cabinet .personal__cabinet_add_adress-btn {
+    margin-top: 20px;
+}
+}
+@media (max-width: 800px) {
+    .personal__cabinet h1 {
+        font-size: 40px;
+    }
+    .personal__cabinet .menu__all_furniture-header ul li {
+        font-size: 14px;
+    }
+    .personal__cabinet .personal__cabinet_exit a {
+        font-size: 14px;
+    }
+    .personal__cabinet {
+        width: 400px;
+    }
+    .personal__cabinet .personal__cabinet_header {
+        margin-bottom: 30px;
+    }
+    .personal__cabinet_header_text {
+        margin-bottom: 30px;
+    }
+    .personal__cabinet p {
+        font-size: 14px;
+    }
+    .personal__cabinet button {
+        font-size: 10px;
+    }
+    .personal__cabinet .personal__cabinet_add_adress-btn button {
+        padding: 14px 44px;
+    }
+    .personal__cabinet .personal__cabinet_add_adress-btn {
+        margin-top: 15px;
+    }
+}
+@media (max-width: 768px) {
+    
+}
