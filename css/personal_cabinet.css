@@ -24,6 +24,9 @@ button {
     font-weight: 700;
     background-color: transparent;
 }
+.personal__cabinet_exit a {
+    color: rgba(36, 22, 11, 0.7);
+}
 .personal__cabinet_exit a:hover{
     color: #24160B;
 }
@@ -240,3 +243,6 @@ bottom: -3px;
   .ordering__input .ordering__input_form {
       display: block;
   }
+  .container__basket_content p {
+    margin-bottom: 1rem;
+}

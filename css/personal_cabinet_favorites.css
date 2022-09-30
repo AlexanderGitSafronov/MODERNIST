@@ -4,6 +4,7 @@
 /* .push__favorites {
     display: none;
 } */
-.personal__cabinet_header_text {
-    
+
+.container__basket_content p {
+    margin-bottom: 1rem;
 }

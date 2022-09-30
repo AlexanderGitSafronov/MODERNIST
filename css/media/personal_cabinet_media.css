@@ -1,0 +1,213 @@
+@media (max-width: 1920px) {
+    .four__input_flex_first {
+        padding-right: 8px;
+    }
+    .four__input input {
+        width: 149px;
+    }
+}
+@media (max-width: 1680px) {
+   
+  
+  }
+  @media (max-width: 1600px) {
+    .ordering__input input {
+        width: 264px;
+    }
+    .four__input input {
+        width: 125px;
+    }
+    .organization__w input {
+        width: 100%;
+    }
+    .way__to_get {
+        padding: 25px 30px;
+    }
+    .way__to_get_discription p {
+        font-size: 15px;
+    }
+    .way__to_get_discription {
+        margin-bottom: 20px;
+    }
+    .way__to_get-btn button {
+        font-size: 12px;
+        padding: 10px 18px;
+    }
+    
+  }
+@media (max-width: 1536px) {
+    .four__input_flex_first {
+        padding-right: 6px;
+    }
+    .form__item_adress {
+        margin-bottom: 15px;
+    }
+    .ordering__input input {
+        width: 267px;
+    }
+    .organization__w input {
+        width: 100%;
+    }
+    .four__input input {
+        width: 120px;
+    }
+    .four__input input {
+        width: 126px;
+    }
+    
+    
+  }
+  @media (max-width: 1440px) {
+ 
+  
+  }
+  @media (max-width: 1366px) {
+    .ordering__input input {
+        width: 267px;
+        padding-top: 25px;
+    }
+    .four__input_flex_first {
+        padding-right: 5px;
+    }
+    .organization__w input {
+        width: 100%;
+    }
+    .four__input input {
+        width: 128px;
+    }
+}
+  @media (max-width: 1280px) {
+    
+    .ordering__input input {
+        width: 266px;
+        padding-top: 20px;
+    }
+    .organization__w input {
+        width: 100%;
+    }
+    .four__input input {
+        width: 127px;
+    }
+    .personal__cabinet p {
+        font-size: 15px;
+    }
+    .form__item_adress label {
+        top: 17px;
+    }
+    
+  }
+  @media (max-width: 1024px) {
+    .ordering__input_personal_cabinet-btn {
+        margin-top: 20px;
+    }
+    .form__item_adress label {
+        top: 16px;
+    }
+    .way__to_get_discription p {
+        font-size: 14px;
+    }
+    .way__to_get-btn_second {
+        margin-left: 8px;
+    }
+    
+    .ordering__input input {
+        width: 241px;
+        padding-top: 18px;
+    }
+    .organization__w input {
+        width: 100%;
+    }
+    .four__input input {
+        width: 116px;
+    }
+    .four__input_flex_first {
+        padding-right: 4px;
+    }
+    .four__input_flex_second {
+        padding-left: 4px;
+    }
+    .form__item_adress {
+        margin-bottom: 8px;
+    }
+    
+   
+    
+}
+@media (max-width: 800px) {
+    .ordering__input .ordering__input_form {
+        display: block;
+    }
+    .form__item_adress input {
+        width: 100%;
+    }
+    .four__input {
+        display: block;
+    }
+    .four__input_flex {
+        display: flex;
+        justify-content: space-between;
+    }
+    .four__input .four__input_pad {
+       width: 100%;
+    }
+    
+    
+    .four__input_flex_first {
+        padding-right: 0px;
+    }
+    .four__input_flex_second {
+        padding-left: 0px;
+    }
+    .form__item_adress_pad {
+        display: flex;
+        justify-content: end;
+    }
+    
+   .form__item_adress_pad {
+       display: block;
+       margin-left: 4px;
+   }
+   .form__item_adress_pad_first {
+       margin-right: 4px;
+   } 
+   .adress__express_two_form {
+       display: block;
+   }
+   .form__item_adress_pad_first input,
+   .form__item_adress_pad input{
+    width: 196px;
+   }
+   .ordering__input_personal_cabinet-btn {
+    margin-top: 10px;
+}
+.personal__cabinet p {
+    font-size: 14px;
+}
+h5{
+    font-size: 14px;
+}
+h4{
+    font-size: 16px;
+}
+.way__to_get_discription p {
+    font-size: 12px;
+}
+    
+}
+@media (max-width: 768px) {
+    .ordering, .ordering__basked {
+        padding-top: 75px;
+    }
+    .basket__fixed .container__basket_price h5 {
+        font-size: 13px;
+    }
+    .way__to_get {
+        padding: 11px 11px;
+    }
+    .payment__method_footer {
+        margin-top: 12px;
+    }
+    .ordering {
+        padding-bottom: 50px;
+    }
+}

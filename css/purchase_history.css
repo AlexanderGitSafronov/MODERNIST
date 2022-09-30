@@ -51,6 +51,7 @@ h5 {
 }
 .order__details button:hover {
     color: #24160B;
+    border-bottom: 1px dashed #24160B;
 }
 
 .purchase__history_order_header_text {

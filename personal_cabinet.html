@@ -19,6 +19,10 @@
     <link rel="stylesheet" href="./css/ordering.css">
     <link rel="stylesheet" href="./css/order_created.css">
     <link rel="stylesheet" href="./css/personal_cabinet.css">
+    <link rel="stylesheet" href="./css/media/media.css">
+    <link rel="stylesheet" href="./css/media/goods_card_media.css">
+    <link rel="stylesheet" href="./css/media/personal_cabinet_favorites_media.css">
+    <link rel="stylesheet" href="./css/media/personal_cabinet_media.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
   </head>
@@ -589,30 +593,33 @@
                             
                         </div>
                         <div class=" four__input" action="">
-                            <div class="from__errors">
-                                <div class="form__item_adress">
-                                    <input type='number' name='home'  required  class='input__home field' id="form-home" value=""  placeholder='Дом'/>
-                                    <label for="form-home">Дом</label>
-                                    <div class="check__input">
-                                        <svg width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M1 4.86427L5.39614 9.60386L14 1.00003" stroke="#999A81" stroke-width="1.5"/>
-                                            </svg>
+                            <div class="four__input_flex_first">
+                                <div class="from__errors">
+                                    <div class="form__item_adress form__item_adress_pad_first">
+                                        <input type='number' name='home'  required  class='input__home field' id="form-home" value=""  placeholder='Дом'/>
+                                        <label for="form-home">Дом</label>
+                                        <div class="check__input">
+                                            <svg width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 4.86427L5.39614 9.60386L14 1.00003" stroke="#999A81" stroke-width="1.5"/>
+                                                </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="from__errors">
+                                    <div class="form__item_adress form__item_adress_pad">
+                                        <input type='number' name='frame' required class='input__frame field' id="form-frame" value=""  placeholder='Корпус'/>
+                                        <label for="form-frame">Корпус</label>
+                                        <div class="check__input">
+                                            <svg width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 4.86427L5.39614 9.60386L14 1.00003" stroke="#999A81" stroke-width="1.5"/>
+                                                </svg>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                           <div class="four__input_flex_second">
                             <div class="from__errors">
-                                <div class="form__item_adress">
-                                    <input type='number' name='frame' required class='input__frame field' id="form-frame" value=""  placeholder='Корпус'/>
-                                    <label for="form-frame">Корпус</label>
-                                    <div class="check__input">
-                                        <svg width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M1 4.86427L5.39614 9.60386L14 1.00003" stroke="#999A81" stroke-width="1.5"/>
-                                            </svg>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="from__errors">
-                                <div class="form__item_adress">
+                                <div class="form__item_adress form__item_adress_pad_first">
                                     <input type='number' name='entrance'required  class='input__entrance field' id="form-entrance" value=""  placeholder='Подъезд'/>
                                     <label for="form-entrance">Подъезд</label>
                                     <div class="check__input">
@@ -623,7 +630,7 @@
                                 </div>
                             </div>
                             <div class="from__errors">
-                                <div class="form__item_adress">
+                                <div class="form__item_adress form__item_adress_pad">
                                     <input type='number' name='floor' required  class='input__floor field' id="form-floor" value=""  placeholder='Этаж'/>
                                     <label for="form-floor">Этаж</label>
                                     <div class="check__input">
@@ -633,6 +640,8 @@
                                     </div>
                                 </div>
                             </div>
+                           </div>
+                           
                            
                         </div>
                     </div>

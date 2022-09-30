@@ -1,0 +1,61 @@
+@media (max-width: 1920px) {
+    
+}
+@media (max-width: 1680px) {
+   
+  
+  }
+  @media (max-width: 1600px) {
+   
+  }
+@media (max-width: 1536px) {
+    
+    
+  }
+  @media (max-width: 1440px) {
+ 
+  
+  }
+  @media (max-width: 1366px) {
+    .ordering__input input {
+        padding-top: 25px;
+    }
+    .form__item_adress {
+        margin-bottom: 15px;
+    }
+}
+  @media (max-width: 1280px) {
+    .ordering__input input {
+        padding-top: 20px;
+    }
+    .form__item_adress label {
+        top: 16px;
+    }
+    .save__personal_data button {
+
+        padding: 15px 143px;
+    }
+  }
+  @media (max-width: 1024px) {
+    .personal__data .ordering__input_personal__data {
+        width: 315px;
+    }
+    .ordering__input input {
+        padding-top: 18px;
+    }
+    .personal__data button {
+        font-size: 12px;
+    }
+    .form__item_adress {
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 800px) {
+    .personal__data .ordering__input_personal__data {
+        width: 289px;
+    }
+    
+}
+@media (max-width: 768px) {
+    
+}
