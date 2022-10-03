@@ -92,12 +92,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+ 
 }
 .design__consultant_content_second {
     padding: 60px 50px 60px 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+   
 }
 
 .design__consultant_content_third {
@@ -105,10 +107,11 @@
    display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 .design__consultant_content_img img{
     /* width: 100%; */
-
+    flex-grow: 1;
 }
 .design__consultant_content_discription p {
     font-size: 16px;
@@ -133,6 +136,7 @@
 }
 .design__consultant_content_img {
     overflow: hidden;
+    flex-grow: 1;
 }
 .design__consultant_content_img img{
     /* object-fit: cover; */
@@ -203,4 +207,13 @@
 }
 .design__consultant_pad {
     margin-top: 60px;
+}
+.design__consultant_content_border {
+    flex: inherit;
+}
+.design__consultant_content .design__consultant_content_third {
+    flex: inherit;
+}
+.design__consultant_content_border {
+    width: 33%;
 }

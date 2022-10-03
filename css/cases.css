@@ -29,6 +29,7 @@
 }
 .cases__content_img img {
     object-fit: cover;
+    width: 100%;
 }
 .cases__content_block {
     display: flex;

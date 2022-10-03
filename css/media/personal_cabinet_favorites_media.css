@@ -24,7 +24,7 @@
 }
   @media (max-width: 1280px) {
    .personal__cabinet p {
-        font-size: 20px;
+        font-size: 16px;
     }
     .personal__cabinet .personal__cabinet_add_adress-btn button {
         padding: 17px 70px;
