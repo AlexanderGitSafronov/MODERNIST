@@ -29,6 +29,9 @@
     font-weight: 300px;
     font-family: "Onest", sans-serif;
 }
+.contacts p {
+    font-size: 14px;
+}
 
 
 
@@ -134,4 +137,7 @@
 }
 .contacts__information_bottom_content p span {
     font-weight: 600;
+}
+.contacts__links_link_line {
+    display: none;
 }

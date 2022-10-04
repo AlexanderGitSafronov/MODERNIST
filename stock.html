@@ -22,6 +22,10 @@
     <link rel="stylesheet" href="./css/personal_cabinet_favorites.css">
     <link rel="stylesheet" href="./css/cases.css">
     <link rel="stylesheet" href="./css/stock.css">
+    <link rel="stylesheet" href="./css/media/media.css">
+    <link rel="stylesheet" href="./css/media/goods_card_media.css">
+    <link rel="stylesheet" href="./css/media/cases_media.css">
+    <link rel="stylesheet" href="./css/media/stock_media.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   </head>
   <body>
@@ -499,7 +503,7 @@
       </div>
       <div class="container-fluid stock">
         <div class="row ">
-            <div class=" col-6 stock__header_img">
+            <div class=" col-lg-6 stock__header_img">
                 <img src="./image/stock.png" alt="">
                 <div class="white__link1">
                     <div class="white__circle" >
@@ -517,7 +521,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 stock__header_content">
+            <div class="col-lg-6 stock__header_content">
                 <div class="stock__header_content_text">
                     <h2>1+1=3</h2>
                     <h3>пРИ ПОКУПКЕ 3-Х ПОЗИЦИЙ <br> ТОВАРА, 3-Я В ПОДАРОК</h3>
@@ -528,14 +532,14 @@
             </div>
         </div>
         <div class="row stock__content">
-            <div class="col-6 stock__content_pad">
+            <div class="col-lg-6 stock__content_pad">
                 <div class="stock__content_back_img">
                     <img src="./image/stock_bg.png" alt="">
                 </div>
                 <div class="stock__content_top_text">
                     <h4>Природа в интерьере</h4>
                 </div>
-                <div class="stock__content_bottom_text">
+                <div class="stock__content_bottom_text stock__content_bottom_text_mob">
                     <p>Серия Модерн в стиле эко- <br> сканди со скидками до -30%</p>
                 </div>
                 <div class="stock__content_bg_dark">
@@ -545,7 +549,10 @@
                     <button>смотреть каталог</button>
                 </div>
             </div>
-            <div class="col-2 stock__content_pad">
+            <div class="col-lg-6 stock__content_pad stock__content_pad_hiden">
+                <img src="./image/stock_bg.png" width="100%" alt="">
+            </div>
+            <div class="col-lg-2 stock__content_pad">
                 <div class="stock__content_back_img">
                     <img src="./image/stock_bg.png" alt="">
                 </div>
@@ -560,10 +567,11 @@
 
                 </div>
                 <div class="stock__content_bg_button stock__content_bg_button_midle">
-                    <button>смотреть</button>
+                    <button class="stock__midle_button">смотреть</button>
+                    <button class="stock__midle_button_hiden">смотреть каталог</button>
                 </div>
             </div>
-            <div class="col-4 stock__content_pad">
+            <div class="col-lg-4 stock__content_pad">
                 <div class="stock__content_back_img">
                     <img src="./image/stock_bg.png" alt="">
                 </div>
@@ -584,7 +592,7 @@
         </div>
 
         <div class="row stock__content">
-            <div class="col-6 stock__content_pad">
+            <div class="col-lg-6 stock__content_pad">
                 <div class="stock__content_back_img">
                     <img src="./image/stock_bg.png" alt="">
                 </div>
@@ -601,13 +609,13 @@
                     <button>смотреть каталог</button>
                 </div>
             </div>
-            <div class="col-2 stock__content_pad stock__content_pad_none">
+            <div class="col-lg-2 stock__content_pad stock__content_pad_none">
                 <div class="stock__content_back_small">
                     <img src="./image/stock_bg_small.png" alt="">
                 </div>
                 
             </div>
-            <div class="col-4 stock__content_pad">
+            <div class="col-lg-4 stock__content_pad">
                 <div class="stock__content_back_img">
                     <img src="./image/stock_bg.png" alt="">
                 </div>
@@ -765,7 +773,7 @@
   </div>
   </div>
 
-
+  <script src="/js/stock.js"></script>
     <script src="/js/index.js"></script>
     <script src="/js/personal_cabinet.js"></script>
     <script

@@ -237,6 +237,24 @@
     .footer__footer {
         height: 184px;
     }
+    /* Версия сайта для проффесионалов */
+    .modal__site_proffesional .modal-dialog {
+        max-width: 555px;
+    }
+    .modal__site_proffesional .modal-title {
+        font-size: 26px;
+        margin-bottom: 10px;
+        margin-top: 45px;
+    }
+    .modal__site_proffesional .modal-body p {
+        font-size: 14px;
+    }
+    .modal__site_proffesional .carousel-caption {
+        height: 100px;
+    }
+    .modal__site_proffesional .modal-footer {
+        padding: 50px 50px 50px 50px;
+    }
   }
   @media (max-width: 1366px) {
     .head__text {
@@ -545,6 +563,32 @@
     }
     .footer__footer {
         height: 150px;
+    }
+}
+@media (max-width: 991px) {
+    /* Модельное окно сайт для проффесионалов */
+    .modal__site_proffesional .modal-title {
+        margin-bottom: 5px;
+        margin-top: 30px;
+    }
+    .modal__site_proffesional .modal-body {
+        padding: 0px 30px;
+    }
+    .modal__site_proffesional .modal-footer {
+        padding: 45px 30px 30px 30px;
+    }
+    .modal__site_proffesional .modal-dialog {
+        max-width: 480px;
+    }
+    .modal__site_proffesional .carousel-indicators [data-bs-target] {
+        width: 12px;
+        height: 12px;
+    }
+    .modal-btn button {
+        margin-bottom: 0;
+    }
+    .modal__site_proffesional .modal-body .carousel-caption p {
+        margin-bottom: 0px;
     }
 }
 @media (max-width: 800px) {

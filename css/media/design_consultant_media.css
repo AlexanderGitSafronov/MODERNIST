@@ -277,6 +277,9 @@
         margin-top: 0;
         margin-bottom: 40px;
         background-color: #FEF7F0;
+        width: 104%;
+        margin-left: -10px;
+    
     }
     .disign_consultant_big {
         padding: 30px;
@@ -284,7 +287,9 @@
     .design__consultant_content_second .design__consultant_content_discription {
         margin-top: 20px;
     }
-    
+    .heden__design {
+        display: none;
+    }
     
 }
 @media (max-width: 800px) {

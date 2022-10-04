@@ -1,0 +1,56 @@
+@media (max-width: 1680px) {
+    
+}
+@media (max-width: 1600px) {
+    .contacts__information_bottom {
+        padding: 74px 226px 100px 100px;
+    }
+    
+}
+@media (max-width: 1536px) {
+   
+}
+@media (max-width: 1440px) {
+    
+    .contacts h6 {
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+    .contacts__information_top_head {
+        margin-bottom: 30px;
+    }
+  
+}
+@media (max-width: 1366px) {
+    
+}
+@media (max-width: 1280px) {
+    .contacts__information_top_head {
+        margin-bottom: 20px;
+    }
+    .contacts h6 {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+   
+}
+@media (max-width: 1024px) {
+    
+    .contacts__information_bottom {
+        padding: 34px 100px 100px 60px;
+    }
+    
+    
+}
+@media (max-width: 991px) {
+    .contacts__information_bottom {
+        padding: 34px 60px 100px 60px;
+    }
+    
+}
+@media (max-width: 800px) {
+    
+}
+@media (max-width: 768px) {
+  
+}

@@ -1,3 +1,6 @@
 .contacts__information_top_discription_designer {
     margin-bottom: 0px;
 }
+.contacts__links_link_line {
+    display: none;
+}

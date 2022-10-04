@@ -1,0 +1,218 @@
+@media (max-width: 1680px) {
+   
+    
+}
+@media (max-width: 1600px) {
+    .stock__header_content {
+        padding: 60px;
+    }
+    .stock__content_pad {
+        padding: 45px 30px 30px 45px;
+    }
+    .stock__content_pad_none {
+        padding: 0px;
+    }
+    .stock__content_bottom_text {
+        margin-top: 100px;
+    }
+}
+@media (max-width: 1536px) {
+    .stock__header_content {
+        padding: 50px;
+    }
+    .stock__content_pad {
+        padding: 40px 30px 30px 40px;
+    }
+    .stock__content_pad_none {
+        padding: 0px;
+    }
+    .stock__content_bottom_text {
+        margin-top: 90px;
+    }
+    .stock p {
+        font-size: 17px;
+    }
+  
+}
+@media (max-width: 1440px) {
+    .stock h2 {
+        font-size: 70px;
+    }
+    .stock h3 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .stock__header_content_button button {
+        padding: 14px 78px;
+        font-size: 13px;
+    }
+    .stock__content_bottom_text {
+        margin-top: 80px;
+    }
+    .stock__content_pad {
+        padding: 35px 25px 25px 35px;
+    }
+    .stock__content_pad_none {
+        padding: 0px;
+    }
+    .stock__content_bg_button button {
+        padding: 14px 105px;
+        font-size: 13px;
+    }
+    .stock__content_bg_button_midle button {
+        padding: 14px 50px;
+        font-size: 13px;
+    }
+    
+}
+@media (max-width: 1366px) {
+    .stock__content_bottom_text {
+        margin-top: 70px;
+    }
+    .stock__content_pad {
+        padding: 30px 20px 25px 30px;
+    }
+    .stock__content_pad_none {
+        padding: 0px;
+    }
+}
+@media (max-width: 1280px) {
+    .stock h2 {
+        font-size: 60px;
+    }
+    .stock h3 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .stock__header_content {
+        padding: 40px;
+    }
+    .stock__content_pad {
+        padding: 25px 15px 20px 25px;
+    }
+    .stock__content_pad_none {
+        padding: 0px;
+    }
+    .stock__content_bottom_text {
+        margin-top: 60px;
+    }
+    .stock h4 {
+        font-size: 24px;
+    }
+    .stock p {
+        font-size: 14px;
+    }
+    .stock__header_content_button button {
+        font-size: 12px;
+    }
+    .stock__content_bg_button button {
+        padding: 12px 72px;
+        font-size: 12px;
+    }
+    .stock__content_bg_button_midle button {
+        padding: 12px 40px;
+        font-size: 12px;
+    }
+    
+    
+}
+@media (max-width: 1024px) {
+    .stock__header_content {
+        padding: 30px;
+    }
+    .stock h2 {
+        font-size: 50px;
+    }
+    .stock h3 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .stock__header_content_button button {
+        font-size: 10px;
+        padding: 12px 60px;
+    }
+    .stock__content_pad {
+        padding: 15px 10px 15px 15px;
+    }
+    .stock__content_pad_none {
+        padding: 0px;
+    }
+    .stock__content_bottom_text {
+        margin-top: 40px;
+    }
+    .stock h4 {
+        font-size: 20px;
+    }
+    .stock p {
+        font-size: 12px;
+    }
+    .stock__content_bg_button button {
+        padding: 10px 62px;
+        font-size: 10px;
+    }
+    .stock__content_bg_button_midle button {
+        padding: 10px 30px;
+        font-size: 10px;
+    }
+}
+@media (max-width: 991px) {
+    .stock {
+        padding: 0px 150px;
+    }
+    .stock__content_bg_button_midle button{
+        padding: 10px 62px;
+    }
+    .stock__midle_button {
+        display: none;
+    }
+    .stock__midle_button_hiden {
+        display: block;
+    }
+    .stock h2 {
+        font-size: 40px;
+    }
+    .stock h3 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .stock__header_content_button button {
+        font-size: 12px;
+        padding: 15px 48px;
+        margin-top: 52px;
+    }
+    .stock p {
+        font-size: 14px;
+    }
+    .stock h4 {
+        font-size: 28px;
+    }
+    .stock__content_pad {
+        padding: 24px 16px 34px 16px;
+    }
+    .stock__content_pad_none {
+        padding: 0px;
+    }
+    .stock__content_pad_none {
+        order: 1;
+    }
+    .stock__content_bottom_text {
+        margin-top: 30px;
+    }
+    .stock__content_bottom_text_mob {
+        margin-top: 60px;
+    }
+    .stock__content_pad_hiden {
+        display: block;
+    }
+    .stock__content_pad_hiden {
+        padding: 0px;
+    }
+}
+@media (max-width: 800px) {
+    
+}
+@media (max-width: 768px) {
+    .stock {
+        padding: 0px 100px;
+    }
+}
