@@ -893,3 +893,49 @@
             font-size: 12px;
         }
     }
+
+
+    /* МОБИЛКА */
+
+    @media (max-width: 767px) {
+        .footer__desctop {
+            display: none;
+        }
+        .footer__mobil {
+            display: block;
+        }
+        .footer__media {
+            border: none;
+        }
+        .footer a {
+            font-size: 28px;
+        }
+        .footer__right_text  .footer__text_small a{
+            font-size: 12px;
+        }
+        .footer__media  svg {
+            width: 100%;
+            height: 100%;
+        }
+        .footer__media .first__footer_svg svg {
+            width: 15px;
+        }
+        .footer__media .second__footer_svg svg {
+            width: 26px;
+        }
+        .footer__media .third__footer_svg svg {
+            width: 32px;
+        }
+        .header {
+            background-size: cover;
+        }
+        .footer__mobil {
+            margin-bottom: 60px;
+        }
+
+        .section__footer_menu {
+            
+            display: flex;
+            align-items: center;
+        }
+    }

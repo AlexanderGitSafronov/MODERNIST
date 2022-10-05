@@ -179,9 +179,7 @@
 .appeals__answer_not_autorization .ordering__input input {
     border-color: #999A81;
 }
-.appeals__answer_not_autorization .ordering__input input::placeholder {
-    color: #999A81;
-}
+
 .appeals__answer_not_autorization .modal-dialog {
     max-width: 500px;
 }
@@ -206,10 +204,14 @@
     text-transform: uppercase;
     color: #FCF8F4;
     background-color: #24160B;
+
 }
 .appeals__answer_not_autorization .modal-body .offcanvas-footer_privacy_policy p  {
     font-size: 12px;
     font-weight: 300;
+}
+.offcanvas-footer_privacy_policy a {
+    color: #EFAE35;
 }
 .number__confirmation_border {
     border-bottom: 1px solid #999A81;
@@ -233,6 +235,9 @@
 }
 
 /* МОДЕЛЬНОЕ ОКНО ПОДТВЕРЖДЕНИЯ НОМЕРА */
+.modal-title {
+    margin-bottom: 0;
+}
 .appeals__answer_number_header {
     display: flex;
     align-items: center;
@@ -279,10 +284,56 @@
 .appeals__answer_number .ordering__input input{
     border-color: #999A81;
 }
-.appeals__answer_number .ordering__input input::placeholder {
+/* .appeals__answer_number .ordering__input input::placeholder {
     color: #999A81;
-}
+} */
 
 /* .dropdown-text p {
     color: #24160B;
 } */
+
+.form-group {
+    position: relative;
+}
+.form-group label {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: top 0.5s;
+    font-family: "Onest", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(36, 22, 11, 0.5);
+    cursor: text;
+  }
+  
+  .form-group input:focus+label,
+  .form-group input:not(:placeholder-shown)+label {
+      top: 10px;
+      
+  }
+   .modal__form_group input {
+      padding-bottom: 10px;
+      padding-top: 30px;
+      font-weight: 400;
+      margin-bottom: 0px;
+  }
+  
+  
+  
+  .modal__form_group .form-group input:focus,
+  .modal__form_group .form-group input:not(:placeholder-shown){
+      background-color: #fff;
+  }
+
+  input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+.form-group input::placeholder {
+    color: transparent !important;
+  }
+  

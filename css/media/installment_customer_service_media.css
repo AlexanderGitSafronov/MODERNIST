@@ -1,0 +1,96 @@
+@media (max-width: 1680px) {
+    .contacts__information_bottom {
+        padding: 54px 126px 100px 80px;
+    }
+}
+@media (max-width: 1600px) {
+    
+   
+}
+@media (max-width: 1536px) {
+   
+.percent p {
+    font-size: 60px;
+    margin-left: 60px;
+}
+.percent span {
+    font-size: 25px;
+}
+.contacts__information_bottom {
+    padding: 54px 126px 100px 80px;
+}
+
+}
+@media (max-width: 1440px) {
+    
+    .contacts p {
+        font-size: 16px;
+    }
+   .contacts  .installment__tinkoff_header p{
+        font-size: 14px;
+    }
+    .percent p{
+font-size: 60px;
+    }
+   
+    .contacts .installment__tinkoff_header_discription p {
+        font-size: 12px;
+    }
+    .contacts h6 {
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+    .installment__tinkoff {
+        margin-top: 70px;
+    }
+  
+}
+@media (max-width: 1366px) {
+    
+}
+@media (max-width: 1280px) {
+    .contacts__information_bottom {
+        padding: 54px 80px 100px 70px;
+    }
+   
+}
+@media (max-width: 1024px) {
+    
+    .contacts__information_bottom {
+        padding: 34px 60px 100px 60px;
+    }
+    .percent p {
+        font-size: 60px;
+        margin-left: 20px;
+    }
+    .percent span {
+        font-size: 20px;
+    }
+    .installment__tinkoff {
+        margin-top: 60px;
+    }
+    .installment__tinkoff_header p {
+        margin-top: 30px;
+    }
+    
+    
+}
+@media (max-width: 991px) {
+    .contacts__information_bottom {
+        padding: 34px 60px 100px 60px;
+    }
+    .percent p {
+        font-size: 60px;
+        margin-left: 50px;
+    }
+    
+}
+@media (max-width: 800px) {
+    
+}
+@media (max-width: 768px) {
+    .percent p {
+        font-size: 60px;
+        margin-left: 40px;
+    }
+}

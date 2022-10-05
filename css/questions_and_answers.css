@@ -1,16 +1,14 @@
 .questions__and_answer {
-    
+    width: 80%;
     padding-top: 80px;
+    padding-bottom: 80px;
 }
 .questions__and_answer_pos {
     display: flex;
     justify-content: center;
     border-top: 1px solid #999A81;
 }
-.questions__and_answer {
-    width: 1342px;
-    
-}
+
 .accordion-header {
     display: flex;
     justify-content: space-between;
@@ -24,10 +22,14 @@
     font-weight: 700;
     font-family: "Bebas Neue", sans-serif;
 }
+.card-body {
+    padding-right: 50px;
+}
 .card-body p {
     font-size: 16px;
     font-weight: 300;
     font-family: "Onest", sans-serif;
+    
 }
 .accordion-header-span .glyphicon-plus {
     left: -15px;

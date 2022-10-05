@@ -1,0 +1,81 @@
+@media (max-width: 1680px) {
+    
+}
+@media (max-width: 1600px) {
+    
+   
+}
+@media (max-width: 1536px) {
+   
+  
+}
+@media (max-width: 1440px) {
+    .accordion-header-span .glyphicon-plus {
+        height: 20px;
+    }
+    .accordion-header-span .glyphicon-plus::after {
+        width: 20px;
+        left: -10px;
+        top: 10px;
+    }
+    .accordion-header-span .glyphicon-minus::after {
+        width: 20px;
+        left: -10px;
+    }
+    .accordion-header-btn a {
+        font-size: 26px;
+    }
+    .questions__and_answer {
+        padding-top: 50px;
+    }
+    .goods__card_header-text a {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .card-body {
+        padding-top: 14px;
+    }
+}
+@media (max-width: 1366px) {
+  
+}
+@media (max-width: 1280px) {
+    
+    
+}
+@media (max-width: 1150px) {
+    
+}
+@media (max-width: 1024px) {
+    
+    
+}
+@media (max-width: 991px) {
+    .accordion-header-btn a {
+        font-size: 22px;
+    }
+    .questions__and_answer {
+        
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .accordion-header-span .glyphicon-plus {
+        height: 15px;
+    }
+    .accordion-header-span .glyphicon-plus::after {
+        width: 15px;
+        left: -7px;
+        top: 7px;
+    }
+    .accordion-header-span .glyphicon-minus::after {
+        width: 15px;
+        left: -7px;
+        
+    }
+}
+@media (max-width: 800px) {
+    
+}
+@media (max-width: 768px) {
+   
+}

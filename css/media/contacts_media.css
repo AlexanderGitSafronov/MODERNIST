@@ -110,6 +110,7 @@
     .contacts__links {
         justify-content: center;
         border-top: none;
+        border-right: none;
     }
     .contacts__links_pos {
         display: flex;

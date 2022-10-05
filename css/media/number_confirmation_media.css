@@ -1,0 +1,33 @@
+@media (max-width: 1680px) {
+   
+}
+@media (max-width: 1600px) {
+  
+}
+@media (max-width: 1536px) {
+  
+ 
+}
+@media (max-width: 1440px) {
+  
+}
+@media (max-width: 1366px) {
+ 
+}
+@media (max-width: 1280px) {
+ 
+}
+@media (max-width: 1024px) {
+    .authorization__sms {
+        margin-top: 30px;
+    }
+}
+@media (max-width: 800px) {
+    .authorization__sms {
+        margin-top: 20px;
+    }
+  
+}
+@media (max-width: 768px) {
+
+}
