@@ -68,11 +68,13 @@
                 </a>
                 
               </div>
-              
-              <div class="basket__true"><a href="./basked.html">Корзина</a> </div>
+              <div class="basket_all" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                <div class="basket__true"><a >Корзина</a> </div>
               <div class="quantity__cart">
-                  <a  data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" href="">1</a>
+                  <a  >1</a>
               </div>
+              </div>
+              
             </div>
           </div>
   </div>
@@ -124,10 +126,16 @@
                 
               </div>
               
-              <div class="basket__true"><a href="./basked.html">Корзина</a> </div>
+              <div class="basket_all" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+               
+                <div class="basket__true"><a >Корзина</a> </div>
               <div class="quantity__cart">
-                <a  data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" href="">1</a>
-            </div>
+                  <a >1</a>
+              </div>
+              </div>
+
+
+              
             </div>
           </div>
   </div>
@@ -2500,7 +2508,7 @@
     <!-- КАТЕГОРЯ ВЫБОРА -->
     <div class="choice__category">
         <div class="container-fluid">
-            <div class="row">
+            <div class="row choice__category_scroll">
                 <div class="col-4 choice__category_wrapper choice__category_1 products__sections-bg">
                     <h2>комплекты</h2>
                     <div class="choice__category_circle">
@@ -2523,10 +2531,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4 choice__category_wrapper choice__category_3 products__sections-bg" onclick="javascript:location.href='./stock.html';">
+                <div class="col-4 choice__category_wrapper choice__category_3 products__sections-bg" >
                     <h2>АКЦИИ</h2>
                     <div class="choice__category_circle">
-                        <div class="circle">
+                        <div class="circle" onclick="javascript:location.href='./stock.html';">
                             <svg width="20" height="20" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke="“currentColor”" d="M4.5 16.5H26.5" stroke="#FCF8F4" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
                                 <path stroke="“currentColor”" d="M18.5 7.5L27.5 16.5L18.5 25.5" stroke="#FCF8F4" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
@@ -2595,12 +2603,12 @@
             </div>
             <div class="modal-footer">
               <div class="modal-btn ">
-                <button data-bs-toggle="modal" id="modal-button-send" data-bs-target="#exampleModal_2" data-whatever="@mdo">ОТПРАВИТЬ</button>
-                <!-- <button   id="modal-button-send" >ОТПРАВИТЬ</button> -->
+                <!-- <button data-bs-toggle="modal" id="modal-button-send" data-bs-target="#exampleModal_2" data-whatever="@mdo">ОТПРАВИТЬ</button> -->
+                <button   id="modal-button-send" >ОТПРАВИТЬ</button>
             </div>
             <div class="modal-footer_discription">
-                <p>Нажимая кнопку "Отправить", Вы соглашаетесь с условиями  </p>
-                <a href="">политики конфиденциальности</a>
+                <p>Нажимая кнопку "Отправить", Вы соглашаетесь с условиями <a href="">политики конфиденциальности</a> </p>
+                
             </div>
             </div>
             </form>
@@ -2844,7 +2852,7 @@
       <div class="section__footer_menu">
         <div class="container-fluid">
             <div class="footer__menu">
-              <div class="footer__menu_item">
+              <div class="footer__menu_item" onclick="javascript:location.href='./index.html';">
                 <div class="footer__menu_icon">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path stroke="“currentColor”" d="M20.25 20.2501V10.8319C20.25 10.7274 20.2282 10.624 20.1859 10.5284C20.1436 10.4329 20.0818 10.3472 20.0045 10.2769L12.504 3.45799C12.3659 3.33248 12.186 3.26293 11.9995 3.26294C11.8129 3.26295 11.633 3.3325 11.4949 3.45803L3.99545 10.2769C3.91814 10.3472 3.85637 10.4329 3.8141 10.5284C3.77183 10.624 3.75 10.7273 3.75 10.8318V20.2501" stroke="#FCF8F4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -2856,7 +2864,7 @@
                   <p>Главная</p>
                 </div>
               </div>
-              <div class="footer__menu_item">
+              <div  class="footer__menu_item" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
                 <div class="footer__menu_icon">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path stroke="“currentColor”" d="M8 6H21" stroke="#FCF8F4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -2871,7 +2879,10 @@
                   <p>Каталог</p>
                 </div>
               </div>
-              <div class="footer__menu_item">
+              <div class="footer__menu_item footer__menu_item_basket" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                <div class="number__items_cart">
+                  <span>12</span>
+                </div>
                 <div class="footer__menu_icon">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path stroke="“currentColor”" d="M7.5 21.75C8.32843 21.75 9 21.0784 9 20.25C9 19.4216 8.32843 18.75 7.5 18.75C6.67157 18.75 6 19.4216 6 20.25C6 21.0784 6.67157 21.75 7.5 21.75Z" fill="#FCF8F4"/>

@@ -1127,6 +1127,19 @@
             height: 450px;
             background-position: center;
         }
+        .choice__category_wrapper {
+            width: 265px;
+        }
+        .modal-footer_discription p {
+            font-size: 12px;
+            line-height: 12px;
+        }
+        .modal-footer_discription a {
+            font-size: 12px;
+        }
+        .small__content_mobil .product__pad{
+            border-bottom: 1px solid #999A81;
+        }
     }
     @media (max-width: 723px)  {
         .head__text p {
@@ -1134,8 +1147,13 @@
             font-size: 16px;
         }
     }
-    @media (max-width: 627px) {
-        
+    @media (max-width: 625px) {
+        .out__work_text h2 {
+            line-height: 60px;
+        }
+        .out__work_image-flex {
+            width: 80%;
+        }
     }
     @media (max-width: 600px) {
         
@@ -1146,10 +1164,39 @@
             font-size: 16px;
         }
     }
+    @media (max-width: 515px) {
+        .small__content_mobil .discription__sofa h3 {
+            margin-bottom: 150px;
+        }
+    }
+    @media (max-width: 480px) {
+        .search__menu input {
+            width: 300px;
+        }
+    }
     @media (max-width: 414px) {
-        
+        .head__text p {
+           padding: 0px 16%;
+        }
+        .out__work_image-flex {
+            width: 100%;
+        }
         .catalode {
             font-size: 16px;
+        }
+        .footer__footer {
+            height: 70px;
+        }
+        .search__menu input {
+            width: 220px;
+        }
+        .offcanvas-body_burger p {
+            padding: 12px 0px;
+        }
+    }
+    @media (max-width: 387px) {
+        .small__content_mobil .discription__sofa h3 {
+            margin-bottom: 120px;
         }
     }
     @media (max-width: 375px) {
@@ -1277,7 +1324,29 @@
             width: 100%;
         }
 
+
+        /* Модельное окно оставить заявку */
+        .modal-title {
+            font-size: 28px;
+        }
+        .modal-body {
+            padding: 0px 7%;
+        }
+        .modal-footer {
+            padding: 4% 7%;
+        }
+        .btn-close {
+            font-size: 16px;
+        }
+        .custom-checkbox_modal+label::before {
+            margin-right: 10px;
+        }
         
     }
     
-    
+    @media (max-width: 320px) {
+        .head__text p {
+            padding: 0px 31px;
+            font-size: 14px;
+        }
+    }
