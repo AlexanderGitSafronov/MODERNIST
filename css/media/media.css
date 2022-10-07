@@ -6,6 +6,9 @@
         margin-bottom: 97px;
     }
     
+    .discription__sofa h3 {
+        padding-right: 300px;
+    }
   }
   @media (max-width: 1600px) {
     .head__text{
@@ -36,6 +39,9 @@
     }
     .offcanvas-footer_bootom-btn button{
         font-size: 13px;
+    }
+    .discription__sofa h3 {
+        padding-right: 250px;
     }
   }
   @media (max-width: 1440px) {
@@ -363,6 +369,9 @@
     .footer__footer {
         height: 158px;
     }
+    .discription__sofa h3 {
+        padding-right: 200px;
+    }
   }
   @media (max-width: 1024px) {
     .img_search {
@@ -564,6 +573,9 @@
     .footer__footer {
         height: 150px;
     }
+    .discription__sofa h3 {
+        padding-right: 120px;
+    }
 }
 @media (max-width: 991px) {
     /* Модельное окно сайт для проффесионалов */
@@ -631,8 +643,9 @@
     .like svg {
         width: 20px;
     }
-    .container__header img{
-        width: 80%;
+    
+    .container__header img {
+        width: 60%;
     }
     .catalode, .basket__true, .quantity__cart {
         
@@ -898,6 +911,37 @@
     /* МОБИЛКА */
 
     @media (max-width: 767px) {
+
+        .catalode__header_hiden {
+            display: none;
+        }
+        .menu__burger_hiden {
+            display: none;
+        }
+        .catalode__menu_mobile {
+            display: block;
+        }
+        .basket__true {
+            display: none;
+        }
+        .quantity__cart {
+            display: none;
+        }
+        .img_search {
+            margin-right: 0;
+        }
+
+        .catalode__menu_mobile a{
+            color: #FCF8F4;
+            font-weight: 600;
+        }
+        .choose__card_size {
+            display: block;
+        }
+
+
+
+
         .footer__desctop {
             display: none;
         }
@@ -938,4 +982,302 @@
             display: flex;
             align-items: center;
         }
+
+
+
+
+
+        .header {
+            background-position: center;
+        }
+        .head__text h1 {
+            font-size: 80px;
+            line-height: 80px;
+        }
+        .head__text {
+            margin-top: 65px;
+        }
+        .head__text p {
+            padding: 0px 229px;
+            font-size: 16px;
+        }
+       
+        .head__text-button button {
+            padding: 16px 39px;
+            font-size: 14px;
+            font-family: "Onest", sans-serif;
+            font-weight: 500;
+            margin-top: 50px;
+            margin-bottom: 86px;
+        }
+        .container__header {
+            padding: 3.1vh 2.5vw;
+        }
+        .header__bg {
+            padding: 2.1vh 2.5vw;
+        }
+        .footer__footer {
+            height: 62px;
+        }
+        .products__sections_first {
+            background-color: #FEF7F0;
+        }
+        .discription__sofa h3 {
+            margin-top: 23px;
+            font-size: 32px;
+            margin-bottom: 160px;
+        }
+        
+        .product__pad {
+            border-bottom: none;
+        }
+        .item__big_madrid {
+            border-top: none;
+        }
+        .item__big_madrid {
+            height: 415px;
+        }
+        .item__title {
+            font-size: 16px;
+        }
+        .like svg {
+            width: 22px;
+        }
+        .item__footer_madrid p {
+
+        }
+        .madrid__button {
+            display: none;
+        }
+        .madrid__button_mobil {
+            display: block;
+        }
+        .madrid__button_mobil svg{
+            margin-left: 23px;
+        }
+        .button_products button {
+            padding: 11px 20px;
+            font-size: 16px;
+        }
+
+
+        
+        .discription__sofa h3 {
+            margin-bottom: 160px;
+        }
+        .discription__sofa_two p {
+            font-size: 14px;
+            width: 85%;
+        }
+        .item {
+            height: 375px;
+        }
+        .item__footer_choise {
+            background-color: #FCF8F4;
+        }
+        .item__footer_title_choise p {
+            font-size: 12px;
+        }
+        .item__footer_price {
+            background: rgba(55, 33, 13, 0.05);
+            font-size: 16px;
+            padding: 0px 10px;
+        }
+        .silver__price {
+            background-color: transparent;
+        }
+        .item__footer {
+            background-color: #FCF8F4;
+        }
+        .item__big {
+            height: 375px;
+        }
+        .item__footer_big {
+            padding-bottom: 0px;
+        }
+        .footer__footer {
+            height: 125px;
+        }
+        .show__cards {
+            padding: 20px;
+        }
+        .show__cards p {
+            font-size: 16px;
+        }
+        .small__squere_show {
+            width: 14px;
+            height: 14px;
+        }
+        .large__squere_show {
+            width: 30px;
+            height: 30px;
+        }
+        .product__show_item {
+            display: block;
+        }
+        .hiden__bllock_item {
+            display: none;
+        }
+        .summer__sale_bg {
+            height: 450px;
+            background-position: center;
+        }
+        
+        .design__consultant_bg {
+            height: 450px;
+            background-position: center;
+        }
     }
+    @media (max-width: 723px)  {
+        .head__text p {
+            padding: 0px 24%;
+            font-size: 16px;
+        }
+    }
+    @media (max-width: 627px) {
+        
+    }
+    @media (max-width: 600px) {
+        
+    }
+    @media (max-width: 529px)  {
+        .head__text p {
+            padding: 0px 20%;
+            font-size: 16px;
+        }
+    }
+    @media (max-width: 414px) {
+        
+        .catalode {
+            font-size: 16px;
+        }
+    }
+    @media (max-width: 375px) {
+
+        .header {
+            background-position: center;
+        }
+        .head__text h1 {
+            font-size: 60px;
+            line-height: 60px;
+            
+        }
+        .head__text {
+            margin-top: 65px;
+        }
+        .head__text p {
+            padding: 0px 59px;
+            font-size: 14px;
+        }
+       
+        .head__text-button button {
+            padding: 16px 39px;
+            font-size: 14px;
+            font-family: "Onest", sans-serif;
+            font-weight: 500;
+            margin-top: 50px;
+            margin-bottom: 86px;
+        }
+        .container__header {
+            padding: 3.1vh 2.5vw;
+        }
+        .header__bg {
+            padding: 2.1vh 2.5vw;
+        }
+        .footer__footer {
+            height: 62px;
+        }
+        .products__sections_first {
+            background-color: #FEF7F0;
+        }
+        .discription__sofa h3 {
+            margin-top: 23px;
+            font-size: 32px;
+            margin-bottom: 60px;
+        }
+        .product__pad {
+            border-bottom: none;
+        }
+        .item__big_madrid {
+            border-top: none;
+        }
+        .item__big_madrid {
+            height: 415px;
+        }
+        .item__title {
+            font-size: 16px;
+        }
+        .like svg {
+            width: 22px;
+        }
+        .item__footer_madrid p {
+
+        }
+        .madrid__button {
+            display: none;
+        }
+        .madrid__button_mobil {
+            display: block;
+        }
+        .madrid__button_mobil svg{
+            margin-left: 23px;
+        }
+        .button_products button {
+            padding: 11px 20px;
+            font-size: 16px;
+        }
+
+
+        .discription__sofa h3 {
+            margin-bottom: 96px;
+        }
+        .discription__sofa_two p {
+            font-size: 14px;
+            width: 85%;
+        }
+        .item {
+            height: 375px;
+        }
+        .item__footer_choise {
+            background-color: #FCF8F4;
+        }
+        .item__footer_title_choise p {
+            font-size: 12px;
+        }
+        .item__footer_price {
+            background: rgba(55, 33, 13, 0.05);
+            font-size: 16px;
+            padding: 0px 10px;
+        }
+        .silver__price {
+            background-color: transparent;
+        }
+        .item__footer {
+            background-color: #FCF8F4;
+        }
+        .item__big {
+            height: 375px;
+        }
+        .item__footer_big {
+            padding-bottom: 0px;
+        }
+        .out__work_text h2 {
+            font-size: 40px;
+            line-height: 52px;
+        }
+        .out__work_text p {
+            font-size: 14px;
+            padding: 0px 5%;
+        }
+        .out__work_text p {
+            margin-top: 10px;
+            margin-bottom: 40px;
+        }
+        .out__work_image-flex {
+            width: 100%;
+        }
+
+        
+    }
+    
+    

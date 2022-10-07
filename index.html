@@ -25,16 +25,20 @@
       <!-- Header menu -->
       <div class="container-fluid container__header container__header_home">
         <div class="row">
-            <div class=" col-sm-4 menu">
-                <div class="menu__burger">
+            <div class=" col-3 menu">
+                <div class="menu__burger menu__burger_hiden">
                   <div class="cataloge"><a href="" class="menu__burger_btn"  type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop_burger" aria-controls="staticBackdrop"><span></span></a></div>
                 </div>
-              <div class="catalode"><a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop"> Каталог</a></div>
+                <div class="menu__burger">
+                  <div class="catalode catalode__menu_mobile"><a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop_burger" aria-controls="staticBackdrop">Меню</a></div>
+
+                </div>
+              <div class="catalode catalode__header_hiden"><a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop"> Каталог</a></div>
             </div>
-            <div class="col-sm-4 text-center">
+            <div class="col-6 text-center icon__header">
               <img src="/image/moder_head.png" alt="" />
             </div>
-            <div class="col-sm-4 text-end align-middle basket">
+            <div class="col-3 text-end align-middle basket">
               <div class="img_search">
                 <a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
                   <svg
@@ -76,16 +80,20 @@
 
       <div class="container-fluid container__header header__scroll ">
         <div class="row">
-            <div class="col-sm-4 menu">
-                <div class="menu__burger">
+            <div class="col-3 menu">
+                <div class="menu__burger menu__burger_hiden">
                   <div class="cataloge"><a href="" class="menu__burger_btn"  type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop_burger" aria-controls="staticBackdrop"><span></span></a></div>
                 </div>
-              <div class="catalode"><a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop"> Каталог</a></div>
+                <div class="menu__burger">
+                  <div class="catalode catalode__menu_mobile"><a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop_burger" aria-controls="staticBackdrop">Меню</a></div>
+
+                </div>
+              <div class="catalode catalode__header_hiden"><a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop"> Каталог</a></div>
             </div>
-            <div class="col-sm-4 text-center">
+            <div class="col-6 text-center icon__header">
               <img src="/image/moder_head.png" alt="" />
             </div>
-            <div class="col-sm-4 text-end align-middle basket">
+            <div class="col-3 text-end align-middle basket">
               <div class="img_search">
                 <a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
                   <svg
@@ -593,23 +601,71 @@
                 </div>
               </div>
     
-              <div class="images_parent" onclick="javascript:location.href='./goods_card.html';">
+              <div class="images_parent" >
                 <img class="item__image item__image_opacity" src="./image/sofa_madrid.png" width="80%" alt="item" />
-                <img class="item__image2" src="./image/background_big.png" alt="item_2" />
+                <img onclick="javascript:location.href='./goods_card.html';" class="item__image2" src="./image/background_big.png" alt="item_2" />
               </div>
     
             </div>
             <div class="item__footer item__footer_madrid">
-                <p class="item__footer_title_madrid">АГАТТА</p>
-                <div class="price button_products">
+                <p class="item__footer_title_madrid">MADRID</p>
+                <div class="price button_products madrid__button">
                     <button >ДОБАВИТЬ В КОРЗИНУ - 122 590 ₽</button>
                 </div>
+                <div class="price button_products madrid__button_mobil">
+                  <button>122 590 ₽
+                    <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M3.5 4.1665H19.8333L17.5 12.9165H5.83333L3.5 4.1665Z" stroke="#FCF8F4" stroke-width="2" stroke-linejoin="round"/>
+                      <path d="M3.5 4.16659L2.91667 1.83325H0" stroke="#FCF8F4" stroke-width="2" stroke-linejoin="round"/>
+                      <circle cx="6.41669" cy="17.5833" r="1.75" stroke="#FCF8F4" stroke-width="2" stroke-linejoin="round"/>
+                      <circle cx="16.9167" cy="17.5833" r="1.75" stroke="#FCF8F4" stroke-width="2" stroke-linejoin="round"/>
+                      </svg>
+                  </button>
+              </div>
+                
               </div>
             
         </div>
         </div>
       </div>
-      <!-- Второй подраздел продукта -->
+      <div class="choose__card_size">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-6 p-0">
+                <div class="show__cards show__cards_small">
+                  <div class="small__cards_icon">
+                    <div class="small__squere">
+                      <div class="small__squere_show small__squere_show_1"></div>
+                      <div class="small__squere_show small__squere_show_2"></div>
+                    </div>
+                    <div class="small__squere">
+                      <div class="small__squere_show small__squere_show_3"></div>
+                      <div class="small__squere_show small__squere_show_4"></div>
+                    </div>
+                  </div>  
+                  <div class="small__cards_text">
+                    <p>Мелкие <br> карточки</p>
+                  </div>
+                </div>
+            </div>
+            <div class="col-6 p-0">
+              <div class="show__cards  show__cards_big choose__card_size_active">
+                <div class="large__cards_icon">
+                  <div class="large__squere">
+                    <div class="large__squere_show"></div>
+                  </div>
+                </div>
+                <div class="large__cards_text">
+                    <p>Крупные <br> карточки</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <!-- Второй подраздел продукта -->
+      <div class="big__content_defoult">
       <div class="container-fluid">
         <div class="row product__padding">
           <div
@@ -778,6 +834,181 @@
           
         </div>
       </div>
+      </div>
+
+
+      <div class="small__content_mobil">
+        <div class="container-fluid">
+          <div class="row product__padding">
+            <div
+              class="
+                col-6
+                products__sections-bg products__sections_first
+                product__pad
+              "
+            >
+              <div class="discription__sofa bestseller">
+                <h3>Хит продаж</h3>
+              </div>
+              <div class="discription__sofa_two bestseller__discription">
+                <p>
+                  Мы предлагаем только свежее решения, для реализации ваших самых
+                  смелых идей
+                </p>
+              </div>
+            </div>
+  
+            <div class="col-6 item">
+              
+                  <div class="item__content">
+                    <div class="item__header">
+                      <div class="item__title"> <span>NEW!</span> </div>
+                      <div class="heart like">
+                          <svg
+                      width="28"
+                      height="24"
+                      viewBox="0 0 28 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke="“currentColor”"
+                        d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
+                        stroke="#24160B"
+                        stroke-opacity="0.8"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                           </svg>
+                      </div>
+                    </div>
+        
+                    <div class="images_parent">
+                      <img class="item__image item__image_opacity" src="./image/pink_chair.png" alt="item" />
+                      <img class="item__image3 " src="./image/chair_3.png" alt="item" />
+                      <img class="item__image2" src="./image/background_big.png" alt="item_2" />
+                    </div>
+        
+                    <div class="item__button">
+                      <button>ДОБАВИТЬ В КОРЗИНУ</button>
+                    </div>
+                  </div>
+                  <div class="item__footer_choise">
+                    <div class="item__footer_title_choise">
+                      <p class="">МИРО лайт</p>
+                      
+                      <img class="elipse__choise1 elipse__active " src="/image/ellipse_1.svg" width="35%" alt="" />
+                      <img class="elipse__choise2 item__footer_choise_pad" src="/image/ellipse_2.svg" width="35%" alt="" />
+                    </div>
+                  <div class="item__footer_choise_price">
+                     
+                    <p class="item__footer_price">15 000 ₽</p>
+                  </div>
+                    
+                  </div>
+                
+            </div>
+  
+            
+            <div class="col-6 item">
+          
+              <div class="item__content">
+                <div class="item__header">
+                  <div class="item__title"></div>
+                  <div class="heart like">
+                      <svg
+                  width="28"
+                  height="24"
+                  viewBox="0 0 28 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke="“currentColor”"
+                    d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
+                    stroke="#24160B"
+                    stroke-opacity="0.8"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                  </div>
+                </div>
+      
+                <div class="images_parent">
+                  <img class="item__image item__image_opacity" src="./image/sofa_blue.png" alt="item" />
+                  <img class="item__image2" src="./image/badroom.png" alt="item_2" />
+                </div>
+      
+                <div class="item__button">
+                  <button>ДОБАВИТЬ В КОРЗИНУ</button>
+                </div>
+              </div>
+              <div class="item__footer">
+                <p class="item__footer_title">МИРО лайт</p>
+                <div class="price">
+                  <div><span class="item__footer_price silver__price ">11 790 ₽</span></div>
+                  <div><span class="item__footer_price">9 590 ₽</span></div>
+                  
+                </div>
+                
+              </div>
+            
+        </div>
+  
+        <div class="col-6 item">
+          
+          <div class="item__content">
+            <div class="item__header">
+              <div class="item__title"></div>
+              <div class="heart like">
+                  <svg
+              width="28"
+              height="24"
+              viewBox="0 0 28 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke="“currentColor”"
+                d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
+                stroke="#24160B"
+                stroke-opacity="0.8"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+              </div>
+            </div>
+  
+            <div class="images_parent">
+              <img class="item__image item__image_opacity" src="./image/sofa_blue.png" alt="item" />
+              <img class="item__image2" src="./image/badroom.png" alt="item_2" />
+            </div>
+  
+            <div class="item__button">
+              <button>ДОБАВИТЬ В КОРЗИНУ</button>
+            </div>
+          </div>
+          <div class="item__footer">
+            <p class="item__footer_title">МИРО лайт</p>
+            <div class="price">
+              <div><span class="item__footer_price silver__price ">11 790 ₽</span></div>
+                  <div><span class="item__footer_price">9 590 ₽</span></div>
+            </div>
+          </div>
+        
+      </div>
+            
+  
+            
+          </div>
+        </div>
+        </div>
+      
     </div>
     <!-- Летняя распродажа -->
     <div class="summer__sale">
@@ -801,77 +1032,837 @@
       </div>
     </div>
     <!-- КАТАЛОГ ТОВАРОВ -->
-    <div class="prev__catalog">
-      <div class="container-fluid">
-        <div class="row product__padding">
-          <div
-            class="
-              col-md-4
-              products__sections-bg products__sections_first
-              product__pad
-            "
-          >
-            <div class="discription__sofa bestseller">
-              <h3>
-                КАТАЛОГ <br />
-                ТОВАРОВ
-              </h3>
+    <div class="big__content_defoult_second">
+      <div class="prev__catalog">
+        <div class="container-fluid">
+          <div class="row product__padding">
+            <div
+              class="
+                col-md-4
+                products__sections-bg products__sections_first
+                product__pad
+              "
+            >
+              <div class="discription__sofa bestseller">
+                <h3>
+                  КАТАЛОГ 
+                  ТОВАРОВ
+                </h3>
+              </div>
+              <div class="discription__sofa_two bestseller__discription">
+                <p>
+                  Мы проектируем мебельные решения, которые определяют новые
+                  правила, для создания современного интерьра и упрощают процесс
+                  выбора мебели
+                </p>
+              </div>
             </div>
-            <div class="discription__sofa_two bestseller__discription">
-              <p>
-                Мы проектируем мебельные решения, которые определяют новые
-                правила, для создания современного интерьра и упрощают процесс
-                выбора мебели
-              </p>
-            </div>
-          </div>
-
-          <div class="col-md-4 item item__midle_size">
-        
-            <div class="item__content">
-              <div class="item__header">
-                <div class="item__title"></div>
-                <div class="heart like">
-                    <svg
-                width="28"
-                height="24"
-                viewBox="0 0 28 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  stroke="“currentColor”"
-                  d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
-                  stroke="#24160B"
-                  stroke-opacity="0.8"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
+  
+            <div class="col-md-4 item item__midle_size">
+          
+              <div class="item__content">
+                <div class="item__header">
+                  <div class="item__title"></div>
+                  <div class="heart like">
+                      <svg
+                  width="28"
+                  height="24"
+                  viewBox="0 0 28 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke="“currentColor”"
+                    d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
+                    stroke="#24160B"
+                    stroke-opacity="0.8"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                  </div>
+                </div>
+      
+                <div class="images_parent">
+                  <img class="item__image item__image_opacity" src="./image/chair.png" alt="item" />
+                  <img class="item__image2" src="./image/background_big.png" alt="item_2" />
+                </div>
+      
+                <div class="item__button">
+                  <button>ДОБАВИТЬ В КОРЗИНУ</button>
                 </div>
               </div>
-    
-              <div class="images_parent">
-                <img class="item__image item__image_opacity" src="./image/chair.png" alt="item" />
-                <img class="item__image2" src="./image/background_big.png" alt="item_2" />
+              <div class="item__footer">
+                <p class="item__footer_title">МИРО лайт</p>
+                <div class="price">
+                  <span class="item__footer_price">20 600 ₽</span>
+                </div>
               </div>
-    
-              <div class="item__button">
-                <button>ДОБАВИТЬ В КОРЗИНУ</button>
-              </div>
-            </div>
-            <div class="item__footer">
-              <p class="item__footer_title">МИРО лайт</p>
-              <div class="price">
-                <span class="item__footer_price">20 600 ₽</span>
-              </div>
-            </div>
+            
+          </div>
+  
+          <div class="col-md-4 item item__midle_size">
           
+              <div class="item__content">
+                <div class="item__header">
+                  <div class="item__title"><span>NEW!</span></div>
+                  <div class="heart like">
+                      <svg
+                  width="28"
+                  height="24"
+                  viewBox="0 0 28 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke="“currentColor”"
+                    d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
+                    stroke="#24160B"
+                    stroke-opacity="0.8"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                  </div>
+                </div>
+      
+                <div class="images_parent">
+                  <img class="item__image item__image_opacity" src="./image/chair_2.png" alt="item" />
+                  <img class="item__image2" src="./image/background_big.png" alt="item_2" />
+                </div>
+      
+                <div class="item__button">
+                  <button>ДОБАВИТЬ В КОРЗИНУ</button>
+                </div>
+              </div>
+              <div class="item__footer">
+                <p class="item__footer_title">МИРО лайт</p>
+                <div class="price">
+                  <span class="item__footer_price silver__price ">150 000 ₽</span>
+                  <span class="item__footer_price">115 790 ₽</span>
+                </div>
+              </div>
+            
+          </div>
+          </div>
         </div>
-
-        <div class="col-md-4 item item__midle_size">
+        <!-- ТУТ ОРАНЖЕВЫЙ СТУЛ -->
+        <div class="container-fluid">
+          <div class="row product__padding">
+              <div class="col-md-8 item__big">
+          
+                  <div class="item__content">
+                    <div class="item__header">
+                      <div class="item__title"></div>
+                      <div class="heart like">
+                          <svg
+                      width="28"
+                      height="24"
+                      viewBox="0 0 28 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke="“currentColor”"
+                        d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
+                        stroke="#24160B"
+                        stroke-opacity="0.8"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                      </div>
+                    </div>
+          
+                    <div class="images_parent">
+                      <img class="item__image item__image_opacity" src="./image/grey_puf.png" alt="item" />
+                      <img class="item__image2" src="./image/background_big.png" alt="item_2" />
+                    </div>
+          
+                    <div class="item__button item__button_big">
+                      <button>ДОБАВИТЬ В КОРЗИНУ</button>
+                    </div>
+                  </div>
+                  <div class="item__footer item__footer_big">
+                    <p class="item__footer_title">МИРО лайт</p>
+                    <div class="price">
+                      <span class="item__footer_price silver__price ">11 790 ₽</span>
+                      <span class="item__footer_price">9 590 ₽</span>
+                    </div>
+                  </div>
+                
+              </div>
+            <div class="col-md-4 p-0">
+              <div class="col-md-12 item item__midle_size">
+                  <div class="item__content">
+                    <div class="item__header">
+                      <div class="item__title"></div>
+                      <div class="heart like">
+                          <svg
+                      width="28"
+                      height="24"
+                      viewBox="0 0 28 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke="“currentColor”"
+                        d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
+                        stroke="#24160B"
+                        stroke-opacity="0.8"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                      </div>
+                    </div>
+          
+                    <div class="images_parent">
+                      <img class="item__image  item__image_opacity" src="./image/orange__puff.png" alt="item" />
+                      <img class="item__image3 " src="./image/chair_3.png" alt="item" />
+                      <img class="item__image2" src="./image/badroom.png" alt="item_2" />
+                    </div>
+          
+                    <div class="item__button">
+                      <button>ДОБАВИТЬ В КОРЗИНУ</button>
+                    </div>
+                  </div>
+                  <div class="item__footer_choise">
+                      <div class="item__footer_title_choise">
+                      <p class="">МИРО лайт</p>
+                      <img class="elipse__choise1 elipse__active" src="/image/ellipse_1.svg" width="35%" alt="" />
+                      <img class="elipse__choise2 item__footer_choise_pad" src="/image/ellipse_2.svg" width="35%" alt="" />
+                      </div>
+                  <div class="item__footer_choise_price price">
+                      <span class="item__footer_price silver__price prise">11 790 ₽</span>
+                      <span class="item__footer_price">9 590 ₽</span>
+                  </div>
+                    
+                  </div>
+                
+              </div>
+  
+              <div class="col-md-12 item item__midle_size">
+          
+                  <div class="item__content">
+                    <div class="item__header">
+                      <div class="item__title item__title_sale"><span>SALE!</span></div>
+                      <div class="heart like">
+                          <svg
+                      width="28"
+                      height="24"
+                      viewBox="0 0 28 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke="“currentColor”"
+                        d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
+                        stroke="#24160B"
+                        stroke-opacity="0.8"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                      </div>
+                    </div>
+          
+                    <div class="images_parent">
+                      <img class="item__image item__image_opacity" src="./image/chair_3.png" alt="item" />
+                      <img class="item__image2" src="./image/badroom.png" alt="item_2" />
+                    </div>
+          
+                    <div class="item__button">
+                      <button>ДОБАВИТЬ В КОРЗИНУ</button>
+                    </div>
+                  </div>
+                  <div class="item__footer">
+                    <p class="item__footer_title">МИРО лайт</p>
+                    <div class="price">
+                      <span class="item__footer_price silver__price ">80 500 ₽</span>
+                      <span class="item__footer_price">69 590 ₽</span>
+                    </div>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product__show_item">
+          <div class="container-fluid">
+            <div class="product__show">
+              <div class="product__show_button">
+                <button>загрузить еще</button>
+              </div>
+            </div>
+          </div>
+        </div>
         
+  
+        <div class="hiden__bllock_item">
+          <!-- ЦАРСКИЙ СТУЛ ТУТ -->
+        <div class="container-fluid">
+          <div class="row product__padding">
+            <div class="col-md-4 p-0">
+              <div class="col-md-12 item item__midle_size">
+          
+                  <div class="item__content">
+                    <div class="item__header">
+                      <div class="item__title"></div>
+                      <div class="heart like">
+                          <svg
+                      width="28"
+                      height="24"
+                      viewBox="0 0 28 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke="“currentColor”"
+                        d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
+                        stroke="#24160B"
+                        stroke-opacity="0.8"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                      </div>
+                    </div>
+          
+                    <div class="images_parent">
+                      <img class="item__image item__image_opacity" src="./image/chair_4.png" alt="item" />
+                      <img class="item__image2" src="./image/badroom.png" alt="item_2" />
+                    </div>
+          
+                    <div class="item__button">
+                      <button>ДОБАВИТЬ В КОРЗИНУ</button>
+                    </div>
+                  </div>
+                  <div class="item__footer">
+                    <p class="item__footer_title">МИРО лайт</p>
+                    <div class="price">
+                      <span class="item__footer_price silver__price ">11 790 ₽</span>
+                      <span class="item__footer_price">9 590 ₽</span>
+                    </div>
+                  </div>
+                
+              </div>
+  
+              <div class="col-md-12 item item__midle_size">
+          
+                  <div class="item__content">
+                    <div class="item__header">
+                      <div class="item__title"></div>
+                      <div class="heart like">
+                          <svg
+                      width="28"
+                      height="24"
+                      viewBox="0 0 28 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke="“currentColor”"
+                        d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
+                        stroke="#24160B"
+                        stroke-opacity="0.8"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                      </div>
+                    </div>
+          
+                    <div class="images_parent">
+                      <img class="item__image item__image_opacity" src="./image/puff_2.png" alt="item" />
+                      <img class="item__image3 " src="./image/chair_3.png" alt="item" />
+                      <img class="item__image2" src="./image/badroom.png" alt="item_2" />
+                    </div>
+          
+                    <div class="item__button ">
+                      <button>ДОБАВИТЬ В КОРЗИНУ</button>
+                    </div>
+                  </div>
+                  <div class="item__footer_choise">
+                      <div class="item__footer_title_choise">
+                      <p class="">МИРО лайт</p>
+                      <img class="elipse__choise1 elipse__active " src="/image/ellipse_3.svg" width="35%" alt="" />
+                      <img class="elipse__choise2 item__footer_choise_pad" src="/image/ellipse_4.svg" width="35%" alt="" />
+                      </div>
+                  <div class="item__footer_choise_price price">
+                      <span class="item__footer_price silver__price prise">11 790 ₽</span>
+                      <span class="item__footer_price">9 590 ₽</span>
+                  </div>
+                    
+                  </div>
+                
+              </div>
+            </div>
+  
+            <div class="col-md-8 item__big">
+          
+              <div class="item__content">
+                <div class="item__header">
+                  <div class="item__title"><span>NEW!</span></div>
+                  <div class="heart like">
+                      <svg
+                  width="28"
+                  height="24"
+                  viewBox="0 0 28 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke="“currentColor”"
+                    d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
+                    stroke="#24160B"
+                    stroke-opacity="0.8"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                  </div>
+                </div>
+      
+                <div class="images_parent">
+                  <img class="item__image item__image_opacity" src="./image/grey_puf.png" alt="item" />
+                  <img class="item__image2" src="./image/background_big.png" alt="item_2" />
+                </div>
+      
+                <div class="item__button item__button_big">
+                  <button>ДОБАВИТЬ В КОРЗИНУ</button>
+                </div>
+              </div>
+              <div class="item__footer item__footer_big">
+                <p class="item__footer_title">МИРО лайт</p>
+                <div class="price">
+                  
+                  <span class="item__footer_price">109 590 ₽</span>
+                </div>
+              </div>
+              
+            
+          </div>
+          </div>
+        </div>
+        <!-- ТУТ ЗЕЛЕНЫЙ СТУЛЬЧИК -->
+        <div class="container-fluid">
+          <div class="row product__padding">
+              <div class="col-md-8 item__big">
+          
+                  <div class="item__content">
+                    <div class="item__header">
+                      <div class="item__title"></div>
+                      <div class="heart like">
+                          <svg
+                      width="28"
+                      height="24"
+                      viewBox="0 0 28 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke="“currentColor”"
+                        d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
+                        stroke="#24160B"
+                        stroke-opacity="0.8"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                      </div>
+                    </div>
+          
+                    <div class="images_parent">
+                      <img class="item__image item__image_opacity" src="./image/chair_5.png" alt="item" />
+                      <img class="item__image3 " src="./image/chair_3.png" alt="item" />
+                      <img class="item__image2" src="./image/background_big.png" alt="item_2" />
+                    </div>
+          
+                    <div class="item__button item__button_big">
+                      <button>ДОБАВИТЬ В КОРЗИНУ</button>
+                    </div>
+                  </div>
+                  
+                  <div class="item__footer_choise item__footer_big">
+                      <div class="item__footer_title_choise">
+                      <p class="">МИРО лайт</p>
+                      <img class="elipse__choise1 elipse__active " src="/image/ellipse_1.svg" width="35%" alt="" />
+                      <img class="elipse__choise2 item__footer_choise_pad" src="/image/ellipse_5.svg" width="35%" alt="" />
+                      </div>
+                  <div class="item__footer_choise_price price">
+                      <span class="item__footer_price silver__price prise">11 790 ₽</span>
+                      <span class="item__footer_price">9 590 ₽</span>
+                  </div>
+                    
+                  </div>
+              </div>
+  
+            <div class="col-md-4 p-0">
+              <div class="col-md-12 item item__midle_size">
+          
+                  <div class="item__content">
+                    <div class="item__header">
+                      <div class="item__title"></div>
+                      <div class="heart like">
+                          <svg
+                      width="28"
+                      height="24"
+                      viewBox="0 0 28 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke="“currentColor”"
+                        d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
+                        stroke="#24160B"
+                        stroke-opacity="0.8"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                      </div>
+                    </div>
+          
+                    <div class="images_parent">
+                      <img class="item__image item__image_opacity" src="./image/chair_6.png" alt="item" />
+                      <img class="item__image2" src="./image/badroom.png" alt="item_2" />
+                    </div>
+          
+                    <div class="item__button ">
+                      <button>ДОБАВИТЬ В КОРЗИНУ</button>
+                    </div>
+                  </div>
+                  <div class="item__footer">
+                    <p class="item__footer_title">МИРО лайт</p>
+                    <div class="price">
+                      <span class="item__footer_price silver__price ">11 790 ₽</span>
+                      <span class="item__footer_price">9 590 ₽</span>
+                    </div>
+                  </div>
+                
+              </div>
+  
+              <div class="col-md-12 item item__midle_size">
+          
+                  <div class="item__content">
+                    <div class="item__header">
+                      <div class="item__title"><span>NEW!</span></div>
+                      <div class="heart like">
+                          <svg
+                      width="28"
+                      height="24"
+                      viewBox="0 0 28 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke="“currentColor”"
+                        d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
+                        stroke="#24160B"
+                        stroke-opacity="0.8"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                      </div>
+                    </div>
+          
+                    <div class="images_parent">
+                      <img class="item__image item__image_opacity" src="./image/badroom_2.png" alt="item" />
+                      <img class="item__image2" src="./image/badroom.png" alt="item_2" />
+                    </div>
+          
+                    <div class="item__button ">
+                      <button>ДОБАВИТЬ В КОРЗИНУ</button>
+                    </div>
+                  </div>
+                  <div class="item__footer">
+                    <p class="item__footer_title">МИРО лайт</p>
+                    <div class="price">
+                     
+                      <span class="item__footer_price">9 590 ₽</span>
+                    </div>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ТУТ ПОДСТАВКА ПОД ТЕЛЕВИЗОР -->
+        <div class="container-fluid">
+          <div class="row product__padding">
+            <div class="col-md-4 p-0">
+              <div class="col-md-12 item item__midle_size">
+          
+                  <div class="item__content">
+                    <div class="item__header">
+                      <div class="item__title"><span>NEW!</span></div>
+                      <div class="heart like">
+                          <svg
+                      width="28"
+                      height="24"
+                      viewBox="0 0 28 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke="“currentColor”"
+                        d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
+                        stroke="#24160B"
+                        stroke-opacity="0.8"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                      </div>
+                    </div>
+          
+                    <div class="images_parent">
+                      <img class="item__image item__image_opacity" src="./image/cupboard_1.png" alt="item" />
+                      <img class="item__image2" src="./image/badroom.png" alt="item_2" />
+                    </div>
+          
+                    <div class="item__button">
+                      <button>ДОБАВИТЬ В КОРЗИНУ</button>
+                    </div>
+                  </div>
+                  <div class="item__footer">
+                    <p class="item__footer_title">МИРО лайт</p>
+                    <div class="price">
+                      <span class="item__footer_price silver__price ">11 790 ₽</span>
+                      <span class="item__footer_price">9 590 ₽</span>
+                    </div>
+                  </div>
+                
+              </div>
+  
+              <div class="col-md-12 item item__midle_size">
+          
+                  <div class="item__content">
+                    <div class="item__header">
+                      <div class="item__title"></div>
+                      <div class="heart like">
+                          <svg
+                      width="28"
+                      height="24"
+                      viewBox="0 0 28 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke="“currentColor”"
+                        d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
+                        stroke="#24160B"
+                        stroke-opacity="0.8"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                      </div>
+                    </div>
+          
+                    <div class="images_parent">
+                      <img class="item__image item__image_opacity" src="./image/chair_7.png" alt="item" />
+                      <img class="item__image2" src="./image/badroom.png" alt="item_2" />
+                    </div>
+          
+                    <div class="item__button ">
+                      <button>ДОБАВИТЬ В КОРЗИНУ</button>
+                    </div>
+                  </div>
+                  <div class="item__footer">
+                    <p class="item__footer_title">МИРО лайт</p>
+                    <div class="price">
+                      <span class="item__footer_price silver__price ">11 790 ₽</span>
+                      <span class="item__footer_price">9 590 ₽</span>
+                    </div>
+                  </div>
+                
+              </div>
+            </div>
+  
+            <div class="col-md-8 item__big">
+          
+              <div class="item__content">
+                <div class="item__header">
+                  <div class="item__title"><span>NEW!</span></div>
+                  <div class="heart like">
+                      <svg
+                  width="28"
+                  height="24"
+                  viewBox="0 0 28 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke="“currentColor”"
+                    d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
+                    stroke="#24160B"
+                    stroke-opacity="0.8"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                  </div>
+                </div>
+      
+                <div class="images_parent">
+                  <img class="item__image item__image_opacity" src="./image/cupboard.png" alt="item" />
+                  <img class="item__image2" src="./image/background_big.png" alt="item_2" />
+                </div>
+      
+                <div class="item__button item__button_big">
+                  <button>ДОБАВИТЬ В КОРЗИНУ</button>
+                </div>
+              </div>
+              <div class="item__footer item__footer_big">
+                <p class="item__footer_title">МИРО лайт</p>
+                <div class="price">
+                  <span class="item__footer_price silver__price ">11 790 ₽</span>
+                  <span class="item__footer_price">9 590 ₽</span>
+                </div>
+              </div>
+            
+          </div>
+          </div>
+        </div>
+      </div>
+        </div>
+    </div>
+    
+
+    <div class="small__content_mobil_second">
+      <div class="prev__catalog">
+        <div class="container-fluid">
+          <div class="row product__padding">
+            <div
+              class="
+                col-6
+                products__sections-bg products__sections_first
+                product__pad
+              "
+            >
+              <div class="discription__sofa bestseller">
+                <h3>
+                  КАТАЛОГ 
+                  ТОВАРОВ
+                </h3>
+              </div>
+              <div class="discription__sofa_two bestseller__discription">
+                <p>
+                  Мы проектируем мебельные решения, которые определяют новые
+                  правила, для создания современного интерьра и упрощают процесс
+                  выбора мебели
+                </p>
+              </div>
+            </div>
+  
+            <div class="col-6 item item__midle_size">
+          
+              <div class="item__content">
+                <div class="item__header">
+                  <div class="item__title"></div>
+                  <div class="heart like">
+                      <svg
+                  width="28"
+                  height="24"
+                  viewBox="0 0 28 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke="“currentColor”"
+                    d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
+                    stroke="#24160B"
+                    stroke-opacity="0.8"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                  </div>
+                </div>
+      
+                <div class="images_parent">
+                  <img class="item__image item__image_opacity" src="./image/chair.png" alt="item" />
+                  <img class="item__image2" src="./image/background_big.png" alt="item_2" />
+                </div>
+      
+                <div class="item__button">
+                  <button>ДОБАВИТЬ В КОРЗИНУ</button>
+                </div>
+              </div>
+              <div class="item__footer">
+                <p class="item__footer_title">МИРО лайт</p>
+                <div class="price">
+                  <span class="item__footer_price">20 600 ₽</span>
+                </div>
+              </div>
+            
+          </div>
+  
+          <div class="col-6 item item__midle_size">
+          
+              <div class="item__content">
+                <div class="item__header">
+                  <div class="item__title"><span>NEW!</span></div>
+                  <div class="heart like">
+                      <svg
+                  width="28"
+                  height="24"
+                  viewBox="0 0 28 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke="“currentColor”"
+                    d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
+                    stroke="#24160B"
+                    stroke-opacity="0.8"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                  </div>
+                </div>
+      
+                <div class="images_parent">
+                  <img class="item__image item__image_opacity" src="./image/chair_2.png" alt="item" />
+                  <img class="item__image2" src="./image/background_big.png" alt="item_2" />
+                </div>
+      
+                <div class="item__button">
+                  <button>ДОБАВИТЬ В КОРЗИНУ</button>
+                </div>
+              </div>
+              <div class="item__footer">
+                <p class="item__footer_title">МИРО лайт</p>
+                <div class="price">
+                  <div><span class="item__footer_price silver__price ">150 000 ₽</span></div>
+                  <div><span class="item__footer_price">115 790 ₽</span></div>
+      
+                </div>
+              </div>
+            
+          </div>
+          <div class="col-6 item item__midle_size">
+          
             <div class="item__content">
               <div class="item__header">
                 <div class="item__title"><span>NEW!</span></div>
@@ -908,596 +1899,603 @@
             <div class="item__footer">
               <p class="item__footer_title">МИРО лайт</p>
               <div class="price">
-                <span class="item__footer_price silver__price ">150 000 ₽</span>
-                <span class="item__footer_price">115 790 ₽</span>
+                <div><span class="item__footer_price silver__price ">150 000 ₽</span></div>
+                  <div><span class="item__footer_price">115 790 ₽</span></div>
               </div>
             </div>
           
         </div>
-        </div>
-      </div>
-      <!-- ТУТ ОРАНЖЕВЫЙ СТУЛ -->
-      <div class="container-fluid">
-        <div class="row product__padding">
-            <div class="col-md-8 item__big">
-        
-                <div class="item__content">
-                  <div class="item__header">
-                    <div class="item__title"></div>
-                    <div class="heart like">
-                        <svg
-                    width="28"
-                    height="24"
-                    viewBox="0 0 28 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      stroke="“currentColor”"
-                      d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
-                      stroke="#24160B"
-                      stroke-opacity="0.8"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                    </div>
-                  </div>
-        
-                  <div class="images_parent">
-                    <img class="item__image item__image_opacity" src="./image/grey_puf.png" alt="item" />
-                    <img class="item__image2" src="./image/background_big.png" alt="item_2" />
-                  </div>
-        
-                  <div class="item__button item__button_big">
-                    <button>ДОБАВИТЬ В КОРЗИНУ</button>
-                  </div>
-                </div>
-                <div class="item__footer item__footer_big">
-                  <p class="item__footer_title">МИРО лайт</p>
-                  <div class="price">
-                    <span class="item__footer_price silver__price ">11 790 ₽</span>
-                    <span class="item__footer_price">9 590 ₽</span>
-                  </div>
-                </div>
-              
-            </div>
-          <div class="col-md-4 p-0">
-            <div class="col-md-12 item item__midle_size">
-                <div class="item__content">
-                  <div class="item__header">
-                    <div class="item__title"></div>
-                    <div class="heart like">
-                        <svg
-                    width="28"
-                    height="24"
-                    viewBox="0 0 28 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      stroke="“currentColor”"
-                      d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
-                      stroke="#24160B"
-                      stroke-opacity="0.8"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                    </div>
-                  </div>
-        
-                  <div class="images_parent">
-                    <img class="item__image  item__image_opacity" src="./image/orange__puff.png" alt="item" />
-                    <img class="item__image3 " src="./image/chair_3.png" alt="item" />
-                    <img class="item__image2" src="./image/badroom.png" alt="item_2" />
-                  </div>
-        
-                  <div class="item__button">
-                    <button>ДОБАВИТЬ В КОРЗИНУ</button>
-                  </div>
-                </div>
-                <div class="item__footer_choise">
-                    <div class="item__footer_title_choise">
-                    <p class="">МИРО лайт</p>
-                    <img class="elipse__choise1 elipse__active" src="/image/ellipse_1.svg" width="35%" alt="" />
-                    <img class="elipse__choise2 item__footer_choise_pad" src="/image/ellipse_2.svg" width="35%" alt="" />
-                    </div>
-                <div class="item__footer_choise_price price">
-                    <span class="item__footer_price silver__price prise">11 790 ₽</span>
-                    <span class="item__footer_price">9 590 ₽</span>
-                </div>
-                  
-                </div>
-              
-            </div>
-
-            <div class="col-md-12 item item__midle_size">
-        
-                <div class="item__content">
-                  <div class="item__header">
-                    <div class="item__title item__title_sale"><span>SALE!</span></div>
-                    <div class="heart like">
-                        <svg
-                    width="28"
-                    height="24"
-                    viewBox="0 0 28 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      stroke="“currentColor”"
-                      d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
-                      stroke="#24160B"
-                      stroke-opacity="0.8"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                    </div>
-                  </div>
-        
-                  <div class="images_parent">
-                    <img class="item__image item__image_opacity" src="./image/chair_3.png" alt="item" />
-                    <img class="item__image2" src="./image/badroom.png" alt="item_2" />
-                  </div>
-        
-                  <div class="item__button">
-                    <button>ДОБАВИТЬ В КОРЗИНУ</button>
-                  </div>
-                </div>
-                <div class="item__footer">
-                  <p class="item__footer_title">МИРО лайт</p>
-                  <div class="price">
-                    <span class="item__footer_price silver__price ">80 500 ₽</span>
-                    <span class="item__footer_price">69 590 ₽</span>
-                  </div>
-                </div>
-              
-            </div>
           </div>
         </div>
-      </div>
-      <!-- ЦАРСКИЙ СТУЛ ТУТ -->
-      <div class="container-fluid">
-        <div class="row product__padding">
-          <div class="col-md-4 p-0">
-            <div class="col-md-12 item item__midle_size">
-        
-                <div class="item__content">
-                  <div class="item__header">
-                    <div class="item__title"></div>
-                    <div class="heart like">
-                        <svg
-                    width="28"
-                    height="24"
-                    viewBox="0 0 28 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      stroke="“currentColor”"
-                      d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
-                      stroke="#24160B"
-                      stroke-opacity="0.8"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
+        <!-- ТУТ ОРАНЖЕВЫЙ СТУЛ -->
+        <div class="container-fluid">
+          <div class="row product__padding">
+              <div class="col-12 item__big">
+          
+                  <div class="item__content">
+                    <div class="item__header">
+                      <div class="item__title"></div>
+                      <div class="heart like">
+                          <svg
+                      width="28"
+                      height="24"
+                      viewBox="0 0 28 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke="“currentColor”"
+                        d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
+                        stroke="#24160B"
+                        stroke-opacity="0.8"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                      </div>
+                    </div>
+          
+                    <div class="images_parent">
+                      <img class="item__image item__image_opacity" src="./image/grey_puf.png" alt="item" />
+                      <img class="item__image2" src="./image/background_big.png" alt="item_2" />
+                    </div>
+          
+                    <div class="item__button item__button_big">
+                      <button>ДОБАВИТЬ В КОРЗИНУ</button>
                     </div>
                   </div>
-        
-                  <div class="images_parent">
-                    <img class="item__image item__image_opacity" src="./image/chair_4.png" alt="item" />
-                    <img class="item__image2" src="./image/badroom.png" alt="item_2" />
-                  </div>
-        
-                  <div class="item__button">
-                    <button>ДОБАВИТЬ В КОРЗИНУ</button>
-                  </div>
-                </div>
-                <div class="item__footer">
-                  <p class="item__footer_title">МИРО лайт</p>
-                  <div class="price">
-                    <span class="item__footer_price silver__price ">11 790 ₽</span>
-                    <span class="item__footer_price">9 590 ₽</span>
-                  </div>
-                </div>
-              
-            </div>
-
-            <div class="col-md-12 item item__midle_size">
-        
-                <div class="item__content">
-                  <div class="item__header">
-                    <div class="item__title"></div>
-                    <div class="heart like">
-                        <svg
-                    width="28"
-                    height="24"
-                    viewBox="0 0 28 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      stroke="“currentColor”"
-                      d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
-                      stroke="#24160B"
-                      stroke-opacity="0.8"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
+                  <div class="item__footer item__footer_big">
+                    <p class="item__footer_title">МИРО лайт</p>
+                    <div class="price">
+                      <span class="item__footer_price silver__price ">11 790 ₽</span>
+                      <span class="item__footer_price">9 590 ₽</span>
                     </div>
                   </div>
-        
-                  <div class="images_parent">
-                    <img class="item__image item__image_opacity" src="./image/puff_2.png" alt="item" />
-                    <img class="item__image3 " src="./image/chair_3.png" alt="item" />
-                    <img class="item__image2" src="./image/badroom.png" alt="item_2" />
-                  </div>
-        
-                  <div class="item__button ">
-                    <button>ДОБАВИТЬ В КОРЗИНУ</button>
-                  </div>
-                </div>
-                <div class="item__footer_choise">
-                    <div class="item__footer_title_choise">
-                    <p class="">МИРО лайт</p>
-                    <img class="elipse__choise1 elipse__active " src="/image/ellipse_3.svg" width="35%" alt="" />
-                    <img class="elipse__choise2 item__footer_choise_pad" src="/image/ellipse_4.svg" width="35%" alt="" />
-                    </div>
-                <div class="item__footer_choise_price price">
-                    <span class="item__footer_price silver__price prise">11 790 ₽</span>
-                    <span class="item__footer_price">9 590 ₽</span>
-                </div>
-                  
-                </div>
-              
-            </div>
-          </div>
-
-          <div class="col-md-8 item__big">
-        
-            <div class="item__content">
-              <div class="item__header">
-                <div class="item__title"><span>NEW!</span></div>
-                <div class="heart like">
-                    <svg
-                width="28"
-                height="24"
-                viewBox="0 0 28 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  stroke="“currentColor”"
-                  d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
-                  stroke="#24160B"
-                  stroke-opacity="0.8"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-                </div>
-              </div>
-    
-              <div class="images_parent">
-                <img class="item__image item__image_opacity" src="./image/grey_puf.png" alt="item" />
-                <img class="item__image2" src="./image/background_big.png" alt="item_2" />
-              </div>
-    
-              <div class="item__button item__button_big">
-                <button>ДОБАВИТЬ В КОРЗИНУ</button>
-              </div>
-            </div>
-            <div class="item__footer item__footer_big">
-              <p class="item__footer_title">МИРО лайт</p>
-              <div class="price">
                 
-                <span class="item__footer_price">109 590 ₽</span>
               </div>
-            </div>
             
+              <div class="col-6 item item__midle_size">
+                  <div class="item__content">
+                    <div class="item__header">
+                      <div class="item__title"></div>
+                      <div class="heart like">
+                          <svg
+                      width="28"
+                      height="24"
+                      viewBox="0 0 28 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke="“currentColor”"
+                        d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
+                        stroke="#24160B"
+                        stroke-opacity="0.8"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                      </div>
+                    </div>
           
-        </div>
-        </div>
-      </div>
-      <!-- ТУТ ЗЕЛЕНЫЙ СТУЛЬЧИК -->
-      <div class="container-fluid">
-        <div class="row product__padding">
-            <div class="col-md-8 item__big">
-        
-                <div class="item__content">
-                  <div class="item__header">
-                    <div class="item__title"></div>
-                    <div class="heart like">
-                        <svg
-                    width="28"
-                    height="24"
-                    viewBox="0 0 28 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      stroke="“currentColor”"
-                      d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
-                      stroke="#24160B"
-                      stroke-opacity="0.8"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
+                    <div class="images_parent">
+                      <img class="item__image  item__image_opacity" src="./image/orange__puff.png" alt="item" />
+                      <img class="item__image3 " src="./image/chair_3.png" alt="item" />
+                      <img class="item__image2" src="./image/badroom.png" alt="item_2" />
+                    </div>
+          
+                    <div class="item__button">
+                      <button>ДОБАВИТЬ В КОРЗИНУ</button>
                     </div>
                   </div>
-        
-                  <div class="images_parent">
-                    <img class="item__image item__image_opacity" src="./image/chair_5.png" alt="item" />
-                    <img class="item__image3 " src="./image/chair_3.png" alt="item" />
-                    <img class="item__image2" src="./image/background_big.png" alt="item_2" />
+                  <div class="item__footer_choise">
+                      <div class="item__footer_title_choise">
+                      <p class="">МИРО лайт</p>
+                      <img class="elipse__choise1 elipse__active" src="/image/ellipse_1.svg" width="35%" alt="" />
+                      <img class="elipse__choise2 item__footer_choise_pad" src="/image/ellipse_2.svg" width="35%" alt="" />
+                      </div>
+                  <div class="item__footer_choise_price price">
+                      <span class="item__footer_price silver__price prise">11 790 ₽</span>
+                      <span class="item__footer_price">9 590 ₽</span>
                   </div>
-        
-                  <div class="item__button item__button_big">
-                    <button>ДОБАВИТЬ В КОРЗИНУ</button>
+                    
                   </div>
-                </div>
                 
-                <div class="item__footer_choise item__footer_big">
-                    <div class="item__footer_title_choise">
-                    <p class="">МИРО лайт</p>
-                    <img class="elipse__choise1 elipse__active " src="/image/ellipse_1.svg" width="35%" alt="" />
-                    <img class="elipse__choise2 item__footer_choise_pad" src="/image/ellipse_5.svg" width="35%" alt="" />
-                    </div>
-                <div class="item__footer_choise_price price">
-                    <span class="item__footer_price silver__price prise">11 790 ₽</span>
-                    <span class="item__footer_price">9 590 ₽</span>
-                </div>
-                  
-                </div>
-            </div>
-
-          <div class="col-md-4 p-0">
-            <div class="col-md-12 item item__midle_size">
-        
-                <div class="item__content">
-                  <div class="item__header">
-                    <div class="item__title"></div>
-                    <div class="heart like">
-                        <svg
-                    width="28"
-                    height="24"
-                    viewBox="0 0 28 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      stroke="“currentColor”"
-                      d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
-                      stroke="#24160B"
-                      stroke-opacity="0.8"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                    </div>
-                  </div>
-        
-                  <div class="images_parent">
-                    <img class="item__image item__image_opacity" src="./image/chair_6.png" alt="item" />
-                    <img class="item__image2" src="./image/badroom.png" alt="item_2" />
-                  </div>
-        
-                  <div class="item__button ">
-                    <button>ДОБАВИТЬ В КОРЗИНУ</button>
-                  </div>
-                </div>
-                <div class="item__footer">
-                  <p class="item__footer_title">МИРО лайт</p>
-                  <div class="price">
-                    <span class="item__footer_price silver__price ">11 790 ₽</span>
-                    <span class="item__footer_price">9 590 ₽</span>
-                  </div>
-                </div>
-              
-            </div>
-
-            <div class="col-md-12 item item__midle_size">
-        
-                <div class="item__content">
-                  <div class="item__header">
-                    <div class="item__title"><span>NEW!</span></div>
-                    <div class="heart like">
-                        <svg
-                    width="28"
-                    height="24"
-                    viewBox="0 0 28 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      stroke="“currentColor”"
-                      d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
-                      stroke="#24160B"
-                      stroke-opacity="0.8"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                    </div>
-                  </div>
-        
-                  <div class="images_parent">
-                    <img class="item__image item__image_opacity" src="./image/badroom_2.png" alt="item" />
-                    <img class="item__image2" src="./image/badroom.png" alt="item_2" />
-                  </div>
-        
-                  <div class="item__button ">
-                    <button>ДОБАВИТЬ В КОРЗИНУ</button>
-                  </div>
-                </div>
-                <div class="item__footer">
-                  <p class="item__footer_title">МИРО лайт</p>
-                  <div class="price">
-                   
-                    <span class="item__footer_price">9 590 ₽</span>
-                  </div>
-                </div>
-              
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- ТУТ ПОДСТАВКА ПОД ТЕЛЕВИЗОР -->
-      <div class="container-fluid">
-        <div class="row product__padding">
-          <div class="col-md-4 p-0">
-            <div class="col-md-12 item item__midle_size">
-        
-                <div class="item__content">
-                  <div class="item__header">
-                    <div class="item__title"><span>NEW!</span></div>
-                    <div class="heart like">
-                        <svg
-                    width="28"
-                    height="24"
-                    viewBox="0 0 28 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      stroke="“currentColor”"
-                      d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
-                      stroke="#24160B"
-                      stroke-opacity="0.8"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                    </div>
-                  </div>
-        
-                  <div class="images_parent">
-                    <img class="item__image item__image_opacity" src="./image/cupboard_1.png" alt="item" />
-                    <img class="item__image2" src="./image/badroom.png" alt="item_2" />
-                  </div>
-        
-                  <div class="item__button">
-                    <button>ДОБАВИТЬ В КОРЗИНУ</button>
-                  </div>
-                </div>
-                <div class="item__footer">
-                  <p class="item__footer_title">МИРО лайт</p>
-                  <div class="price">
-                    <span class="item__footer_price silver__price ">11 790 ₽</span>
-                    <span class="item__footer_price">9 590 ₽</span>
-                  </div>
-                </div>
-              
-            </div>
-
-            <div class="col-md-12 item item__midle_size">
-        
-                <div class="item__content">
-                  <div class="item__header">
-                    <div class="item__title"></div>
-                    <div class="heart like">
-                        <svg
-                    width="28"
-                    height="24"
-                    viewBox="0 0 28 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      stroke="“currentColor”"
-                      d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
-                      stroke="#24160B"
-                      stroke-opacity="0.8"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                    </div>
-                  </div>
-        
-                  <div class="images_parent">
-                    <img class="item__image item__image_opacity" src="./image/chair_7.png" alt="item" />
-                    <img class="item__image2" src="./image/badroom.png" alt="item_2" />
-                  </div>
-        
-                  <div class="item__button ">
-                    <button>ДОБАВИТЬ В КОРЗИНУ</button>
-                  </div>
-                </div>
-                <div class="item__footer">
-                  <p class="item__footer_title">МИРО лайт</p>
-                  <div class="price">
-                    <span class="item__footer_price silver__price ">11 790 ₽</span>
-                    <span class="item__footer_price">9 590 ₽</span>
-                  </div>
-                </div>
-              
-            </div>
-          </div>
-
-          <div class="col-md-8 item__big">
-        
-            <div class="item__content">
-              <div class="item__header">
-                <div class="item__title"><span>NEW!</span></div>
-                <div class="heart like">
-                    <svg
-                width="28"
-                height="24"
-                viewBox="0 0 28 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  stroke="“currentColor”"
-                  d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
-                  stroke="#24160B"
-                  stroke-opacity="0.8"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-                </div>
               </div>
-    
-              <div class="images_parent">
-                <img class="item__image item__image_opacity" src="./image/cupboard.png" alt="item" />
-                <img class="item__image2" src="./image/background_big.png" alt="item_2" />
-              </div>
-    
-              <div class="item__button item__button_big">
-                <button>ДОБАВИТЬ В КОРЗИНУ</button>
-              </div>
-            </div>
-            <div class="item__footer item__footer_big">
-              <p class="item__footer_title">МИРО лайт</p>
-              <div class="price">
-                <span class="item__footer_price silver__price ">11 790 ₽</span>
-                <span class="item__footer_price">9 590 ₽</span>
-              </div>
-            </div>
+  
+              <div class="col-6 item item__midle_size">
           
+                  <div class="item__content">
+                    <div class="item__header">
+                      <div class="item__title item__title_sale"><span>SALE!</span></div>
+                      <div class="heart like">
+                          <svg
+                      width="28"
+                      height="24"
+                      viewBox="0 0 28 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke="“currentColor”"
+                        d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
+                        stroke="#24160B"
+                        stroke-opacity="0.8"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                      </div>
+                    </div>
+          
+                    <div class="images_parent">
+                      <img class="item__image item__image_opacity" src="./image/chair_3.png" alt="item" />
+                      <img class="item__image2" src="./image/badroom.png" alt="item_2" />
+                    </div>
+          
+                    <div class="item__button">
+                      <button>ДОБАВИТЬ В КОРЗИНУ</button>
+                    </div>
+                  </div>
+                  <div class="item__footer">
+                    <p class="item__footer_title">МИРО лайт</p>
+                    <div class="price">
+                      <span class="item__footer_price silver__price ">80 500 ₽</span>
+                      <span class="item__footer_price">69 590 ₽</span>
+                    </div>
+                  </div>
+                
+              </div>
+            
+          </div>
         </div>
+        
+        
+  
+       
+          <!-- ЦАРСКИЙ СТУЛ ТУТ -->
+        <div class="container-fluid">
+          <div class="row product__padding">
+           
+              <div class="col-6 item item__midle_size">
+          
+                  <div class="item__content">
+                    <div class="item__header">
+                      <div class="item__title"></div>
+                      <div class="heart like">
+                          <svg
+                      width="28"
+                      height="24"
+                      viewBox="0 0 28 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke="“currentColor”"
+                        d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
+                        stroke="#24160B"
+                        stroke-opacity="0.8"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                      </div>
+                    </div>
+          
+                    <div class="images_parent">
+                      <img class="item__image item__image_opacity" src="./image/chair_4.png" alt="item" />
+                      <img class="item__image2" src="./image/badroom.png" alt="item_2" />
+                    </div>
+          
+                    <div class="item__button">
+                      <button>ДОБАВИТЬ В КОРЗИНУ</button>
+                    </div>
+                  </div>
+                  <div class="item__footer">
+                    <p class="item__footer_title">МИРО лайт</p>
+                    <div class="price">
+                      <span class="item__footer_price silver__price ">11 790 ₽</span>
+                      <span class="item__footer_price">9 590 ₽</span>
+                    </div>
+                  </div>
+                
+              </div>
+  
+              <div class="col-6 item item__midle_size">
+          
+                  <div class="item__content">
+                    <div class="item__header">
+                      <div class="item__title"></div>
+                      <div class="heart like">
+                          <svg
+                      width="28"
+                      height="24"
+                      viewBox="0 0 28 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke="“currentColor”"
+                        d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
+                        stroke="#24160B"
+                        stroke-opacity="0.8"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                      </div>
+                    </div>
+          
+                    <div class="images_parent">
+                      <img class="item__image item__image_opacity" src="./image/puff_2.png" alt="item" />
+                      <img class="item__image3 " src="./image/chair_3.png" alt="item" />
+                      <img class="item__image2" src="./image/badroom.png" alt="item_2" />
+                    </div>
+          
+                    <div class="item__button ">
+                      <button>ДОБАВИТЬ В КОРЗИНУ</button>
+                    </div>
+                  </div>
+                  <div class="item__footer_choise">
+                      <div class="item__footer_title_choise">
+                      <p class="">МИРО лайт</p>
+                      <img class="elipse__choise1 elipse__active " src="/image/ellipse_3.svg" width="35%" alt="" />
+                      <img class="elipse__choise2 item__footer_choise_pad" src="/image/ellipse_4.svg" width="35%" alt="" />
+                      </div>
+                  <div class="item__footer_choise_price price">
+                      <span class="item__footer_price silver__price prise">11 790 ₽</span>
+                      <span class="item__footer_price">9 590 ₽</span>
+                  </div>
+                    
+                  </div>
+                
+              </div>
+            
+  
+            <div class="col-12 item__big">
+          
+              <div class="item__content">
+                <div class="item__header">
+                  <div class="item__title"><span>NEW!</span></div>
+                  <div class="heart like">
+                      <svg
+                  width="28"
+                  height="24"
+                  viewBox="0 0 28 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke="“currentColor”"
+                    d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
+                    stroke="#24160B"
+                    stroke-opacity="0.8"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                  </div>
+                </div>
+      
+                <div class="images_parent">
+                  <img class="item__image item__image_opacity" src="./image/grey_puf.png" alt="item" />
+                  <img class="item__image2" src="./image/background_big.png" alt="item_2" />
+                </div>
+      
+                <div class="item__button item__button_big">
+                  <button>ДОБАВИТЬ В КОРЗИНУ</button>
+                </div>
+              </div>
+              <div class="item__footer item__footer_big">
+                <p class="item__footer_title">МИРО лайт</p>
+                <div class="price">
+                  
+                  <span class="item__footer_price">109 590 ₽</span>
+                </div>
+              </div>
+              
+            
+          </div>
+          </div>
         </div>
-      </div>
+        <!-- ТУТ ЗЕЛЕНЫЙ СТУЛЬЧИК -->
+        <div class="container-fluid">
+          <div class="row product__padding">
+              <div class="col-12 item__big">
+          
+                  <div class="item__content">
+                    <div class="item__header">
+                      <div class="item__title"></div>
+                      <div class="heart like">
+                          <svg
+                      width="28"
+                      height="24"
+                      viewBox="0 0 28 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke="“currentColor”"
+                        d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
+                        stroke="#24160B"
+                        stroke-opacity="0.8"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                      </div>
+                    </div>
+          
+                    <div class="images_parent">
+                      <img class="item__image item__image_opacity" src="./image/chair_5.png" alt="item" />
+                      <img class="item__image3 " src="./image/chair_3.png" alt="item" />
+                      <img class="item__image2" src="./image/background_big.png" alt="item_2" />
+                    </div>
+          
+                    <div class="item__button item__button_big">
+                      <button>ДОБАВИТЬ В КОРЗИНУ</button>
+                    </div>
+                  </div>
+                  
+                  <div class="item__footer_choise item__footer_big">
+                      <div class="item__footer_title_choise">
+                      <p class="">МИРО лайт</p>
+                      <img class="elipse__choise1 elipse__active " src="/image/ellipse_1.svg" width="35%" alt="" />
+                      <img class="elipse__choise2 item__footer_choise_pad" src="/image/ellipse_5.svg" width="35%" alt="" />
+                      </div>
+                  <div class="item__footer_choise_price price">
+                      <span class="item__footer_price silver__price prise">11 790 ₽</span>
+                      <span class="item__footer_price">9 590 ₽</span>
+                  </div>
+                    
+                  </div>
+              </div>
+  
+          
+              <div class="col-6 item item__midle_size">
+          
+                  <div class="item__content">
+                    <div class="item__header">
+                      <div class="item__title"></div>
+                      <div class="heart like">
+                          <svg
+                      width="28"
+                      height="24"
+                      viewBox="0 0 28 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke="“currentColor”"
+                        d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
+                        stroke="#24160B"
+                        stroke-opacity="0.8"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                      </div>
+                    </div>
+          
+                    <div class="images_parent">
+                      <img class="item__image item__image_opacity" src="./image/chair_6.png" alt="item" />
+                      <img class="item__image2" src="./image/badroom.png" alt="item_2" />
+                    </div>
+          
+                    <div class="item__button ">
+                      <button>ДОБАВИТЬ В КОРЗИНУ</button>
+                    </div>
+                  </div>
+                  <div class="item__footer">
+                    <p class="item__footer_title">МИРО лайт</p>
+                    <div class="price">
+                      <span class="item__footer_price silver__price ">11 790 ₽</span>
+                      <span class="item__footer_price">9 590 ₽</span>
+                    </div>
+                  </div>
+                
+              </div>
+  
+              <div class="col-6 item item__midle_size">
+          
+                  <div class="item__content">
+                    <div class="item__header">
+                      <div class="item__title"><span>NEW!</span></div>
+                      <div class="heart like">
+                          <svg
+                      width="28"
+                      height="24"
+                      viewBox="0 0 28 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke="“currentColor”"
+                        d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
+                        stroke="#24160B"
+                        stroke-opacity="0.8"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                      </div>
+                    </div>
+          
+                    <div class="images_parent">
+                      <img class="item__image item__image_opacity" src="./image/badroom_2.png" alt="item" />
+                      <img class="item__image2" src="./image/badroom.png" alt="item_2" />
+                    </div>
+          
+                    <div class="item__button ">
+                      <button>ДОБАВИТЬ В КОРЗИНУ</button>
+                    </div>
+                  </div>
+                  <div class="item__footer">
+                    <p class="item__footer_title">МИРО лайт</p>
+                    <div class="price">
+                     
+                      <span class="item__footer_price">9 590 ₽</span>
+                    </div>
+                  </div>
+                
+              </div>
+           
+          </div>
+        </div>
+        <!-- ТУТ ПОДСТАВКА ПОД ТЕЛЕВИЗОР -->
+        <div class="container-fluid">
+          <div class="row product__padding">
+      
+              <div class="col-6 item item__midle_size">
+          
+                  <div class="item__content">
+                    <div class="item__header">
+                      <div class="item__title"><span>NEW!</span></div>
+                      <div class="heart like">
+                          <svg
+                      width="28"
+                      height="24"
+                      viewBox="0 0 28 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke="“currentColor”"
+                        d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
+                        stroke="#24160B"
+                        stroke-opacity="0.8"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                      </div>
+                    </div>
+          
+                    <div class="images_parent">
+                      <img class="item__image item__image_opacity" src="./image/cupboard_1.png" alt="item" />
+                      <img class="item__image2" src="./image/badroom.png" alt="item_2" />
+                    </div>
+          
+                    <div class="item__button">
+                      <button>ДОБАВИТЬ В КОРЗИНУ</button>
+                    </div>
+                  </div>
+                  <div class="item__footer">
+                    <p class="item__footer_title">МИРО лайт</p>
+                    <div class="price">
+                      <span class="item__footer_price silver__price ">11 790 ₽</span>
+                      <span class="item__footer_price">9 590 ₽</span>
+                    </div>
+                  </div>
+                
+              </div>
+  
+              <div class="col-6 item item__midle_size">
+          
+                  <div class="item__content">
+                    <div class="item__header">
+                      <div class="item__title"></div>
+                      <div class="heart like">
+                          <svg
+                      width="28"
+                      height="24"
+                      viewBox="0 0 28 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke="“currentColor”"
+                        d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
+                        stroke="#24160B"
+                        stroke-opacity="0.8"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                      </div>
+                    </div>
+          
+                    <div class="images_parent">
+                      <img class="item__image item__image_opacity" src="./image/chair_7.png" alt="item" />
+                      <img class="item__image2" src="./image/badroom.png" alt="item_2" />
+                    </div>
+          
+                    <div class="item__button ">
+                      <button>ДОБАВИТЬ В КОРЗИНУ</button>
+                    </div>
+                  </div>
+                  <div class="item__footer">
+                    <p class="item__footer_title">МИРО лайт</p>
+                    <div class="price">
+                      <span class="item__footer_price silver__price ">11 790 ₽</span>
+                      <span class="item__footer_price">9 590 ₽</span>
+                    </div>
+                  </div>
+                
+              </div>
+            
+  
+            <div class="col-12 item__big">
+          
+              <div class="item__content">
+                <div class="item__header">
+                  <div class="item__title"><span>NEW!</span></div>
+                  <div class="heart like">
+                      <svg
+                  width="28"
+                  height="24"
+                  viewBox="0 0 28 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke="“currentColor”"
+                    d="M14.001 23C14.001 23 1.50098 16 1.50098 7.50001C1.50123 5.99768 2.02179 4.5418 2.97416 3.3799C3.92652 2.21801 5.2519 1.42181 6.72496 1.12669C8.19802 0.831559 9.72783 1.05572 11.0543 1.76105C12.3808 2.46638 13.422 3.60935 14.001 4.99563L14.001 4.99565C14.5799 3.60936 15.6212 2.46639 16.9477 1.76106C18.2741 1.05572 19.8039 0.83156 21.277 1.12669C22.75 1.42181 24.0754 2.21801 25.0278 3.3799C25.9802 4.5418 26.5007 5.99768 26.501 7.50001C26.501 16 14.001 23 14.001 23Z"
+                    stroke="#24160B"
+                    stroke-opacity="0.8"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                  </div>
+                </div>
+      
+                <div class="images_parent">
+                  <img class="item__image item__image_opacity" src="./image/cupboard.png" alt="item" />
+                  <img class="item__image2" src="./image/background_big.png" alt="item_2" />
+                </div>
+      
+                <div class="item__button item__button_big">
+                  <button>ДОБАВИТЬ В КОРЗИНУ</button>
+                </div>
+              </div>
+              <div class="item__footer item__footer_big">
+                <p class="item__footer_title">МИРО лайт</p>
+                <div class="price">
+                  <span class="item__footer_price silver__price ">11 790 ₽</span>
+                  <span class="item__footer_price">9 590 ₽</span>
+                </div>
+              </div>
+            
+          </div>
+          </div>
+        </div>
+     
+        </div>
     </div>
+      
 
     <!-- КАТЕГОРЯ ВЫБОРА -->
     <div class="choice__category">
