@@ -169,15 +169,13 @@
         padding: 1.5vh 2.5vw;
     }
     
-
-    
 }
 @media (max-width: 800px) {
     .container__header_all {
-        padding: 1vh 2vw;
+        padding: 1.8vh 2vw;
     }
     .container__header_all_pad {
-        padding: 0.5vh 2vw;
+        padding: 1.2vh 2vw;
     }
     .head__tex_furniture {
         margin-top: 42px;
@@ -201,8 +199,9 @@
         margin-top: 2px;
     }
     .menu__all_furniture-header ul li {
-        font-size: 14px;
+        font-size: 18px;
     }
+    
     .menu__all_furniture ul {
         padding-left: 5px;
         padding-right: 5px;
@@ -213,7 +212,7 @@
         font-size: 105px;
     }
     .menu__all_furniture ul li {
-        font-size: 14px;
+        font-size: 18px;
     }
     .summer__sale_text h1 {
         font-size: 75px;
@@ -236,12 +235,134 @@
         padding: 3px 5px 1px;
         
     }
-    
+    .menu__all_furniture-header {
+        margin-top: 48px;
+        
+    }
+    .menu__all_furniture-header-span  {
+        margin-top: 0;
+    }
+    .menu__all_furniture-header {
+        margin-top: 48px;
+        padding-bottom: 8px;
+    }
+    .container__header_all img {
+        width: 60% ;
+    }
     
 }
 @media (max-width: 768px) {
     .head__tex_furniture {
         margin-top: 25px;
         margin-bottom: 72px;
+    }
+    .div__plug_header {
+        height: 72px;
+    }
+}
+@media (max-width: 767px) {
+    .header__all_furniture {
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .menu__all_furniture-header ul li {
+        font-size: 18px;
+       
+    }
+    .menu__all_furniture ul li {
+        margin-left: 0px;
+    }
+    .menu__all_furniture ul {
+        overflow-x: scroll;
+    }
+    
+    .menu__all_furniture ul li a {
+        white-space: nowrap;
+        color: rgba(252, 248, 244, 0.6);
+    }
+    .menu__all_furniture-header ul {
+        overflow-x: scroll;
+    }
+    .menu__all_furniture-header a {
+        white-space: nowrap;
+        color: rgba(36, 22, 11, 0.5);
+    }
+    .menu__all_furniture-header-line {
+        display: block;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 2px;
+        color: rgba(252, 248, 244, 0.6);
+    }
+    .menu__all_furniture-header-span {
+        margin: 0px 10px;
+        
+    }
+    .menu__all_furniture-header .all__furniture_active {
+        color: #EFAE35;
+    }
+    .menu__all_furniture-header ul li a {
+        color: rgba(36, 22, 11, 0.5);
+    }
+    .menu__all_furniture-header ul li a:hover {
+        color: #EFAE35;
+    }
+    .menu__all_furniture-header ul li a:hover::after {
+        display: none;
+    }
+    .menu__all_furniture-header .all__furniture_active::after {
+        display: none;
+    }
+    .menu__all_furniture .all__furniture_active::after {
+        display: none;
+    }
+    .menu__all_furniture ul li a:hover::after {
+        display: none;
+    }
+    
+    
+    
+}
+@media (max-width: 600px) {
+    .head__tex_furniture h1,
+    .summer__sale_text h1 {
+       font-size: 80px;
+   }
+   .menu__all_furniture-header {
+       margin-top: 7%;
+   }
+   .div__plug_header {
+    height: 46px;
+}
+}
+@media (max-width: 480px) {
+    .head__tex_furniture h1,
+    .summer__sale_text h1 {
+       font-size: 70px;
+      
+   }
+   .menu__all_furniture-header {
+       padding-bottom: 4px;
+   }
+}
+@media (max-width: 414px) {
+    .head__tex_furniture h1,
+    .summer__sale_text h1 {
+       font-size: 60px;
+   }
+   .menu__all_furniture-header {
+    margin-top: 8%;
+}
+}
+@media (max-width: 375px) {
+    .menu__all_furniture-header {
+        margin-top: 9%;
+    }
+    .menu__all_furniture {
+        margin-top: 10px;
+    }
+    .div__plug_header {
+        height: 55px;
     }
 }

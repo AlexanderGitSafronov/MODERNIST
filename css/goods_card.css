@@ -57,6 +57,37 @@ hr {
 .collapsing {
     transition: height 0.6s ease;;
 }
+.section_card_mobile {
+    display: none;
+}
+.carousel-indicators [data-bs-target] {
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+}
+.section_card_mobile  .nav__card ul li a{
+    font-family: "Onest", sans-serif;
+    text-transform: none;
+}
+.section_card_mobile .goods__card_active {
+    color: #24160B;
+    cursor: default;
+    pointer-events: none;
+}
+.clarification__delivery p {
+    font-size: 14px;
+}
+.clarification__delivery a {
+    border-bottom: 1px dashed #999A81;
+    color:#999A81;
+}
+.section__card_mobile_link {
+    display: none;
+}
+.section__mobile_carousel {
+    display: none;
+}
+
 
 
 
