@@ -49,7 +49,7 @@ a {
     
   }
   .container__header {
-    padding: 4.1vh 4vw;
+    padding: 4.1vh 3.5vw;
   }
   .container__header_home {
       width: 100%;
@@ -78,6 +78,7 @@ a {
     background-color: rgba(55, 33, 13, 1);
     position: fixed;
     top: 0px;
+    left: 0px;
     width: 100%;
     z-index: 15;
     transition: transform 0.4s;
