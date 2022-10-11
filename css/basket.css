@@ -372,7 +372,83 @@ margin-left: 10px;
 
 
 
-
-
-
-
+.basked__main_content_mobil {
+    border-top: 1px solid #24160B;
+    border-bottom: 1px solid #24160B;
+    height: 350px;
+    overflow-y: scroll;
+    
+}
+.basked__main_content_mobil .container__basket_content_discription {
+    margin-bottom: 17px;
+}
+.basked__main_content_mobil_dropdown {
+    margin-top: 24px;
+}
+.basked__main_content_mobil_dropdown .dropdown__absked_size {
+    width: 100%;
+}
+.basked__main_content_mobil .container__basket {
+    padding: 17px 0px;
+}
+.basked__main_content_mobil_dropdown .dropdown .dropdown-text {
+    height: 33px;
+}
+.basked__main_content_mobil_dropdown .dropdown::before  {
+    top: 12px;
+    right: 8px;
+    border-width: 7.4px 5px 0 5px;
+}
+.basked__main_content_mobil_dropdown .dropdown.dropdown__active::before {
+    top: 10px;
+}
+.basked__main_content_mobil_dropdown .dropdown .option {
+    top: 35px;
+}
+.basked__main_content_mobil_dropdown .dropdown .option:last-child {
+    padding-bottom: 0px;
+}
+.basked__main_content_mobil_dropdown .dropdown__first_pad {
+    margin-bottom: 0;
+}
+.basked__main_content_mobil .container__basket_content h5 {
+    font-size: 16px;
+    font-weight: 400;
+}
+.basked__main_content_mobil .container__basket_price h5 {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Onest", sans-serif;
+}
+.basked__main_content_mobil .basked__header_text h2 {
+    font-size: 28px;
+}
+.basked__main_content_mobil .container__basket_price a {
+    font-size: 12px;
+}
+.basked__main_content_mobil .basket_count {
+    width: 24px;
+    height: 24px;
+}
+.basked__main_content_mobil .container__basket_content_number {
+    font-size: 14px;
+    font-family: "Onest", sans-serif;
+     padding: 0px 16px;
+}
+.basked__main_content_mobil .basket_count::before {
+    width: 8px;
+}
+.basked__main_content_mobil .container__basket_count_plus::after {
+    height: 8px;
+}
+.basked__main_content_mobil_clear .basked__delete_all a {
+    margin-top: 24px;
+    font-size: 12px;
+    margin-right: 16px;
+}
+.basked__main_content_mobil {
+    display: none;
+}
+.basked__main_content_mobil_clear {
+    display: none;
+}

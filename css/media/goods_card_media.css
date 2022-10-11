@@ -265,6 +265,9 @@
         padding-left: 44px;
         padding-right: 44px;
     }
+    .footer__footer {
+        height: 80px;
+    } 
 }
 @media (max-width: 414px) {
     .nav__card {

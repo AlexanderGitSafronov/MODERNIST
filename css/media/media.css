@@ -1173,6 +1173,7 @@
         .search__menu input {
             width: 300px;
         }
+        
     }
     @media (max-width: 414px) {
         .head__text p {
