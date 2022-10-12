@@ -913,3 +913,62 @@ function show1(){
 
 
   
+// Кнопка ДАЛЕЕ первой страницы
+  document.querySelector('.buyer__data_ordering_button_next').addEventListener('click',() => {
+    document.querySelector('.buyer__data_ordering').style.display = 'none';
+    document.querySelector('.way__obtaining_ordering').style.display = 'block';
+    document.querySelector('.way__obtaining_ordering_button_prew').style.display = 'block';
+    document.querySelector('.buyer__data_ordering_button_next').style.display = 'none';
+    document.querySelector('.way__obtaining_ordering_next').style.display = 'block';
+    document.querySelector('.ordering__slider_second').classList.add('ordering__slider_orange');
+  })
+
+
+  // Кнопка НАЗАД на второй странице
+  document.querySelector('.way__obtaining_ordering_button_prew').addEventListener('click',() => {
+    document.querySelector('.buyer__data_ordering').style.display = 'block';
+    document.querySelector('.way__obtaining_ordering').style.display = 'none';
+    document.querySelector('.way__obtaining_ordering_button_prew').style.display = 'none';
+    document.querySelector('.ordering__slider_second').classList.remove('ordering__slider_orange');
+
+    document.querySelector('.buyer__data_ordering_button_next').style.display = 'block';
+    document.querySelector('.way__obtaining_ordering_next').style.display = 'none';
+    
+  })
+
+  // Кнопка ДАЛЕЕ на второй странице
+  document.querySelector('.way__obtaining_ordering_next').addEventListener('click',() => {
+    document.querySelector('.payment__method_ordering').style.display = 'block';
+    document.querySelector('.way__obtaining_ordering').style.display = 'none';
+    document.querySelector('.buyer__data_ordering_button_next').style.display = 'none';
+    document.querySelector('.way__obtaining_ordering_next').style.display = 'none';
+    document.querySelector('.way__obtaining_ordering_button_prew').style.display = 'none';
+    document.querySelector('.payment__method_ordering_button_prew').style.display = 'block';
+    document.querySelector('.ordering__slider_third').classList.add('ordering__slider_orange');
+    document.querySelector('.confirm__order_button_next').style.display = 'block';
+  })
+
+  // Кнопка НАЗАД на третей странице
+  document.querySelector('.payment__method_ordering_button_prew').addEventListener('click',() => {
+    document.querySelector('.way__obtaining_ordering').style.display = 'block';
+    document.querySelector('.payment__method_ordering').style.display = 'none';
+    
+    document.querySelector('.ordering__slider_third').classList.remove('ordering__slider_orange');
+
+    document.querySelector('.way__obtaining_ordering_next').style.display = 'block';
+    document.querySelector('.way__obtaining_ordering_button_prew').style.display = 'block';
+    document.querySelector('.payment__method_ordering_button_prew').style.display = 'none';
+    document.querySelector('.confirm__order_button_next').style.display = 'none';
+  })
+
+  // Кнопка ВПЕРЕД на третей странице
+  document.querySelector('.confirm__order_button_next').addEventListener('click',() => {
+    document.querySelector('.ordering').style.display = 'none';
+    document.querySelector('.ordering__border_left').style.display = 'block';
+    
+    document.querySelector('.ordering__slider_third_four').classList.add('ordering__slider_orange');
+
+    
+    document.querySelector('.button__ordering_slide').style.display = 'none';
+    
+  })
