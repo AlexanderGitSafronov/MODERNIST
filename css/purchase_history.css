@@ -155,3 +155,27 @@ h5 {
 .card-body {
     padding-top: 0px;
 }
+
+.purchase__history_order_header_text_mobil {
+    display: none;
+}
+.purchase__history_order_header_text_hide img,
+.purchase__history_order_header_text_hide p {
+    display: none;
+}
+.purchase__history_awaiting_payment button{
+    display: none;
+    font-size: 12px;
+    padding: 3px 13px;
+    background-color: #24160B;
+    color: #fff;
+    border-radius: 40px;
+    font-family: "Onest", sans-serif;
+    text-transform: inherit;
+}
+.purchase__history_order_header_text_mobil h4{
+    margin-bottom: 10px;
+}
+.order__content_open_discription_footer_mobil {
+    display: none;
+}

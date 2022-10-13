@@ -750,6 +750,47 @@ button {
     .ordering__checkbox_second_pad {
         margin-left: 0;
     }
+    .label__radio_span {
+        display: none;
+    }
+    .transport__company_svg {
+        width: 72%;
+    }
+    .transport__company_svg img:first-child {
+        padding-right: 190px;
+    }
+   
+    .transport__company_svg img {
+        padding-right: 162px;
+        width: 100%;
+    }
+    
+    .transport__company_price p {
+        font-size: 16px;
+    }
+    .organization__w textarea {
+        margin-bottom: 10px;
+    }
+    .lift {
+        margin-top: 15px;
+    }
+    .custom-checkbox_modal+label {
+        font-size: 14px;
+    }
+    .ordering__input input {
+        padding-top: 26px;
+    }
+    .form__item_adress label {
+        top: 20px;
+    }
+}
+@media (max-width: 600px) {
+    .transport__company_svg img {
+        width: 110%;
+    }
+    .transport__company_svg .transport__company_svg_third {
+        width: 115%;
+    }
 }
 @media (max-width: 480px) {
     .ordering__mobil_pad {
@@ -758,6 +799,7 @@ button {
     .ordering__link_mobil_pad {
         margin-right: 20%;
     }
+    
 }
 @media (max-width: 414px) {
     .ordering__mobil_pad {
@@ -765,6 +807,12 @@ button {
     }
     .ordering__link_mobil_pad {
         margin-right: 10px;
+    }
+    .transport__company_svg img {
+        width: 115%;
+    }
+    .transport__company_svg .transport__company_svg_third {
+        width: 120%;
     }
 }
 @media (max-width: 375px) {

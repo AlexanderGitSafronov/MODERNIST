@@ -104,3 +104,45 @@
 @media (max-width: 768px) {
   
 }
+@media (max-width: 767px) {
+    .authorization__container h1 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .number__confirmation_header_discription {
+        display: block;
+    }
+    .authorization__container .authorization {
+        width: 350px;
+    }
+    .authorization__container .offcanvas-footer_privacy_policy p {
+        font-size: 12px;
+    }
+    .authorization__container .number__confirmation_footer_text p {
+        font-size: 14px;
+    }
+    .authorization__container .number__confirmation_social_networks img {
+        width: 90%;
+    }
+    .authorization__container .form__item_adress {
+        margin-bottom: 12px;
+    }
+    .authorization__container .ordering__input input {
+        padding-top: 26px;
+    }
+    .authorization__container .form__item_adress label {
+        top: 20px;
+    }
+    .authorization__container .authorization__get_code button {
+        font-size: 12px;
+    }
+    .authorization__container .number__confirmation_header {
+        text-align: center;
+    }
+    .number__confirmation_header_discription {
+        width: 350px;
+    }
+}
+@media (max-width: 375px) {
+    
+}

@@ -59,3 +59,18 @@
 @media (max-width: 768px) {
     
 }
+@media (max-width: 767px) {
+    .personal__data .ordering__input_personal__data {
+        width: 100%;
+    }
+    .ordering__input input {
+        padding-top: 26px;
+    }
+    .form__item_adress label {
+        top: 20px;
+    }
+    .save__personal_data {
+        margin-top: 20px;
+    }
+}
+

@@ -911,7 +911,7 @@ function show1(){
   }
 
 
-
+// МОБИЛЬНАЯ ВЕРСИЯ
   
 // Кнопка ДАЛЕЕ первой страницы
   document.querySelector('.buyer__data_ordering_button_next').addEventListener('click',() => {
@@ -972,3 +972,6 @@ function show1(){
     document.querySelector('.button__ordering_slide').style.display = 'none';
     
   })
+
+
+ 

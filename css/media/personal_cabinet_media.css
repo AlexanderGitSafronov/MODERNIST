@@ -211,3 +211,45 @@ h4{
         padding-bottom: 50px;
     }
 }
+@media (max-width: 767px) {
+    .personal__cabinet {
+        margin-top: 64px;
+    }
+    .form__item_adress_pad_first input, .form__item_adress_pad input {
+        width: 100%;
+    }
+    .basket_count {
+        width: 26px;
+        height: 26px;
+    }
+    .container__basket_count_plus::after {
+        height: 14px;
+    }
+    .basket_count::before {
+        width: 14px;
+    }
+    .ordering__input_personal_cabinet h4{
+        font-size: 18px;
+    }
+    .personal__cabinet_new_addres_text h5 {
+        font-size: 16px;
+    }
+    .way__to_get_discription h5{
+        font-size: 16px;
+    }
+    .personal__cabinet p {
+        font-size: 16px;
+    }
+    .personal__cabinet button {
+        font-size: 12px;
+    }
+    .custom-checkbox_modal+label {
+        font-size: 14px;
+    }
+    .ordering__input input {
+        padding-top: 26px;
+    }
+    .form__item_adress label {
+        top: 20px;
+    }
+}

@@ -102,3 +102,11 @@
 }
 
 
+.number__confirmation_header_discription {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+.offcanvas-footer_privacy_policy a {
+    color: #EFAE35;
+}

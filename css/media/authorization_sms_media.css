@@ -31,3 +31,17 @@
 @media (max-width: 768px) {
 
 }
+@media (max-width: 767px) {
+    .authorization__sms_back {
+        display: none;
+    }
+    .authorization__sms {
+        text-align: center;
+    }
+    .appeals__answer_number_resend {
+        text-align: start;
+    }
+    .appeals__answer_number_resend a {
+        font-size: 12px;
+    }
+}

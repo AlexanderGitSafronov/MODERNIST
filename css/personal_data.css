@@ -118,3 +118,7 @@
       display: flex;
       justify-content: center;
   }
+  .save__personal_data button{
+    background-color: #24160B;
+    color: #fcf8f4;
+  }

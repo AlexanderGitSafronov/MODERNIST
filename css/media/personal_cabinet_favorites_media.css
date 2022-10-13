@@ -86,3 +86,60 @@
 @media (max-width: 768px) {
     
 }
+@media (max-width: 767px) {
+    .personal__cabinet {
+        margin-top: 64px;
+        margin-bottom: 0px;
+    }
+    .personal__cabinet .menu__all_furniture-header ul li {
+        font-size: 18px;
+    }
+    .personal__cabinet .personal__cabinet_exit a {
+        font-size: 18px;
+    }
+    .personal__cabinet_flex_menu {
+        overflow-x: scroll;
+    }
+    .personal__cabinet .menu__all_furniture-header ul li{
+        white-space: nowrap;
+    }
+    .personal__cabinet_exit {
+        margin-left: 100px;
+    }
+    .menu__all_furniture-header-span {
+        margin: 0px 16px;
+    }
+    .purchase__history {
+        margin-bottom: 15px;
+    }
+    .big__content_defoult {
+        display: block;
+    }
+    .small__content_mobil {
+        display: none;
+    }
+    .personal__cabinet .personal__cabinet_add_adress-btn button {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
+   
+}
+@media (max-width: 480px) {
+    .personal__cabinet h1 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    
+}
+@media (max-width: 414px) {
+    .personal__cabinet {
+        width: 375px;
+    }
+}
+@media (max-width: 375px) {
+    .personal__cabinet {
+        width: 350px;
+    }
+}
+
