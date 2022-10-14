@@ -60,3 +60,20 @@
 @media (max-width: 768px) {
    
 }
+@media (max-width: 767px) {
+    .contacts__information_bottom {
+        padding: 32px 16px 20px 16px;
+    }
+    .contacts__information_top_head {
+        margin-bottom: 28px;
+    }
+    .constriction h6 {
+       
+        margin-top: 36px;
+    }
+}
+@media (max-width: 375px)  {
+    .repair_button button {
+        width: 100%;
+    }
+}

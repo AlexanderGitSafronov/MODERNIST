@@ -337,3 +337,19 @@
     color: transparent !important;
   }
   
+
+  .appeals__mobil {
+      display: none;
+  }
+  .appeals__mobil .appeals__message_div{
+    align-items: start;
+  }
+  .appeals__mobil .appeals__message_top p{
+    margin-bottom: 0px;
+  }
+  .appeals__mobil .appeals__message_bottom p {
+      margin-top: 10px;
+  }
+  .appeals__mobil .appeals__message_status_div {
+      align-items: start;
+  }

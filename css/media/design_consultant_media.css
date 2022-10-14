@@ -295,6 +295,60 @@
 @media (max-width: 800px) {
     
 }
-@media (max-width: 768px) {
-  
+@media (max-width: 767px) {
+    .design__consultant_pad_left {
+        padding: 0px 0px;
+    }
+    .design__consultant_container h1 {
+        font-size: 40px;
+    }
+    .design__consultant_container h3 {
+        font-size: 24px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+    .design__consultant_content_third_text_center h1 {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .design__consultant_content_third_section {
+        width: 104%;
+    }
+    .design__consultant_content {
+        padding: 24px 16px;
+    }
+    .disign_consultant_big {
+        padding: 24px 16px;
+    }
+    .design__consultant_header_text_top {
+        padding: 24px 16px;
+    }
+    .design__consultant_header_text_bottom {
+        padding-bottom: 24px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .design__consultant_header_image {
+        padding: 0px 16px;
+    }
+    .design__consultant_header_disription  {
+        order: -1;
+    }
+}
+@media (max-width: 480px) {
+    .design__consultant_content_third_section {
+        width: 103%;
+    }
+}
+@media (max-width: 414px) {
+    .design__consultant_content_third_section {
+        width: 105%;
+    }
+    
+}
+@media (max-width: 375px) {
+    .design__consultant_content_third_section {
+        width: 106%;
+    }
+    
 }

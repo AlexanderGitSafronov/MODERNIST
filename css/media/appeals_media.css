@@ -102,3 +102,24 @@
 @media (max-width: 768px) {
    
 }
+@media (max-width: 767px) {
+    .contacts__information_bottom {
+        padding: 32px 16px 20px 16px;
+    }
+    .contacts h6  {
+        margin-top: 35px;
+    }
+    .appeals__desctop {
+        display: none;
+    }
+    .appeals__mobil {
+        display: block;
+    }
+    
+}
+
+@media (max-width: 375px) {
+    .appeals_button button {
+        width: 100%;
+    }
+}

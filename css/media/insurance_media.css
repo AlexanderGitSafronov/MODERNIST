@@ -36,3 +36,24 @@
 @media (max-width: 768px) {
     
 }
+@media (max-width: 767px) {
+    .insurance__logo {
+        display: block;
+        
+    }
+    .insurance__logo_cdek,
+    .insurance__logo_pek,
+    .insurance__logo_line {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .insurance__logo_line {
+        margin-bottom: 0;
+    }
+    .contacts h6 {
+        margin-top: 36px;
+        margin-bottom: 20px;
+    }
+    
+}

@@ -94,3 +94,63 @@ font-size: 60px;
         margin-left: 40px;
     }
 }
+@media (max-width: 767px) {
+    .installment__tinkoff {
+        display: block;
+    }
+    .cases__header h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .contacts__links_link a{
+        white-space: nowrap;
+    }
+    .contacts__links_pos {
+        overflow-x: scroll;
+        
+    }
+    .contacts__links {
+        padding: 0px 16px;
+    }
+    .contacts__link_choise {
+        font-size: 18px;
+    }
+    .contacts__links_pos {
+        gap: 0px;
+    }
+    .contacts__links_link_line  {
+        padding: 0px 16px;
+    }
+    .contacts__information_bottom {
+        padding: 32px 16px 20px 16px;
+    }
+    .cases__header {
+        margin-top: 35px;
+        margin-bottom: 30px;
+    }
+    .contacts__information_top_head {
+        margin-bottom: 36px;
+    }
+    .contacts .percent p {
+        font-size: 72px;
+    }
+    .contacts .percent span {
+        font-size: 26px;
+    }
+    .contacts__information_bottom_content ul li {
+        line-height: 19px;
+    }
+    .contacts h6 {
+        line-height: 19px;
+    }
+    .contacts h2 {
+        font-size: 28px;
+    }
+    .contacts p {
+        font-size: 14px;
+    }
+    .contacts__information_bottom_content ul li {
+        margin-bottom: 12px;
+    }
+    
+}

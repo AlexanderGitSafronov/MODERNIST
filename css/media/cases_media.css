@@ -153,3 +153,36 @@
 @media (max-width: 768px) {
   
 }
+@media (max-width: 767px) {
+    .cases__content {
+        padding: 0px 0px;
+    }
+    .cases__header h1 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .cases__header {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    .cases__content h2 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .cases__content p {
+        font-size: 14px;
+    }
+    .cases__content .cases__content_block_discription {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    .cases__content a {
+        font-size: 12px;
+    }
+}
+@media (max-width: 480px) {
+    
+    .cases__content_block_link_left {
+        width: 40%;
+    }
+}
