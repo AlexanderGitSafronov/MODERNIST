@@ -115,7 +115,28 @@
     .appeals__mobil {
         display: block;
     }
-    
+    .appeals__answer_appeals .modal-body {
+        padding: 0px 24px 40px 24px;
+    }
+    .appeals__answer_appeals_question {
+        padding: 16px 18px;
+    }
+    .appeals__answer_appeals_answer {
+        padding: 16px 18px;
+    }
+    .appeals__answer_appeals_chapter {
+        margin-bottom: 8px;
+    }
+    .appeals__answer_appeals_topic {
+        margin-bottom: 8px;
+    }
+    .appeals__answer_appeals_question {
+        margin-top: 24px;
+        margin-bottom: 36px;
+    }
+    .appeals__answer_appeals .modal-body .modal__title_modernist {
+        margin-bottom: 24px;
+    }
 }
 
 @media (max-width: 375px) {

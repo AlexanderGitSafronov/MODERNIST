@@ -719,4 +719,55 @@ width: 152px;
         display: flex;
     }
 
+    .form__item_adress {
+        width: 100%;
+    }
+    .form__item_adress_right {
+        display: flex;
+        justify-content: end;
+    }
+    .form__item_adress_right label {
+        left: 22px;
+    }
+    .form__item_adress input {
+        width: 97.5%;
+    }
+    .organization__w .form__item_adress input {
+        width: 100%;
+    }
     
+    .four__input_flex_first {
+        width: 100%;
+    }
+    .four__input_flex_first .from__errors input {
+        width: 95%;
+    }
+    .four__input_flex_second .from__errors input {
+        width: 95%;
+    }
+    label:hover{
+        cursor: pointer;
+    }
+    .insurance__content form{
+        display: flex;
+    }
+    .insurance__content_info {
+        position: relative;
+        margin-left: 10px;
+    }
+    .tooltip {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        background-color: #C7C8BB;
+        padding: 16px;
+        opacity: 0;
+        width: 246px;
+    }
+    .tooltip__op {
+        opacity: 1;
+    }
+    .tooltip p {
+        color: #24160B;
+        margin-bottom: 0;
+    }

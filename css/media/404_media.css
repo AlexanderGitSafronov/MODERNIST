@@ -58,3 +58,40 @@
         font-size: 12px;
     }
 }
+@media (max-width: 767px) {
+    
+}
+@media (max-width: 600px) {
+    .basket__empty h1 {
+        font-size: 160px;
+        line-height: 160px;
+    }
+    .basket__empty_discription {
+        margin-top: 0;
+        width: 320px;
+    }
+    .basket__empty  {
+        margin-top: 140px;
+    }
+    .basket__empty_button a {
+        padding: 15px 90px;
+    }
+}
+@media (max-width: 375px) {
+    .basket__empty h1 {
+        font-size: 120px;
+        line-height: 120px;
+    }
+    .basket__empty h2 {
+        font-size: 18px;
+    }
+    .basket__empty p {
+        font-size: 14px;
+    }
+    
+}
+@media (max-width: 374px) {
+    .basket__empty_button a {
+        padding: 15px 80px;
+    }
+}

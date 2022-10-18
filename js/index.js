@@ -1,14 +1,25 @@
 // КЛИК ПО ЛАЙКУ
-var tableElements = document.querySelectorAll(".like");
+// var tableElements = document.querySelectorAll(".like");
 
-tableElements.forEach(function (element) {
-  element.addEventListener("click", function () {
-    element.classList.toggle("active__like");
-  });
-});
+// tableElements.forEach(function (element) {
+//   element.addEventListener("click", function () {
+//     element.classList.toggle("active__like");
+//   });
+// });
 
 
+$('.like').click(function(event) {
+  event.preventDefault();
+  event.stopPropagation();
+  $(this).toggleClass('active__like')
+})
 
+// Клик по кнопке
+$('.item__button button').click(function(event) {
+  event.preventDefault();
+  event.stopPropagation();
+  
+})
 
 // Смена цвета товара по клику 
 

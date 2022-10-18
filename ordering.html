@@ -582,7 +582,7 @@
                                                     <input type='text'  required name='name__ordering' class='name__ordering' id="name__ordering" placeholder='Имя'/>
                                                     <label for="name__ordering">Имя</label>
                                             </div>
-                                            <div class="form__item_adress">
+                                            <div class="form__item_adress form__item_adress_right">
                                                 <input type='text' required name='last__name_ordering' class='last__name_ordering' id="last__name_ordering" placeholder='Фамилия'/>
                                                 <label for="last__name_ordering">Фамилия</label>
                                             </div>
@@ -596,7 +596,7 @@
                                                 <input type='nimber' required  name='phone__ordering' class='phone__ordering' id="phone__ordering"  placeholder='Телефон'/>
                                                 <label for="phone__ordering">Телефон</label>
                                             </div>
-                                            <div class="form__item_adress">
+                                            <div class="form__item_adress form__item_adress_right">
                                                 <input type='email' required  name='email__ordering' class='email__ordering' id="email__ordering" placeholder='E-mail'/>
                                                 <label for="email__ordering">E-mail</label>
                                             </div>
@@ -631,7 +631,7 @@
                                                 <input type='phone' required name='phone__entity' class='phone__entity' id="phone__entity" placeholder='Телефон'/>
                                                 <label for="phone__entity">Телефон</label>
                                             </div>
-                                            <div class="form__item_adress">
+                                            <div class="form__item_adress form__item_adress_right">
                                                 <input type='email' required name='email__entity' class='email__entity' id="email__entity"  placeholder='E-mail'/>
                                                 <label for="email__entity">E-mail</label>
                                             </div>
@@ -662,7 +662,7 @@
                                                     <input type='text' required name='kpp__entity' class='kpp__entity' id="kpp__entity"  placeholder='КПП'/>
                                                     <label for="kpp__entity">КПП</label>
                                                 </div>
-                                                <div class="form__item_adress">
+                                                <div class="form__item_adress form__item_adress_right">
                                                     <input type='text' required name='ihh__entity' class='ihh__entity' id="ihh__entity" placeholder='ИНН'/>
                                                     <label for="ihh__entity">ИНН</label>
                                                 </div>
@@ -737,7 +737,7 @@
                                                 <input type='text'  name='cyty__ordering' class='cyty__ordering' id="cyty__ordering" placeholder='Город'/>
                                                 <label for="cyty__ordering">Город</label>
                                             </div>
-                                            <div class="form__item_adress">
+                                            <div class="form__item_adress form__item_adress_right">
                                                 <input type='text' name='street__ordering' class='street__ordering' id="street__ordering"  placeholder='Улица'/>
                                                 <label for="street__ordering">Улица</label>
                                             </div>
@@ -760,7 +760,7 @@
                                                 </div>
                                                 
                                                 <div class="from__errors">
-                                                    <div class="form__item_adress form__item_adress_pad">
+                                                    <div class="form__item_adress form__item_adress_pad form__item_adress_right">
                                                         <input type='number'  name='frame__ordering' class='frame__ordering four__input_pad' id="frame__ordering" placeholder='Корпус'/>
                                                         <label for="frame__ordering">Корпус</label>
                                                         <div class="check__input">
@@ -786,7 +786,7 @@
                                                 </div>
                                                 
                                                 <div class="from__errors">
-                                                    <div class="form__item_adress form__item_adress_pad">
+                                                    <div class="form__item_adress form__item_adress_pad form__item_adress_right">
                                                         <input type='number' name='floor__ordering' class='floor__ordering four__input_pad'  id="floor__ordering" placeholder='Этаж'/>
                                                         <label for="floor__ordering">Этаж</label>
                                                         <div class="check__input">
@@ -917,6 +917,13 @@
                                                         
                                                         <input type="checkbox" class="custom-checkbox_modal custom-checkbox_modal_insurance" id="insurance__input" checked>
                                                         <label for="insurance__input" class="insurance__input"  >Отказаться от страхования</label>
+                                                        <div class="insurance__content_info">
+                                                            <img src="./image/Info.svg" alt="">
+                                                            <div class="tooltip">
+                                                                <p>Страхование товара на случай непредвиденных ситуаций, таких как: кражи, аварии, стихийные бедствия.</p>
+                                                            </div>
+                                                        </div>
+                                                        
                                                             
                                                          
                                                     </form>
@@ -1857,7 +1864,7 @@
     </div>
   </div>
 
-
+  <script src="./js/ordering_info.js"></script>
     <script src="./js/ordering_val.js"></script>
     <script src="/js/index.js"></script>
     <script

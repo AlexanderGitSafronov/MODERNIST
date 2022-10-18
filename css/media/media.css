@@ -1140,6 +1140,59 @@
         .small__content_mobil .product__pad{
             border-bottom: 1px solid #999A81;
         }
+
+        /* МОДЕЬНОЕ ОКНО КОрЗИНЫ */
+        .offcanvas-footer_bootom-btn {
+            display: block;
+        }
+        .offcanvas-footer_bootom-btn button {
+            width: 100%;
+            padding: 15px 0px;
+            font-size: 12px;
+        }
+        
+        .offcanvas-footer_bootom-btn button:first-child {
+            margin-bottom: 10px;
+        }
+        .offcanvas.offcanvas-end {
+            width: 50%;
+        }
+        .offcanvas-header_right h5 {
+            font-size: 28px;
+        }
+        .container__basket_price h5 {
+            font-size: 16px;
+        }
+        .container__basket_content h5 {
+            font-size: 14px;
+        }
+        .container__basket_content p {
+            font-size: 12px;
+        }
+        .basket_count {
+            width: 24px;
+            height: 24px;
+        }
+        .basket_count::before {
+            width: 9px;
+        }
+        .container__basket_count_plus::after {
+            height: 9px;
+        }
+        .basket__number {
+            font-size: 14px;
+            padding: 0px 16px;
+        }
+        .container__basket_price a {
+            font-size: 12px;
+        }
+        .offcanvas-footer_bootom p {
+            font-size: 12px;
+        }
+        .offcanvas-footer_header h5 {
+            font-size: 22px;
+        }
+        
     }
     @media (max-width: 723px)  {
         .head__text p {
@@ -1156,6 +1209,45 @@
         }
     }
     @media (max-width: 600px) {
+        /* КОРЗИНА ПЕРДВАРИТЕЛЬНОГО ПРОСМОТРА */
+        .offcanvas.offcanvas-end {
+            width: 70%;
+        }
+        .offcanvas-header_right h5 {
+            font-size: 28px;
+        }
+        .container__basket_price h5 {
+            font-size: 16px;
+        }
+        .container__basket_content h5 {
+            font-size: 14px;
+        }
+        .container__basket_content p {
+            font-size: 12px;
+        }
+        .basket_count {
+            width: 24px;
+            height: 24px;
+        }
+        .basket_count::before {
+            width: 9px;
+        }
+        .container__basket_count_plus::after {
+            height: 9px;
+        }
+        .basket__number {
+            font-size: 14px;
+            padding: 0px 16px;
+        }
+        .container__basket_price a {
+            font-size: 12px;
+        }
+        .offcanvas-footer_bootom p {
+            font-size: 12px;
+        }
+        .offcanvas-footer_header h5 {
+            font-size: 22px;
+        }
         
     }
     @media (max-width: 529px)  {
@@ -1193,6 +1285,9 @@
         }
         .offcanvas-body_burger p {
             padding: 12px 0px;
+        }
+        .offcanvas.offcanvas-end {
+            width: 100%;
         }
     }
     @media (max-width: 387px) {

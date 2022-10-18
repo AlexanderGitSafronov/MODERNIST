@@ -1,3 +1,6 @@
+@media (max-width: 1920px) {
+    
+}
 @media (max-width: 1680px) {
    
     .ordering {
@@ -7,6 +10,9 @@
     }
     .basket__fixed .container__basket_price {
         padding: 0px;
+    }
+    .form__item_adress input {
+        width: 97.5%;
     }
   }
   @media (max-width: 1600px) {
@@ -69,6 +75,9 @@
     .ordering__checkbox_flex_label {
         margin-left: 3%;
     }
+    .form__item_adress input {
+        width: 97.5%;
+    }
   }
 @media (max-width: 1536px) {
     .ordering__input input {
@@ -105,6 +114,9 @@
         margin-left: 10px;
         margin-bottom: 25px;
     }
+    .form__item_adress input {
+        width: 97.5%;
+    }
     
   }
   @media (max-width: 1440px) {
@@ -125,6 +137,9 @@
     } 
     .basket__fixed .offcanvas-body_right {
         height: 289px;
+    }
+    .form__item_adress input {
+        width: 97.5%;
     }
   }
   @media (max-width: 1366px) {
@@ -220,6 +235,9 @@ button {
 .basket__fixed .offcanvas-body_right {
     height: 269px;
 }
+.form__item_adress input {
+    width: 97.5%;
+}
 }
   @media (max-width: 1280px) {
     .ordering {
@@ -277,6 +295,9 @@ button {
     }
     .basket__fixed .offcanvas-body_right {
         height: 239px;
+    }
+    .form__item_adress input {
+        width: 97.5%;
     }
   }
   @media (max-width: 1024px) {
@@ -392,6 +413,44 @@ button {
     .ordering__checkbox_flex_label {
         margin-left: 2.3%;
     }
+    .form__item_adress input {
+        width: 100%;
+    }
+    .ordering__input .ordering__input_form {
+        display: block;
+    }
+    .form__item_adress_right label{
+        left: 15px;
+    }
+    
+}
+@media (max-width: 991px) {
+    .four__input {
+        display: block;
+    }
+    .four__input_flex_first {
+        width: 100%;
+    }
+    .from__errors {
+        width: 100%;
+    }
+    .four__input_flex_first .from__errors input {
+        width: 98%;
+    }
+    .four__input_flex_second .from__errors input {
+        width: 98%;
+    }
+    
+    .four__input_flex_first {
+        justify-content: space-between;
+    }
+    .four__input_flex_first {
+        padding-right: 0px;
+    }
+    .four__input_flex_second {
+        padding-left: 0px;
+    }
+    
 }
 @media (max-width: 800px) {
     .ordering__input .ordering__input_form {
@@ -534,6 +593,12 @@ button {
    .form__item_adress_pad_first {
        margin-right: 4px;
    } 
+   .four__input_flex_first .from__errors input {
+    width: 98%;
+}
+.four__input_flex_second .from__errors input {
+    width: 98%;
+}
 }
 @media (max-width: 768px) {
     .ordering, .ordering__basked {

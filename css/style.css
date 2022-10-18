@@ -1179,6 +1179,7 @@ a {
     color: #fff;
     text-transform: uppercase;
     border: 1px solid #fff;
+    
   }
   .item__button button:hover {
     background: rgba(36, 22, 11, 1);
