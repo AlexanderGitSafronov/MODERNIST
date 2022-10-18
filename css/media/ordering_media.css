@@ -422,6 +422,10 @@ button {
     .form__item_adress_right label{
         left: 15px;
     }
+    .form__item_adress_right .just-validate-error-label {
+        margin-left: 5px;
+        
+    }
     
 }
 @media (max-width: 991px) {
@@ -855,6 +859,9 @@ button {
     }
     .transport__company_svg .transport__company_svg_third {
         width: 115%;
+    }
+    .tooltip {
+        left: -165px;
     }
 }
 @media (max-width: 480px) {

@@ -2,8 +2,16 @@
 
 const infoLips = document.getElementsByClassName('insurance__content_info');
 
-infoLips.addEventListener('mouseover', function() {
+
+
+infoLips[0].addEventListener('mouseover', function() {
   const tooltip = document.getElementsByClassName('tooltip');
-  tooltip.classList.add('tooltip__op');
-  tooltip.style.visibility = 'visible';
+  tooltip[0].style.opacity = '1';
+  tooltip[0].style.visibility = 'visible';
 } )
+
+infoLips[0].addEventListener('mouseout', function() {
+    const tooltip = document.getElementsByClassName('tooltip');
+    tooltip[0].style.opacity = '0';
+    tooltip[0].style.visibility = 'hidden';
+  } )

@@ -110,3 +110,6 @@
 .offcanvas-footer_privacy_policy a {
     color: #EFAE35;
 }
+.authorization__container .ordering__input input {
+    width: 100%;
+}

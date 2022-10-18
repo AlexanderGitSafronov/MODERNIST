@@ -723,8 +723,12 @@ width: 152px;
         width: 100%;
     }
     .form__item_adress_right {
-        display: flex;
-        justify-content: end;
+        width: 100%;
+        text-align: end;
+    }
+    .form__item_adress_right .just-validate-error-label {
+        margin-left: 15px;
+        text-align: start;
     }
     .form__item_adress_right label {
         left: 22px;
@@ -757,12 +761,13 @@ width: 152px;
     }
     .tooltip {
         position: absolute;
-        left: 0px;
+        left: -90px;
         top: 0px;
         background-color: #C7C8BB;
         padding: 16px;
         opacity: 0;
         width: 246px;
+        cursor: pointer;
     }
     .tooltip__op {
         opacity: 1;
