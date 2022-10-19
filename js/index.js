@@ -473,3 +473,8 @@ window.addEventListener('click', function(event){
 
 
 
+if(document.querySelector('.offcanvas .offcanvas-start .cataloge__menu_mobil').classList.contains('show')) {
+  document.getElementById('footer__menu_item_text_p').style.color = '#EFAE35';
+} else {
+  document.getElementById('footer__menu_item_text_p').style.color = '#FCF8F4';
+}

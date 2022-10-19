@@ -1192,6 +1192,41 @@
         .offcanvas-footer_header h5 {
             font-size: 22px;
         }
+        /* Модельное окно корзины предварительного просмотра */
+        .modal__mobil_basket {
+            height: 93%;
+        }
+        .offcanvas.offcanvas-end {
+            width: 60%;
+        }
+        .modal__header_mobil_basket {
+            display: flex;
+            
+        }
+        /* Модельное окно каталога */
+        .offcanvas.offcanvas-start {
+            width: 60%;
+        }
+        .cataloge__menu_mobil {
+            height: 93%;
+        }
+        .cataloge__menu_mobil .cataloge__text p{
+            font-size: 18px;
+            padding: 16px 0px;
+        }
+        .cataloge__flex {
+            margin-right: 20px;
+        }
+        /* МОдельное окно бургер мею */
+        .offcanvas__burger_menu_mobil {
+            height: 93%;
+        }
+        .offcanvas__burger_menu_mobil .offcanvas-body_burger p {
+            font-size: 18px;
+        }
+        .offcanvas__burger_menu_mobil .offcanvas-body_burger p {
+            padding: 16px 0px;
+        }
         
     }
     @media (max-width: 723px)  {
@@ -1248,6 +1283,17 @@
         .offcanvas-footer_header h5 {
             font-size: 22px;
         }
+        .offcanvas.offcanvas-end {
+            width: 80%;
+        }
+        .offcanvas.offcanvas-start {
+            width: 80%;
+        }
+
+        .cataloge__living_room_menu_mobil {
+            height: 93%;
+        }
+        
         
     }
     @media (max-width: 529px)  {
@@ -1259,6 +1305,36 @@
     @media (max-width: 515px) {
         .small__content_mobil .discription__sofa h3 {
             margin-bottom: 150px;
+        }
+        .offcanvas.offcanvas-end {
+            width: 100%;
+        }
+        .offcanvas.offcanvas-start {
+            width: 100%;
+        }
+        .modal__header_mobil_cataloge {
+            display: flex;
+        }
+        .cataloge__menu_mobil .offcanvas-header a{
+            display: none;
+        }
+        
+        .cataloge__menu_mobil .container__header {
+            display: block;
+            padding: 0px 3.5vw;
+        }
+        .cataloge__menu_mobil  .btn-close {
+            font-size: 18px;
+        }
+        .offcanvas__burger_menu_mobil  .btn-close {
+            font-size: 19px;
+        }
+        .offcanvas__burger_menu_mobil .offcanvas-header a {
+            display: none;
+        }
+        .offcanvas__burger_menu_mobil .container__header {
+            display: block;
+            padding: 0px 3.5vw;
         }
     }
     @media (max-width: 480px) {
@@ -1286,9 +1362,8 @@
         .offcanvas-body_burger p {
             padding: 12px 0px;
         }
-        .offcanvas.offcanvas-end {
-            width: 100%;
-        }
+        
+        
     }
     @media (max-width: 387px) {
         .small__content_mobil .discription__sofa h3 {

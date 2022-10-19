@@ -2167,7 +2167,7 @@ a {
     background-color: #37210D;
     position: fixed;
     bottom: 0;
-    z-index: 1000;
+    z-index: 1500;
 }
 .footer__menu_item {
     display: flex;
@@ -2218,6 +2218,9 @@ a {
     margin-bottom: 0;
 }
 .footer__menu_item:hover .footer__menu_item_text p {
+    color: #EFAE35;
+}
+.footer__menu_item:active .footer__menu_item_text p {
     color: #EFAE35;
 }
 .catalode__menu_mobile {
@@ -2460,4 +2463,69 @@ a {
 }
 .quantity__cart {
     display: inline-block;
+}
+
+
+
+/* Моюильная версия предварительной корзины */
+
+.modal__header_mobil_basket,
+.modal__header_mobil_cataloge {
+    display: flex;
+    justify-content: end;
+    padding-top: 15px;
+    padding-right: 15px;
+    
+    display: none;
+}
+.modal__header_mobil_cataloge {
+    margin-bottom: 20px;
+}
+.cataloge__menu_mobil .container__header,
+.offcanvas__burger_menu_mobil .container__header{
+    display: none;
+}
+ 
+.cataloge__menu_mobil .container__header .catalode__menu_mobile a{
+    display: block;
+    color: #24160B;
+}
+.offcanvas__burger_menu_mobil .container__header .catalode__menu_mobile a {
+    display: block;
+    color: #EFAE35;
+}
+.cataloge__menu_mobil .container__header .img_search a svg,
+.offcanvas__burger_menu_mobil .container__header .img_search a svg {
+    stroke: #24160B;
+}
+.cataloge__menu_mobil .offcanvas-header .img_search a,
+.offcanvas__burger_menu_mobil .offcanvas-header .img_search a {
+    display: block;
+}
+.modal__header_mobil_cataloge {
+    padding-top: 0px;
+    padding-right: 0px;
+}
+.modal__header_mobil_cataloge_living_room {
+    display: flex;
+    justify-content: space-between;
+}
+.modal__header_mobil_cataloge_living_room .ordering__link_back  {
+    display: flex;
+    align-items: center;
+}
+.modal__header_mobil_cataloge_living_room .ordering__link_back  a{
+    margin-left: 10px;
+}
+.modal__header_mobil_cataloge_living_room .ordering__link_back svg {
+    width: 12px;
+    height: 12px;
+}
+.modal__header_mobil_cataloge_living_room .ordering__link_back a{
+    color: #999A81;
+    font-size: 14px;
+}
+.modal__header_mobil_cataloge_living_room .ordering__arrow_left_mobil {
+    display: flex;
+    align-items: center;
 }
