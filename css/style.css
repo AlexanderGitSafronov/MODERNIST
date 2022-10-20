@@ -413,7 +413,14 @@ a {
     color: #24160B;
     background-color: transparent;
 }
+
 .modal-btn_clear_basket button:hover {
+    background-color: #24160B;
+    color: #fff;
+}
+
+.modal-btn_clear_basket .btn__clear_basket_first {
+    border: 1px solid #24160B;
     background-color: #24160B;
     color: #fff;
 }
@@ -782,12 +789,12 @@ a {
 }
 .like svg:hover {
   cursor: pointer;
-  stroke: red;
-  fill: red;
+  stroke: #999A81;
+  fill: #999A81;
 }
 .active__like svg {
-  stroke: red;
-  fill: red;
+  stroke: #efae35;
+  fill: #efae35;
 }
 /* Лайк */
 
@@ -2181,6 +2188,9 @@ a {
     cursor: pointer;
     stroke: #EFAE35;
 }
+.footer__menu_item:active svg{
+    stroke: #EFAE35;
+}
 .footer__menu_item_basket {
     position: relative;
 }
@@ -2528,4 +2538,46 @@ a {
 .modal__header_mobil_cataloge_living_room .ordering__arrow_left_mobil {
     display: flex;
     align-items: center;
+}
+
+.footer__menu_item_text_cataloge_active {
+    color: #EFAE35 !important;
+}
+.footer__menu_item_active .footer__menu_icon_cataloge svg {
+    stroke: #EFAE35 !important;
+}
+
+.footer__menu_item_text_basket_active {
+    color: #EFAE35 !important;
+}
+.footer__menu_item_active .footer__menu_icon_basket svg {
+    stroke: #EFAE35 !important;
+    
+}
+.footer__menu_item_active .footer__menu_icon_basket svg path:nth-child(1),
+.footer__menu_item_active .footer__menu_icon_basket svg path:nth-child(2) {
+    fill: #EFAE35 !important;
+    
+}
+.search__mobil {
+    display: none;
+    
+}
+.search__mobil button{
+    padding: 0;
+    background-color: transparent;
+    
+}
+.search__mobil button svg{
+    stroke: #24160B;
+}
+.search__mobil .search__menu {
+    border-bottom: 1px solid #24160B;
+}
+.search__mobil .search__menu input {
+    font-size: 16px;
+    width: 300px;
+    border-bottom: none;
+    padding-right: 50px;
+    height: 40px;
 }

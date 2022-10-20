@@ -261,15 +261,47 @@
    
     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div> -->
-  <div class="container-fluid offcanvas-body offcanvas-body_search">
+  <div class="container-fluid offcanvas-body offcanvas-body_search ">
     <div class="row ">
-          <div class="col-12 search">
+          <div class="col-12 search search__hide">
               <div class="search__menu">
                   <label for="recipient-name" class="label"></label>
                   <input type="text" class="form_search" id="search" placeholder="Поиск товара">
                   <button>ПОиск</button>
                 </div>
           </div>
+          <div class="col-12 search search__mobil">
+            <div class="search__menu">
+                <label for="recipient-name" class="label"></label>
+                <input type="text" class="form_search" id="search" placeholder="Поиск товара">
+                <button>
+                  <svg
+                  width="28"
+                  height="28"
+                  viewBox="0 0 28 28"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke="“currentColor”"
+                    d="M12.6874 21.875C17.7615 21.875 21.8749 17.7616 21.8749 12.6875C21.8749 7.61338 17.7615 3.5 12.6874 3.5C7.61326 3.5 3.49988 7.61338 3.49988 12.6875C3.49988 17.7616 7.61326 21.875 12.6874 21.875Z"
+                    stroke="#FCF8F4"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    stroke="“currentColor”"
+                    d="M19.1836 19.1846L24.4993 24.5003"
+                    stroke="#FCF8F4"
+                    stroke-width="1.5"
+                    stroke-linecap="square"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+              </div>
+        </div>
       
     </div>
   </div>
@@ -455,9 +487,10 @@
     </div>
   </div>
 </div>
+<!-- КОНЕЦ КОРЗИНА МЕНЮ -->
 
 <!-- МОДЕЛЬНОЕ ОКНО ОЧИСТИТЬ ВСЮ КОРЗИНУ -->
-<div class="modal fade" id="clear__all_basket" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade clear__all_basket " id="clear__all_basket" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -470,7 +503,7 @@
         </div>
         <div class="modal-footer">
           <div class="modal-btn_clear_basket">
-              <a href="#"><button data-bs-dismiss="modal" aria-label="Close">Очистить</button></a>
+              <a  href="#"><button class="btn__clear_basket_first" data-bs-dismiss="modal" aria-label="Close">Очистить</button></a>
               <a href="#"><button data-bs-dismiss="modal" aria-label="Close">Отменить</button></a>
         </div>
         </div>
@@ -631,7 +664,7 @@
             </div>
         </div>
       </div>
-      <!-- КАТАЛОГ МЕНЮ -->
+      <!-- КОНЕЦ КАТАЛОГ МЕНЮ -->
       <!-- КАТАЛОГ МЕНЮ ГОСТИННАЯ -->
       <div class="offcanvas offcanvas-start cataloge__menu_mobil"  tabindex="-1" id="staticBackdrop_livingRoom" aria-labelledby="staticBackdropLabel">
         <div class="offcanvas-header">
@@ -746,7 +779,7 @@
             </div>
         </div>
       </div>
-      <!-- КАТАЛОГ МЕНЮ ГОСТИННАЯ -->
+      <!-- КОНЕЦ КАТАЛОГ МЕНЮ ГОСТИННАЯ -->
 
 
       <div class="container-fluid">
@@ -3064,8 +3097,8 @@
                   <p>Главная</p>
                 </div>
               </div>
-              <div  class="footer__menu_item" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
-                <div class="footer__menu_icon">
+              <div  class="footer__menu_item footer__menu_item_cataloge" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+                <div class="footer__menu_icon footer__menu_icon_cataloge">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path stroke="“currentColor”" d="M8 6H21" stroke="#FCF8F4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                     <path stroke="“currentColor”" d="M8 12H21" stroke="#FCF8F4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -3076,14 +3109,14 @@
                     </svg>
                 </div>
                 <div class="footer__menu_item_text">
-                  <p id="footer__menu_item_text_p">Каталог</p>
+                  <p id="footer__menu_item_text_cataloge">Каталог</p>
                 </div>
               </div>
               <div class="footer__menu_item footer__menu_item_basket" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                 <div class="number__items_cart">
                   <span>12</span>
                 </div>
-                <div class="footer__menu_icon">
+                <div class="footer__menu_icon footer__menu_icon_basket">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path stroke="“currentColor”" d="M7.5 21.75C8.32843 21.75 9 21.0784 9 20.25C9 19.4216 8.32843 18.75 7.5 18.75C6.67157 18.75 6 19.4216 6 20.25C6 21.0784 6.67157 21.75 7.5 21.75Z" fill="#FCF8F4"/>
                     <path stroke="“currentColor”" d="M17.25 21.75C18.0784 21.75 18.75 21.0784 18.75 20.25C18.75 19.4216 18.0784 18.75 17.25 18.75C16.4216 18.75 15.75 19.4216 15.75 20.25C15.75 21.0784 16.4216 21.75 17.25 21.75Z" fill="#FCF8F4"/>
@@ -3091,7 +3124,7 @@
                     </svg>
                 </div>
                 <div class="footer__menu_item_text">
-                  <p>Корзина</p>
+                  <p id="footer__menu_item_text_basket">Корзина</p>
                 </div>
               </div>
               <div class="footer__menu_item">
