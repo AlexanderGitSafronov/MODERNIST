@@ -864,6 +864,13 @@ button {
         left: -165px;
     }
 }
+@media (max-width: 515px) {
+    .modal__header_mobil_cataloge_living_room .ordering__link_back {
+        margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    }
+}
 @media (max-width: 480px) {
     .ordering__mobil_pad {
         padding: 0px 10%;

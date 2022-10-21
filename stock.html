@@ -316,142 +316,209 @@
 <!-- КОНЕЦ ПОИСКОВИКА -->
   
   <!-- КОРЗИНА МЕНЮ -->
-  <div class="offcanvas  offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-      <div class=" offcanvas-header_right">
-        <h5 class="offcanvas-title" id="offcanvasRightLabel">КОРЗИНА (5)</h5>
-      </div>
-      <div class="offcanvas-body_right">
-        <div class="container-fluid container__basket">
-            <div class="row">
-                <div class=" col-3 container__basket_img">
-                    <img class="container__basket_img_parent" src="./image/chair_4.png"  alt="">
+<div class="offcanvas  offcanvas-end modal__mobil_basket" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="modal-header modal__header_mobil_basket">
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+      <span aria-hidden="true"></span>
+    </button>
+</div>
+  <div class=" offcanvas-header_right offcanvas-header_right-pad">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">КОРЗИНА (5)</h5>
+  </div>
+  <div class="offcanvas-body_right">
+    <div class="container-fluid container__basket">
+        <div class="row">
+            <div class=" col-3 container__basket_img">
+                <img class="container__basket_img_parent" src="./image/chair_4.png"  alt="">
+            </div>
+            <div class=" col-5 container__basket_content">
+                <div class="container__basket_content_discription">
+                    <h5>Кресло Matiss</h5>
+                    <p>Зеленый</p>
                 </div>
-                <div class=" col-5 container__basket_content">
-                    <div class="container__basket_content_discription">
-                        <h5>Кресло Matiss</h5>
-                        <p>Зеленый</p>
+                <div class="container__basket_count ">
+                    <div class="container__basket_count_minus basket_count">
+                        <span></span>
                     </div>
-                    <div class="container__basket_count ">
-                        <div class="container__basket_count_minus basket_count">
-                            <span></span>
-                        </div>
-                        <div class="container__basket_content_number">
-                            <span class="basket__number">3</span>
-                        </div>
-                        <div class="container__basket_count_plus basket_count">
-                            <span></span>
-                        </div>
+                    <div class="container__basket_content_number">
+                        <span class="basket__number">3</span>
                     </div>
-                </div>
-                <div class="col-4 container__basket_price">
-                    <h5>105 690 ₽</h5>
-                    <a href="">Удалить</a>
+                    <div class="container__basket_count_plus basket_count">
+                        <span></span>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="container-fluid container__basket">
-            <div class="row">
-                <div class=" col-3 container__basket_img">
-                    <img class="container__basket_img_parent" src="./image/puff_2.png"  alt="">
-                </div>
-                <div class=" col-5 container__basket_content">
-                    <div class="container__basket_content_discription">
-                        <h5>Пуф NIKA</h5>
-                        <p>Изумруд</p>
-                    </div>
-                    <div class="container__basket_count ">
-                        <div class="container__basket_count_minus basket_count">
-                            <span></span>
-                        </div>
-                        <div class="container__basket_content_number">
-                            <span class="basket__number">1</span>
-                        </div>
-                        <div class="container__basket_count_plus basket_count">
-                            <span></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 container__basket_price">
-                    <h5>12 590 ₽</h5>
-                    <a href="">Удалить</a>
-                </div>
+            <div class="col-4 container__basket_price">
+                <h5>105 690 ₽</h5>
+                <a href="">Удалить</a>
             </div>
         </div>
-        <div class="container-fluid container__basket">
-            <div class="row">
-                <div class=" col-3 container__basket_img">
-                    <img class="container__basket_img_parent" src="./image/out_work.png"  alt="">
-                </div>
-                <div class=" col-5 container__basket_content">
-                    <div class="container__basket_content_discription">
-                        <h5>Диван Madrid</h5>
-                        <p>Бежевый</p>
-                    </div>
-                    
-                    <div class="container__basket_count ">
-                        <div class="container__basket_count_minus basket_count">
-                            <span></span>
-                        </div>
-                        <div class="container__basket_content_number">
-                            <span class="basket__number">1</span>
-                        </div>
-                        <div class="container__basket_count_plus basket_count">
-                            <span></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 container__basket_price">
-                    <h5>132 590 ₽</h5>
-                    <a href="">Удалить</a>
-                </div>
-            </div>
-        </div>
-        <div class="clear__all_basket_position container__basket container__basket_price clear__all_basket_position">
-          <a href="" class="btn-consultant" type="button"  data-bs-toggle="modal" data-bs-target="#clear__all_basket" data-whatever="@mdo">Очистить корзину</a>
-  
-        </div>
-      </div>
-      <div class="offcanvas-footer_right">
-          <div class="offcanvas-footer_header">
-              <h5>Итого:</h5>
-              <h5>132 590 ₽</h5>
-          </div>
-          <div class="offcanvas-footer_bootom">
-            <p>Cтоимость доставки расчитывается при оформление дзаказа</p>
-            <div class="offcanvas-footer_bootom-btn">
-                <div class="first__button">
-                    <button onclick="javascript:location.href='./basked.html';">перейти в корзину</button>
-                </div>
-                <div class="two__button">
-                    <button>оФОРМИТЬ ЗАКАЗ </button>
-                </div>
-            </div>
-        </div>
-      </div>
     </div>
-  
-  
-          <!-- МОДЕЛЬНОЕ ОКНО ОЧИСТИТЬ ВСЮ КОРЗИНУ -->
-  <div class="modal fade" id="clear__all_basket" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true"></span>
-              </button>
+    <div class="container-fluid container__basket">
+      <div class="row">
+          <div class=" col-3 container__basket_img">
+              <img class="container__basket_img_parent" src="./image/chair_4.png"  alt="">
           </div>
-          <div class="modal-body modal-body-performed modal__basket_text-clear">
-              <h5 class="modal-title" id="exampleModalLabel">Очистить корзину?</h5>
+          <div class=" col-5 container__basket_content">
+              <div class="container__basket_content_discription">
+                  <h5>Кресло Matiss</h5>
+                  <p>Зеленый</p>
+              </div>
+              <div class="container__basket_count ">
+                  <div class="container__basket_count_minus basket_count">
+                      <span></span>
+                  </div>
+                  <div class="container__basket_content_number">
+                      <span class="basket__number">3</span>
+                  </div>
+                  <div class="container__basket_count_plus basket_count">
+                      <span></span>
+                  </div>
+              </div>
           </div>
-          <div class="modal-footer">
-            <div class="modal-btn_clear_basket">
-                <a href="#"><button data-bs-dismiss="modal" aria-label="Close">Очистить</button></a>
-                <a href="#"><button data-bs-dismiss="modal" aria-label="Close">Отменить</button></a>
+          <div class="col-4 container__basket_price">
+              <h5>105 690 ₽</h5>
+              <a href="">Удалить</a>
           </div>
-          </div>
-        </div>
       </div>
   </div>
+  <div class="container-fluid container__basket">
+    <div class="row">
+        <div class=" col-3 container__basket_img">
+            <img class="container__basket_img_parent" src="./image/chair_4.png"  alt="">
+        </div>
+        <div class=" col-5 container__basket_content">
+            <div class="container__basket_content_discription">
+                <h5>Кресло Matiss</h5>
+                <p>Зеленый</p>
+            </div>
+            <div class="container__basket_count ">
+                <div class="container__basket_count_minus basket_count">
+                    <span></span>
+                </div>
+                <div class="container__basket_content_number">
+                    <span class="basket__number">3</span>
+                </div>
+                <div class="container__basket_count_plus basket_count">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-4 container__basket_price">
+            <h5>105 690 ₽</h5>
+            <a href="">Удалить</a>
+        </div>
+    </div>
+</div>
+<div class="container-fluid container__basket">
+  <div class="row">
+      <div class=" col-3 container__basket_img">
+          <img class="container__basket_img_parent" src="./image/chair_4.png"  alt="">
+      </div>
+      <div class=" col-5 container__basket_content">
+          <div class="container__basket_content_discription">
+              <h5>Кресло Matiss</h5>
+              <p>Зеленый</p>
+          </div>
+          <div class="container__basket_count ">
+              <div class="container__basket_count_minus basket_count">
+                  <span></span>
+              </div>
+              <div class="container__basket_content_number">
+                  <span class="basket__number">3</span>
+              </div>
+              <div class="container__basket_count_plus basket_count">
+                  <span></span>
+              </div>
+          </div>
+      </div>
+      <div class="col-4 container__basket_price">
+          <h5>105 690 ₽</h5>
+          <a href="">Удалить</a>
+      </div>
+  </div>
+</div>
+<div class="container-fluid container__basket">
+  <div class="row">
+      <div class=" col-3 container__basket_img">
+          <img class="container__basket_img_parent" src="./image/chair_4.png"  alt="">
+      </div>
+      <div class=" col-5 container__basket_content">
+          <div class="container__basket_content_discription">
+              <h5>Кресло Matiss</h5>
+              <p>Зеленый</p>
+          </div>
+          <div class="container__basket_count ">
+              <div class="container__basket_count_minus basket_count">
+                  <span></span>
+              </div>
+              <div class="container__basket_content_number">
+                  <span class="basket__number">3</span>
+              </div>
+              <div class="container__basket_count_plus basket_count">
+                  <span></span>
+              </div>
+          </div>
+      </div>
+      <div class="col-4 container__basket_price">
+          <h5>105 690 ₽</h5>
+          <a href="">Удалить</a>
+      </div>
+  </div>
+</div>
+
+
+   
+    
+    
+    <div class="clear__all_basket_position container__basket container__basket_price clear__all_basket_position">
+        <a href="" class="btn-consultant" type="button"  data-bs-toggle="modal" data-bs-target="#clear__all_basket" data-whatever="@mdo">Очистить корзину</a>
+    </div>
+  </div>
+  <div class="offcanvas-footer_right">
+    
+      <div class="offcanvas-footer_header">
+          <h5>Итого:</h5>
+          <h5>132 590 ₽</h5>
+      </div>
+      <div class="offcanvas-footer_bootom">
+        <p>Cтоимость доставки расчитывается при оформление дзаказа</p>
+        <div class="offcanvas-footer_bootom-btn">
+            <div class="first__button">
+                <button onclick="javascript:location.href='./basked.html';">перейти в корзину</button>
+            </div>
+            <div class="two__button">
+                <button onclick="javascript:location.href='./ordering.html';">оФОРМИТЬ ЗАКАЗ </button>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+<!-- КОНЕЦ КОРЗИНА МЕНЮ -->
+  
+  
+    <!-- МОДЕЛЬНОЕ ОКНО ОЧИСТИТЬ ВСЮ КОРЗИНУ -->
+<div class="modal fade clear__all_basket " id="clear__all_basket" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true"></span>
+          </button>
+      </div>
+      <div class="modal-body modal-body-performed modal__basket_text-clear">
+          <h5 class="modal-title" id="exampleModalLabel">Очистить корзину?</h5>
+      </div>
+      <div class="modal-footer">
+        <div class="modal-btn_clear_basket">
+            <a  href="#"><button class="btn__clear_basket_first" data-bs-dismiss="modal" aria-label="Close">Очистить</button></a>
+            <a href="#"><button data-bs-dismiss="modal" aria-label="Close">Отменить</button></a>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--КОНЕЦ МОДЕЛЬНОЕ ОКНО ОЧИСТИТЬ ВСЮ КОРЗИНУ -->
   
   
   

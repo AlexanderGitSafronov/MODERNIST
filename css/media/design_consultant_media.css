@@ -335,6 +335,13 @@
         order: -1;
     }
 }
+@media (max-width: 515px) {
+    .modal__header_mobil_cataloge_living_room .ordering__link_back {
+        margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    }
+}
 @media (max-width: 480px) {
     .design__consultant_content_third_section {
         width: 103%;

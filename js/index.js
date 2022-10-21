@@ -484,15 +484,25 @@ $('.footer__menu_item_cataloge').click(function() {
 
     $(".fade").removeClass("show");
 
+    $('#exampleModal').modal('hide')
+
+    setTimeout(OpenHead, 1000);
+
 })
 $('.cataloge__menu_mobil .btn-close').click(function() {
     
   $("#footer__menu_item_text_cataloge").removeClass("footer__menu_item_text_cataloge_active");
   $(".footer__menu_item_cataloge").removeClass("footer__menu_item_active");
+
+  
   
 })
 
 // Клик по меню корзины и смена цвета
+function OpenHead() {
+  $('.header__bg').removeClass("header__bg_z")
+}
+
 
 $('.footer__menu_item_basket').click(function() {
     
@@ -503,15 +513,45 @@ $('.footer__menu_item_basket').click(function() {
   $(".footer__menu_item_cataloge").removeClass("footer__menu_item_active");
 
   $(".fade").removeClass("show");
+
+  $('#exampleModal').modal('hide')
+
+  if($('.header__bg').hasClass("header__bg_z")) {
+    setTimeout(OpenHead, 1000);
+  }
+
+  $('.header__bg').addClass("header__bg_z");
+
+  
 })
+
+
 $('.modal__mobil_basket .btn-close').click(function() {
   
 $("#footer__menu_item_text_basket").removeClass("footer__menu_item_text_basket_active");
 $(".footer__menu_item_basket").removeClass("footer__menu_item_active");
+
+
+setTimeout(OpenHead, 1000);
+
 })
 
 $('.img_search').click(function() {
   $("#footer__menu_item_text_cataloge").removeClass("footer__menu_item_text_cataloge_active");
   $(".footer__menu_item_cataloge").removeClass("footer__menu_item_active");
+
+  $(".modal__design_consoltant").removeClass("show");
+
+  $('#exampleModal').modal('hide')
+  
 })
+
+$('.catalode__menu_mobile').click(function() {
+  $('#exampleModal').modal('hide')
+  
+})
+
+
+
+
 

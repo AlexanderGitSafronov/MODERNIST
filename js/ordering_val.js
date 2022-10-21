@@ -711,6 +711,7 @@ document.querySelector('.buyer__data_ordering_button_next').addEventListener('cl
     removePhysicalValidation();
   }
   validation.revalidate();
+  
   setTimeout(() => {
     if (validation.isValid) {
       document.querySelector('.buyer__data_ordering').style.display = 'none';
@@ -789,3 +790,5 @@ document.querySelector('.confirm__order_button_next').addEventListener('click', 
     }
   });
 });
+
+

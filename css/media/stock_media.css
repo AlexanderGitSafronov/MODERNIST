@@ -245,5 +245,7 @@
     .cases__content a {
         font-size: 12px;
     }
-    
+    .modal__mobil_basket {
+        height: 93%;
+    }
 }

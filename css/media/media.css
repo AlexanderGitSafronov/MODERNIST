@@ -1201,6 +1201,7 @@
         }
         /* Модельное окно корзины предварительного просмотра */
         .modal__mobil_basket {
+            z-index: 1050;
             height: 93%;
         }
         .offcanvas.offcanvas-end {
@@ -1215,6 +1216,7 @@
             width: 60%;
         }
         .cataloge__menu_mobil {
+            z-index: 1600;
             height: 93%;
         }
         .cataloge__menu_mobil .cataloge__text p{
@@ -1226,6 +1228,7 @@
         }
         /* МОдельное окно бургер мею */
         .offcanvas__burger_menu_mobil {
+            z-index: 1600;
             height: 93%;
         }
         .offcanvas__burger_menu_mobil .offcanvas-body_burger p {
@@ -1235,6 +1238,23 @@
             padding: 16px 0px;
         }
         
+          .like svg:not([disabled]):hover {
+            cursor: pointer;
+            stroke: red;
+            fill: red;
+          }
+
+
+
+          .clear__all_basket {
+            z-index: 1057;
+        }
+        .header__bg {
+            z-index: 1060;
+        }
+        .header__bg_z {
+            z-index: 1050;
+        }
     }
     @media (max-width: 723px)  {
         .head__text p {
@@ -1327,12 +1347,15 @@
         padding: 4% 8.5%;
         padding-bottom: 6%;
     }
-    
+    .modal__site_proffesional .modal-title {
+        font-size: 28px;
+        line-height: 28px;
+    }
     
         
     }
     @media (max-width: 575px) {
-        .clear__all_basket .modal-dialog {
+         .modal-dialog {
             width: 343px;
             margin-right: auto;
             margin-left: auto;
@@ -1344,6 +1367,7 @@
         .clear__all_basket .modal-body {
             padding: 0px 5.5%;
         }
+        
     }
     @media (max-width: 529px)  {
         .head__text p {
@@ -1389,6 +1413,9 @@
         .offcanvas__burger_menu_mobil .container__header {
             display: block;
             padding: 0px 3.5vw;
+        }
+        .modal__header_mobil_cataloge_living_room {
+            display: flex;
         }
         
     }
@@ -1462,6 +1489,10 @@
         }
         .header__bg {
             padding: 2.1vh 2.5vw;
+            
+        }
+        .modal__design_consoltant {
+            z-index: 1051;
         }
         .footer__footer {
             height: 62px;

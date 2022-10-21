@@ -488,7 +488,7 @@
                 <button onclick="javascript:location.href='./basked.html';">перейти в корзину</button>
             </div>
             <div class="two__button">
-                <button>оФОРМИТЬ ЗАКАЗ </button>
+                <button onclick="javascript:location.href='./ordering.html';">оФОРМИТЬ ЗАКАЗ </button>
             </div>
         </div>
     </div>
@@ -497,27 +497,28 @@
 <!-- КОНЕЦ КОРЗИНА МЕНЮ -->
   
   
-          <!-- МОДЕЛЬНОЕ ОКНО ОЧИСТИТЬ ВСЮ КОРЗИНУ -->
-  <div class="modal fade" id="clear__all_basket" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true"></span>
-              </button>
-          </div>
-          <div class="modal-body modal-body-performed modal__basket_text-clear">
-              <h5 class="modal-title" id="exampleModalLabel">Очистить корзину?</h5>
-          </div>
-          <div class="modal-footer">
-            <div class="modal-btn_clear_basket">
-                <a href="#"><button data-bs-dismiss="modal" aria-label="Close">Очистить</button></a>
-                <a href="#"><button data-bs-dismiss="modal" aria-label="Close">Отменить</button></a>
-          </div>
-          </div>
-        </div>
+  <!-- МОДЕЛЬНОЕ ОКНО ОЧИСТИТЬ ВСЮ КОРЗИНУ -->
+<div class="modal fade clear__all_basket " id="clear__all_basket" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true"></span>
+          </button>
       </div>
+      <div class="modal-body modal-body-performed modal__basket_text-clear">
+          <h5 class="modal-title" id="exampleModalLabel">Очистить корзину?</h5>
+      </div>
+      <div class="modal-footer">
+        <div class="modal-btn_clear_basket">
+            <a  href="#"><button class="btn__clear_basket_first" data-bs-dismiss="modal" aria-label="Close">Очистить</button></a>
+            <a href="#"><button data-bs-dismiss="modal" aria-label="Close">Отменить</button></a>
+      </div>
+      </div>
+    </div>
   </div>
+</div>
+<!--КОНЕЦ МОДЕЛЬНОЕ ОКНО ОЧИСТИТЬ ВСЮ КОРЗИНУ -->
   
   
   

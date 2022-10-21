@@ -113,6 +113,9 @@ width: 38%;
 }
 .order__created_footer_btn_big button{
     padding: 17px 94px;
+    background-color: #24160B;
+    color: #fcf8f4;
+    border: 1px solid #24160B;
     
 }
 .order__created_footer_btn_big button:hover {

@@ -483,21 +483,35 @@
     .container__mobil {
         padding: 0px 70px;
     }
+    .basked__checkout-btn button {
+        font-size: 12px;
+        padding: 15px 0px;
+    }
+    .basked__link_back a {
+        font-size: 14px;
+    }
+    .basked__arrow_left svg {
+        height: 14px;
+    }
 }
 @media (max-width: 480px) {
     .container__mobil {
         padding: 0px 0px;
     }
 }
-@media (max-width: 375px) {
-    
+@media (max-width: 390px) {
     .basket__promocode input {
         width: 63.5%;
     }
 }
-@media (max-width: 360px) {
-   
+@media (max-width: 375px) {
     .basket__promocode input {
-        width: 61.5%;
+        width: 63.5%;
+    }
+}
+
+@media (max-width: 360px) {
+    .basket__promocode input {
+        width: 63%;
     }
 }

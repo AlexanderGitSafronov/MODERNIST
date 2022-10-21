@@ -180,6 +180,13 @@
         font-size: 12px;
     }
 }
+@media (max-width: 515px) {
+    .modal__header_mobil_cataloge_living_room .ordering__link_back {
+        margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    }
+}
 @media (max-width: 480px) {
     
     .cases__content_block_link_left {

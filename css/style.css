@@ -93,8 +93,19 @@ a {
     padding: 3.1vh 4vw;
     transform: translateY(0%); 
     transition: transform 1s;
+    z-index: 100;
    
 }  
+
+.modal__mobil_basket {
+
+}
+.modal__design_consoltant {
+    z-index: 1056;
+}
+.offcanvas_search {
+    z-index: 1500;
+}
 /* .header__active {
     background-color: rgba(55, 33, 13, 1);
   } */
@@ -387,6 +398,9 @@ a {
     background-color: #fef7f0;
     border: 1px solid #24160B;
 }
+.offcanvas-footer_bootom-btn button:first-child {
+    color: #24160B;
+}
 .offcanvas-footer_bootom-btn button:hover {
     background-color: #24160B;
     color: #fff;
@@ -456,6 +470,7 @@ a {
     padding-top: 16px;
 
 }
+
 
 /* КОНЕЦ МЕНЮ КАТАЛОГ */
 
@@ -789,12 +804,12 @@ a {
 }
 .like svg:hover {
   cursor: pointer;
-  stroke: #999A81;
-  fill: #999A81;
+  stroke: red;
+  fill: red;
 }
 .active__like svg {
-  stroke: #efae35;
-  fill: #efae35;
+  stroke: red;
+  fill: red;
 }
 /* Лайк */
 
@@ -2174,7 +2189,7 @@ a {
     background-color: #37210D;
     position: fixed;
     bottom: 0;
-    z-index: 1500;
+    z-index: 1800;
 }
 .footer__menu_item {
     display: flex;
@@ -2184,10 +2199,7 @@ a {
 .footer__menu_item svg{
     stroke: #FCF8F4;
 }
-.footer__menu_item:hover svg{
-    cursor: pointer;
-    stroke: #EFAE35;
-}
+
 .footer__menu_item:active svg{
     stroke: #EFAE35;
 }
@@ -2227,9 +2239,7 @@ a {
     font-family: "Onest", sans-serif;
     margin-bottom: 0;
 }
-.footer__menu_item:hover .footer__menu_item_text p {
-    color: #EFAE35;
-}
+
 .footer__menu_item:active .footer__menu_item_text p {
     color: #EFAE35;
 }
@@ -2580,4 +2590,7 @@ a {
     border-bottom: none;
     padding-right: 50px;
     height: 40px;
+}
+.modal__header_mobil_cataloge_living_room {
+    display: none;
 }
