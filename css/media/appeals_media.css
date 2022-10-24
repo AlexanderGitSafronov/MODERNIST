@@ -139,10 +139,24 @@
     }
 }
 @media (max-width: 515px) {
+    .container__header_card {
+        position: relative;
+        z-index: 1061;
+    }
     .modal__header_mobil_cataloge_living_room .ordering__link_back {
         margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
+    }
+    .appeals__new_appeals_complete .modal-body h5 {
+    font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    }
+    .appeals__answer_not_autorization .modal-body h5 {
+        font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 20px;
     }
 }
 

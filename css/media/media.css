@@ -1255,6 +1255,10 @@
         .header__bg_z {
             z-index: 1050;
         }
+        .header__bg_z_proff {
+            z-index: 1050;
+        }
+        
     }
     @media (max-width: 723px)  {
         .head__text p {
@@ -1416,6 +1420,9 @@
         }
         .modal__header_mobil_cataloge_living_room {
             display: flex;
+        }
+        .modal__design_consoltant .modal-title {
+            margin-bottom: 15px;
         }
         
     }
@@ -1589,8 +1596,15 @@
 
 
         /* Модельное окно оставить заявку */
-        .modal-title {
+        .modal__application_sent .modal-title {
             font-size: 28px;
+            line-height: 28px;
+            margin-bottom: 20px;
+        }
+        .modal__application_sent p {
+            font-size: 15px;
+            line-height: 15px;
+            margin-bottom: 20px;
         }
         .modal-body {
             padding: 0px 7%;
@@ -1621,6 +1635,8 @@
 .clear__all_basket .modal-body {
     padding: 0px 5.5%;
 }
+
+
        
     }
     

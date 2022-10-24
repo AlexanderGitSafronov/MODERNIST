@@ -152,6 +152,9 @@
     margin-bottom: 0px;
     margin-left: 0px;
     }
+    .authorization {
+        width: 100%;
+    }
 }
 @media (max-width: 375px) {
     

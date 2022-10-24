@@ -132,3 +132,10 @@ width: 38%;
 .offcanvas-footer_bootom p {
     margin-bottom: 10px;
 }
+
+.offcanvas__burger_menu_mobil p{
+    color: #24160B;
+}
+.cataloge__menu_mobil .cataloge__text  p{
+    color: #24160B;
+}

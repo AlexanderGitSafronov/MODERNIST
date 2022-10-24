@@ -246,3 +246,9 @@ bottom: -3px;
   .container__basket_content p {
     margin-bottom: 1rem;
 }
+.organization__w input{
+    width: 100%;
+}
+.form__item_adress_right label {
+    left: 22px;
+}

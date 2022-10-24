@@ -426,6 +426,12 @@ button {
         margin-left: 5px;
         
     }
+    .four__input_flex_first .from__errors input {
+        width: 97%;
+    }
+    .four__input_flex_second .from__errors input {
+        width: 97%;
+    }
     
 }
 @media (max-width: 991px) {
@@ -602,6 +608,9 @@ button {
 }
 .four__input_flex_second .from__errors input {
     width: 98%;
+}
+.form__item_adress_right {
+    text-align: start;
 }
 }
 @media (max-width: 768px) {

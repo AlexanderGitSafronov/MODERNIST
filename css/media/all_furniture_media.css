@@ -336,6 +336,26 @@
     height: 46px;
 }
 }
+@media (max-width: 515px) {
+    .container__header_all {
+        z-index: 1061;
+    }
+    .menu__all_furniture-header-fixed {
+        z-index: 1060;
+    }
+    .header__bg_z {
+        z-index: 1050;
+    }
+    .header__bg_z_menu {
+        z-index: 1049;
+    }
+    .header__bg_z_menu_all {
+        z-index: 1049;
+    }
+    .header__bg_z_proff {
+        z-index: 1050;
+    }
+}
 @media (max-width: 480px) {
     .head__tex_furniture h1,
     .summer__sale_text h1 {

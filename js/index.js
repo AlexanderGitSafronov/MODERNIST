@@ -485,8 +485,18 @@ $('.footer__menu_item_cataloge').click(function() {
     $(".fade").removeClass("show");
 
     $('#exampleModal').modal('hide')
-
+    $('#exampleModal_2').modal('hide')
+    $('#exampleModalProf').modal('hide')
     setTimeout(OpenHead, 1000);
+
+    if($('.offcanvas__burger_menu_mobil').hasClass("header__bg_z")) {
+      setTimeout(HidenHead, 1000);
+    }
+
+    if($('.header__bg').hasClass("header__bg_z_proff")) {
+      setTimeout(HidenHeadProff, 0);
+    }
+    
 
 })
 $('.cataloge__menu_mobil .btn-close').click(function() {
@@ -503,6 +513,13 @@ function OpenHead() {
   $('.header__bg').removeClass("header__bg_z")
 }
 
+function HidenHead() {
+  $('.offcanvas__burger_menu_mobil').removeClass("header__bg_z")
+}
+function HidenHeadProff() {
+  $('.header__bg').removeClass("header__bg_z_proff")
+}
+
 
 $('.footer__menu_item_basket').click(function() {
     
@@ -515,11 +532,20 @@ $('.footer__menu_item_basket').click(function() {
   $(".fade").removeClass("show");
 
   $('#exampleModal').modal('hide')
+  $('#exampleModal_2').modal('hide')
+  $('#exampleModalProf').modal('hide')
+  
+
 
   if($('.header__bg').hasClass("header__bg_z")) {
     setTimeout(OpenHead, 1000);
   }
-
+  if($('.offcanvas__burger_menu_mobil').hasClass("header__bg_z")) {
+    setTimeout(HidenHead, 1000);
+  }
+  if($('.header__bg').hasClass("header__bg_z_proff")) {
+    setTimeout(HidenHeadProff, 0);
+  }
   $('.header__bg').addClass("header__bg_z");
 
   
@@ -535,7 +561,7 @@ $(".footer__menu_item_basket").removeClass("footer__menu_item_active");
 setTimeout(OpenHead, 1000);
 
 })
-
+// КЛИК ПО ПОИСКОВИКУ
 $('.img_search').click(function() {
   $("#footer__menu_item_text_cataloge").removeClass("footer__menu_item_text_cataloge_active");
   $(".footer__menu_item_cataloge").removeClass("footer__menu_item_active");
@@ -543,13 +569,50 @@ $('.img_search').click(function() {
   $(".modal__design_consoltant").removeClass("show");
 
   $('#exampleModal').modal('hide')
+  $('#exampleModal_2').modal('hide')
+  $('#exampleModalProf').modal('hide')
   
 })
 
+// КЛИК ПО МЕНЮ В КАТАЛОГЕ
 $('.catalode__menu_mobile').click(function() {
   $('#exampleModal').modal('hide')
+  $('#exampleModal_2').modal('hide')
+  $('#exampleModalProf').modal('hide')
+  
+  $("#footer__menu_item_text_cataloge").removeClass("footer__menu_item_text_cataloge_active");
+  $(".footer__menu_item_cataloge").removeClass("footer__menu_item_active");
   
 })
+
+$('.website__professionals_burger').click(function() {
+  $('.offcanvas__burger_menu_mobil').addClass('header__bg_z');
+  $('.header__bg').addClass('header__bg_z_proff');
+  
+})
+
+
+$('.modal__site_proffesional_hide').click(function(event) {
+  event.preventDefault();
+  event.stopPropagation();
+  if($('.header__bg').hasClass("header__bg_z_proff")) {
+    setTimeout(HidenHeadProff, 0);
+  }
+  if($('.offcanvas__burger_menu_mobil').hasClass("header__bg_z")) {
+    setTimeout(HidenHead, 0);
+  }
+  
+})
+
+$('.modal__site_proffesional_hide .modal-content').click(function(event) {
+  event.preventDefault();
+  event.stopPropagation();
+  
+  
+})
+
+
+
 
 
 

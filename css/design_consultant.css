@@ -230,3 +230,12 @@
     background-color: #24160B;
     color: #FCF8F4;
 }
+.modal__design_consoltant .modal-title{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.modal__application_sent .modal-title {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 28px;
+}

@@ -1,5 +1,12 @@
+@media (max-width: 1920px) {
+    .cataloge__menu_mobil .cataloge__text  p{
+        color: #24160B;
+    }
+}
 @media (max-width: 1680px) {
-   
+    .cataloge__menu_mobil .cataloge__text  p{
+        color: #24160B;
+    }
   }
   @media (max-width: 1600px) {
     
@@ -106,8 +113,10 @@ align-items: center;
         }
         
 }
-    @media (max-width: 768px) {
-    
+    @media (max-width: 767px) {
+        .cataloge__menu_mobil .cataloge__text  p{
+            color: #24160B;
+        }
     
 }
 @media (max-width: 650px) {
