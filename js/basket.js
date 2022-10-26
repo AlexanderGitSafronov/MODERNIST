@@ -33,7 +33,4 @@ $('.catalode__menu_mobile').click(function() {
 // КЛИК ПО ПОИСКОВИКУ
 $('.img_search').click(function() {
   $('#clear__all_basket').modal('hide')
-   
-   
-   
 })

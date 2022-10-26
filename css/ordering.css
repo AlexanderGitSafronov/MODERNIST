@@ -776,3 +776,111 @@ width: 152px;
         color: #24160B;
         margin-bottom: 0;
     }
+
+    /* МОДАЛЬНОЕ ОКНО ВЫБОРА АДРЕСА */
+    .choice__address .modal-dialog{
+        max-width: 1080px;
+    }
+    .choice__address .way__to_get h5 {
+        margin-bottom: 8px;
+    }
+    .choice__address .way__to_get p {
+        font-size: 16px;
+    }
+    .choice__address .way__to_get button {
+        padding: 13px 38px;
+    }
+    .choice__address .way__to_get .way__to_get-btn-choice button {
+        background-color: #C7C8BB;
+        color: #FCF8F4;
+    }
+    .way__to_get_choice {
+        background-color: #FEF7F0;
+    }
+    .choice__address .modal-content .modal__choice_address_flex{
+        display: flex;
+    }
+
+
+
+
+
+
+    .map {
+        width: 500px;
+        height: 670px;
+    }
+
+    [class*="copyrights-pane"] {
+        display: none !important;
+      }
+    
+      .ymaps-2-1-79-balloon__layout{
+          background-color: #FCF8F4 !important;
+          
+      }
+      .ymaps-2-1-79-balloon__content {
+        background-color: #FCF8F4 !important;
+       
+      }
+      .ymaps-2-1-79-balloon_layout_panel {
+        background-color: #FCF8F4 !important;
+      }
+      .ymaps-2-1-79-islets_card__route-button {
+        background-color: #FCF8F4 !important;
+      }
+
+      .balloon div {
+          margin-bottom: 12px;
+      }
+      .balloon {
+        font-family: "Onest", sans-serif;
+          color: #24160B;
+          padding: 30px;
+          font-size: 16px;
+          
+      }
+      
+      .balloon .title {
+        font-weight: 600;
+        margin-top: 20px;
+      }
+
+      .balloon .address {
+        color: #999A81;
+        font-weight: 400;
+    }
+
+    .balloon .schedule {
+        font-weight: 400;
+    }
+
+
+      .balloon .balloon__button button{
+          font-size: 14px;
+          padding: 13px 35px;
+          color: #24160B;
+          border: 1px solid rgba(153, 154, 129, 0.5) ;
+          border-radius: 31px;
+          background: #FEF7F0;
+         
+          text-transform: inherit;
+          margin-top: 23px;
+          font-weight: 400;
+      }
+
+      .ymaps-2-1-79-balloon {
+          left: -290px !important;
+      }
+      .ymaps-2-1-79-balloon__tail {
+          left: 290px !important;
+      }
+      .ymaps-2-1-79-balloon__tail:after {
+          background-color: #FCF8F4 !important;
+      }
+    .ymaps-2-1-79-balloon__close {
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+
+    

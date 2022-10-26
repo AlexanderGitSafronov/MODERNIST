@@ -31,6 +31,31 @@
     font-family: "Onest", sans-serif;
     
 }
+
+
+
+/* .accordion-header-span {
+    margin-top: 30px;
+    margin-right: 20px;
+    
+} */
+
+/* .accordion-header-span .glyphicon-plus {
+    height: 25px;
+}
+.accordion-header-span .glyphicon-plus::after {
+    width: 25px;
+    left: -12px;
+    top: 11px;
+}
+.accordion-header-span .glyphicon-minus::after {
+    width: 25px;
+    left: -12px;
+   
+} */
+
+
+
 .accordion-header-span .glyphicon-plus {
     left: -15px;
     display: inline-block;
@@ -72,3 +97,4 @@
     top: 12px;
     transition: 0.3s all ease;
 }
+

@@ -483,6 +483,7 @@ $('.footer__menu_item_cataloge').click(function() {
     $(".footer__menu_item_basket").removeClass("footer__menu_item_active");
 
     $(".fade").removeClass("show");
+    
 
     $('#exampleModal').modal('hide')
     $('#exampleModal_2').modal('hide')

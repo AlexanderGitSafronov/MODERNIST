@@ -299,6 +299,30 @@ button {
     .form__item_adress input {
         width: 97.5%;
     }
+
+  }
+  @media (max-width: 1279px)  {
+      .choice__address .modal-content .modal__choice_address_flex {
+          display: block;
+      }
+      .choice__address .modal-dialog {
+        max-width: 568px;
+    }
+    .map {
+        width: 565px;
+        height: 420px;
+        border-top: 1px solid #CAC9BA;
+        
+
+    }
+    .modal__choice_address {
+        overflow-y: scroll;
+        height: 375px;
+        
+        
+    }
+    
+    
   }
   @media (max-width: 1024px) {
     .ordering {

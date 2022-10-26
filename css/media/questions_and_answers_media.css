@@ -10,7 +10,7 @@
   
 }
 @media (max-width: 1440px) {
-    .accordion-header-span .glyphicon-plus {
+    /* .accordion-header-span .glyphicon-plus {
         height: 20px;
     }
     .accordion-header-span .glyphicon-plus::after {
@@ -21,7 +21,7 @@
     .accordion-header-span .glyphicon-minus::after {
         width: 20px;
         left: -10px;
-    }
+    } */
     .accordion-header-btn a {
         font-size: 26px;
     }

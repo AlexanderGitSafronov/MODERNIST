@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="./css/media/ordering_media.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=83a86ecb-7d2d-49bb-8d2d-af693752657c&lang=ru_RU"></script>
   </head>
   <body>
     <div class="section header__all_furniture goods_card">
@@ -1142,7 +1143,7 @@
                         <p>График работы: ежедневно с 10:00 до 20:00</p>
                       </div>
                       <div class="way__to_get-btn">
-                        <button type="button">Изменить магазин</button>
+                        <button class="btn-consultant btn__choise_address" type="button"  data-bs-toggle="modal" data-bs-target="#choice__address" data-whatever="@mdo" type="button">Изменить магазин</button>
                       </div>
                     </div>
                     <div class="way__to_get_two" id="way__to_get_two">
@@ -1335,10 +1336,10 @@
                           <h4>Выберите транспортную компанию</h4>
                         </div>
                         <div action="">
-                          <div class="transport__company_content">
+                          <div class="transport__company_content transport__company_content_cdec">
                             <div class="transport__company_checkbox">
                               <label class="custom-radio custom-radio_two">
-                                <input type="radio" name="transport__company" value="indigo" />
+                                <input id="transport__company_cdec" type="radio"  name="transport__company" value="indigo" />
                                 <span class="label__radio transport__company_pad"
                                   ><span class="label__radio_span">Транспортная компания</span>
                                 </span>
@@ -1352,10 +1353,10 @@
                               <p>2 300 ₽</p>
                             </div>
                           </div>
-                          <div class="transport__company_content">
+                          <div class="transport__company_content transport__company_content_pek">
                             <div class="transport__company_checkbox">
                               <label class="custom-radio custom-radio_two">
-                                <input type="radio" name="transport__company" value="indigo1" />
+                                <input id="transport__company_pek"  type="radio" name="transport__company" value="indigo1" />
                                 <span class="label__radio transport__company_pad"
                                   ><span class="label__radio_span">Транспортная компания</span>
                                 </span>
@@ -1369,10 +1370,10 @@
                               <p>2 700 ₽</p>
                             </div>
                           </div>
-                          <div class="transport__company_content">
+                          <div class="transport__company_content transport__company_content_line">
                             <div class="transport__company_checkbox">
                               <label class="custom-radio custom-radio_two">
-                                <input type="radio" name="transport__company" value="indigo2" />
+                                <input id="transport__company_line" type="radio" name="transport__company" value="indigo2" />
                                 <span class="label__radio transport__company_pad"
                                   ><span class="label__radio_span">Транспортная компания</span>
                                 </span>
@@ -2083,6 +2084,61 @@
       </form>
     </div>
 
+
+
+
+
+<!-- МОДЕЛЬНОЕ ОКНО ВЫБОР АДРЕСА -->
+<div class="modal fade choice__address" id="choice__address" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabelAdress" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal__choice_address_flex">
+        <div class="modal__choice_address">
+          <div class="way__to_get way__to_get_choice" id="way__to_get">
+            <div class="way__to_get_discription">
+              <h5>Шоу-рум MODERNIST</h5>
+              <p class="way__to_get_adress">Республика Адыгея, ул. Тургеневское шоссе, 25/4, ТЦ Арт-Хаус</p>
+              <p>График работы: ежедневно с 10:00 до 20:00</p>
+            </div>
+            <div class="way__to_get-btn way__to_get-btn-choice">
+              <button  type="button">Выбран</button>
+            </div>
+          </div>
+          <div class="way__to_get" id="way__to_get">
+            <div class="way__to_get_discription">
+              <h5>Шоу-рум MODERNIST</h5>
+              <p class="way__to_get_adress">Республика Адыгея, ул. Тургеневское шоссе, 25/4, ТЦ Арт-Хаус</p>
+              <p>График работы: ежедневно с 10:00 до 20:00</p>
+            </div>
+            <div class="way__to_get-btn">
+              <button  type="button">Выбрать</button>
+            </div>
+          </div>
+          <div class="way__to_get" id="way__to_get">
+            <div class="way__to_get_discription">
+              <h5>Шоу-рум MODERNIST</h5>
+              <p class="way__to_get_adress">Республика Адыгея, ул. Тургеневское шоссе, 25/4, ТЦ Арт-Хаус</p>
+              <p>График работы: ежедневно с 10:00 до 20:00</p>
+            </div>
+            <div class="way__to_get-btn">
+              <button  type="button">Выбрать</button>
+            </div>
+          </div>
+        </div>
+        <div class="map" id="map">
+
+        </div>
+      </div>
+     
+      
+      
+    </div>
+  </div>
+</div>
+<!-- КОНЕЦ МОДЕЛЬНОЕ ОКНО ВЫБОР АДРЕСА -->
+
+
+
     <!-- FOOTER -->
     <div class="footer footer__desctop">
       <div class="container-fluid">
@@ -2402,6 +2458,10 @@
       </div>
     </div>
 
+
+   
+    
+    
     <script src="./js/ordering_info.js"></script>
     <script src="./js/ordering_val.js"></script>
     <script src="./js/index.js"></script>
@@ -2410,5 +2470,6 @@
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
       crossorigin="anonymous"
     ></script>
+    
   </body>
 </html>
