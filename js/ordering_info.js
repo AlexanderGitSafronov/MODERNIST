@@ -94,10 +94,35 @@ function init() {
   
 }
 
-$('.btn__choise_address').click(function () {
-  init();
-})
 
+
+ymaps.ready(init);
+
+
+
+$('.btn__choise_address').click(function() {
+  $('.container__header_card').addClass('container__header_card_pos')
+ })
+
+ $('.choice__address').click(function() {
+  $('.container__header_card').removeClass('container__header_card_pos')
+ })
+
+ $('.container__header_card').click(function() {
+  $('.container__header_card').removeClass('container__header_card_pos')
+ })
+
+ $('.section__footer_menu').click(function() {
+  $('.container__header_card').removeClass('container__header_card_pos')
+ })
+
+
+ $('.choice__address .modal-content').click(function(event) {
+  event.preventDefault();
+  event.stopPropagation();
+ })
+
+ 
 
 
   

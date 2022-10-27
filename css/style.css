@@ -12,6 +12,19 @@ body {
   background-color: #fcf8f4;
   color: #24160B;
 }
+.container-fluid {
+    max-width: 1920px;
+   
+}
+.row {
+    justify-content: center;
+    
+}
+.max__width_screen {
+    display: flex;
+    max-width: 1920px;
+    
+}
 h1 {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 700;
@@ -61,6 +74,7 @@ a {
     padding: 4.1vh 4vw;
     position: fixed;
     z-index: 10;
+    width: 100%;
   }
   .container__header_card {
     background-color: rgba(55, 33, 13, 1);
@@ -1510,7 +1524,7 @@ a {
     z-index: 99;
   }
   .div__plug_header {
-      height: 120px;
+      height: 11vh;
   }
 /* НАВИГАЦИЯ ВСЕХ ТОВАРОВ ПОД ХЕДЕРОМ*/
 .menu__all_furniture-header-bg {
@@ -1520,7 +1534,7 @@ a {
   transition: top 0.5s ease-out; */
   border: 1px solid #999a81;
   position: fixed;
-  top: 89px;
+  top: 8.5vh;
   width: 100%;
   text-align:center;
   z-index: 9;

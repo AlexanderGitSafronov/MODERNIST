@@ -869,12 +869,12 @@ width: 152px;
           font-weight: 400;
       }
 
-      .ymaps-2-1-79-balloon {
+      /* .ymaps-2-1-79-balloon {
           left: -290px !important;
       }
       .ymaps-2-1-79-balloon__tail {
           left: 290px !important;
-      }
+      } */
       .ymaps-2-1-79-balloon__tail:after {
           background-color: #FCF8F4 !important;
       }
@@ -882,5 +882,7 @@ width: 152px;
         margin-top: 5px;
         margin-right: 10px;
     }
+
+    
 
     

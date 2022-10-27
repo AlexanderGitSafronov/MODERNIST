@@ -1315,10 +1315,10 @@
             font-size: 22px;
         }
         .offcanvas.offcanvas-end {
-            width: 80%;
+            width: 100%;
         }
         .offcanvas.offcanvas-start {
-            width: 80%;
+            width: 100%;
         }
 
         .cataloge__living_room_menu_mobil {
@@ -1355,7 +1355,27 @@
         font-size: 28px;
         line-height: 28px;
     }
-    
+    .modal__header_mobil_cataloge {
+        display: flex;
+    }
+    .cataloge__menu_mobil .offcanvas-header a{
+        display: none;
+    }
+    .cataloge__menu_mobil .container__header {
+        display: block;
+        padding: 0px 3.5vw;
+    }
+    .offcanvas__burger_menu_mobil  .btn-close {
+        font-size: 19px;
+    }
+    .offcanvas__burger_menu_mobil .offcanvas-header a {
+        display: none;
+    }
+    .offcanvas__burger_menu_mobil .container__header {
+        display: block;
+        padding: 0px 3.5vw;
+    }
+   
         
     }
     @media (max-width: 575px) {

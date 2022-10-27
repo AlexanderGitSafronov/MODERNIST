@@ -1,3 +1,11 @@
+@media (min-width: 1921px) {
+    .menu__all_furniture-header ul {
+        padding-left: 0;
+    }
+    .menu__all_furniture-header-bg {
+        top: 8vh;
+    }
+}
 @media (max-width: 1680px) {
     .head__tex_furniture {
         margin-top: 106px;

@@ -885,6 +885,22 @@ button {
     .form__item_adress label {
         top: 20px;
     }
+     .container__header_card_pos{
+        z-index: 1059 !important;
+        position: relative !important;
+    }
+    .map {
+        height: 320px;
+    }
+    .modal__choice_address {
+        height: 300px;
+    }
+    .balloon {
+            padding: 10px;
+    }
+    .balloon .balloon__button button {
+        margin-top: 10px;
+    }
 }
 @media (max-width: 600px) {
     .transport__company_svg img {
@@ -895,6 +911,25 @@ button {
     }
     .tooltip {
         left: -165px;
+    }
+
+    .map {
+        width: 395px;
+        height: 250px;
+    }
+    .choice__address .modal-dialog {
+        max-width: 400px;
+        max-height: 300px;
+    }
+    .modal__choice_address {
+        height: 290px;
+    }
+}
+@media (max-width: 575px) {
+    .choice__address .modal-dialog {
+        max-width: 400px;
+        max-height: 300px;
+        width: inherit;
     }
 }
 @media (max-width: 515px) {
@@ -926,6 +961,17 @@ button {
     .transport__company_svg .transport__company_svg_third {
         width: 120%;
     }
+    .choice__address .way__to_get {
+            padding: 24px 18px;
+    }
+}
+@media (max-width: 410px) {
+    .choice__address .modal-dialog {
+        max-width: 350px;
+    }
+    .map {
+        width: 348px;
+    }
 }
 @media (max-width: 375px) {
     .ordering__mobil_pad {
@@ -933,5 +979,12 @@ button {
     }
     .ordering__link_mobil_pad {
         margin-right: 0px;
+    }
+    .map {
+        width: 345px;
+        height: 250px;
+    }
+    .balloon {
+        padding: 0px;
     }
 }
