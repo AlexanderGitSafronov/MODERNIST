@@ -21,6 +21,10 @@
     .authorization__sms {
         margin-top: 30px;
     }
+    .number__confirmation_header h1 {
+        font-size: 50px ;
+        line-height: 50px ;
+    }
 }
 @media (max-width: 800px) {
     .authorization__sms {
@@ -30,4 +34,20 @@
 }
 @media (max-width: 768px) {
 
+}
+@media (max-width: 540px) {
+    .number__confirmation_header h1 {
+        font-size: 46px;
+        line-height: 46px;
+    }
+}
+@media (max-width: 414px) {
+    .number__confirmation_header h1 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .number__confirmation_container p,
+    .number__confirmation_container h5{
+        text-align: center;
+    }
 }

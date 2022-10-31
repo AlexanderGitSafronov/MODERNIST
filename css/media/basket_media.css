@@ -265,6 +265,109 @@
     }
     
 }
+@media (max-width: 912px) {
+    .basked__main_content_first{
+        display: none;
+    }
+    .basked__main_content_mobil {
+        display: block;
+    }
+    .basked__main_content_mobil_clear {
+        display: block;
+    }
+    .basked__main_content .basked__main_content_second {
+        height: 372px;
+    }
+    .container__mobil {
+        padding: 0px 150px;
+    }
+    .basked__main_content .basked__main_content_second {
+        width: 99%;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .basked__main_content_second {
+        margin-top: 50px;
+    }
+    .basked__main_content .basked__main_content_second {
+        margin-bottom: 80px;
+    }
+    .basked__main_content_mobil {
+        display: block;
+    }
+    .basked__main_content_mobil_clear {
+        display: block;
+    }
+    .basked__main_content_first {
+        display: none;
+    }
+    .basked__link_back {
+        margin-bottom: 40px;
+    }
+    .basked__main_content_second {
+        margin-top: 50px;
+        
+    }
+    .basked__main_content .basked__main_content_second {
+        width: 99%;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .basked__main_content .basked__main_content_second h3 {
+        font-size: 24px;
+    }
+    .basked__main_content .basket__number_goods p {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+    .basked__main_content .basket__number_goods h5 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .basket__promocode button {
+        font-size: 12px;
+        padding: 12px 22px;
+        width: 28%;
+    }
+    .basket__promocode input::placeholder {
+        font-size: 12px;
+    }
+    .basket__promocode input {
+        padding-top: 12.5px;
+        padding-bottom: 12.5px;
+        padding-left: 12px;
+        font-size: 12px;
+    }
+    
+    .basked__main_content .basked__main_content_second {
+        padding: 30px 16px;
+    }
+    .basked__main_content .basked__main_content_second {
+        height: 372px;
+    }
+    .basked__checkout-btn p {
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .basked__checkout-btn p {
+        margin-top: 6px;
+    }
+    .basked__total p,
+    .basked__total h5 {
+        font-size: 22px;
+        font-weight: 700;
+        font-family: "Bebas Neue", sans-serif;
+    }
+    .container__mobil {
+        padding: 0px 150px;
+    }
+    .basket__promocode input {
+        width: 70.5%;
+    }
+}
+@media (max-width: 820px) {
+   
+}
 @media (max-width: 800px) {
     .basked__link_back {
         margin-bottom: 25px;
@@ -441,6 +544,7 @@
     .basket__promocode button {
         font-size: 12px;
         padding: 12px 22px;
+        width: 28%;
     }
     .basket__promocode input::placeholder {
         font-size: 12px;
@@ -499,15 +603,27 @@
         padding: 0px 0px;
     }
 }
+@media (max-width: 414px) {
+    .basket__promocode button {
+       
+        width: 31%;
+    }
+    .basket__promocode input {
+        width: 67.5%;
+    }
+}
 @media (max-width: 390px) {
     .basket__promocode input {
         width: 63.5%;
     }
+    .basket__promocode button {
+       
+        width: 35%;
+    }
 }
 @media (max-width: 375px) {
-    .basket__promocode input {
-        width: 63.5%;
-    }
+    
+   
 }
 
 @media (max-width: 360px) {

@@ -87,6 +87,11 @@
         font-size: 14px;
     }
 }
+@media (max-width: 540px) {
+    .accordion-header-span {
+        padding-left: 20px;
+    }
+}
 @media (max-width: 414px) {
     .cases__header h1 {
         font-size: 50px;
@@ -95,4 +100,5 @@
     .accordion-header-btn a {
         font-size: 20px;
     }
+    
 }

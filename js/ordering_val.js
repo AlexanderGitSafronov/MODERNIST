@@ -289,6 +289,17 @@ function removeEntityValidation() {
         errorMessage: 'Укажите почтовый адрес',
       },
     ]);
+
+
+    $('#how__name_entity').prop('required', false);
+    $('#phone__entity').prop('required', false);
+    $('#email__entity').prop('required', false);
+    $('#name__organization_entity').prop('required', false);
+    $('#name__seal_entity').prop('required', false);
+    $('#kpp__entity').prop('required', false);
+    $('#ihh__entity').prop('required', false);
+    $('#adress__entity').prop('required', false);
+    $('#mailing__address_entity').prop('required', false);
 }
 function removeDeliveryValidation() {
   validation

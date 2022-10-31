@@ -188,7 +188,21 @@ align-items: center;
     .order__created_discription_right_mobil {
         width: 80%;
     }
+    .order__created_header {
+        width: 400px;
+    }
     
+  }
+  @media (max-width: 393px) {
+    .order__created_header {
+        width: 380px;
+    }
+    .order__created .order__created_content {
+        width: 380px;
+    }
+    .order__created .order__created_footer {
+        width: 380px;
+    }
   }
  @media (max-width: 375px) {
     .order__created h1 {

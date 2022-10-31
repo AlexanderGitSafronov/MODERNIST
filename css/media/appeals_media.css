@@ -47,12 +47,23 @@
     .appeals__answer_not_autorization .authorization__get_code button {
         padding: 12px;
     }
+    .appeals__response_received a {
+        font-size: 16px;
+    }
 }
 @media (max-width: 1150px) {
     
 }
 @media (max-width: 1024px) {
-    
+   .appeals__message_middle {
+       padding-left: 50px;
+   }
+   .appeals__response_received a {
+       font-size: 14px;
+   }
+   .appeals__message {
+    padding: 15px 0px;
+   }
     
 }
 @media (max-width: 991px) {
@@ -96,8 +107,10 @@
 
     
 }
-@media (max-width: 800px) {
-    
+@media (max-width: 820px) {
+    .appeals__message_middle {
+        padding-left: 40px;
+    }
 }
 @media (max-width: 768px) {
    
@@ -138,6 +151,11 @@
         margin-bottom: 24px;
     }
 }
+@media (max-width: 540px) {
+    .modal-body {
+        padding: 0px 7%;
+    }
+}
 @media (max-width: 515px) {
     .container__header_card {
         position: relative;
@@ -159,7 +177,14 @@
     margin-bottom: 20px;
     }
 }
-
+@media (max-width: 414px) {
+    .appeals_button button {
+        width: 100%;
+    }
+    .modal-body {
+        padding: 0px 7%;
+    }
+}
 @media (max-width: 375px) {
     .appeals_button button {
         width: 100%;

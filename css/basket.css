@@ -191,7 +191,7 @@ margin-left: 10px;
 
 .basked__main_content .basked__main_content_second {
     padding: 45px;
-    width: 488px;
+    width: 27%;
     margin-left: 100px;
     border: 1px solid #999A81;
     margin-bottom: 100px;
@@ -451,4 +451,14 @@ margin-left: 10px;
 }
 .basked__main_content_mobil_clear {
     display: none;
+}
+
+.basket__promocode {
+    width: 100%;
+}
+.basket__promocode form {
+    width: 100%;
+}
+.basket__promocode button {
+    width: 41%;
 }

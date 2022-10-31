@@ -11,6 +11,7 @@ body {
   font-family: "Bebas Neue", sans-serif;
   background-color: #fcf8f4;
   color: #24160B;
+  height: 100%;
 }
 .container-fluid {
     max-width: 1920px;
@@ -816,11 +817,11 @@ a {
 .like svg {
   stroke: #000;
 }
-.like svg:hover {
+/* .like svg:hover {
   cursor: pointer;
   stroke: red;
   fill: red;
-}
+} */
 .active__like svg {
   stroke: red;
   fill: red;
@@ -1050,9 +1051,9 @@ a {
     
 }
 .footer__footer {
-    height: 200px;
+    /* height: 200px; */
     padding: 0px 1px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 .footer__footer img {
     margin: 0;
@@ -1189,9 +1190,9 @@ a {
     cursor: inherit;
 }
 /* ЗАКОНЧИЛИ С КУРСОРОМ КАРТОЧКИ ТОВАРА */
-  .item__content:hover .item__image2 {
+  /* .item__content:hover .item__image2 {
     opacity: 1;
-  }
+  } */
   
   .item__button {
     position: absolute;
@@ -1200,9 +1201,9 @@ a {
     transform: translateX(-50%);
     overflow: hidden;
   }
-  .item__content:hover .item__button button {
+  /* .item__content:hover .item__button button {
     transform: translateY(0);
-  }
+  } */
   .item__button button {
     white-space: nowrap;
     padding: 12px 37px;
@@ -2485,8 +2486,10 @@ a {
 }
 
 .choice__category_scroll {
+    display: flex;
     overflow-x: scroll;
     flex-wrap: nowrap;
+    padding: 0px;
 }
 .form__item_adress label {
     top: 23px;
@@ -2607,4 +2610,17 @@ a {
 }
 .modal__header_mobil_cataloge_living_room {
     display: none;
+}
+
+
+.wrapper__content_body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.content__full {
+    flex: 1;
+}
+.content__footer {
+    flex: 0;
 }

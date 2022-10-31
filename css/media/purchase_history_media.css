@@ -54,6 +54,10 @@
     .purchase__history_order_header_text span {
         font-size: 12px;
     }
+    .purchase__history .purchase__history_order_footer_text p {
+        font-size: 11px;
+        white-space: nowrap;
+    }
  }
  @media (max-width: 800px) {
     .purchase__history .purchase__history_order {

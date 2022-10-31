@@ -28,309 +28,339 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   </head>
   <body>
-    <div class="section header__all_furniture goods_card">
-        <!-- Header menu -->
-        <div class="container__header_card">
-          <div class="container-fluid   ">
-            <div class="row">
-              <div class=" col-3 menu">
-                <div class="menu__burger menu__burger_hiden">
-                  <div class="cataloge"><a href="" class="menu__burger_btn"  type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop_burger" aria-controls="staticBackdrop"><span></span></a></div>
+    <div class="wrapper__content_body">
+      <div class="content__full">
+        <div class="section header__all_furniture goods_card">
+          <!-- Header menu -->
+          <div class="container__header_card">
+            <div class="container-fluid   ">
+              <div class="row">
+                <div class=" col-3 menu">
+                  <div class="menu__burger menu__burger_hiden">
+                    <div class="cataloge"><a href="" class="menu__burger_btn"  type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop_burger" aria-controls="staticBackdrop"><span></span></a></div>
+                  </div>
+                  <div class="menu__burger">
+                    <div class="catalode catalode__menu_mobile"><a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop_burger" aria-controls="staticBackdrop">Меню</a></div>
+    
+                  </div>
+                <div class="catalode catalode__header_hiden"><a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop"> Каталог</a></div>
+              </div>
+              <div class="col-6 text-center icon__header">
+                <img src="/image/moder_head.png" alt="" />
+              </div>
+              <div class="col-3 text-end align-middle basket">
+                <div class="img_search">
+                  <a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                    <svg
+                    width="28"
+                    height="28"
+                    viewBox="0 0 28 28"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke="“currentColor”"
+                      d="M12.6874 21.875C17.7615 21.875 21.8749 17.7616 21.8749 12.6875C21.8749 7.61338 17.7615 3.5 12.6874 3.5C7.61326 3.5 3.49988 7.61338 3.49988 12.6875C3.49988 17.7616 7.61326 21.875 12.6874 21.875Z"
+                      stroke="#FCF8F4"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      stroke="“currentColor”"
+                      d="M19.1836 19.1846L24.4993 24.5003"
+                      stroke="#FCF8F4"
+                      stroke-width="1.5"
+                      stroke-linecap="square"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  </a>
+                  
                 </div>
-                <div class="menu__burger">
-                  <div class="catalode catalode__menu_mobile"><a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop_burger" aria-controls="staticBackdrop">Меню</a></div>
-  
+                <div class="basket_all" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                  <div class="basket__true"><a >Корзина</a> </div>
+                <div class="quantity__cart">
+                    <a  >1</a>
                 </div>
-              <div class="catalode catalode__header_hiden"><a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop"> Каталог</a></div>
-            </div>
-            <div class="col-6 text-center icon__header">
-              <img src="/image/moder_head.png" alt="" />
-            </div>
-            <div class="col-3 text-end align-middle basket">
-              <div class="img_search">
-                <a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
-                  <svg
-                  width="28"
-                  height="28"
-                  viewBox="0 0 28 28"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke="“currentColor”"
-                    d="M12.6874 21.875C17.7615 21.875 21.8749 17.7616 21.8749 12.6875C21.8749 7.61338 17.7615 3.5 12.6874 3.5C7.61326 3.5 3.49988 7.61338 3.49988 12.6875C3.49988 17.7616 7.61326 21.875 12.6874 21.875Z"
-                    stroke="#FCF8F4"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                  <path
-                    stroke="“currentColor”"
-                    d="M19.1836 19.1846L24.4993 24.5003"
-                    stroke="#FCF8F4"
-                    stroke-width="1.5"
-                    stroke-linecap="square"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-                </a>
+                </div>
                 
               </div>
-              <div class="basket_all" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                <div class="basket__true"><a >Корзина</a> </div>
-              <div class="quantity__cart">
-                  <a  >1</a>
-              </div>
-              </div>
-              
-            </div>
-              </div>
-      </div>
-        </div>
-        
-        <div class="container__header header__scroll">
-          <div class="container-fluid   ">
-            <div class="row">
-                <div class="col-3 menu">
-                    <div class="menu__burger menu__burger_hiden">
-                      <div class="cataloge"><a href="" class="menu__burger_btn"  type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop_burger" aria-controls="staticBackdrop"><span></span></a></div>
-                    </div>
-                    <div class="menu__burger">
-                      <div class="catalode catalode__menu_mobile"><a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop_burger" aria-controls="staticBackdrop">Меню</a></div>
-    
-                    </div>
-                  <div class="catalode catalode__header_hiden"><a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop"> Каталог</a></div>
                 </div>
-                <div class="col-6 text-center icon__header">
-                  <img src="/image/moder_head.png" alt="" />
-                </div>
-                <div class="col-3 text-end align-middle basket">
-                  <div class="img_search">
-                    <a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
-                      <svg
-                      width="28"
-                      height="28"
-                      viewBox="0 0 28 28"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        stroke="“currentColor”"
-                        d="M12.6874 21.875C17.7615 21.875 21.8749 17.7616 21.8749 12.6875C21.8749 7.61338 17.7615 3.5 12.6874 3.5C7.61326 3.5 3.49988 7.61338 3.49988 12.6875C3.49988 17.7616 7.61326 21.875 12.6874 21.875Z"
-                        stroke="#FCF8F4"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        stroke="“currentColor”"
-                        d="M19.1836 19.1846L24.4993 24.5003"
-                        stroke="#FCF8F4"
-                        stroke-width="1.5"
-                        stroke-linecap="square"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                    </a>
-                    
-                  </div>
-                  
-                  <div class="basket_all" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                   
-                    <div class="basket__true"><a >Корзина</a> </div>
-                  <div class="quantity__cart">
-                      <a >1</a>
-                  </div>
-                  </div>
-    
-    
-                  
-                </div>
-              </div>
-          </div>
         </div>
-        
-  
-     
-   
-  
-
-  <!-- БУРГЕР МЕНЮ -->
-<div class="offcanvas offcanvas-start offcanvas__burger_menu_mobil"  tabindex="-1" id="staticBackdrop_burger" aria-labelledby="staticBackdropLabel">
-  <div class="offcanvas-header">
-    <a href="" type="button" class="catalog__close" data-bs-dismiss="offcanvas" aria-label="Close">Закрыть</a>
-    <div class=" container__header container__header_home ">
-      <div class="row">
-        <div class=" col-3 menu">
-            <div class="menu__burger menu__burger_hiden">
-              <div class="cataloge"><a href="" class="menu__burger_btn"  type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop_burger" aria-controls="staticBackdrop"><span></span></a></div>
-            </div>
-            <div class="menu__burger">
-              <div class="catalode catalode__menu_mobile"><a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop_burger" aria-controls="staticBackdrop">Меню</a></div>
-
-            </div>
-          <div class="catalode catalode__header_hiden"><a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop"> Каталог</a></div>
-        </div>
-        <div class="col-6 text-center icon__header">
-          <img src="/image/mobil_logo_head.png" alt="" />
-        </div>
-        <div class="col-3 text-end align-middle basket">
-          <div class="img_search">
-            <a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
-              <svg
-              width="28"
-              height="28"
-              viewBox="0 0 28 28"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                stroke="“currentColor”"
-                d="M12.6874 21.875C17.7615 21.875 21.8749 17.7616 21.8749 12.6875C21.8749 7.61338 17.7615 3.5 12.6874 3.5C7.61326 3.5 3.49988 7.61338 3.49988 12.6875C3.49988 17.7616 7.61326 21.875 12.6874 21.875Z"
-                stroke="#FCF8F4"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                stroke="“currentColor”"
-                d="M19.1836 19.1846L24.4993 24.5003"
-                stroke="#FCF8F4"
-                stroke-width="1.5"
-                stroke-linecap="square"
-                stroke-linejoin="round"
-              />
-            </svg>
-            </a>
-            
-          </div>
-          <div class="basket_all" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-            <div class="basket__true"><a >Корзина</a> </div>
-          <div class="quantity__cart">
-              <a  >1</a>
-          </div>
           </div>
           
+          <div class="container__header header__scroll">
+            <div class="container-fluid   ">
+              <div class="row">
+                  <div class="col-3 menu">
+                      <div class="menu__burger menu__burger_hiden">
+                        <div class="cataloge"><a href="" class="menu__burger_btn"  type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop_burger" aria-controls="staticBackdrop"><span></span></a></div>
+                      </div>
+                      <div class="menu__burger">
+                        <div class="catalode catalode__menu_mobile"><a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop_burger" aria-controls="staticBackdrop">Меню</a></div>
+      
+                      </div>
+                    <div class="catalode catalode__header_hiden"><a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop"> Каталог</a></div>
+                  </div>
+                  <div class="col-6 text-center icon__header">
+                    <img src="/image/moder_head.png" alt="" />
+                  </div>
+                  <div class="col-3 text-end align-middle basket">
+                    <div class="img_search">
+                      <a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                        <svg
+                        width="28"
+                        height="28"
+                        viewBox="0 0 28 28"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          stroke="“currentColor”"
+                          d="M12.6874 21.875C17.7615 21.875 21.8749 17.7616 21.8749 12.6875C21.8749 7.61338 17.7615 3.5 12.6874 3.5C7.61326 3.5 3.49988 7.61338 3.49988 12.6875C3.49988 17.7616 7.61326 21.875 12.6874 21.875Z"
+                          stroke="#FCF8F4"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          stroke="“currentColor”"
+                          d="M19.1836 19.1846L24.4993 24.5003"
+                          stroke="#FCF8F4"
+                          stroke-width="1.5"
+                          stroke-linecap="square"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                      </a>
+                      
+                    </div>
+                    
+                    <div class="basket_all" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                     
+                      <div class="basket__true"><a >Корзина</a> </div>
+                    <div class="quantity__cart">
+                        <a >1</a>
+                    </div>
+                    </div>
+      
+      
+                    
+                  </div>
+                </div>
+            </div>
+          </div>
+          
+    
+       
+     
+    
+  
+    <!-- БУРГЕР МЕНЮ -->
+  <div class="offcanvas offcanvas-start offcanvas__burger_menu_mobil"  tabindex="-1" id="staticBackdrop_burger" aria-labelledby="staticBackdropLabel">
+    <div class="offcanvas-header">
+      <a href="" type="button" class="catalog__close" data-bs-dismiss="offcanvas" aria-label="Close">Закрыть</a>
+      <div class=" container__header container__header_home ">
+        <div class="row">
+          <div class=" col-3 menu">
+              <div class="menu__burger menu__burger_hiden">
+                <div class="cataloge"><a href="" class="menu__burger_btn"  type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop_burger" aria-controls="staticBackdrop"><span></span></a></div>
+              </div>
+              <div class="menu__burger">
+                <div class="catalode catalode__menu_mobile"><a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop_burger" aria-controls="staticBackdrop">Меню</a></div>
+  
+              </div>
+            <div class="catalode catalode__header_hiden"><a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop"> Каталог</a></div>
+          </div>
+          <div class="col-6 text-center icon__header">
+            <img src="/image/mobil_logo_head.png" alt="" />
+          </div>
+          <div class="col-3 text-end align-middle basket">
+            <div class="img_search">
+              <a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                <svg
+                width="28"
+                height="28"
+                viewBox="0 0 28 28"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke="“currentColor”"
+                  d="M12.6874 21.875C17.7615 21.875 21.8749 17.7616 21.8749 12.6875C21.8749 7.61338 17.7615 3.5 12.6874 3.5C7.61326 3.5 3.49988 7.61338 3.49988 12.6875C3.49988 17.7616 7.61326 21.875 12.6874 21.875Z"
+                  stroke="#FCF8F4"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  stroke="“currentColor”"
+                  d="M19.1836 19.1846L24.4993 24.5003"
+                  stroke="#FCF8F4"
+                  stroke-width="1.5"
+                  stroke-linecap="square"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              </a>
+              
+            </div>
+            <div class="basket_all" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+              <div class="basket__true"><a >Корзина</a> </div>
+            <div class="quantity__cart">
+                <a  >1</a>
+            </div>
+            </div>
+            
+          </div>
+      </div>
+      </div>
+    </div>
+    
+    <div class="offcanvas-body offcanvas-body_burger">
+      <div class="modal-header modal__header_mobil_cataloge">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+          <span aria-hidden="true"></span>
+        </button>
+    </div>
+        <div class="customer__service_burger">
+            <a href="./installment_customer_service.html">
+                <p>Клиентский сервис</p>
+              </a>
+        </div>
+        <div class="design__assistant_burger">
+          <a href="./design_consultant.html">
+              <p>Дизайн ассистент</p>
+            </a>
+      </div>
+        <div class="cases__burger">
+            <a href="./cases.html">
+                <p>Кейсы</p>
+              </a>
+        </div>
+        <div class="shipping__payment_burger">
+            <a href="./delivery.html">
+                <p>Доставка и оплата</p>
+              </a>
+        </div>
+        <div class="website__professionals_burger">
+            <a href="" class="btn-consultant" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModalProf" data-whatever="@mdo">
+                <p>Версия сайта для профессионалов</p>
+              </a>
+        </div>
+        <div class="qestions__answers_burger">
+            <a href="">
+                <p>Вопросы и ответы</p>
+              </a>
+        </div>
+        <div class="connect__us_burger">
+            <a href="./contacts.html">
+                <p>Связаться с нами </p>
+              </a>
+        </div>
+        <div class="privacy__policy_burger">
+            <a href="">
+                <p>Политика конфиденциальности</p>
+              </a>
         </div>
     </div>
+  </div>
+  <!-- КОНЕЦ БУРГЕР МЕНЮ -->
+  
+  <!-- ПОИСКОВИК -->
+  <div class="offcanvas offcanvas-top offcanvas_search" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+    <!-- <div class="offcanvas-header offcanvas-header_search">
+     
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div> -->
+    <div class="container-fluid offcanvas-body offcanvas-body_search ">
+      <div class="row ">
+            <div class="col-12 search search__hide">
+                <div class="search__menu">
+                    <label for="recipient-name" class="label"></label>
+                    <input type="text" class="form_search" id="search" placeholder="Поиск товара">
+                    <button>ПОиск</button>
+                  </div>
+            </div>
+            <div class="col-12 search search__mobil">
+              <div class="search__menu">
+                  <label for="recipient-name" class="label"></label>
+                  <input type="text" class="form_search" id="search" placeholder="Поиск товара">
+                  <button>
+                    <svg
+                    width="28"
+                    height="28"
+                    viewBox="0 0 28 28"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke="“currentColor”"
+                      d="M12.6874 21.875C17.7615 21.875 21.8749 17.7616 21.8749 12.6875C21.8749 7.61338 17.7615 3.5 12.6874 3.5C7.61326 3.5 3.49988 7.61338 3.49988 12.6875C3.49988 17.7616 7.61326 21.875 12.6874 21.875Z"
+                      stroke="#FCF8F4"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      stroke="“currentColor”"
+                      d="M19.1836 19.1846L24.4993 24.5003"
+                      stroke="#FCF8F4"
+                      stroke-width="1.5"
+                      stroke-linecap="square"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+                </div>
+          </div>
+        
+      </div>
     </div>
   </div>
+  <!-- КОНЕЦ ПОИСКОВИКА -->
   
-  <div class="offcanvas-body offcanvas-body_burger">
-    <div class="modal-header modal__header_mobil_cataloge">
+    <!-- КОРЗИНА МЕНЮ -->
+  <div class="offcanvas  offcanvas-end modal__mobil_basket" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="modal-header modal__header_mobil_basket">
       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
         <span aria-hidden="true"></span>
       </button>
   </div>
-      <div class="customer__service_burger">
-          <a href="./installment_customer_service.html">
-              <p>Клиентский сервис</p>
-            </a>
-      </div>
-      <div class="design__assistant_burger">
-        <a href="./design_consultant.html">
-            <p>Дизайн ассистент</p>
-          </a>
+    <div class=" offcanvas-header_right offcanvas-header_right-pad">
+      <h5 class="offcanvas-title" id="offcanvasRightLabel">КОРЗИНА (5)</h5>
     </div>
-      <div class="cases__burger">
-          <a href="./cases.html">
-              <p>Кейсы</p>
-            </a>
-      </div>
-      <div class="shipping__payment_burger">
-          <a href="./delivery.html">
-              <p>Доставка и оплата</p>
-            </a>
-      </div>
-      <div class="website__professionals_burger">
-          <a href="" class="btn-consultant" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModalProf" data-whatever="@mdo">
-              <p>Версия сайта для профессионалов</p>
-            </a>
-      </div>
-      <div class="qestions__answers_burger">
-          <a href="">
-              <p>Вопросы и ответы</p>
-            </a>
-      </div>
-      <div class="connect__us_burger">
-          <a href="./contacts.html">
-              <p>Связаться с нами </p>
-            </a>
-      </div>
-      <div class="privacy__policy_burger">
-          <a href="">
-              <p>Политика конфиденциальности</p>
-            </a>
-      </div>
-  </div>
-</div>
-<!-- КОНЕЦ БУРГЕР МЕНЮ -->
-
-<!-- ПОИСКОВИК -->
-<div class="offcanvas offcanvas-top offcanvas_search" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
-  <!-- <div class="offcanvas-header offcanvas-header_search">
-   
-    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-  </div> -->
-  <div class="container-fluid offcanvas-body offcanvas-body_search ">
-    <div class="row ">
-          <div class="col-12 search search__hide">
-              <div class="search__menu">
-                  <label for="recipient-name" class="label"></label>
-                  <input type="text" class="form_search" id="search" placeholder="Поиск товара">
-                  <button>ПОиск</button>
-                </div>
-          </div>
-          <div class="col-12 search search__mobil">
-            <div class="search__menu">
-                <label for="recipient-name" class="label"></label>
-                <input type="text" class="form_search" id="search" placeholder="Поиск товара">
-                <button>
-                  <svg
-                  width="28"
-                  height="28"
-                  viewBox="0 0 28 28"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke="“currentColor”"
-                    d="M12.6874 21.875C17.7615 21.875 21.8749 17.7616 21.8749 12.6875C21.8749 7.61338 17.7615 3.5 12.6874 3.5C7.61326 3.5 3.49988 7.61338 3.49988 12.6875C3.49988 17.7616 7.61326 21.875 12.6874 21.875Z"
-                    stroke="#FCF8F4"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                  <path
-                    stroke="“currentColor”"
-                    d="M19.1836 19.1846L24.4993 24.5003"
-                    stroke="#FCF8F4"
-                    stroke-width="1.5"
-                    stroke-linecap="square"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </button>
+    <div class="offcanvas-body_right">
+      <div class="container-fluid container__basket">
+          <div class="row">
+              <div class=" col-3 container__basket_img">
+                  <img class="container__basket_img_parent" src="./image/chair_4.png"  alt="">
               </div>
-        </div>
-      
-    </div>
-  </div>
-</div>
-<!-- КОНЕЦ ПОИСКОВИКА -->
-
-  <!-- КОРЗИНА МЕНЮ -->
-<div class="offcanvas  offcanvas-end modal__mobil_basket" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-  <div class="modal-header modal__header_mobil_basket">
-    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
-      <span aria-hidden="true"></span>
-    </button>
-</div>
-  <div class=" offcanvas-header_right offcanvas-header_right-pad">
-    <h5 class="offcanvas-title" id="offcanvasRightLabel">КОРЗИНА (5)</h5>
-  </div>
-  <div class="offcanvas-body_right">
-    <div class="container-fluid container__basket">
+              <div class=" col-5 container__basket_content">
+                  <div class="container__basket_content_discription">
+                      <h5>Кресло Matiss</h5>
+                      <p>Зеленый</p>
+                  </div>
+                  <div class="container__basket_count ">
+                      <div class="container__basket_count_minus basket_count">
+                          <span></span>
+                      </div>
+                      <div class="container__basket_content_number">
+                          <span class="basket__number">3</span>
+                      </div>
+                      <div class="container__basket_count_plus basket_count">
+                          <span></span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-4 container__basket_price">
+                  <h5>105 690 ₽</h5>
+                  <a href="">Удалить</a>
+              </div>
+          </div>
+      </div>
+      <div class="container-fluid container__basket">
         <div class="row">
             <div class=" col-3 container__basket_img">
                 <img class="container__basket_img_parent" src="./image/chair_4.png"  alt="">
@@ -413,642 +443,610 @@
             <a href="">Удалить</a>
         </div>
     </div>
-</div>
-<div class="container-fluid container__basket">
-  <div class="row">
-      <div class=" col-3 container__basket_img">
-          <img class="container__basket_img_parent" src="./image/chair_4.png"  alt="">
-      </div>
-      <div class=" col-5 container__basket_content">
-          <div class="container__basket_content_discription">
-              <h5>Кресло Matiss</h5>
-              <p>Зеленый</p>
-          </div>
-          <div class="container__basket_count ">
-              <div class="container__basket_count_minus basket_count">
-                  <span></span>
-              </div>
-              <div class="container__basket_content_number">
-                  <span class="basket__number">3</span>
-              </div>
-              <div class="container__basket_count_plus basket_count">
-                  <span></span>
-              </div>
-          </div>
-      </div>
-      <div class="col-4 container__basket_price">
-          <h5>105 690 ₽</h5>
-          <a href="">Удалить</a>
-      </div>
   </div>
-</div>
-<div class="container-fluid container__basket">
-  <div class="row">
-      <div class=" col-3 container__basket_img">
-          <img class="container__basket_img_parent" src="./image/chair_4.png"  alt="">
-      </div>
-      <div class=" col-5 container__basket_content">
-          <div class="container__basket_content_discription">
-              <h5>Кресло Matiss</h5>
-              <p>Зеленый</p>
-          </div>
-          <div class="container__basket_count ">
-              <div class="container__basket_count_minus basket_count">
-                  <span></span>
-              </div>
-              <div class="container__basket_content_number">
-                  <span class="basket__number">3</span>
-              </div>
-              <div class="container__basket_count_plus basket_count">
-                  <span></span>
-              </div>
-          </div>
-      </div>
-      <div class="col-4 container__basket_price">
-          <h5>105 690 ₽</h5>
-          <a href="">Удалить</a>
-      </div>
-  </div>
-</div>
-
-
-   
-    
-    
-    <div class="clear__all_basket_position container__basket container__basket_price clear__all_basket_position">
-        <a href="" class="btn-consultant" type="button"  data-bs-toggle="modal" data-bs-target="#clear__all_basket" data-whatever="@mdo">Очистить корзину</a>
-    </div>
-  </div>
-  <div class="offcanvas-footer_right">
-    
-      <div class="offcanvas-footer_header">
-          <h5>Итого:</h5>
-          <h5>132 590 ₽</h5>
-      </div>
-      <div class="offcanvas-footer_bootom">
-        <p>Cтоимость доставки расчитывается при оформление дзаказа</p>
-        <div class="offcanvas-footer_bootom-btn">
-            <div class="first__button">
-                <button onclick="javascript:location.href='./basked.html';">перейти в корзину</button>
+  <div class="container-fluid container__basket">
+    <div class="row">
+        <div class=" col-3 container__basket_img">
+            <img class="container__basket_img_parent" src="./image/chair_4.png"  alt="">
+        </div>
+        <div class=" col-5 container__basket_content">
+            <div class="container__basket_content_discription">
+                <h5>Кресло Matiss</h5>
+                <p>Зеленый</p>
             </div>
-            <div class="two__button">
-                <button onclick="javascript:location.href='./ordering.html';">оФОРМИТЬ ЗАКАЗ </button>
+            <div class="container__basket_count ">
+                <div class="container__basket_count_minus basket_count">
+                    <span></span>
+                </div>
+                <div class="container__basket_content_number">
+                    <span class="basket__number">3</span>
+                </div>
+                <div class="container__basket_count_plus basket_count">
+                    <span></span>
+                </div>
             </div>
+        </div>
+        <div class="col-4 container__basket_price">
+            <h5>105 690 ₽</h5>
+            <a href="">Удалить</a>
         </div>
     </div>
   </div>
-</div>
-<!-- КОНЕЦ КОРЗИНА МЕНЮ -->
   
   
-   <!-- МОДЕЛЬНОЕ ОКНО ОЧИСТИТЬ ВСЮ КОРЗИНУ -->
-<div class="modal fade clear__all_basket " id="clear__all_basket" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true"></span>
-          </button>
-      </div>
-      <div class="modal-body modal-body-performed modal__basket_text-clear">
-          <h5 class="modal-title" id="exampleModalLabel">Очистить корзину?</h5>
-      </div>
-      <div class="modal-footer">
-        <div class="modal-btn_clear_basket">
-            <a  href="#"><button class="btn__clear_basket_first" data-bs-dismiss="modal" aria-label="Close">Очистить</button></a>
-            <a href="#"><button data-bs-dismiss="modal" aria-label="Close">Отменить</button></a>
-      </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!--КОНЕЦ МОДЕЛЬНОЕ ОКНО ОЧИСТИТЬ ВСЮ КОРЗИНУ -->
-  
-  
-  
-  
-       <!-- КАТАЛОГ МЕНЮ -->
-      <div class="offcanvas offcanvas-start cataloge__menu_mobil"  tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
-        <div class="offcanvas-header">
-          <a href="" type="button" class="catalog__close" data-bs-dismiss="offcanvas" aria-label="Close">Закрыть</a>
-          <div class=" container__header container__header_home ">
-            <div class="row">
-              <div class=" col-3 menu">
-                  <div class="menu__burger menu__burger_hiden">
-                    <div class="cataloge"><a href="" class="menu__burger_btn"  type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop_burger" aria-controls="staticBackdrop"><span></span></a></div>
-                  </div>
-                  <div class="menu__burger">
-                    <div class="catalode catalode__menu_mobile"><a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop_burger" aria-controls="staticBackdrop">Меню</a></div>
-  
-                  </div>
-                <div class="catalode catalode__header_hiden"><a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop"> Каталог</a></div>
-              </div>
-              <div class="col-6 text-center icon__header">
-                <img src="/image/mobil_logo_head.png" alt="" />
-              </div>
-              <div class="col-3 text-end align-middle basket">
-                <div class="img_search">
-                  <a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
-                    <svg
-                    width="28"
-                    height="28"
-                    viewBox="0 0 28 28"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      stroke="“currentColor”"
-                      d="M12.6874 21.875C17.7615 21.875 21.8749 17.7616 21.8749 12.6875C21.8749 7.61338 17.7615 3.5 12.6874 3.5C7.61326 3.5 3.49988 7.61338 3.49988 12.6875C3.49988 17.7616 7.61326 21.875 12.6874 21.875Z"
-                      stroke="#FCF8F4"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                    <path
-                      stroke="“currentColor”"
-                      d="M19.1836 19.1846L24.4993 24.5003"
-                      stroke="#FCF8F4"
-                      stroke-width="1.5"
-                      stroke-linecap="square"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                  </a>
-                  
-                </div>
-                <div class="basket_all" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                  <div class="basket__true"><a >Корзина</a> </div>
-                <div class="quantity__cart">
-                    <a  >1</a>
-                </div>
-                </div>
-                
-              </div>
-          </div>
-          </div>
-        </div>
-        <div class="offcanvas-body offcanvas-body_catalog">
-          <div class="modal-header modal__header_mobil_cataloge">
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
-              <span aria-hidden="true"></span>
-            </button>
-        </div>
-            <div class="catalog__bloc_see-all">
-                <a href="./all _furniture.html">
-                    <div class="cataloge__flex">  
-                        <div class="see__all_svg">
-                            <img src="/image/see_all.svg" alt="">
-                        </div>
-                        <div class="cataloge__text">
-                            <p>Смотреть все</p>
-                        </div>
-                      </div>
-                </a>
-            </div>
-            <div class="catalog__bloc_stock">
-                <a href="./stock.html">
-                    <div class="cataloge__flex">  
-                        <div class="stock__svg">
-                            <img src="/image/stock.svg" alt="">
-                        </div>
-                        <div class="cataloge__text">
-                            <p>Акции</p>
-                        </div>
-                      </div>
-                </a>
-            </div>
-            <div class="catalog__bloc_living__room">
-                <a href=""   data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop_livingRoom" aria-controls="staticBackdrop">
-                    <div class="cataloge__flex">  
-                        <div class="cataloge__living_room-svg">
-                            <img src="/image/armchairs.svg" alt="">
-                        </div>
-                        <div class="cataloge__text">
-                            <p>Гостинная</p>
-                        </div>
-                        <div class="cataloge__arrow_right">
-                            <img src="./image/arrow_right_cataloge.svg" alt="">
-                        </div>
-                      </div>
-                </a>
-            </div>
-            <div class="catalog__bloc_badroom">
-                <a href="">
-                    <div class="cataloge__flex">  
-                        <div class="cataloge__badroom_svg">
-                            <img src="/image/cataloge__badroom.svg" alt="">
-                        </div>
-                        <div class="cataloge__text">
-                            <p>Спальня</p>
-                        </div>
-                        <div class="cataloge__arrow_right">
-                            <img src="./image/arrow_right_cataloge.svg" alt="">
-                        </div>
-                      </div>
-                </a>
-            </div>
-            <div class="catalog__bloc_canteen">
-                <a href="">
-                    <div class="cataloge__flex">  
-                        <div class="cataloge_canteen_svg">
-                            <img src="/image/canteen.svg" alt="">
-                        </div>
-                        <div class="cataloge__text">
-                            <p>Столовая</p>
-                        </div>
-                        <div class="cataloge__arrow_right">
-                            <img src="./image/arrow_right_cataloge.svg" alt="">
-                        </div>
-                      </div>
-                </a>
-            </div>
-            <div class="catalog__bloc_kits">
-                <a href="">
-                    <div class="cataloge__flex">  
-                        <div class="cataloge__kits_svg">
-                            <img src="/image/kits.svg" alt="">
-                        </div>
-                        <div class="cataloge__text">
-                            <p>Комплекты</p>
-                        </div>
-                        <div class="cataloge__arrow_right">
-                            <img src="./image/arrow_right_cataloge.svg" alt="">
-                        </div>
-                      </div>
-                </a>
-            </div>
-        </div>
-      </div>
-      <!-- КОНЕЦ КАТАЛОГ МЕНЮ -->
-      <!-- КАТАЛОГ МЕНЮ ГОСТИННАЯ -->
-      <div class="offcanvas offcanvas-start cataloge__menu_mobil"  tabindex="-1" id="staticBackdrop_livingRoom" aria-labelledby="staticBackdropLabel">
-        <div class="offcanvas-header">
-          <a href="" type="button" class="catalog__close" data-bs-dismiss="offcanvas" aria-label="Close">Закрыть</a>
-          <div class=" container__header container__header_home ">
-            <div class="row">
-              <div class=" col-3 menu">
-                  <div class="menu__burger menu__burger_hiden">
-                    <div class="cataloge"><a href="" class="menu__burger_btn"  type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop_burger" aria-controls="staticBackdrop"><span></span></a></div>
-                  </div>
-                  <div class="menu__burger">
-                    <div class="catalode catalode__menu_mobile"><a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop_burger" aria-controls="staticBackdrop">Меню</a></div>
-  
-                  </div>
-                <div class="catalode catalode__header_hiden"><a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop"> Каталог</a></div>
-              </div>
-              <div class="col-6 text-center icon__header">
-                <img src="/image/mobil_logo_head.png" alt="" />
-              </div>
-              <div class="col-3 text-end align-middle basket">
-                <div class="img_search">
-                  <a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
-                    <svg
-                    width="28"
-                    height="28"
-                    viewBox="0 0 28 28"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      stroke="“currentColor”"
-                      d="M12.6874 21.875C17.7615 21.875 21.8749 17.7616 21.8749 12.6875C21.8749 7.61338 17.7615 3.5 12.6874 3.5C7.61326 3.5 3.49988 7.61338 3.49988 12.6875C3.49988 17.7616 7.61326 21.875 12.6874 21.875Z"
-                      stroke="#FCF8F4"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                    <path
-                      stroke="“currentColor”"
-                      d="M19.1836 19.1846L24.4993 24.5003"
-                      stroke="#FCF8F4"
-                      stroke-width="1.5"
-                      stroke-linecap="square"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                  </a>
-                  
-                </div>
-                <div class="basket_all" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                  <div class="basket__true"><a >Корзина</a> </div>
-                <div class="quantity__cart">
-                    <a  >1</a>
-                </div>
-                </div>
-                
-              </div>
-          </div>
-          </div>
-        </div>
-        <div class="offcanvas-body offcanvas-body_catalog">
-          <div class="modal-header modal__header_mobil_cataloge modal__header_mobil_cataloge_living_room">
-            <div class="ordering__link_back "  data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
-             
-              <div class="ordering__arrow_left ordering__arrow_left_mobil">
-                <svg width="11" height="8" viewBox="0 0 11 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M11 4H1.5" stroke="#999A81" />
-                  <path d="M4.5 0.5L1 4L4.5 7.5" stroke="#999A81" stroke-linejoin="round" />
-                </svg>
-              </div>
-              <a href="#">Назад</a>
-            </div>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
-              <span aria-hidden="true"></span>
-            </button>
-          </div>
-            <div class="catalog__bloc_sofa">
-                <a href="">
-                    <div class="cataloge__flex">  
-                        <div class="sofas__svg">
-                            <img src="/image/calalogs_sofas.svg" alt="">
-                        </div>
-                        <div class="cataloge__text">
-                            <p>Диваны</p>
-                        </div>
-                      </div>
-                </a>
-            </div>
-            <div class="catalog__bloc_armchairs">
-                <a href="">
-                    <div class="cataloge__flex">  
-                        <div class="armchairs__svg">
-                            <img src="/image/armchairs.svg" alt="">
-                        </div>
-                        <div class="cataloge__text">
-                            <p>Кресла</p>
-                        </div>
-                      </div>
-                </a>
-            </div>
-            <div class="catalog__bloc_coffee-tables">
-                <a href="">
-                    <div class="cataloge__flex">  
-                        <div class="coffee__tables_svg">
-                            <img src="/image/coffee_tables.svg" alt="">
-                        </div>
-                        <div class="cataloge__text">
-                            <p>Журнальные столики</p>
-                        </div>
-                      </div>
-                </a>
-            </div>
-        </div>
-      </div>
-      <!-- КОНЕЦ КАТАЛОГ МЕНЮ ГОСТИННАЯ -->
-  
-      </div>
-      <!-- HEADER END -->
-    
-      <div class="design__consultant_container">
-          <div class="container-fluid ">
-            <div class="design__consultant_pad_left">
-              <div class="row design__consultant_header">
-                <div class=" col-lg-4 design__consultant_header_disription">
-                        <div class="design__consultant_header_text_top">
-                            <h1>Тренды 2022/2023: </h1>
-                        <h2>обеденный стол и новая мебель для столовых</h2>
-                        </div>
-                        <div class="design__consultant_header_text_bottom">
-                            <h4>Модный обеденный стол 2022 года радикален в цветовом отношении и необычен по форме. Добавьте ярких красок в свои столовые, тогда обеденное пространство — станет по-настоящему центром притяжения.</h4>
-                        </div>
-                  </div>
-                  <div class=" col-lg-8 design__consultant_header_image">
-                    <div id="carouselExampleIndicators" class="carousel slide cycle" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                              <a href=""><img src="./image/design_asistent.png" class="d-block w-100" alt="..."></a>
-                            
-                          </div>
-                          <div class="carousel-item">
-                            <a href=""><img src="./image/design_asistent.png" class="d-block w-100" alt="..."></a>
-                          </div>
-                          <div class="carousel-item">
-                            <a href=""><img src="./image/design_asistent.png" class="d-block w-100" alt="..."></a>
-                          </div>
-                        </div>
-                        
-                      </div>
-                </div>
-              
-          </div>
-          <div class="row">
-              <div class="col-md-12 col-lg-4 design__consultant_content design__consultant_content_first ">
-                <div class="design__consultant_content_img">
-                    <img src="./image/design_asistent1.png" alt="">
-                </div>
-                <div class="design__consultant_content_discription">
-                    <h3>Светлая кухня: СОВЕТЫ ПО ОФОРМЛЕНИЮ <br> И 5 ПОДХОДЯЩИХ СТИЛЕЙ</h3>
-                    <p>От ар-деко до минимализма: новые коллекции кухонь фабрики «Мария». Эстетичный внешний вид…</p>
-                </div>
-              </div>
-              <div class="col-md-12 col-lg-4 design__consultant_content design__consultant_content_second">
-                <div class="design__consultant_content_discription">
-                    <h3>Зелёный + белый: 20+ примеров</h3>
-                    <p>Продолжаем рассказывать о популярных сочетаниях цветов в интерьере. В сегодняшней подборке — самый летний и свежий вариант: зелёный + белый!</p>
-                </div>
-                <div class="design__consultant_content_img">
-                    <img src="./image/design_asistent2.png" alt="">
-                </div>
-              </div>
-              <div class="col-md-12 col-lg-4 design__consultant_content design__consultant_content_third">
-                <div class="design__consultant_content_img">
-                    <img src="./image/design_asistent3.png" alt="">
-                </div>
-                <div class="design__consultant_content_discription">
-                    <h3>Обустраиваем гостиную: советы и идеи</h3>
-                    <p>Гостиная — сердце дома, и важно правильно выбрать и расставить в ней мебель, чтобы пространство получилось красивым, эргономичным и функциональным</p>
-                </div>
-              </div>
-          </div>
-        <div class="row design__consultant_content_third_section">
-            <div class="col-lg-8 disign_consultant_big">
-                <img src="./image/design_big1.png" alt="">
-            </div>
-            <div class=" col-lg-4 design__consultant_header_disription">
-                <div class="design__consultant_header_text_top">
-                    <h1>Интерьер месяца: </h1>
-                <h2>модный интерьер для инкогнито</h2>
-                </div>
-                <div class="design__consultant_header_text_bottom">
-                    <h4>Оформляя квартиру площадью 200 кв. метров с видами на Москва-Сити, архитектор Мария Бахарева не знала, кто в итоге в ней поселится. Поэтому решила сделать интерьер «как для себя» и не прогадала</h4>
-                </div>
-          </div>
-        </div>
-        <div class="hiden__button_design">
-          <button class="open_block_design">загрузить еще</button>
-        </div>
-        <div class="heden__design">
-          <div class="row">
-            <div class="col-lg-4 design__consultant_content design__consultant_content_first">
-                <div class="design__consultant_content_discription design__consultant_content_discription_second">
-                    <h3>Серый цвет в спальне: 55+ нескучных идей</h3>
-                    <p>Серый не случайно называют «новым чёрным»: этот незаслуженно недооцениваемый в прежние времена оттенок в последние сезоны набирает бешеную популярность у дизайнеров интерьера</p>
-                </div>
-                <div class="design__consultant_content_img">
-                    <img src="./image/design_asistent4.png" alt="">
-                </div>
-              </div>
-              <div class="col-lg-4 design__consultant_content design__consultant_content_second ">
-                <div class="design__consultant_content_img">
-                    <img src="./image/design_asistent5.png" alt="">
-                </div>
-                <div class="design__consultant_content_discription design__consultant_content_discription_second_midle">
-                    <h3>5 антитрендов в интерьере, которые легко исправить</h3>
-                    <p>Плитка с 3D-рисунком, синтетические шторы и клеёнка на столе — рассказываем, какие приёмы декорирования уже устарели и как быстро исправить ситуацию</p>
-                </div>
-              </div>
-            <div class="col-lg-4 design__consultant_content design__consultant_content_third">
-                <div class="design__consultant_content_discription design__consultant_content_discription_second">
-                    <h3>Обустраиваем гостиную: советы и идеи</h3>
-                    <p>Гостиная — сердце дома, и важно правильно выбрать и расставить в ней мебель, чтобы пространство получилось красивым, эргономичным и функциональным</p>
-                </div>
-                <div class="design__consultant_content_img">
-                    <img src="./image/design_asistent6.png" alt="">
-                </div>
-              </div>
-        </div>
-        <div class="row design__consultant_five_section">
-          <div class="col-lg-4 design__consultant_content design__consultant_content_first design__consultant_content_border">
-              <div class="design__consultant_content_img">
-                  <img src="./image/design_asistent7.png" alt="">
-              </div>
-              <div class="design__consultant_content_discription">
-                  <h3>Картины в оформлении спальни: 50+ стильных идей</h3>
-                  <p>Абстракция, экотематика и черно-белая графика — рассказываем и показываем на примерах, как украсить разные комнаты стильными картинами</p>
-              </div>
-          </div>
-          <div class="col-lg-8 design__consultant_content design__consultant_content_third ">
-              <div class="design__consultant_content_img design__consultant_content_third_pos">
-                  <img src="./image/design_big2.png" alt="">
-                  <div class="bg_black">
-
-                  </div>
-                  <div class="design__consultant_content_third_text_center">
-                      <h1>5 актуальных трендов в дизайне кухни</h1>
-                  </div>
-              </div>
-              
-            </div>
-
-      </div>
-        </div>
-            </div>
-              
-            
-            
-          </div>
-      </div>
-
-
-
-
-   <!-- ДИЗАЙН КОНСУЛЬТАНТ -->
-   <div class="design__consultant">
-    <div class="container-fluid">
-        <div class="row">
-          <div class="col-12 design__consultant_border design__consultant_bg">
-            <div>
-              <div class="head__text text-center summer__sale_text">
-                <h1>ДИЗАЙН КОНСУЛЬТАНТ</h1>
-                <p>Поможем подобрать подходящую мебель для вашего интерьера </p>
-              </div>
-              <div class="head__text-button text-center summer__sale_pad">
-                
-                  <button  class="btn-consultant" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" data-whatever="@mdo">отправить заявку</button>
-                
-              </div>
-            </div>
-            
-          </div>
-        </div>
-      </div>
-</div>
-
-
-
- <!-- МОДЕЛЬНОЕ ОКНО ДИЗАЙН КОНСУЛЬТАНТ -->
- <div class="modal fade modal__design_consoltant" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true"></span>
-          </button>
-      </div>
-      <form action="" id="form-validation">
-        <div class="modal-body">
-          <h5 class="modal-title" id="exampleModalLabel">ОСТАВИТЬ ЗАЯВКУ</h5>
-        <div class="modal__form_group">
-          <div class="form-group form__item_adress">
-            
-            <input type="text" required class="modal-name" id="modal-name" placeholder=Имя>
-            <label for="modal-name">Имя</label>
-          </div>
-          <div class="form-group form__item_adress">
-            
-            <input type="number" required class="modal-tel" id="modal-tel" placeholder="Телефон">
-            <label for="modal-tel">Телефон</label>
-          </div>
-        </div>
-          
-          <div class=" form-group_flex">
-              <input type="checkbox" class="custom-checkbox_modal" id="chack__box_modal" placeholder="Телефон">
-              <label for="chack__box_modal" class="label_check">Использовать эти данные при регистрации</label>
-            </div>
-        
-
-      </div>
-      <div class="modal-footer">
-        <div class="modal-btn ">
-          <button data-bs-toggle="modal" id="modal-button-send" data-bs-target="#exampleModal_2" data-whatever="@mdo">ОТПРАВИТЬ</button>
-          <!-- <button   id="modal-button-send" >ОТПРАВИТЬ</button> -->
-      </div>
-      <div class="modal-footer_discription">
-          <p>Нажимая кнопку "Отправить", Вы соглашаетесь с условиями <a href="">политики конфиденциальности</a> </p>
-          
-      </div>
-      </div>
-      </form>
+     
       
+      
+      <div class="clear__all_basket_position container__basket container__basket_price clear__all_basket_position">
+          <a href="" class="btn-consultant" type="button"  data-bs-toggle="modal" data-bs-target="#clear__all_basket" data-whatever="@mdo">Очистить корзину</a>
+      </div>
+    </div>
+    <div class="offcanvas-footer_right">
+      
+        <div class="offcanvas-footer_header">
+            <h5>Итого:</h5>
+            <h5>132 590 ₽</h5>
+        </div>
+        <div class="offcanvas-footer_bootom">
+          <p>Cтоимость доставки расчитывается при оформление дзаказа</p>
+          <div class="offcanvas-footer_bootom-btn">
+              <div class="first__button">
+                  <button onclick="javascript:location.href='./basked.html';">перейти в корзину</button>
+              </div>
+              <div class="two__button">
+                  <button onclick="javascript:location.href='./ordering.html';">оФОРМИТЬ ЗАКАЗ </button>
+              </div>
+          </div>
+      </div>
     </div>
   </div>
-</div>
-<!-- МОДЕЛЬНОЕ ОКНО ДИЗАЙН КОНСУЛЬТАНТ -->
-<!-- VМОДЕЛЬНОЕ ОКНО ПОСЛЕ ЗАЯВКИ -->
-<div class="modal fade modal__application_sent" id="exampleModal_2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true"></span>
-          </button>
+  <!-- КОНЕЦ КОРЗИНА МЕНЮ -->
+    
+    
+     <!-- МОДЕЛЬНОЕ ОКНО ОЧИСТИТЬ ВСЮ КОРЗИНУ -->
+  <div class="modal fade clear__all_basket " id="clear__all_basket" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true"></span>
+            </button>
+        </div>
+        <div class="modal-body modal-body-performed modal__basket_text-clear">
+            <h5 class="modal-title" id="exampleModalLabel">Очистить корзину?</h5>
+        </div>
+        <div class="modal-footer">
+          <div class="modal-btn_clear_basket">
+              <a  href="#"><button class="btn__clear_basket_first" data-bs-dismiss="modal" aria-label="Close">Очистить</button></a>
+              <a href="#"><button data-bs-dismiss="modal" aria-label="Close">Отменить</button></a>
+        </div>
+        </div>
       </div>
-      <div class="modal-body modal-body-performed">
-          <h5 class="modal-title" id="exampleModalLabel">Ваша заявка успешно отправлена</h5>
-          <p>В ближайшее время, наш менеджер <br>
-              свяжется с Вами</p>
-      </div>
-      <div class="modal-footer">
-        <div class="modal-btn">
-            <a href="#"><button data-bs-dismiss="modal" aria-label="Close">Вернуться в каталог</button></a>
+    </div>
+  </div>
+  <!--КОНЕЦ МОДЕЛЬНОЕ ОКНО ОЧИСТИТЬ ВСЮ КОРЗИНУ -->
+    
+    
+    
+    
+         <!-- КАТАЛОГ МЕНЮ -->
+        <div class="offcanvas offcanvas-start cataloge__menu_mobil"  tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+          <div class="offcanvas-header">
+            <a href="" type="button" class="catalog__close" data-bs-dismiss="offcanvas" aria-label="Close">Закрыть</a>
+            <div class=" container__header container__header_home ">
+              <div class="row">
+                <div class=" col-3 menu">
+                    <div class="menu__burger menu__burger_hiden">
+                      <div class="cataloge"><a href="" class="menu__burger_btn"  type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop_burger" aria-controls="staticBackdrop"><span></span></a></div>
+                    </div>
+                    <div class="menu__burger">
+                      <div class="catalode catalode__menu_mobile"><a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop_burger" aria-controls="staticBackdrop">Меню</a></div>
+    
+                    </div>
+                  <div class="catalode catalode__header_hiden"><a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop"> Каталог</a></div>
+                </div>
+                <div class="col-6 text-center icon__header">
+                  <img src="/image/mobil_logo_head.png" alt="" />
+                </div>
+                <div class="col-3 text-end align-middle basket">
+                  <div class="img_search">
+                    <a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                      <svg
+                      width="28"
+                      height="28"
+                      viewBox="0 0 28 28"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke="“currentColor”"
+                        d="M12.6874 21.875C17.7615 21.875 21.8749 17.7616 21.8749 12.6875C21.8749 7.61338 17.7615 3.5 12.6874 3.5C7.61326 3.5 3.49988 7.61338 3.49988 12.6875C3.49988 17.7616 7.61326 21.875 12.6874 21.875Z"
+                        stroke="#FCF8F4"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        stroke="“currentColor”"
+                        d="M19.1836 19.1846L24.4993 24.5003"
+                        stroke="#FCF8F4"
+                        stroke-width="1.5"
+                        stroke-linecap="square"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    </a>
+                    
+                  </div>
+                  <div class="basket_all" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <div class="basket__true"><a >Корзина</a> </div>
+                  <div class="quantity__cart">
+                      <a  >1</a>
+                  </div>
+                  </div>
+                  
+                </div>
+            </div>
+            </div>
+          </div>
+          <div class="offcanvas-body offcanvas-body_catalog">
+            <div class="modal-header modal__header_mobil_cataloge">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+                <span aria-hidden="true"></span>
+              </button>
+          </div>
+              <div class="catalog__bloc_see-all">
+                  <a href="./all _furniture.html">
+                      <div class="cataloge__flex">  
+                          <div class="see__all_svg">
+                              <img src="/image/see_all.svg" alt="">
+                          </div>
+                          <div class="cataloge__text">
+                              <p>Смотреть все</p>
+                          </div>
+                        </div>
+                  </a>
+              </div>
+              <div class="catalog__bloc_stock">
+                  <a href="./stock.html">
+                      <div class="cataloge__flex">  
+                          <div class="stock__svg">
+                              <img src="/image/stock.svg" alt="">
+                          </div>
+                          <div class="cataloge__text">
+                              <p>Акции</p>
+                          </div>
+                        </div>
+                  </a>
+              </div>
+              <div class="catalog__bloc_living__room">
+                  <a href=""   data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop_livingRoom" aria-controls="staticBackdrop">
+                      <div class="cataloge__flex">  
+                          <div class="cataloge__living_room-svg">
+                              <img src="/image/armchairs.svg" alt="">
+                          </div>
+                          <div class="cataloge__text">
+                              <p>Гостинная</p>
+                          </div>
+                          <div class="cataloge__arrow_right">
+                              <img src="./image/arrow_right_cataloge.svg" alt="">
+                          </div>
+                        </div>
+                  </a>
+              </div>
+              <div class="catalog__bloc_badroom">
+                  <a href="">
+                      <div class="cataloge__flex">  
+                          <div class="cataloge__badroom_svg">
+                              <img src="/image/cataloge__badroom.svg" alt="">
+                          </div>
+                          <div class="cataloge__text">
+                              <p>Спальня</p>
+                          </div>
+                          <div class="cataloge__arrow_right">
+                              <img src="./image/arrow_right_cataloge.svg" alt="">
+                          </div>
+                        </div>
+                  </a>
+              </div>
+              <div class="catalog__bloc_canteen">
+                  <a href="">
+                      <div class="cataloge__flex">  
+                          <div class="cataloge_canteen_svg">
+                              <img src="/image/canteen.svg" alt="">
+                          </div>
+                          <div class="cataloge__text">
+                              <p>Столовая</p>
+                          </div>
+                          <div class="cataloge__arrow_right">
+                              <img src="./image/arrow_right_cataloge.svg" alt="">
+                          </div>
+                        </div>
+                  </a>
+              </div>
+              <div class="catalog__bloc_kits">
+                  <a href="">
+                      <div class="cataloge__flex">  
+                          <div class="cataloge__kits_svg">
+                              <img src="/image/kits.svg" alt="">
+                          </div>
+                          <div class="cataloge__text">
+                              <p>Комплекты</p>
+                          </div>
+                          <div class="cataloge__arrow_right">
+                              <img src="./image/arrow_right_cataloge.svg" alt="">
+                          </div>
+                        </div>
+                  </a>
+              </div>
+          </div>
+        </div>
+        <!-- КОНЕЦ КАТАЛОГ МЕНЮ -->
+        <!-- КАТАЛОГ МЕНЮ ГОСТИННАЯ -->
+        <div class="offcanvas offcanvas-start cataloge__menu_mobil"  tabindex="-1" id="staticBackdrop_livingRoom" aria-labelledby="staticBackdropLabel">
+          <div class="offcanvas-header">
+            <a href="" type="button" class="catalog__close" data-bs-dismiss="offcanvas" aria-label="Close">Закрыть</a>
+            <div class=" container__header container__header_home ">
+              <div class="row">
+                <div class=" col-3 menu">
+                    <div class="menu__burger menu__burger_hiden">
+                      <div class="cataloge"><a href="" class="menu__burger_btn"  type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop_burger" aria-controls="staticBackdrop"><span></span></a></div>
+                    </div>
+                    <div class="menu__burger">
+                      <div class="catalode catalode__menu_mobile"><a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop_burger" aria-controls="staticBackdrop">Меню</a></div>
+    
+                    </div>
+                  <div class="catalode catalode__header_hiden"><a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop"> Каталог</a></div>
+                </div>
+                <div class="col-6 text-center icon__header">
+                  <img src="/image/mobil_logo_head.png" alt="" />
+                </div>
+                <div class="col-3 text-end align-middle basket">
+                  <div class="img_search">
+                    <a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                      <svg
+                      width="28"
+                      height="28"
+                      viewBox="0 0 28 28"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke="“currentColor”"
+                        d="M12.6874 21.875C17.7615 21.875 21.8749 17.7616 21.8749 12.6875C21.8749 7.61338 17.7615 3.5 12.6874 3.5C7.61326 3.5 3.49988 7.61338 3.49988 12.6875C3.49988 17.7616 7.61326 21.875 12.6874 21.875Z"
+                        stroke="#FCF8F4"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        stroke="“currentColor”"
+                        d="M19.1836 19.1846L24.4993 24.5003"
+                        stroke="#FCF8F4"
+                        stroke-width="1.5"
+                        stroke-linecap="square"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    </a>
+                    
+                  </div>
+                  <div class="basket_all" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <div class="basket__true"><a >Корзина</a> </div>
+                  <div class="quantity__cart">
+                      <a  >1</a>
+                  </div>
+                  </div>
+                  
+                </div>
+            </div>
+            </div>
+          </div>
+          <div class="offcanvas-body offcanvas-body_catalog">
+            <div class="modal-header modal__header_mobil_cataloge modal__header_mobil_cataloge_living_room">
+              <div class="ordering__link_back "  data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+               
+                <div class="ordering__arrow_left ordering__arrow_left_mobil">
+                  <svg width="11" height="8" viewBox="0 0 11 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11 4H1.5" stroke="#999A81" />
+                    <path d="M4.5 0.5L1 4L4.5 7.5" stroke="#999A81" stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <a href="#">Назад</a>
+              </div>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+                <span aria-hidden="true"></span>
+              </button>
+            </div>
+              <div class="catalog__bloc_sofa">
+                  <a href="">
+                      <div class="cataloge__flex">  
+                          <div class="sofas__svg">
+                              <img src="/image/calalogs_sofas.svg" alt="">
+                          </div>
+                          <div class="cataloge__text">
+                              <p>Диваны</p>
+                          </div>
+                        </div>
+                  </a>
+              </div>
+              <div class="catalog__bloc_armchairs">
+                  <a href="">
+                      <div class="cataloge__flex">  
+                          <div class="armchairs__svg">
+                              <img src="/image/armchairs.svg" alt="">
+                          </div>
+                          <div class="cataloge__text">
+                              <p>Кресла</p>
+                          </div>
+                        </div>
+                  </a>
+              </div>
+              <div class="catalog__bloc_coffee-tables">
+                  <a href="">
+                      <div class="cataloge__flex">  
+                          <div class="coffee__tables_svg">
+                              <img src="/image/coffee_tables.svg" alt="">
+                          </div>
+                          <div class="cataloge__text">
+                              <p>Журнальные столики</p>
+                          </div>
+                        </div>
+                  </a>
+              </div>
+          </div>
+        </div>
+        <!-- КОНЕЦ КАТАЛОГ МЕНЮ ГОСТИННАЯ -->
+    
+        </div>
+        <!-- HEADER END -->
+      
+        <div class="design__consultant_container">
+            <div class="container-fluid ">
+              <div class="design__consultant_pad_left">
+                <div class="row design__consultant_header">
+                  <div class=" col-lg-4 design__consultant_header_disription">
+                          <div class="design__consultant_header_text_top">
+                              <h1>Тренды 2022/2023: </h1>
+                          <h2>обеденный стол и новая мебель для столовых</h2>
+                          </div>
+                          <div class="design__consultant_header_text_bottom">
+                              <h4>Модный обеденный стол 2022 года радикален в цветовом отношении и необычен по форме. Добавьте ярких красок в свои столовые, тогда обеденное пространство — станет по-настоящему центром притяжения.</h4>
+                          </div>
+                    </div>
+                    <div class=" col-lg-8 design__consultant_header_image">
+                      <div id="carouselExampleIndicators" class="carousel slide cycle" data-bs-ride="carousel">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a href=""><img src="./image/design_asistent.png" class="d-block w-100" alt="..."></a>
+                              
+                            </div>
+                            <div class="carousel-item">
+                              <a href=""><img src="./image/design_asistent.png" class="d-block w-100" alt="..."></a>
+                            </div>
+                            <div class="carousel-item">
+                              <a href=""><img src="./image/design_asistent.png" class="d-block w-100" alt="..."></a>
+                            </div>
+                          </div>
+                          
+                        </div>
+                  </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-lg-4 design__consultant_content design__consultant_content_first ">
+                  <div class="design__consultant_content_img">
+                      <img src="./image/design_asistent1.png" alt="">
+                  </div>
+                  <div class="design__consultant_content_discription">
+                      <h3>Светлая кухня: СОВЕТЫ ПО ОФОРМЛЕНИЮ <br> И 5 ПОДХОДЯЩИХ СТИЛЕЙ</h3>
+                      <p>От ар-деко до минимализма: новые коллекции кухонь фабрики «Мария». Эстетичный внешний вид…</p>
+                  </div>
+                </div>
+                <div class="col-md-12 col-lg-4 design__consultant_content design__consultant_content_second">
+                  <div class="design__consultant_content_discription">
+                      <h3>Зелёный + белый: 20+ примеров</h3>
+                      <p>Продолжаем рассказывать о популярных сочетаниях цветов в интерьере. В сегодняшней подборке — самый летний и свежий вариант: зелёный + белый!</p>
+                  </div>
+                  <div class="design__consultant_content_img">
+                      <img src="./image/design_asistent2.png" alt="">
+                  </div>
+                </div>
+                <div class="col-md-12 col-lg-4 design__consultant_content design__consultant_content_third">
+                  <div class="design__consultant_content_img">
+                      <img src="./image/design_asistent3.png" alt="">
+                  </div>
+                  <div class="design__consultant_content_discription">
+                      <h3>Обустраиваем гостиную: советы и идеи</h3>
+                      <p>Гостиная — сердце дома, и важно правильно выбрать и расставить в ней мебель, чтобы пространство получилось красивым, эргономичным и функциональным</p>
+                  </div>
+                </div>
+            </div>
+          <div class="row design__consultant_content_third_section">
+              <div class="col-lg-8 disign_consultant_big">
+                  <img src="./image/design_big1.png" alt="">
+              </div>
+              <div class=" col-lg-4 design__consultant_header_disription">
+                  <div class="design__consultant_header_text_top">
+                      <h1>Интерьер месяца: </h1>
+                  <h2>модный интерьер для инкогнито</h2>
+                  </div>
+                  <div class="design__consultant_header_text_bottom">
+                      <h4>Оформляя квартиру площадью 200 кв. метров с видами на Москва-Сити, архитектор Мария Бахарева не знала, кто в итоге в ней поселится. Поэтому решила сделать интерьер «как для себя» и не прогадала</h4>
+                  </div>
+            </div>
+          </div>
+          <div class="hiden__button_design">
+            <button class="open_block_design">загрузить еще</button>
+          </div>
+          <div class="heden__design">
+            <div class="row">
+              <div class="col-lg-4 design__consultant_content design__consultant_content_first">
+                  <div class="design__consultant_content_discription design__consultant_content_discription_second">
+                      <h3>Серый цвет в спальне: 55+ нескучных идей</h3>
+                      <p>Серый не случайно называют «новым чёрным»: этот незаслуженно недооцениваемый в прежние времена оттенок в последние сезоны набирает бешеную популярность у дизайнеров интерьера</p>
+                  </div>
+                  <div class="design__consultant_content_img">
+                      <img src="./image/design_asistent4.png" alt="">
+                  </div>
+                </div>
+                <div class="col-lg-4 design__consultant_content design__consultant_content_second ">
+                  <div class="design__consultant_content_img">
+                      <img src="./image/design_asistent5.png" alt="">
+                  </div>
+                  <div class="design__consultant_content_discription design__consultant_content_discription_second_midle">
+                      <h3>5 антитрендов в интерьере, которые легко исправить</h3>
+                      <p>Плитка с 3D-рисунком, синтетические шторы и клеёнка на столе — рассказываем, какие приёмы декорирования уже устарели и как быстро исправить ситуацию</p>
+                  </div>
+                </div>
+              <div class="col-lg-4 design__consultant_content design__consultant_content_third">
+                  <div class="design__consultant_content_discription design__consultant_content_discription_second">
+                      <h3>Обустраиваем гостиную: советы и идеи</h3>
+                      <p>Гостиная — сердце дома, и важно правильно выбрать и расставить в ней мебель, чтобы пространство получилось красивым, эргономичным и функциональным</p>
+                  </div>
+                  <div class="design__consultant_content_img">
+                      <img src="./image/design_asistent6.png" alt="">
+                  </div>
+                </div>
+          </div>
+          <div class="row design__consultant_five_section">
+            <div class="col-lg-4 design__consultant_content design__consultant_content_first design__consultant_content_border">
+                <div class="design__consultant_content_img">
+                    <img src="./image/design_asistent7.png" alt="">
+                </div>
+                <div class="design__consultant_content_discription">
+                    <h3>Картины в оформлении спальни: 50+ стильных идей</h3>
+                    <p>Абстракция, экотематика и черно-белая графика — рассказываем и показываем на примерах, как украсить разные комнаты стильными картинами</p>
+                </div>
+            </div>
+            <div class="col-lg-8 design__consultant_content design__consultant_content_third ">
+                <div class="design__consultant_content_img design__consultant_content_third_pos">
+                    <img src="./image/design_big2.png" alt="">
+                    <div class="bg_black">
+  
+                    </div>
+                    <div class="design__consultant_content_third_text_center">
+                        <h1>5 актуальных трендов в дизайне кухни</h1>
+                    </div>
+                </div>
+                
+              </div>
+  
+        </div>
+          </div>
+              </div>
+                
+              
+              
+            </div>
+        </div>
+  
+  
+  
+  
+     <!-- ДИЗАЙН КОНСУЛЬТАНТ -->
+     <div class="design__consultant">
+      <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 design__consultant_border design__consultant_bg">
+              <div>
+                <div class="head__text text-center summer__sale_text">
+                  <h1>ДИЗАЙН КОНСУЛЬТАНТ</h1>
+                  <p>Поможем подобрать подходящую мебель для вашего интерьера </p>
+                </div>
+                <div class="head__text-button text-center summer__sale_pad">
+                  
+                    <button  class="btn-consultant" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" data-whatever="@mdo">отправить заявку</button>
+                  
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+  </div>
+  
+  
+  
+   <!-- МОДЕЛЬНОЕ ОКНО ДИЗАЙН КОНСУЛЬТАНТ -->
+   <div class="modal fade modal__design_consoltant" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true"></span>
+            </button>
+        </div>
+        <form action="" id="form-validation">
+          <div class="modal-body">
+            <h5 class="modal-title" id="exampleModalLabel">ОСТАВИТЬ ЗАЯВКУ</h5>
+          <div class="modal__form_group">
+            <div class="form-group form__item_adress">
+              
+              <input type="text" required class="modal-name" id="modal-name" placeholder=Имя>
+              <label for="modal-name">Имя</label>
+            </div>
+            <div class="form-group form__item_adress">
+              
+              <input type="number" required class="modal-tel" id="modal-tel" placeholder="Телефон">
+              <label for="modal-tel">Телефон</label>
+            </div>
+          </div>
+            
+            <div class=" form-group_flex">
+                <input type="checkbox" class="custom-checkbox_modal" id="chack__box_modal" placeholder="Телефон">
+                <label for="chack__box_modal" class="label_check">Использовать эти данные при регистрации</label>
+              </div>
           
-      </div>
+  
+        </div>
+        <div class="modal-footer">
+          <div class="modal-btn ">
+            <button data-bs-toggle="modal" id="modal-button-send" data-bs-target="#exampleModal_2" data-whatever="@mdo">ОТПРАВИТЬ</button>
+            <!-- <button   id="modal-button-send" >ОТПРАВИТЬ</button> -->
+        </div>
+        <div class="modal-footer_discription">
+            <p>Нажимая кнопку "Отправить", Вы соглашаетесь с условиями <a href="">политики конфиденциальности</a> </p>
+            
+        </div>
+        </div>
+        </form>
+        
       </div>
     </div>
   </div>
-</div>
-
-
-
-
- 
-
-<!-- FOOTER -->
+  <!-- МОДЕЛЬНОЕ ОКНО ДИЗАЙН КОНСУЛЬТАНТ -->
+  <!-- VМОДЕЛЬНОЕ ОКНО ПОСЛЕ ЗАЯВКИ -->
+  <div class="modal fade modal__application_sent" id="exampleModal_2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true"></span>
+            </button>
+        </div>
+        <div class="modal-body modal-body-performed">
+            <h5 class="modal-title" id="exampleModalLabel">Ваша заявка успешно отправлена</h5>
+            <p>В ближайшее время, наш менеджер <br>
+                свяжется с Вами</p>
+        </div>
+        <div class="modal-footer">
+          <div class="modal-btn">
+              <a href="#"><button data-bs-dismiss="modal" aria-label="Close">Вернуться в каталог</button></a>
+            
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      </div>
+      <div class="content__footer">
+            <!-- FOOTER -->
 <div class="footer footer__desctop">
   <div class="container-fluid">
       <div class="row ">
@@ -1182,7 +1180,7 @@
               <h5 class="modal-title" id="exampleModalLabel">версия сайта для профессионалов</h5>
               <p>предназначена для дизайнеров, поставщиков и HoReCa. Открывает расширененны функционал такой как:</p>
 
-              <div id="carouselExampleIndicators" class="carousel slide cycle" data-bs-ride="carousel">
+              <div id="carouselExampleIndicators2" class="carousel slide cycle" data-bs-ride="carousel">
                 
                 <div class="carousel-inner" >
                   <div class="carousel-item active " >
@@ -1212,10 +1210,10 @@
                 </div>
                 
                 <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="3" aria-label="Slide 4"></button>
                 </div>
               </div>
 
@@ -1293,6 +1291,16 @@
       
     </div>
   </div>
+      </div>
+  </div>
+   
+
+
+
+
+ 
+
+
 
 
     <script src="/js/design_consultant.js"></script>

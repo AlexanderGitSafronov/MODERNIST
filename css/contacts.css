@@ -144,3 +144,6 @@
 .contacts__information_mobil {
     display: none;
 }
+.row {
+    justify-content: start;
+}

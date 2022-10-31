@@ -14,6 +14,9 @@
     .contacts__width_second {
         width: 21%;
     }
+    .contacts__width_third {
+        width: 20%;
+    }
     
 }
 @media (max-width: 1536px) {
@@ -129,8 +132,10 @@
     }
     
 }
-@media (max-width: 800px) {
-    
+@media (max-width: 912px) {
+    .row {
+        justify-content: start;
+    }
 }
 @media (max-width: 767px) {
     .contacts__links_pos {

@@ -33,6 +33,7 @@
 @media (max-width: 1280px)  {
     .basket__empty h1 {
         font-size: 50px;
+        line-height: 50px;
     }
     .basket__empty p {
         font-size: 16px;
@@ -40,10 +41,7 @@
 }
 @media (max-width: 1024px) {
     
-  .basket__empty h1 {
-      font-size: 50px;
-      line-height: 60px;
-  }
+  
   .basket__empty h2 {
       font-size: 26px;
   }
@@ -96,6 +94,20 @@
     }
     .basket__empty_button a {
         padding: 15px 90px;
+    }
+    
+    
+  }
+  @media (max-width: 540px) {
+    .basket__empty h1 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .basket__empty p {
+        font-size: 14px;
+    }
+    .basket__empty_header {
+        width: 350px;
     }
     
     
