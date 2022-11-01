@@ -340,6 +340,12 @@ function removeDeliveryValidation() {
         errorMessage: 'Укажите этаж',
       },
     ]);
+    $('#cyty__ordering').prop('required', false);
+    $('#street__ordering').prop('required', false);
+    $('#home__ordering').prop('required', false);
+    $('#frame__ordering').prop('required', false);
+    $('#entrance__ordering').prop('required', false);
+    $('#floor__ordering').prop('required', false);
 }
 function removeOtherRecipient() {
   validation
@@ -714,6 +720,7 @@ function serviceDelivery() {
 // Кнопка ДАЛЕЕ первой страницы
 document.querySelector('.buyer__data_ordering_button_next').addEventListener('click', (e) => {
   validation.destroy();
+  
   if (isPhisicalBody) {
     addPhysicalValidation();
     removeEntityValidation();
@@ -803,3 +810,25 @@ document.querySelector('.confirm__order_button_next').addEventListener('click', 
 });
 
 
+// НЕ РАБОТАЛО СКРЫТИЕ ПОДСКАЗКИ НА МОБИЛКЕ
+let inputs = document.querySelectorAll('.ordering__input_error');
+
+for(let i = 0; i < inputs.length; i++) {
+
+  inputs[i].addEventListener('input', changeError);
+  function changeError(event) {
+  let itemElement = $(event.target).closest('.form__item_adress');
+  let itemFind = itemElement.find('.just-validate-error-label');
+  console.log(itemFind);
+    if (event.target.value !== '') {
+      itemFind[0].style.display = 'none';
+    } else {
+      itemFind[0].style.display = 'block';
+    }
+  }
+
+
+}
+
+
+  

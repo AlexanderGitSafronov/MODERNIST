@@ -509,6 +509,9 @@ width: 152px;
     background-color: #FEF7F0;
 }
 .dropdown-text p {
+    color: #24160B;
+}
+.dropdown-text p span {
     color: rgba(33, 37, 41, 0.5);
 }
 

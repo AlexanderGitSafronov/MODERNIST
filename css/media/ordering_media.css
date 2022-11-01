@@ -299,8 +299,12 @@ button {
     .form__item_adress input {
         width: 97.5%;
     }
+    .label__radio {
+        font-size: 12px;
+    }
 
   }
+
   @media (max-width: 1279px)  {
       .choice__address .modal-content .modal__choice_address_flex {
           display: block;
@@ -323,6 +327,11 @@ button {
     }
     
     
+  }
+  @media (max-width: 1278px)  {
+    .custom-radio {
+        margin-left: 0;
+    }
   }
   @media (max-width: 1024px) {
     .ordering {
@@ -373,7 +382,7 @@ button {
         background-size: 64% 61%;
     }
     .custom-radio {
-        margin-left: 14px;
+        margin-left: 0px;
     }
     .way__to_get button {
         font-size: 12px;
@@ -456,6 +465,9 @@ button {
     .four__input_flex_second .from__errors input {
         width: 97%;
     }
+    .label__radio {
+        font-size: 13px;
+    }
     
 }
 @media (max-width: 991px) {
@@ -486,7 +498,23 @@ button {
     }
     
 }
-@media (max-width: 800px) {
+@media (max-width: 912px) {
+    .ordering__basked {
+        padding-left: 10px;
+        padding-right: 7px;
+    }
+    .custom-radio {
+        margin-left: 0;
+    }
+    .transport__company_svg img {
+        padding-right: 50px;
+    }
+    .way__to_get {
+        padding: 25px 24px;
+    }
+}
+
+@media (max-width: 820px) {
     .ordering__input .ordering__input_form {
         display: block;
     }
