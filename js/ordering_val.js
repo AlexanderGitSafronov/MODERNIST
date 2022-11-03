@@ -1,6 +1,13 @@
 $('document').ready(function () {
   $('#ordering__button').on('click', function () {
-    $('input[required]').addClass('red');
+    setTimeout(function () {
+      if($('input').hasClass('just-validate-error-field')) {
+        $('input[required]').addClass('red');
+      } else {
+        $('input[required]').removeClass('red');
+      }
+    }, 0);
+    // $('input[required]').addClass('red');
   });
 });
 
@@ -226,6 +233,17 @@ function removePhysicalValidation() {
         errorMessage: 'Почта указана не верно',
       },
     ]);
+
+    $('#name__ordering').prop('required', false);
+    $('#last__name_ordering').prop('required', false);
+    $('#phone__ordering').prop('required', false);
+    $('#email__ordering').prop('required', false);
+
+    $('#name__ordering').removeClass('red');
+    $('#last__name_ordering').removeClass('red');
+    $('#phone__ordering').removeClass('red');
+    $('#email__ordering').removeClass('red');
+
 }
 function removeEntityValidation() {
   validation
@@ -300,6 +318,16 @@ function removeEntityValidation() {
     $('#ihh__entity').prop('required', false);
     $('#adress__entity').prop('required', false);
     $('#mailing__address_entity').prop('required', false);
+
+    $('#how__name_entity').removeClass('red');
+    $('#phone__entity').removeClass('red');
+    $('#email__entity').removeClass('red');
+    $('#name__organization_entity').removeClass('red');
+    $('#name__seal_entity').removeClass('red');
+    $('#kpp__entity').removeClass('red');
+    $('#ihh__entity').removeClass('red');
+    $('#adress__entity').removeClass('red');
+    $('#mailing__address_entity').removeClass('red');
 }
 function removeDeliveryValidation() {
   validation
@@ -346,6 +374,13 @@ function removeDeliveryValidation() {
     $('#frame__ordering').prop('required', false);
     $('#entrance__ordering').prop('required', false);
     $('#floor__ordering').prop('required', false);
+
+    $('#cyty__ordering').removeClass('red');
+    $('#street__ordering').removeClass('red');
+    $('#home__ordering').removeClass('red');
+    $('#frame__ordering').removeClass('red');
+    $('#entrance__ordering').removeClass('red');
+    $('#floor__ordering').removeClass('red');
 }
 function removeOtherRecipient() {
   validation
@@ -405,6 +440,11 @@ document.getElementById('ordering__validation').addEventListener('submit', appro
 // СТРАНИЦА ЗАКАЗОВ
 
 function show1() {
+  if($('.form__item_adress').hasClass('just-validate-error-field')) {
+    $('input[required]').addClass('red');
+  } else {
+    $('input[required]').removeClass('red');
+  }
   isPhisicalBody = true;
   // removeEntityValidation();
   document.getElementById('div1').style.display = 'block';
@@ -416,6 +456,8 @@ function show1() {
     $('#last__name_ordering').prop('required', true);
     $('#phone__ordering').prop('required', true);
     $('#email__ordering').prop('required', true);
+
+    
   }
 
   if (document.getElementById('div2').style.display === 'none') {
@@ -429,78 +471,95 @@ function show1() {
     $('#adress__entity').prop('required', false);
     $('#mailing__address_entity').prop('required', false);
 
-    // validation.removeField('#how__name_entity', [
-    //     {
-    //         rule: 'required',
-    //         errorMessage: 'Как к вам обращаться?'
-    //       }
+    $('#how__name_entity').removeClass('red');
+    $('#phone__entity').removeClass('red');
+    $('#email__entity').removeClass('red');
+    $('#name__organization_entity').removeClass('red');
+    $('#name__seal_entity').removeClass('red');
+    $('#kpp__entity').removeClass('red');
+    $('#ihh__entity').removeClass('red');
+    $('#adress__entity').removeClass('red');
+    $('#mailing__address_entity').removeClass('red');
 
-    // ])
-    // .removeField('#phone__entity', [
-    //     {
-    //         rule: 'required',
-    //         errorMessage: 'Укажите телефон'
-    //       }
+    validation.removeField('#how__name_entity', [
+        {
+            rule: 'required',
+            errorMessage: 'Как к вам обращаться?'
+          }
 
-    // ])
+    ])
+    .removeField('#phone__entity', [
+        {
+            rule: 'required',
+            errorMessage: 'Укажите телефон'
+          }
 
-    // .removeField('#email__entity', [
-    //     {
-    //         rule: 'required',
-    //         errorMessage: 'Укажите электронную почту'
-    //       },
-    //       {
-    //         rule: 'email',
-    //         errorMessage: 'Почта указана не верно'
-    //       }
+    ])
 
-    // ])
+    .removeField('#email__entity', [
+        {
+            rule: 'required',
+            errorMessage: 'Укажите электронную почту'
+          },
+          {
+            rule: 'email',
+            errorMessage: 'Почта указана не верно'
+          }
 
-    // .removeField('#name__organization_entity', [
-    //     {
-    //         rule: 'required',
-    //         errorMessage: 'Укажите название организации'
-    //       }
+    ])
 
-    // ])
-    // .removeField('#name__seal_entity', [
-    //     {
-    //         rule: 'required',
-    //         errorMessage: 'Укажите название (для печати)'
-    //       }
+    .removeField('#name__organization_entity', [
+        {
+            rule: 'required',
+            errorMessage: 'Укажите название организации'
+          }
 
-    // ])
-    // .removeField('#kpp__entity', [
-    //     {
-    //         rule: 'required',
-    //         errorMessage: 'Укажите КПП'
-    //       }
+    ])
+    .removeField('#name__seal_entity', [
+        {
+            rule: 'required',
+            errorMessage: 'Укажите название (для печати)'
+          }
 
-    // ])
-    // .removeField('#ihh__entity', [
-    //     {
-    //         rule: 'required',
-    //         errorMessage: 'Укажите ИНН'
-    //       }
+    ])
+    .removeField('#kpp__entity', [
+        {
+            rule: 'required',
+            errorMessage: 'Укажите КПП'
+          }
 
-    // ])
-    // .removeField('#adress__entity', [
-    //     {
-    //         rule: 'required',
-    //         errorMessage: 'Укажите юридический адрес'
-    //       }
+    ])
+    .removeField('#ihh__entity', [
+        {
+            rule: 'required',
+            errorMessage: 'Укажите ИНН'
+          }
 
-    // ])
-    // .removeField('#mailing__address_entity', [
-    //     {
-    //         rule: 'required',
-    //         errorMessage: 'Укажите почтовый адрес'
-    //       }
+    ])
+    .removeField('#adress__entity', [
+        {
+            rule: 'required',
+            errorMessage: 'Укажите юридический адрес'
+          }
 
-    // ])
+    ])
+    .removeField('#mailing__address_entity', [
+        {
+            rule: 'required',
+            errorMessage: 'Укажите почтовый адрес'
+          }
+
+    ])
   }
 }
 function show2() {
+  setTimeout(function () {
+      if($('input').hasClass('just-validate-error-field')) {
+        $('input[required]').addClass('red');
+      } else {
+        $('input[required]').removeClass('red');
+      }
+    }, 1);
   isPhisicalBody = false;
   document.getElementById('div1').style.display = 'none';
   document.getElementById('div3').style.display = 'none';
@@ -512,36 +571,41 @@ function show2() {
     $('#phone__ordering').prop('required', false);
     $('#email__ordering').prop('required', false);
 
-    // validation
-    //   .removeField('#name__ordering', [
-    //     {
-    //       rule: 'required',
-    //       errorMessage: 'Укажите имя',
-    //     },
-    //   ])
-    //   .removeField('#last__name_ordering', [
-    //     {
-    //       rule: 'required',
-    //       errorMessage: 'Укажите фамилию',
-    //     },
-    //   ])
-    //   .removeField('#phone__ordering', [
-    //     {
-    //       rule: 'required',
-    //       errorMessage: 'Укажите номер',
-    //     },
-    //   ])
+    $('#name__ordering').removeClass('red');
+    $('#last__name_ordering').removeClass('red');
+    $('#phone__ordering').removeClass('red');
+    $('#email__ordering').removeClass('red');
 
-    //   .removeField('#email__ordering', [
-    //     {
-    //       rule: 'required',
-    //       errorMessage: 'Укажите электронную почту',
-    //     },
-    //     {
-    //       rule: 'email',
-    //       errorMessage: 'Почта указана не верно',
-    //     },
-    //   ]);
+    validation
+      .removeField('#name__ordering', [
+        {
+          rule: 'required',
+          errorMessage: 'Укажите имя',
+        },
+      ])
+      .removeField('#last__name_ordering', [
+        {
+          rule: 'required',
+          errorMessage: 'Укажите фамилию',
+        },
+      ])
+      .removeField('#phone__ordering', [
+        {
+          rule: 'required',
+          errorMessage: 'Укажите номер',
+        },
+      ])
+
+      .removeField('#email__ordering', [
+        {
+          rule: 'required',
+          errorMessage: 'Укажите электронную почту',
+        },
+        {
+          rule: 'email',
+          errorMessage: 'Почта указана не верно',
+        },
+      ]);
   }
 
   if (document.getElementById('div2').style.display === 'block') {
@@ -560,6 +624,13 @@ function show2() {
 }
 
 function show3() {
+  setTimeout(function () {
+    if($('input').hasClass('just-validate-error-field')) {
+      $('input[required]').addClass('red');
+    } else {
+      $('input[required]').removeClass('red');
+    }
+  }, 0);
   isDelivery = false;
   removeDeliveryValidation();
   document.getElementById('way__to_get').style.display = 'block';
@@ -572,6 +643,8 @@ function show3() {
     $('#frame__ordering').prop('required', false);
     $('#entrance__ordering').prop('required', false);
     $('#floor__ordering').prop('required', false);
+
+    
 
     // validation.removeField('#cyty__ordering', [
     //     {
@@ -619,10 +692,12 @@ function show3() {
   }
 }
 function show4() {
+  
   isDelivery = true;
   document.getElementById('way__to_get').style.display = 'none';
   document.getElementById('way__to_get_two').style.display = 'block';
 
+  
   if (document.getElementById('way__to_get_two').style.display === 'block') {
     $('#cyty__ordering').prop('required', true);
     $('#street__ordering').prop('required', true);
@@ -630,7 +705,7 @@ function show4() {
     $('#frame__ordering').prop('required', true);
     $('#entrance__ordering').prop('required', true);
     $('#floor__ordering').prop('required', true);
-
+    
     // addDeliveryValidation();
   }
 }
@@ -640,6 +715,31 @@ function showOnline() {
   document.getElementById('upon__receipt').style.display = 'none';
   document.getElementById('installment__plan').style.display = 'none';
   document.getElementById('cash__on_delivery').style.display = 'none';
+  document.getElementById('cash__on_delivery_content_name').style.display = 'none';
+
+  
+
+  anotherReceiver = false;
+        $('#another__name_ordering').prop('required', false);
+        $('#another__last_name_ordering').prop('required', false);
+        $('#another__patronymic_ordering').prop('required', false);
+        $('#another__phone_ordering').prop('required', false);
+  
+        $('#another__name_ordering').removeClass('red');
+        $('#another__last_name_ordering').removeClass('red');
+        $('#another__patronymic_ordering').removeClass('red');
+        $('#another__phone_ordering').removeClass('red');
+  
+        removeOtherRecipient();
+
+        document.getElementById("label_check_delivery").checked = false;
+
+        if($('input').hasClass('just-validate-error-field')) {
+          $('input[required]').addClass('red');
+        } else {
+          $('input[required]').removeClass('red');
+        }
+  
 }
 function showInstallmentPlan() {
   paymentMethod = 'intallment';
@@ -647,6 +747,28 @@ function showInstallmentPlan() {
   document.getElementById('show__online').style.display = 'none';
   document.getElementById('upon__receipt').style.display = 'none';
   document.getElementById('cash__on_delivery').style.display = 'none';
+  document.getElementById('cash__on_delivery_content_name').style.display = 'none';
+
+  anotherReceiver = false;
+        $('#another__name_ordering').prop('required', false);
+        $('#another__last_name_ordering').prop('required', false);
+        $('#another__patronymic_ordering').prop('required', false);
+        $('#another__phone_ordering').prop('required', false);
+  
+        $('#another__name_ordering').removeClass('red');
+        $('#another__last_name_ordering').removeClass('red');
+        $('#another__patronymic_ordering').removeClass('red');
+        $('#another__phone_ordering').removeClass('red');
+  
+        removeOtherRecipient();
+
+        document.getElementById("label_check_delivery").checked = false;
+
+        if($('input').hasClass('just-validate-error-field')) {
+          $('input[required]').addClass('red');
+        } else {
+          $('input[required]').removeClass('red');
+        }
 }
 function uponReceipt() {
   paymentMethod = 'uponReceipt';
@@ -654,6 +776,28 @@ function uponReceipt() {
   document.getElementById('installment__plan').style.display = 'none';
   document.getElementById('show__online').style.display = 'none';
   document.getElementById('cash__on_delivery').style.display = 'none';
+  document.getElementById('cash__on_delivery_content_name').style.display = 'none';
+
+  anotherReceiver = false;
+        $('#another__name_ordering').prop('required', false);
+        $('#another__last_name_ordering').prop('required', false);
+        $('#another__patronymic_ordering').prop('required', false);
+        $('#another__phone_ordering').prop('required', false);
+  
+        $('#another__name_ordering').removeClass('red');
+        $('#another__last_name_ordering').removeClass('red');
+        $('#another__patronymic_ordering').removeClass('red');
+        $('#another__phone_ordering').removeClass('red');
+  
+        removeOtherRecipient();
+  
+        document.getElementById("label_check_delivery").checked = false;
+
+        if($('input').hasClass('just-validate-error-field')) {
+          $('input[required]').addClass('red');
+        } else {
+          $('input[required]').removeClass('red');
+        }
 }
 function cashOnDelivery() {
   paymentMethod = 'cashOnDelivery';
@@ -661,58 +805,95 @@ function cashOnDelivery() {
   document.getElementById('installment__plan').style.display = 'none';
   document.getElementById('show__online').style.display = 'none';
   document.getElementById('upon__receipt').style.display = 'none';
+
+
+  
 }
-function serviceDelivery() {
-  if (document.getElementById('cash__on_delivery_content_name').style.display === 'block') {
-    document.getElementById('cash__on_delivery_content_name').style.display = 'none';
-    if ((document.getElementById('cash__on_delivery_content_name').style.display = 'none')) {
-      anotherReceiver = false;
-      $('#another__name_ordering').prop('required', false);
-      $('#another__last_name_ordering').prop('required', false);
-      $('#another__patronymic_ordering').prop('required', false);
-      $('#another__phone_ordering').prop('required', false);
 
-      removeOtherRecipient();
 
-      // validation.removeField('#another__name_ordering', [
-      //     {
-      //         rule: 'required',
-      //         errorMessage: 'Укажите имя'
-      //       }
+if(document.getElementById('cash__on_delivery').style.display = 'block') {
+  function serviceDelivery() {
+    // setTimeout(function () {
+    //   if($('input').hasClass('just-validate-error-field')) {
+    //     $('input[required]').addClass('red');
+    //   } else {
+    //     $('input[required]').removeClass('red');
+    //   }
+    // }, 1);
+    if (document.getElementById('cash__on_delivery_content_name').style.display === 'block') {
+      document.getElementById('cash__on_delivery_content_name').style.display = 'none';
+      if ((document.getElementById('cash__on_delivery_content_name').style.display = 'none')) {
+        anotherReceiver = false;
+        $('#another__name_ordering').prop('required', false);
+        $('#another__last_name_ordering').prop('required', false);
+        $('#another__patronymic_ordering').prop('required', false);
+        $('#another__phone_ordering').prop('required', false);
+  
+        $('#another__name_ordering').removeClass('red');
+        $('#another__last_name_ordering').removeClass('red');
+        $('#another__patronymic_ordering').removeClass('red');
+        $('#another__phone_ordering').removeClass('red');
+  
+        removeOtherRecipient();
+  
+        // validation.removeField('#another__name_ordering', [
+        //     {
+        //         rule: 'required',
+        //         errorMessage: 'Укажите имя'
+        //       }
+  
+        // ])
+        // .removeField('#another__last_name_ordering', [
+        //     {
+        //         rule: 'required',
+        //         errorMessage: 'Укажите фамилию'
+        //       }
+  
+        // ])
+        // .removeField('#another__patronymic_ordering', [
+        //     {
+        //         rule: 'required',
+        //         errorMessage: 'Укажите отчество'
+        //       }
+  
+        // ])
+        // .removeField('#another__phone_ordering', [
+        //     {
+        //         rule: 'required',
+        //         errorMessage: 'Укажите номер'
+        //       }
+  
+        // ])
+      }
+    } else {
+      anotherReceiver = true;
+      
+      document.getElementById('cash__on_delivery_content_name').style.display = 'block';
+      if ((document.getElementById('cash__on_delivery_content_name').style.display = 'block')) {
+        
 
-      // ])
-      // .removeField('#another__last_name_ordering', [
-      //     {
-      //         rule: 'required',
-      //         errorMessage: 'Укажите фамилию'
-      //       }
-
-      // ])
-      // .removeField('#another__patronymic_ordering', [
-      //     {
-      //         rule: 'required',
-      //         errorMessage: 'Укажите отчество'
-      //       }
-
-      // ])
-      // .removeField('#another__phone_ordering', [
-      //     {
-      //         rule: 'required',
-      //         errorMessage: 'Укажите номер'
-      //       }
-
-      // ])
-    }
-  } else {
-    anotherReceiver = true;
-    document.getElementById('cash__on_delivery_content_name').style.display = 'block';
-    if ((document.getElementById('cash__on_delivery_content_name').style.display = 'block')) {
-      $('#another__name_ordering').prop('required', true);
-      $('#another__last_name_ordering').prop('required', true);
-      $('#another__patronymic_ordering').prop('required', true);
-      $('#another__phone_ordering').prop('required', true);
+        $('#another__name_ordering').prop('required', true);
+        $('#another__last_name_ordering').prop('required', true);
+        $('#another__patronymic_ordering').prop('required', true);
+        $('#another__phone_ordering').prop('required', true);
+      }
     }
   }
+}
+
+if(document.getElementById('cash__on_delivery').style.display = 'none') {
+  anotherReceiver = false;
+        $('#another__name_ordering').prop('required', false);
+        $('#another__last_name_ordering').prop('required', false);
+        $('#another__patronymic_ordering').prop('required', false);
+        $('#another__phone_ordering').prop('required', false);
+  
+        $('#another__name_ordering').removeClass('red');
+        $('#another__last_name_ordering').removeClass('red');
+        $('#another__patronymic_ordering').removeClass('red');
+        $('#another__phone_ordering').removeClass('red');
+  
+        removeOtherRecipient();
 }
 
 // МОБИЛЬНАЯ ВЕРСИЯ
@@ -825,10 +1006,14 @@ for(let i = 0; i < inputs.length; i++) {
     } else {
       itemFind[0].style.display = 'block';
     }
+
+   
   }
 
 
 }
+
+
 
 
   

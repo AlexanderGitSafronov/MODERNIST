@@ -929,6 +929,7 @@ button {
     .balloon .balloon__button button {
         margin-top: 10px;
     }
+   
 }
 @media (max-width: 600px) {
     .transport__company_svg img {
