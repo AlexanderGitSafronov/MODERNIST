@@ -553,13 +553,11 @@ function show1() {
   }
 }
 function show2() {
-  setTimeout(function () {
-      if($('input').hasClass('just-validate-error-field')) {
-        $('input[required]').addClass('red');
-      } else {
-        $('input[required]').removeClass('red');
-      }
-    }, 1);
+  if($('.form__item_adress').hasClass('just-validate-error-field')) {
+    $('input[required]').addClass('red');
+  } else {
+    $('input[required]').removeClass('red');
+  }
   isPhisicalBody = false;
   document.getElementById('div1').style.display = 'none';
   document.getElementById('div3').style.display = 'none';
@@ -630,7 +628,7 @@ function show3() {
     } else {
       $('input[required]').removeClass('red');
     }
-  }, 0);
+  }, 1);
   isDelivery = false;
   removeDeliveryValidation();
   document.getElementById('way__to_get').style.display = 'block';
@@ -805,21 +803,16 @@ function cashOnDelivery() {
   document.getElementById('installment__plan').style.display = 'none';
   document.getElementById('show__online').style.display = 'none';
   document.getElementById('upon__receipt').style.display = 'none';
-
-
-  
 }
 
 
 if(document.getElementById('cash__on_delivery').style.display = 'block') {
   function serviceDelivery() {
-    // setTimeout(function () {
-    //   if($('input').hasClass('just-validate-error-field')) {
-    //     $('input[required]').addClass('red');
-    //   } else {
-    //     $('input[required]').removeClass('red');
-    //   }
-    // }, 1);
+    if($('input').hasClass('just-validate-error-field')) {
+      $('input[required]').addClass('red');
+    } else {
+      $('input[required]').removeClass('red');
+    }
     if (document.getElementById('cash__on_delivery_content_name').style.display === 'block') {
       document.getElementById('cash__on_delivery_content_name').style.display = 'none';
       if ((document.getElementById('cash__on_delivery_content_name').style.display = 'none')) {
@@ -869,13 +862,15 @@ if(document.getElementById('cash__on_delivery').style.display = 'block') {
       anotherReceiver = true;
       
       document.getElementById('cash__on_delivery_content_name').style.display = 'block';
+      
       if ((document.getElementById('cash__on_delivery_content_name').style.display = 'block')) {
-        
-
         $('#another__name_ordering').prop('required', true);
         $('#another__last_name_ordering').prop('required', true);
         $('#another__patronymic_ordering').prop('required', true);
         $('#another__phone_ordering').prop('required', true);
+
+        
+        
       }
     }
   }
@@ -894,6 +889,7 @@ if(document.getElementById('cash__on_delivery').style.display = 'none') {
         $('#another__phone_ordering').removeClass('red');
   
         removeOtherRecipient();
+        
 }
 
 // МОБИЛЬНАЯ ВЕРСИЯ

@@ -38,6 +38,7 @@
     <link rel="stylesheet" href="./css/media/installment_customer_service_media.css">
     <link rel="stylesheet" href="./css/media/appeals_media.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
   </head>
   <body>
     <div class="wrapper__content_body">
@@ -1050,17 +1051,18 @@
                                         <div class="authorization">
                         <div class="ordering__input "  data-id="01">
                            <div class="adress__express" >
-                            <form class="organization__w" action="">
+                            <form class="organization__w" id="valid__appeals" action="" onsubmit="e => approveOrder(e)">
                                 <div class="modal__form_group">
                                     <div class="form-group form__item_adress">
-                                      <input type='text' name='modal__sms__code' class='modal__sms__code' id="modal__sms__code" value=""  placeholder='Телефон или E-mail'/>
+                                      <input type='text' required name='modal__sms__code' class='modal__sms__code' id="modal__sms__code" value=""  placeholder='Телефон или E-mail'/>
                                       <label for="modal__sms__code">Телефон или E-mail</label>
                                     </div>
                                     
                                   </div>
                                 
                                 <div class="authorization__get_code">
-                                    <button class="" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModalAppealsNotAutorizationSms" data-whatever="@mdo">получить код</button>
+                                    <!-- <button  class="" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModalAppealsNotAutorizationSms" data-whatever="@mdo">получить код</button> -->
+                                    <button  class="" id="appeals_auth_button" type="submit"  >получить код</button>
                                 </div>
                                 
                             </form>

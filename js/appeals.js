@@ -36,3 +36,39 @@ $('.img_search').click(function() {
     
     
 })
+
+$('document').ready(function() {
+    $('#appeals_auth_button').on('click', function() {
+      $('input[required]').addClass('red');
+      
+    });
+  });
+
+
+
+let validation = new JustValidate('#valid__appeals');
+
+function addPhysicalValidation() {
+    validation
+      .addField('#modal__sms__code', [
+        {
+          rule: 'required',
+          errorMessage: 'Заполните поле',
+        },
+      ])
+      
+  }
+
+
+
+function approveOrder(e) {
+    e.preventDefault();
+    validation.destroy();
+    addPhysicalValidation();
+  
+    setTimeout(() => {
+      // sent data to the server....
+      console.log('-->Is Form Valid', validation.isValid);
+    });
+  }
+  document.getElementById('valid__appeals').addEventListener('submit', approveOrder);

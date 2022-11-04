@@ -1,7 +1,10 @@
 $('document').ready(function() {
     $('#authorization__button').on('click', function() {
       $('input[required]').addClass('red');
-      
+      setTimeout(() => {
+        // sent data to the server....
+        console.log('-->Is Form Valid', validation.isValid);
+      });
     });
   });
 
@@ -16,3 +19,5 @@ validation.addField('#phone__or_email', [
     errorMessage: 'Укажите телефон или е-mail'
   }
 ])
+
+

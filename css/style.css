@@ -922,12 +922,12 @@ a {
 .choice__category_wrapper:hover {
     cursor: pointer;
 }
-.choice__category_wrapper:hover .circle{
+.choice__category_wrapper .circle:hover {
     border: 1px solid #EFAE35;
     background-color: #EFAE35;
 }
 
-.choice__category_wrapper:hover svg {
+.choice__category_wrapper .circle:hover  svg {
     stroke: #000;
 }
 

@@ -39,6 +39,9 @@ validation.addField('#modal-name', [
 $('document').ready(function() {
     $('#modal-button-send').on('click', function() {
       $('input[required]').addClass('red');
-      
+      setTimeout(() => {
+        // sent data to the server....
+        console.log('-->Is Form Valid', validation.isValid);
+      });
     });
   });
