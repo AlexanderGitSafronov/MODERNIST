@@ -9,6 +9,7 @@ $('document').ready(function () {
     }, 0);
     // $('input[required]').addClass('red');
   });
+  
 });
 
 // Первая кнопка далее 
@@ -558,10 +559,19 @@ function show2() {
   } else {
     $('input[required]').removeClass('red');
   }
+  
+  
+  
+  
+
+
   isPhisicalBody = false;
   document.getElementById('div1').style.display = 'none';
   document.getElementById('div3').style.display = 'none';
   document.getElementById('div2').style.display = 'block';
+
+  
+
 
   if (document.getElementById('div1').style.display === 'none') {
     $('#name__ordering').prop('required', false);
@@ -604,8 +614,13 @@ function show2() {
           errorMessage: 'Почта указана не верно',
         },
       ]);
-  }
 
+      
+      
+      
+     
+  }
+  
   if (document.getElementById('div2').style.display === 'block') {
     $('#how__name_entity').prop('required', true);
     $('#phone__entity').prop('required', true);
@@ -618,7 +633,38 @@ function show2() {
     $('#mailing__address_entity').prop('required', true);
 
     // addEntityValidation();
+   
+    
+    
+    
+    
   }
+
+  if(document.getElementById('cash__on_delivery_content_name').style.display === 'block') {
+    document.getElementById('cash__on_delivery_content_name').style.display = 'none';
+
+  anotherReceiver = false;
+      $('#another__name_ordering').prop('required', false);
+      $('#another__last_name_ordering').prop('required', false);
+      $('#another__patronymic_ordering').prop('required', false);
+      $('#another__phone_ordering').prop('required', false);
+
+      $('#another__name_ordering').removeClass('red');
+      $('#another__last_name_ordering').removeClass('red');
+      $('#another__patronymic_ordering').removeClass('red');
+      $('#another__phone_ordering').removeClass('red');
+
+      removeOtherRecipient();
+
+      document.getElementById("label_check_delivery").checked = false;
+
+      if($('input').hasClass('just-validate-error-field')) {
+        $('input[required]').addClass('red');
+      } else {
+        $('input[required]').removeClass('red');
+      }
+  }
+  
 }
 
 function show3() {
@@ -1008,6 +1054,7 @@ for(let i = 0; i < inputs.length; i++) {
 
 
 }
+
 
 
 
