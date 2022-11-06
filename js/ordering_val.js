@@ -441,11 +441,13 @@ document.getElementById('ordering__validation').addEventListener('submit', appro
 // СТРАНИЦА ЗАКАЗОВ
 
 function show1() {
-  if($('.form__item_adress').hasClass('just-validate-error-field')) {
-    $('input[required]').addClass('red');
-  } else {
-    $('input[required]').removeClass('red');
-  }
+  setTimeout(function () {
+    if($('input').hasClass('just-validate-error-field')) {
+      $('input[required]').addClass('red');
+    } else {
+      $('input[required]').removeClass('red');
+    }
+  }, 1);
   isPhisicalBody = true;
   // removeEntityValidation();
   document.getElementById('div1').style.display = 'block';
@@ -457,7 +459,7 @@ function show1() {
     $('#last__name_ordering').prop('required', true);
     $('#phone__ordering').prop('required', true);
     $('#email__ordering').prop('required', true);
-
+    
     
   }
 
@@ -658,11 +660,13 @@ function show2() {
 
       document.getElementById("label_check_delivery").checked = false;
 
-      if($('input').hasClass('just-validate-error-field')) {
-        $('input[required]').addClass('red');
-      } else {
-        $('input[required]').removeClass('red');
-      }
+      setTimeout(function () {
+        if($('input').hasClass('just-validate-error-field')) {
+          $('input[required]').addClass('red');
+        } else {
+          $('input[required]').removeClass('red');
+        }
+      }, 1);
   }
   
 }
@@ -849,17 +853,24 @@ function cashOnDelivery() {
   document.getElementById('installment__plan').style.display = 'none';
   document.getElementById('show__online').style.display = 'none';
   document.getElementById('upon__receipt').style.display = 'none';
+
+  
 }
 
 
 if(document.getElementById('cash__on_delivery').style.display = 'block') {
   function serviceDelivery() {
-    if($('input').hasClass('just-validate-error-field')) {
-      $('input[required]').addClass('red');
-    } else {
-      $('input[required]').removeClass('red');
-    }
+
+    setTimeout(function () {
+      if($('input').hasClass('just-validate-error-field')) {
+        // $('input[required]').addClass('red');
+      } else {
+        $('input[required]').removeClass('red');
+      }
+    }, 0);
+    
     if (document.getElementById('cash__on_delivery_content_name').style.display === 'block') {
+      
       document.getElementById('cash__on_delivery_content_name').style.display = 'none';
       if ((document.getElementById('cash__on_delivery_content_name').style.display = 'none')) {
         anotherReceiver = false;
@@ -875,6 +886,7 @@ if(document.getElementById('cash__on_delivery').style.display = 'block') {
   
         removeOtherRecipient();
   
+        
         // validation.removeField('#another__name_ordering', [
         //     {
         //         rule: 'required',
@@ -916,9 +928,11 @@ if(document.getElementById('cash__on_delivery').style.display = 'block') {
         $('#another__phone_ordering').prop('required', true);
 
         
+       
         
       }
     }
+   
   }
 }
 
@@ -942,17 +956,31 @@ if(document.getElementById('cash__on_delivery').style.display = 'none') {
 
 // Кнопка ДАЛЕЕ первой страницы
 document.querySelector('.buyer__data_ordering_button_next').addEventListener('click', (e) => {
-  validation.destroy();
+  // e.preventDefault();
+  // validation.destroy();
+  
   
   if (isPhisicalBody) {
     addPhysicalValidation();
     removeEntityValidation();
+    
+   
+    setTimeout(() => {
+      // sent data to the server....
+      console.log('-->Is Form Valid phisical', validation.isValid);
+    });
+    
   } else {
     addEntityValidation();
     removePhysicalValidation();
+    setTimeout(() => {
+      // sent data to the server....
+      console.log('-->Is Form Valid entity', validation.isValid);
+    });
   }
-  validation.revalidate();
-  
+
+  // validation.revalidate()
+ 
   setTimeout(() => {
     if (validation.isValid) {
       document.querySelector('.buyer__data_ordering').style.display = 'none';
@@ -978,12 +1006,17 @@ document.querySelector('.way__obtaining_ordering_button_prew').addEventListener(
 
 // Кнопка ДАЛЕЕ на второй странице
 document.querySelector('.way__obtaining_ordering_next').addEventListener('click', () => {
+  
   if (isDelivery) {
     addDeliveryValidation();
+    setTimeout(() => {
+      // sent data to the server....
+      console.log('-->Is Form Valid delivery', validation.isValid);
+    });
   } else {
     removeDeliveryValidation();
   }
-  validation.revalidate();
+  // validation.revalidate();
   setTimeout(() => {
     if (validation.isValid) {
       document.querySelector('.payment__method_ordering').style.display = 'block';
@@ -1013,12 +1046,17 @@ document.querySelector('.payment__method_ordering_button_prew').addEventListener
 
 // Кнопка ВПЕРЕД на третей странице
 document.querySelector('.confirm__order_button_next').addEventListener('click', () => {
+  
   if (anotherReceiver) {
     addOtherRecipient();
+    setTimeout(() => {
+      // sent data to the server....
+      console.log('-->Is Form Valid anRe', validation.isValid);
+    });
   } else {
     removeOtherRecipient();
   }
-  validation.revalidate();
+  // validation.revalidate();
 
   setTimeout(() => {
     if (validation.isValid) {
@@ -1034,26 +1072,26 @@ document.querySelector('.confirm__order_button_next').addEventListener('click', 
 
 
 // НЕ РАБОТАЛО СКРЫТИЕ ПОДСКАЗКИ НА МОБИЛКЕ
-let inputs = document.querySelectorAll('.ordering__input_error');
+// let inputs = document.querySelectorAll('.ordering__input_error');
 
-for(let i = 0; i < inputs.length; i++) {
+// for(let i = 0; i < inputs.length; i++) {
 
-  inputs[i].addEventListener('input', changeError);
-  function changeError(event) {
-  let itemElement = $(event.target).closest('.form__item_adress');
-  let itemFind = itemElement.find('.just-validate-error-label');
-  console.log(itemFind);
-    if (event.target.value !== '') {
-      itemFind[0].style.display = 'none';
-    } else {
-      itemFind[0].style.display = 'block';
-    }
+//   inputs[i].addEventListener('input', changeError);
+//   function changeError(event) {
+//   let itemElement = $(event.target).closest('.form__item_adress');
+//   let itemFind = itemElement.find('.just-validate-error-label');
+//   console.log(itemFind);
+//     if (event.target.value !== '') {
+//       itemFind[0].style.display = 'none';
+//     } else {
+//       itemFind[0].style.display = 'block';
+//     }
 
    
-  }
+//   }
 
 
-}
+// }
 
 
 
