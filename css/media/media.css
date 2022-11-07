@@ -1411,6 +1411,12 @@
         }
         
     }
+    @media (max-width: 540px) {
+        .preloader__item svg {
+            width: 250px;
+            height: 250px;
+        }
+    }
     @media (max-width: 529px)  {
         .head__text p {
             padding: 0px 20%;

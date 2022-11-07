@@ -6,7 +6,40 @@
 //     element.classList.toggle("active__like");
 //   });
 // });
+// ПРЕЛОАДЕР
+// document.addEventListener('DOMContentLoaded', () => {
+//   const mediaFiles = document.querySelectorAll('img');
+  
+//   let i = 0;
+//   Array.from(mediaFiles).forEach((file, index) => {
+//     file.onload = () => {
+//       i++;
+//       if(i === mediaFiles.length) {
 
+//       }
+//     }
+//   })
+// })
+$(".preloader__item_line").width((10 + Math.random() * 30) + "%");
+window.onload = function () {
+  $(".preloader__item_line").width("101%");
+  window.setTimeout(function() {
+    document.body.classList.add('loaded_hiding');
+  }, 800)
+
+  
+  window.setTimeout(function () {
+   
+  
+    document.body.classList.add('loaded');
+    document.body.classList.remove('loaded_hiding');
+  }, 1500);
+  
+  
+  
+}
+
+// КОНЕЦ ПРЕЛОАДЕРА
 
 $('.like').click(function(event) {
   event.preventDefault();

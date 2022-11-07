@@ -1,4 +1,5 @@
 
+
 *{
     box-sizing: border-box;
 
@@ -17,6 +18,60 @@ body {
     max-width: 1920px;
    
 }
+.preloader {
+    /*фиксированное позиционирование*/
+    position: absolute;
+    /* координаты положения */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* фоновый цвет элемента */
+    background: #FCF8F4;
+    /* размещаем блок над всеми элементами на странице (это значение должно быть больше, чем у любого другого позиционированного элемента на странице) */
+    z-index: 10000;
+  }
+  
+  .preloader__row {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  .preloader__item {
+    font-family: "Bebas Neue", sans-serif;
+      text-transform: uppercase;
+      font-size: 100px;
+      line-height: 200px;
+     
+      font-weight: 700;
+      color: #24160B;
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    transform: translate(-50%,-50%);
+  }
+  .preloader__item_line {
+  
+    top: 0;
+    left: -6px;
+    width: 1%;
+    height: 15px;
+    background: #D49113;
+    border-radius: 1px; 
+    transition: width 500ms linear;
+  }
+ 
+  .loaded_hiding .preloader {
+    transition: 0.3s opacity;
+    opacity: 0;
+  }
+  
+  
+  .loaded .preloader {
+    display: none;
+  }
 .row {
     justify-content: center;
     
