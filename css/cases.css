@@ -56,7 +56,7 @@
     display: flex;
 }
 .cases__content_block_link_left {
-    width: 25%;
+    width: 30% !important;
 
 }
 .cases__content_block_link_right {
@@ -70,6 +70,7 @@
 
 .cases__content_block_footer svg{
     margin-right: 10px;
+    margin-bottom: 2px;
 }
 .cases__content_block_footer a:hover {
     color: #999A81;

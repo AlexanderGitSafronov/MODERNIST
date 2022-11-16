@@ -218,7 +218,7 @@
     width: 33%;
 }
 .hiden__button_design {
-    display: flex;
+    display: none;
     justify-content: center;
     margin-bottom: 70px;
 }

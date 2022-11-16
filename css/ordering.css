@@ -121,25 +121,26 @@ button {
 
 
 /* для элемента input c type="radio" */
-.custom-radio>input {
+/* .custom-radio>input {
     position: absolute;
     z-index: -1;
     opacity: 0;
-  }
+  } */
   
   /* для элемента label связанного с .custom-radio */
-  .custom-radio>span {
+  /* .custom-radio>span {
     display: inline-flex;
     align-items: center;
     user-select: none;
-  }
+  } */
   
   /* создание в label псевдоэлемента  before со следующими стилями */
-  .custom-radio>span::before {
+  /* .custom-radio>span::before {
     content: '';
+   
     display: inline-block;
-    width: 23px;
-    height: 23px;
+    width: 22px;
+    height: 22px;
     flex-shrink: 0;
     flex-grow: 0;
     border: 1.5px solid #adb5bd;
@@ -147,20 +148,61 @@ button {
     margin-right: 0.5em;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 60% 60%;
+    background-size: 60%;
+  } */
+  .radio_fake {
+      display: none;
+  }
+  .fake {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border: 1.5px solid #adb5bd;
+    position: relative;
+    border-radius: 50%;
+  }
+  .fake::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color:#999A81 ;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: 0.1s;
+  }
+  .radio_fake:checked + .fake::before {
+    opacity: 1;
+  }
+  .custom-radio {
+      display: flex;
+      align-items: center;
+  }
+  .label__radio {
+      margin-left: 10px;
+      white-space: nowrap;
   }
   
   /* стили при наведении курсора на радио */
   .custom-radio>input:not(:disabled):not(:checked)+span:hover::before {
     border-color: #999A81;
   }
-  
+  .ordering__checkbox_flex div {
+      display: flex;
+  }
   /* стили для радиокнопки, находящейся в состоянии checked */
-  .custom-radio>input:checked+span::before {
+  /* .custom-radio>input:checked+span::before {
     border-color: #999A81;
     background-color: #fcf8f4;
     background-image: url("../image/radiochecked.svg");
-  }
+  
+    background-position: center center;
+    background-size: 50%;
+  } */
   
   /* стили для радиокнопки, находящейся в состоянии disabled */
   .custom-radio>input:disabled+span::before {
@@ -262,7 +304,7 @@ align-items: center;
 
 .ordering__basked {
     padding-left: 50px;
-    padding-right: 144px;
+    padding-right: 124px;
     padding-bottom: 100px;
 }
  .ordering__basked_header_txt {

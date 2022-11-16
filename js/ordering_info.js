@@ -96,7 +96,7 @@ function init() {
 
 
 
-ymaps.ready(init);
+// ymaps.ready(init);
 
 
 

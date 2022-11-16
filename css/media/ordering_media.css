@@ -1,6 +1,19 @@
 @media (max-width: 1920px) {
     
 }
+
+@media (max-width: 1827px) {
+    .custom-radio,
+    .ordering__checkbox_flex_label {
+        margin-left: 15px;
+    }
+}
+@media (max-width: 1789) {
+    .custom-radio,
+    .ordering__checkbox_flex_label {
+        margin-left: 10px;
+    }
+}
 @media (max-width: 1680px) {
    
     .ordering {
@@ -64,7 +77,7 @@
         height: 9px;
     }
     .basket__fixed .container__basket_price h5 {
-        font-size: 21px;
+        font-size: 20px ;
     }
     .basket__fixed .container__basket_price {
         padding: 0px;
@@ -175,14 +188,14 @@
         font-size: 14px;
     }
     .custom-radio>span::before {
-        width: 21px;
-        height: 21px;
+        width: 12px;
+        height: 12px;
   }
   .ordering__checkbox {
     margin-bottom: 15px;
   }
   .basket__fixed .container__basket_price h5 {
-    font-size: 18px;
+    font-size: 18px ;
 }
 .way__to_get {
     padding: 25px 35px;
@@ -284,9 +297,9 @@ button {
     .ordering__basked .offcanvas-footer_header {
         margin-top: 20px;
     }
-    .custom-radio>span::before {
+    /* .custom-radio>span::before {
         background-size: 61% 60%;
-    }
+    } */
     .form__item_adress label {
         top: 15px;
     }
@@ -324,6 +337,15 @@ button {
         height: 375px;
         
         
+    }
+    .ordering__checkbox_flex div {
+        display: block;
+    }
+    .custom-radio_installment {
+        margin-top: 10px;
+    }
+    .ordering__checkbox_flex_label {
+        margin-left: 5%;
     }
     
     
@@ -377,9 +399,9 @@ button {
         margin-top: 2px;
     }
     .custom-radio>span::before {
-        width: 20px;
-        height: 20px;
-        background-size: 64% 61%;
+        width: 12px;
+        height: 12px;
+        /* background-size: 64% 61%; */
     }
     .custom-radio {
         margin-left: 0px;
@@ -435,7 +457,7 @@ button {
         font-size: 12px;
     }
     .basket__fixed .container__basket_price h5 {
-        font-size: 17px;
+        font-size: 15px !important;
     }
     .basket__fixed .offcanvas-body_right {
         height: 194px;
@@ -515,6 +537,7 @@ button {
 }
 
 @media (max-width: 820px) {
+    
     .ordering__input .ordering__input_form {
         display: block;
     }
@@ -532,9 +555,10 @@ button {
        width: 100%;
     }
     .custom-radio>span::before {
-        width: 16px;
-        height: 16px;
-        background-size: 62% 67%;
+        width: 12px;
+        height: 12px;
+ 
+        
     }
     h3 {
         font-size: 20px;
@@ -664,13 +688,16 @@ button {
 .form__item_adress_right {
     text-align: start;
 }
+.ordering__checkbox_flex_label {
+    margin-left: 5%;
+}
 }
 @media (max-width: 768px) {
     .ordering, .ordering__basked {
         padding-top: 75px;
     }
     .basket__fixed .container__basket_price h5 {
-        font-size: 13px;
+        font-size: 13px ;
     }
     .way__to_get {
         padding: 11px 11px;
@@ -765,7 +792,7 @@ button {
         display: none;
     }
     .basket__fixed .container__basket_price h5 {
-        font-size: 16px;
+        font-size: 16px ;
     }
     .container__basket_content_mobil {
         display: block;
@@ -847,8 +874,8 @@ button {
         margin-left: 10px;
     }
     .custom-radio>span::before {
-        width: 23px;
-        height: 23px;
+        width: 12px;
+        height: 12px;
     }
     .label__radio {
         font-size: 14px;
@@ -929,6 +956,9 @@ button {
     .balloon .balloon__button button {
         margin-top: 10px;
     }
+    .ordering__checkbox_second_pad {
+        margin-top: 10px;
+    }
    
 }
 @media (max-width: 600px) {
@@ -1000,6 +1030,10 @@ button {
     }
     .map {
         width: 348px;
+    }
+    .custom-radio>span::before {
+       
+        background-size: 61% 81%;
     }
 }
 @media (max-width: 375px) {

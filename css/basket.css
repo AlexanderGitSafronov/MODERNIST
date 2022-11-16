@@ -8,13 +8,20 @@
 .basked__link_top {
     display: inline-block;
 }
-.basked__link_back {
+.basked__link_back_hov {
     display: flex;
+    align-items: center;
+  
+}
+.basked__link_back {
+    display: inline-block;
     margin-top: 24px;
     margin-bottom: 76px;
     margin-left: 10px;
-    align-items: center;
+ 
+
 }
+
 
 .basked__link_back a {
     font-size: 14px;
@@ -127,7 +134,7 @@ margin-left: 10px;
 }
 .basked__main_content .container__basket_price_button h5 {
     padding-top: 9px;
-    font-size: 14px;
+    font-size: 14px !important;
     font-weight: 400;
     font-family: "Onest", sans-serif;
     padding-left: 35px;
@@ -303,7 +310,7 @@ margin-left: 10px;
 }
 .basked__delete_all {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 .basked__delete_all a {
     margin-top: 24px;
@@ -416,7 +423,7 @@ margin-left: 10px;
     font-weight: 400;
 }
 .basked__main_content_mobil .container__basket_price h5 {
-    font-size: 16px;
+    font-size: 16px ;
     font-weight: 400;
     font-family: "Onest", sans-serif;
 }

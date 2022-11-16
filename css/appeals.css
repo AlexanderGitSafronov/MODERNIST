@@ -301,7 +301,7 @@
 .form-group label {
     position: absolute;
     left: 15px;
-    top: 22px;
+    top: 26px;
     transform: translateY(-50%);
     transition: top 0.5s;
     font-family: "Onest", sans-serif;

@@ -177,7 +177,7 @@
         padding: 1.5vh 2.5vw;
     }
     .div__plug_header {
-        height: 10vh;
+        height: 8vh;
     }
     
 }
@@ -215,7 +215,7 @@
         margin-bottom: 68px;
     }
     .div__plug_header {
-        height: 55px;
+        height: 6vh;
     }
     .menu__all_furniture ul {
        
@@ -290,7 +290,7 @@
         margin-bottom: 72px;
     }
     .div__plug_header {
-        height: 72px;
+        height: 6vh;
     }
     .head__tex_furniture {
         margin-bottom: 44px;
@@ -369,7 +369,7 @@
        margin-top: 7%;
    }
    .div__plug_header {
-    height: 46px;
+    height: 5vh;
 }
 .row{
     justify-content: start;
@@ -417,6 +417,7 @@
 .menu__all_furniture-header-bg {
     top: 2.8vh;
 }
+
 }
 @media (max-width: 375px) {
     .menu__all_furniture-header {
@@ -426,6 +427,6 @@
         margin-top: 10px;
     }
     .div__plug_header {
-        height: 7vh;
+        height: 6vh;
     }
 }

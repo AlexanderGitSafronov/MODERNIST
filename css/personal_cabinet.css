@@ -157,7 +157,7 @@ bottom: -3px;
 .form__item_adress label {
     position: absolute;
     left: 15px;
-    top: 21px;
+    top: 28px;
     transition: top 0.5s;
     font-family: "Onest", sans-serif;
     font-size: 12px;
@@ -170,7 +170,7 @@ bottom: -3px;
   }
   .form__item_adress input:focus+label,
   .form__item_adress input:not(:placeholder-shown)+label {
-      top: 5px;
+      top: 11px;
       
   }
    .ordering__input input {

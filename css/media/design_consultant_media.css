@@ -305,6 +305,9 @@
     .heden__design {
         display: none;
     }
+    .hiden__button_design {
+        display: flex;
+    }
     
 }
 @media (max-width: 825px) {

@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="./css/media/goods_card_media.css">
     <link rel="stylesheet" href="./css/media/design_consultant_media.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
   </head>
   <body>
     <div class="preloader">
@@ -61,7 +62,8 @@
                 <div class="catalode catalode__header_hiden"><a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop"> Каталог</a></div>
               </div>
               <div class="col-6 text-center icon__header">
-                <img src="/image/moder_head.png" alt="" />
+                <a href="./index.html"><img src="/image/moder_head.png" alt="" /></a>
+                
               </div>
               <div class="col-3 text-end align-middle basket">
                 <div class="img_search">
@@ -119,7 +121,8 @@
                     <div class="catalode catalode__header_hiden"><a href="" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop"> Каталог</a></div>
                   </div>
                   <div class="col-6 text-center icon__header">
-                    <img src="/image/moder_head.png" alt="" />
+                    <a href="./index.html"><img src="/image/moder_head.png" alt="" /></a>
+                    
                   </div>
                   <div class="col-3 text-end align-middle basket">
                     <div class="img_search">
@@ -611,7 +614,7 @@
               </button>
           </div>
               <div class="catalog__bloc_see-all">
-                  <a href="./all _furniture.html">
+                  <a href="./all_furniture.html">
                       <div class="cataloge__flex">  
                           <div class="see__all_svg">
                               <img src="/image/see_all.svg" alt="">
@@ -1018,12 +1021,12 @@
                 <label for="chack__box_modal" class="label_check">Использовать эти данные при регистрации</label>
               </div>
           
-  
+
         </div>
         <div class="modal-footer">
           <div class="modal-btn ">
-            <button data-bs-toggle="modal" id="modal-button-send" data-bs-target="#exampleModal_2" data-whatever="@mdo">ОТПРАВИТЬ</button>
-            <!-- <button   id="modal-button-send" >ОТПРАВИТЬ</button> -->
+            <!-- <button data-bs-toggle="modal" id="modal-button-send" data-bs-target="#exampleModal_2" data-whatever="@mdo">ОТПРАВИТЬ</button> -->
+            <button   id="modal-button-send" >ОТПРАВИТЬ</button>
         </div>
         <div class="modal-footer_discription">
             <p>Нажимая кнопку "Отправить", Вы соглашаетесь с условиями <a href="">политики конфиденциальности</a> </p>
@@ -1034,7 +1037,7 @@
         
       </div>
     </div>
-  </div>
+</div>
   <!-- МОДЕЛЬНОЕ ОКНО ДИЗАЙН КОНСУЛЬТАНТ -->
   <!-- VМОДЕЛЬНОЕ ОКНО ПОСЛЕ ЗАЯВКИ -->
   <div class="modal fade modal__application_sent" id="exampleModal_2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -1320,6 +1323,7 @@
 
     <script src="/js/design_consultant.js"></script>
     <script src="/js/index.js"></script>
+    <script src="/js/index_modal_consultant.js"></script>
     <script src="/js/personal_cabinet.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"

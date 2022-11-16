@@ -186,6 +186,10 @@
     margin-bottom: 0px;
     margin-left: 0px;
     }
+    .cases__content_block_link_right {
+        margin-left: 20px;
+    }
+    
 }
 @media (max-width: 480px) {
     
