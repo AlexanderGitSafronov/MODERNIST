@@ -1,16 +1,5 @@
-@media (max-width: 1680px) {
-    
-}
-@media (max-width: 1600px) {
-    
-   
-}
-@media (max-width: 1536px) {
-   
-  
-}
 @media (max-width: 1440px) {
-    /* .accordion-header-span .glyphicon-plus {
+  /* .accordion-header-span .glyphicon-plus {
         height: 20px;
     }
     .accordion-header-span .glyphicon-plus::after {
@@ -22,83 +11,64 @@
         width: 20px;
         left: -10px;
     } */
-    .accordion-header-btn a {
-        font-size: 26px;
-    }
-    .questions__and_answer {
-        padding-top: 50px;
-    }
-    .goods__card_header-text a {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    .card-body {
-        padding-top: 14px;
-    }
-}
-@media (max-width: 1366px) {
-  
-}
-@media (max-width: 1280px) {
-    
-    
-}
-@media (max-width: 1150px) {
-    
-}
-@media (max-width: 1024px) {
-    
-    
+  .accordion-header-btn a {
+    font-size: 26px;
+  }
+  .questions__and_answer {
+    padding-top: 50px;
+  }
+  .goods__card_header-text a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .card-body {
+    padding-top: 14px;
+  }
 }
 @media (max-width: 991px) {
-    .accordion-header-btn a {
-        font-size: 22px;
-    }
-    .questions__and_answer {
-        
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
-    .accordion-header-span .glyphicon-plus {
-        height: 15px;
-    }
-    .accordion-header-span .glyphicon-plus::after {
-        width: 15px;
-        left: -7px;
-        top: 7px;
-    }
-    .accordion-header-span .glyphicon-minus::after {
-        width: 15px;
-        left: -7px;
-        
-    }
+  .accordion-header-btn a {
+    font-size: 22px;
+  }
+  .questions__and_answer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .accordion-header-span .glyphicon-plus {
+    height: 15px;
+  }
+  .accordion-header-span .glyphicon-plus::after {
+    width: 15px;
+    left: -7px;
+    top: 7px;
+  }
+  .accordion-header-span .glyphicon-minus::after {
+    width: 15px;
+    left: -7px;
+  }
 }
 @media (max-width: 800px) {
-    
 }
 @media (max-width: 768px) {
-   
 }
 @media (max-width: 767px) {
-    .questions__and_answer {
-        width: 95%;
-    }
-    .goods__card_header-text ul li {
-        font-size: 14px;
-    }
+  .questions__and_answer {
+    width: 95%;
+  }
+  .goods__card_header-text ul li {
+    font-size: 14px;
+  }
 }
 @media (max-width: 540px) {
-    .accordion-header-span {
-        padding-left: 20px;
-    }
+  .accordion-header-span {
+    padding-left: 20px;
+  }
 }
 @media (max-width: 414px) {
-    .cases__header h1 {
-        font-size: 50px;
-        line-height: 50px;
-    }
-    .accordion-header-btn a {
-        font-size: 20px;
-    }
-    
+  .cases__header h1 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .accordion-header-btn a {
+    font-size: 20px;
+  }
 }

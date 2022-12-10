@@ -1,79 +1,60 @@
-@media (max-width: 1680px) {
-    
-}
-@media (max-width: 1600px) {
-    
-   
-}
 @media (max-width: 1536px) {
-   
-    .contacts__information_bottom {
-        padding: 74px 150px 100px 100px;
-    }
-
+  .contacts__information_bottom {
+    padding: 74px 150px 100px 100px;
+  }
 }
 @media (max-width: 1440px) {
-   
-   .repair_button button {
+  .repair_button button {
     font-size: 12px;
     padding: 14px 85px;
-   }
-   .constriction h6 {
+  }
+  .constriction h6 {
     margin-bottom: 26px;
     margin-top: 60px;
-}
-  
-  
+  }
 }
 @media (max-width: 1366px) {
-    .contacts__information_bottom {
-        padding: 54px 100px 100px 80px;
-    }
+  .contacts__information_bottom {
+    padding: 54px 100px 100px 80px;
+  }
 }
 @media (max-width: 1280px) {
-    .appeals__message_bottom p {
-        margin-bottom: 0px;
-    }
-    .appeals__message {
-        padding: 15px 15px;
-    }
-    .appeals__response_received a {
-        font-size: 12px;
-    }
-    .contacts__information_bottom {
-        padding: 54px 60px 100px 60px;
-    }
+  .appeals__message_bottom p {
+    margin-bottom: 0px;
+  }
+  .appeals__message {
+    padding: 15px 15px;
+  }
+  .appeals__response_received a {
+    font-size: 12px;
+  }
+  .contacts__information_bottom {
+    padding: 54px 60px 100px 60px;
+  }
 }
 @media (max-width: 1150px) {
-    
 }
 @media (max-width: 1024px) {
-    
-    
 }
 @media (max-width: 991px) {
-    
 }
 @media (max-width: 800px) {
-    
 }
 @media (max-width: 768px) {
-   
 }
 @media (max-width: 767px) {
-    .contacts__information_bottom {
-        padding: 32px 16px 20px 16px;
-    }
-    .contacts__information_top_head {
-        margin-bottom: 28px;
-    }
-    .constriction h6 {
-       
-        margin-top: 36px;
-    }
+  .contacts__information_bottom {
+    padding: 32px 16px 20px 16px;
+  }
+  .contacts__information_top_head {
+    margin-bottom: 28px;
+  }
+  .constriction h6 {
+    margin-top: 36px;
+  }
 }
-@media (max-width: 375px)  {
-    .repair_button button {
-        width: 100%;
-    }
+@media (max-width: 375px) {
+  .repair_button button {
+    width: 100%;
+  }
 }

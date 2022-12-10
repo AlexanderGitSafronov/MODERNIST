@@ -1,81 +1,63 @@
-@media (max-width: 1680px) {
-    
-}
 @media (max-width: 1600px) {
-    .contacts__information_bottom {
-        padding: 74px 226px 100px 100px;
-    }
-    
+  .contacts__information_bottom {
+    padding: 74px 226px 100px 100px;
+  }
 }
-@media (max-width: 1536px) {
-   
-}
+
 @media (max-width: 1440px) {
-    
-    .contacts h6 {
-        margin-top: 40px;
-        margin-bottom: 25px;
-    }
-    .contacts__information_top_head {
-        margin-bottom: 30px;
-    }
-  
+  .contacts h6 {
+    margin-top: 40px;
+    margin-bottom: 25px;
+  }
+  .contacts__information_top_head {
+    margin-bottom: 30px;
+  }
 }
 @media (max-width: 1366px) {
-    
 }
 @media (max-width: 1280px) {
-    .contacts__information_top_head {
-        margin-bottom: 20px;
-    }
-    .contacts h6 {
-        margin-top: 30px;
-        margin-bottom: 20px;
-    }
-   
+  .contacts__information_top_head {
+    margin-bottom: 20px;
+  }
+  .contacts h6 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
 }
 @media (max-width: 1024px) {
-    
-    .contacts__information_bottom {
-        padding: 34px 100px 100px 60px;
-    }
-    
-    
+  .contacts__information_bottom {
+    padding: 34px 100px 100px 60px;
+  }
 }
 @media (max-width: 991px) {
-    .contacts__information_bottom {
-        padding: 34px 60px 100px 60px;
-    }
-    
+  .contacts__information_bottom {
+    padding: 34px 60px 100px 60px;
+  }
 }
-@media (max-width: 800px) {
-    
-}
+
 @media (max-width: 767px) {
-    .contacts__information_bottom {
-        padding: 32px 16px 20px 16px;
-    }
-    .cases__header h1 {
-        font-size: 50px;
-    }
-    .contacts__links_link a{
-        font-size: 18px;
-    }
-    .contacts__links_pos {
-        gap: 0px;
-    }
-    .contacts__links_link_line {
-        padding: 0px 16px;
-    }
-    .contacts h2 {
-        font-size: 28px;
-        line-height: 28px;
-    }
-    .contacts h6 {
-        margin-top: 36px;
-        margin-bottom: 20px;
-        line-height: 19px;
-    }
-    
-    
+  .contacts__information_bottom {
+    padding: 32px 16px 20px 16px;
+  }
+  .cases__header h1 {
+    font-size: 50px;
+  }
+  .contacts__links_link a {
+    font-size: 18px;
+  }
+  .contacts__links_pos {
+    gap: 0px;
+  }
+  .contacts__links_link_line {
+    padding: 0px 16px;
+  }
+  .contacts h2 {
+    font-size: 28px;
+    line-height: 28px;
+  }
+  .contacts h6 {
+    margin-top: 36px;
+    margin-bottom: 20px;
+    line-height: 19px;
+  }
 }

@@ -1,101 +1,97 @@
 @font-face {
-    font-family: "Bebas Neue";
-    src: local("Bebas Neue Thin"), local("BebasNeue-Thin"),
-      url("/fonts/BebasNeue-Thin.woff") format("woff"),
-      url("/fonts/BebasNeue-Thin.ttf") format("truetype");
-    font-weight: 100;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: "Bebas Neue";
-    src: local("Bebas Neue Light"), local("BebasNeue-Light"),
-      url("/fonts/BebasNeue-Light.woff") format("woff"),
-      url("/fonts/BebasNeue-Light.ttf") format("truetype");
-    font-weight: 200;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: "Bebas Neue";
-    src: local("Bebas Neue Book"), local("BebasNeueBook"),
-      url("/fonts/BebasNeue-Book.woff") format("woff"),
-      url("/fonts/BebasNeue-Book.ttf") format("truetype");
-    font-weight: 300;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: "Bebas Neue";
-    src: local("Bebas Neue Regular"), local("BebasNeueRegular"),
-      url("/fonts/BebasNeue-Regular.woff") format("woff"),
-      url("/fonts/BebasNeue-Regular.ttf") format("truetype");
-    font-weight: 400;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: "Bebas Neue";
-    src: local("Bebas Neue Bold"), local("BebasNeueBold"),
-      url("/fonts/BebasNeue-Bold.woff") format("woff"),
-      url("/fonts/BebasNeue-Bold.ttf") format("truetype");
-    font-weight: 700;
-    font-style: normal;
-  }
-
-
-
-
-
-  @font-face {
-    font-family: "Onest";
-    src: local("Onest Thin"), local("Onest-Thin"),
-      url("/fonts/OnestThin1602-hint.woff") format("woff"),
-      url("/fonts/OnestThin1602-hint.ttf") format("truetype");
-    font-weight: 100;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: "Onest";
-    src: local("Onest Light1602"), local("OnestLight1602"),
-      url("/fonts/OnestLight1602-hint.woff") format("woff"),
-      url("/fonts/OnestLight1602-hint.ttf") format("truetype");
-    font-weight: 200;
-    font-style: normal;
-  }
+  font-family: "Bebas Neue";
+  src: local("Bebas Neue Thin"), local("BebasNeue-Thin"),
+    url("/fonts/BebasNeue-Thin.woff") format("woff"),
+    url("/fonts/BebasNeue-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
 @font-face {
-    font-family: "Onest";
-    src: local("Onest Regular"), local("OnestRegular"),
-      url("/fonts/OnestRegular1602-hint.woff") format("woff"),
-      url("/fonts/OnestRegular1602-hint.ttf") format("truetype");
-    font-weight: 300;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: "Onest";
-    src: local("Onest Medium"), local("OnestMedium"),
-      url("/fonts/OnestMedium1602-hint.woff") format("woff"),
-      url("/fonts/OnestMedium1602-hint.ttf") format("truetype");
-    font-weight: 400;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: "Onest";
-    src: local("Onest Bold"), local("OnestBold"),
-      url("/fonts/OnestBold1602-hint.woff") format("woff"),
-      url("/fonts/OnestBold1602-hint.ttf") format("truetype");
-    font-weight: 500;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: "Onest";
-    src: local("Onest ExtraBold"), local("OnestExtraBold1602"),
-      url("/fonts/OnestExtraBold1602-hint.woff") format("woff"),
-      url("/fonts/OnestExtraBold1602-hint.ttf") format("truetype");
-    font-weight: 600;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: "Onest";
-    src: local("Onest Black"), local("OnestBlack1602"),
-      url("/fonts/OnestBlack1602-hint.woff") format("woff"),
-      url("/fonts/OnestBlack1602-hint.ttf") format("truetype");
-    font-weight: 700;
-    font-style: normal;
-  }
+  font-family: "Bebas Neue";
+  src: local("Bebas Neue Light"), local("BebasNeue-Light"),
+    url("/fonts/BebasNeue-Light.woff") format("woff"),
+    url("/fonts/BebasNeue-Light.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bebas Neue";
+  src: local("Bebas Neue Book"), local("BebasNeueBook"),
+    url("/fonts/BebasNeue-Book.woff") format("woff"),
+    url("/fonts/BebasNeue-Book.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bebas Neue";
+  src: local("Bebas Neue Regular"), local("BebasNeueRegular"),
+    url("/fonts/BebasNeue-Regular.woff") format("woff"),
+    url("/fonts/BebasNeue-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bebas Neue";
+  src: local("Bebas Neue Bold"), local("BebasNeueBold"),
+    url("/fonts/BebasNeue-Bold.woff") format("woff"),
+    url("/fonts/BebasNeue-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Onest";
+  src: local("Onest Thin"), local("Onest-Thin"),
+    url("/fonts/OnestThin1602-hint.woff") format("woff"),
+    url("/fonts/OnestThin1602-hint.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Onest";
+  src: local("Onest Light1602"), local("OnestLight1602"),
+    url("/fonts/OnestLight1602-hint.woff") format("woff"),
+    url("/fonts/OnestLight1602-hint.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Onest";
+  src: local("Onest Regular"), local("OnestRegular"),
+    url("/fonts/OnestRegular1602-hint.woff") format("woff"),
+    url("/fonts/OnestRegular1602-hint.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Onest";
+  src: local("Onest Medium"), local("OnestMedium"),
+    url("/fonts/OnestMedium1602-hint.woff") format("woff"),
+    url("/fonts/OnestMedium1602-hint.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Onest";
+  src: local("Onest Bold"), local("OnestBold"),
+    url("/fonts/OnestBold1602-hint.woff") format("woff"),
+    url("/fonts/OnestBold1602-hint.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Onest";
+  src: local("Onest ExtraBold"), local("OnestExtraBold1602"),
+    url("/fonts/OnestExtraBold1602-hint.woff") format("woff"),
+    url("/fonts/OnestExtraBold1602-hint.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Onest";
+  src: local("Onest Black"), local("OnestBlack1602"),
+    url("/fonts/OnestBlack1602-hint.woff") format("woff"),
+    url("/fonts/OnestBlack1602-hint.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}

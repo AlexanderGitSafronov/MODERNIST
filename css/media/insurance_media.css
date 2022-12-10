@@ -1,59 +1,30 @@
-@media (max-width: 1680px) {
-   
-}
-@media (max-width: 1600px) {
-    
-   
-}
-@media (max-width: 1536px) {
-
-}
-@media (max-width: 1440px) {
-    
-    
-}
-@media (max-width: 1366px) {
-    
-}
-@media (max-width: 1280px) {
-   
-}
-@media (max-width: 1024px) {
-    
-    
-}
 @media (max-width: 991px) {
-    .insurance__logo {
-        padding-right: 50px;
-    }
-    
+  .insurance__logo {
+    padding-right: 50px;
+  }
 }
 @media (max-width: 800px) {
-    .insurance__logo {
-        padding-right: 0px;
-    }
+  .insurance__logo {
+    padding-right: 0px;
+  }
 }
-@media (max-width: 768px) {
-    
-}
+
 @media (max-width: 767px) {
-    .insurance__logo {
-        display: block;
-        
-    }
-    .insurance__logo_cdek,
-    .insurance__logo_pek,
-    .insurance__logo_line {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 50px;
-    }
-    .insurance__logo_line {
-        margin-bottom: 0;
-    }
-    .contacts h6 {
-        margin-top: 36px;
-        margin-bottom: 20px;
-    }
-    
+  .insurance__logo {
+    display: block;
+  }
+  .insurance__logo_cdek,
+  .insurance__logo_pek,
+  .insurance__logo_line {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .insurance__logo_line {
+    margin-bottom: 0;
+  }
+  .contacts h6 {
+    margin-top: 36px;
+    margin-bottom: 20px;
+  }
 }

@@ -1,254 +1,292 @@
-h1{
-    font-size: 60px;
-    font-weight: 700;
-    line-height: inherit;
-    font-family: "Bebas Neue", sans-serif;
-    color: #24160B;
-    margin: 0px;
-    padding: 0px;
+h1 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: inherit;
+  font-family: "Bebas Neue", sans-serif;
+  color: #24160b;
+  margin: 0px;
+  padding: 0px;
 }
-p{
-    font-size: 18px;
-    font-weight: 300;
-    font-family: "Onest", sans-serif;
-    color: #24160B;
-    margin: 0px;
-    padding: 0px;
+p {
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Onest", sans-serif;
+  color: #24160b;
+  margin: 0px;
+  padding: 0px;
 }
 
 button {
-    border: 1px solid #24160B;
-    font-family: "Onest", sans-serif;
-    
-    font-size: 14px;
-    font-weight: 700;
-    background-color: transparent;
+  border: 1px solid #24160b;
+  font-family: "Onest", sans-serif;
+
+  font-size: 14px;
+  font-weight: 700;
+  background-color: transparent;
 }
 .personal__cabinet_exit a {
-    color: rgba(36, 22, 11, 0.7);
+  color: rgba(36, 22, 11, 0.7);
 }
-.personal__cabinet_exit a:hover{
-    color: #24160B;
+.personal__cabinet_exit a:hover {
+  color: #24160b;
 }
 .personal__cabinet_flex {
-    display: flex;
-    justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 .personal__cabinet_header {
-    margin-bottom: 65px;
+  margin-bottom: 65px;
 }
 .personal__cabinet_header_text {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 .personal__cabinet {
-    margin-top: 120px;
-    margin-bottom: 300px;
-    width: 647px;
-    
+  margin-top: 120px;
+  margin-bottom: 300px;
+  width: 647px;
 }
 /* РАБОТА СО ССЫЛКАМИ */
 .menu__all_furniture-header-span {
-    margin: 0 9px;
+  margin: 0 9px;
 }
 .menu__all_furniture-header {
-    margin-top: 0;
+  margin-top: 0;
 }
 .menu__all_furniture-header ul {
-    padding: 0px;
+  padding: 0px;
 }
 .menu__all_furniture-header ul li {
-    font-size: 18px;
+  font-size: 18px;
 }
 .menu__all_furniture-header-span {
-    margin-top: 0;
+  margin-top: 0;
 }
 .menu__all_furniture-header .all__furniture_active::after {
-bottom: -3px;
+  bottom: -3px;
 }
-.menu__all_furniture-header ul li a:hover::after  {
-    bottom: -3px;
+.menu__all_furniture-header ul li a:hover::after {
+  bottom: -3px;
 }
 .personal__cabinet_flex_menu {
-    display: flex;
-    justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 .personal__cabinet_add_adress-btn {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 .personal__cabinet_add_adress-btn button {
-    padding: 17px 94px;
-    
+  padding: 17px 94px;
 }
 .personal__cabinet_add_adress-btn button:hover {
-    background-color: #24160B;
-    color: #fcf8f4;
+  background-color: #24160b;
+  color: #fcf8f4;
 }
-
 
 /* ДОБАВИТЬ АДРЕСС */
 .adress__express_two_form input {
-    width: 315px;
+  width: 315px;
 }
 /* .ordering__input_personal_cabinet {
-    display: none;
-} */
+      display: none;
+  } */
 .organization__w {
-    width: 100%;
+  width: 100%;
 }
 .insurance {
-    margin-top: 0;
+  margin-top: 0;
 }
-.custom-checkbox_modal_insurance:checked+label::before {
-    background-color: #24160B;
+.custom-checkbox_modal_insurance:checked + label::before {
+  background-color: #24160b;
 }
 .ordering__input_personal_cabinet-btn {
-    margin-top: 30px;
+  margin-top: 30px;
 }
-.ordering__input_personal_cabinet-btn button{
-    width: 100%;
-    padding: 17px 0px;
+.ordering__input_personal_cabinet-btn button {
+  width: 100%;
+  padding: 17px 0px;
 }
 .ordering__input_personal_cabinet-btn button:hover {
-    background-color: #24160B;
-    color: #fcf8f4;
+  background-color: #24160b;
+  color: #fcf8f4;
 }
-.way__to_get-btn button{
-    text-transform: inherit;
+.way__to_get-btn button {
+  text-transform: inherit;
 }
 .way__to_get-btn_second {
-    margin-left: 16px;
+  margin-left: 16px;
 }
 .personal__cabinet_new_addres_plus {
-    display: flex;
-    align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 .personal__cabinet_new_addres {
-    margin-top: 20px;
-    display: inline-block;
-    
+  margin-top: 20px;
+  display: inline-block;
 }
 .personal__cabinet_new_addres_text {
-    margin-left: 10px;
+  margin-left: 10px;
 }
-.personal__cabinet_new_addres:hover{
-    cursor: pointer;
+.personal__cabinet_new_addres:hover {
+  cursor: pointer;
 }
-.personal__cabinet_new_addres:hover .basket_count{
-    border-color: #24160B;
-    background-color: #24160B;
-    cursor: pointer;
-    transition: 0.3s all;
+.personal__cabinet_new_addres:hover .basket_count {
+  border-color: #24160b;
+  background-color: #24160b;
+  cursor: pointer;
+  -webkit-transition: 0.3s all;
+  -o-transition: 0.3s all;
+  transition: 0.3s all;
 }
-.personal__cabinet_new_addres:hover .basket_count::before, 
+.personal__cabinet_new_addres:hover .basket_count::before,
 .personal__cabinet_new_addres:hover .basket_count::after {
-    background-color: #fcf8f4;
+  background-color: #fcf8f4;
 }
-.way__to_get_personal_cabinet  {
-    margin-bottom: 20px;
+.way__to_get_personal_cabinet {
+  margin-bottom: 20px;
 }
-
-
-
-
 
 .form__item_adress {
-    position: relative;
+  position: relative;
 }
 .form__item_adress label {
-    position: absolute;
-    left: 15px;
-    top: 28px;
-    transition: top 0.5s;
-    font-family: "Onest", sans-serif;
-    font-size: 12px;
-    font-weight: 300;
-    color: rgba(36, 22, 11, 0.5);
-    cursor: text;
-  }
-  .form__item_adress input::placeholder {
-    color: transparent;
-  }
-  .form__item_adress input:focus+label,
-  .form__item_adress input:not(:placeholder-shown)+label {
-      top: 11px;
-      
-  }
-   .ordering__input input {
-      padding-bottom: 4px;
-      padding-top: 30px;
-      font-weight: 400;
-      text-transform: capitalize;
-      margin-bottom: 0px;
-  }
-  
-  
-  
-  .ordering__input .form__item_adress input:focus,
-  .ordering__input .form__item_adress input:not(:placeholder-shown){
-      background-color: #fff;
-  }
+  position: absolute;
+  left: 15px;
+  top: 22px;
+  -webkit-transition: top 0.5s;
+  -o-transition: top 0.5s;
+  transition: top 0.5s;
+  font-family: "Onest", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  color: rgba(36, 22, 11, 0.5);
+  cursor: text;
+}
+.form__item_adress input::-webkit-input-placeholder {
+  color: transparent;
+}
+.form__item_adress input::-moz-placeholder {
+  color: transparent;
+}
+.form__item_adress input:-ms-input-placeholder {
+  color: transparent;
+}
+.form__item_adress input::-ms-input-placeholder {
+  color: transparent;
+}
+.form__item_adress input::placeholder {
+  color: transparent;
+}
+.form__item_adress input:not(:-moz-placeholder-shown) + label {
+  top: 11px;
+}
+.form__item_adress input:not(:-ms-input-placeholder) + label {
+  top: 11px;
+}
+.form__item_adress input:focus + label,
+.form__item_adress input:not(:placeholder-shown) + label {
+  top: 11px;
+}
+.ordering__input input {
+  padding-bottom: 4px;
+  padding-top: 30px;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-bottom: 0px;
+}
 
-  input::-webkit-outer-spin-button,
-    input::-webkit-inner-spin-button {
-    /* display: none; <- Crashes Chrome on hover */
-    -webkit-appearance: none;
-    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+.ordering__input .form__item_adress input:not(:-moz-placeholder-shown) {
+  background-color: #fff;
+}
+
+.ordering__input .form__item_adress input:not(:-ms-input-placeholder) {
+  background-color: #fff;
+}
+
+.ordering__input .form__item_adress input:focus,
+.ordering__input .form__item_adress input:not(:placeholder-shown) {
+  background-color: #fff;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
 }
 .ordering__input .ordering__input_form {
-    
-    width: 100%;
+  width: 100%;
 }
 .adress__express_two_form {
-    display: flex;
-    justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 .four__input {
-    display: flex;
-    justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 .ordering__input form {
-    display: block;
+  display: block;
 }
 /* .form__item_adress  .input__name:required {
-    border: 1px solid red;
-} */
+      border: 1px solid red;
+  } */
 
 .form__item_adress .red:invalid {
-    border: 1px solid #E28F7C;
-    background-color: #F9EDE9;
+  border: 1px solid #e28f7c;
+  background-color: #f9ede9;
 }
-
 
 .form__item_adress {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .just-validate-error-label {
-    color: #E28F7C !important;
-    font-family: "Onest", sans-serif;
-    font-size: 14px;
-    margin-top: 5px;
-    margin-left: 5px;
+  color: #e28f7c !important;
+  font-family: "Onest", sans-serif;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-left: 5px;
 }
-.check__input  {
-    position: absolute;
-    right: 15px;
-    top: 50%;
-    transform: translateY(-50%);
-    display: none;
+.check__input {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: none;
 }
-.form__item_adress input:valid + label + .check__input{
-    display: block;
-    
-  }
-  .ordering__input .ordering__input_form {
-      display: block;
-  }
-  .container__basket_content p {
-    margin-bottom: 1rem;
+.form__item_adress input:valid + label + .check__input {
+  display: block;
 }
-.organization__w input{
-    width: 100%;
+.ordering__input .ordering__input_form {
+  display: block;
+}
+.container__basket_content p {
+  margin-bottom: 1rem;
+}
+.organization__w input {
+  width: 100%;
 }
 .form__item_adress_right label {
-    left: 22px;
+  left: 22px;
 }

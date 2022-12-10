@@ -1,149 +1,147 @@
 .contacts h2 {
-    font-size: 60px;
-    font-weight: 700;
-    font-family: "Bebas Neue", sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 60px;
+  font-size: 60px;
+  font-weight: 700;
+  font-family: "Bebas Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 60px;
 }
 .contacts h3 {
-    
-    font-size: 28px;
-    font-weight: 700;
-    font-family: "Bebas Neue", sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 28px;
-    
+  font-size: 28px;
+  font-weight: 700;
+  font-family: "Bebas Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 28px;
 }
 .contacts h6 {
-    font-size: 18px;
-    font-weight: 600;
-    margin: 0;
-    padding: 0;
-    line-height: 25px;
-    font-family: "Onest", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  line-height: 25px;
+  font-family: "Onest", sans-serif;
 }
 .stock p {
-    font-size: 16px;
-    font-weight: 300px;
-    font-family: "Onest", sans-serif;
+  font-size: 16px;
+  font-weight: 300px;
+  font-family: "Onest", sans-serif;
 }
 .contacts p {
-    font-size: 14px;
+  font-size: 14px;
 }
-
-
-
 .contacts__links_pos {
-    padding: 80px 129px 0px 0px;
-    
+  padding: 80px 129px 0px 0px;
 }
 .contacts__information {
-    padding: 0px;
+  padding: 0px;
 }
 .contacts__information_top,
 .contacts__information_bottom {
-    border-top: 1px solid #999A81;
-    padding: 84px 0px 84px 111px;
+  border-top: 1px solid #999a81;
+  padding: 84px 0px 84px 111px;
 }
 .contacts__links {
-    display: flex;
-    justify-content: flex-end;
-    padding: 0;
-    border-top: 1px solid #999A81;
-    border-right: 1px solid #999A81;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding: 0;
+  border-top: 1px solid #999a81;
+  border-right: 1px solid #999a81;
 }
 .contacts__links_link {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 }
-.contacts__links_link a:hover{
-    color: #EFAE35;
-    
+.contacts__links_link a:hover {
+  color: #efae35;
 }
 .contacts__links_link {
-    
 }
-.contacts__links_link .contacts__link_choise{
-    position: relative;
+.contacts__links_link .contacts__link_choise {
+  position: relative;
 }
 .contacts__links_link .contacts__link_choise::before {
-    position: absolute;
-    content: '';
-    width: 100%;
-    height: 2px;
-    background-color: #EFAE35;
-    bottom: -1px;
-    left: 0px;
-    opacity: 0;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #efae35;
+  bottom: -1px;
+  left: 0px;
+  opacity: 0;
 }
 .contacts__links_link a:hover::before {
-    opacity: 1;
+  opacity: 1;
 }
 .contacts__link_choise {
-    font-size: 28px;
-    font-weight: 700;
-    font-family: "Bebas Neue", sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 28px;
+  font-size: 28px;
+  font-weight: 700;
+  font-family: "Bebas Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 28px;
 }
-.contacts__links_link .contacts__links_link_active{
-    color: #EFAE35;
-    position: relative;
-    pointer-events: none;
-    cursor: inherit;
+.contacts__links_link .contacts__links_link_active {
+  color: #efae35;
+  position: relative;
+  pointer-events: none;
+  cursor: inherit;
 }
 .contacts__links_link .contacts__links_link_active::before {
-    position: absolute;
-    content: '';
-    width: 100%;
-    height: 2px;
-    background-color: #EFAE35;
-    bottom: -1px;
-    left: 0px;
-    opacity: 1;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #efae35;
+  bottom: -1px;
+  left: 0px;
+  opacity: 1;
 }
 .contacts__information_top_head {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 .contacts__information_top_discription {
-    max-width: 100%;
-    margin-bottom: 80px;
+  max-width: 100%;
+  margin-bottom: 80px;
 }
 
 .contacts__information_top_discription h6 {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 .contacts__information_top_discription a:hover {
-    color: #999A81;
+  color: #999a81;
 }
-.contacts__information_top_discription_link a{
-    margin-left: 40px;
+.contacts__information_top_discription_link a {
+  margin-left: 40px;
 }
 .contacts__information_top_discription_link a:first-child {
-    margin-left: 0;
+  margin-left: 0;
 }
 .contacts__information_bottom {
-    padding-bottom: 200px;
+  padding-bottom: 200px;
 }
 .contacts__information_bottom_header {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 .contacts__information_bottom_content p {
-    margin-bottom: 18px;
-    font-size: 18px;
-    font-weight: 300;
+  margin-bottom: 18px;
+  font-size: 18px;
+  font-weight: 300;
 }
 .contacts__information_bottom_content p span {
-    font-weight: 600;
+  font-weight: 600;
 }
 .contacts__links_link_line {
-    display: none;
+  display: none;
 }
 .contacts__information_mobil {
-    display: none;
+  display: none;
 }
 .row {
-    justify-content: start;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: start;
 }

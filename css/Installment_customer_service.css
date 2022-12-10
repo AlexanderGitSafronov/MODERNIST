@@ -1,35 +1,42 @@
-
 .installment__tinkoff_header p {
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 40px;
-    margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
-.installment__tinkoff_header_discription  p {
-    color: rgba(36, 22, 11, 0.5);
-    font-size: 12px;
+.installment__tinkoff_header_discription p {
+  color: rgba(36, 22, 11, 0.5);
+  font-size: 12px;
 }
 .installment__tinkoff {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 80px;
-    background-color: #FEF7F0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 80px;
+  background-color: #fef7f0;
 }
 .percent {
-    display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 .percent p {
-    font-size: 80px;
-    font-weight: 300;
-    font-family: "Onest", sans-serif;
-    margin-left: 80px;
+  font-size: 80px;
+  font-weight: 300;
+  font-family: "Onest", sans-serif;
+  margin-left: 80px;
 }
 .percent p:first-child {
-    margin-left: 0px;
+  margin-left: 0px;
 }
 .percent span {
-    font-size: 30px;
-    font-weight: 700;
-    font-family: "Onest", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Onest", sans-serif;
 }

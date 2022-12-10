@@ -1,633 +1,613 @@
 @media (max-width: 1680px) {
-    .basked__main_content .basked__main_content_second {
-        margin-left: 45px;
-    }
-    .dropdown__absked_size {
-        width: 100px;
-    }
-    .basked__main_content .container__basket__main_img_parent {
-        left: 18%;
-    }
-    .basked__main_content .container__basket_main_img h5 {
-        margin-left: 34%;
-    }
+  .basked__main_content .basked__main_content_second {
+    margin-left: 45px;
   }
-  @media (max-width: 1600px) {
-    .basked__main_content .basked__main_content_second {
-        margin-left: 30px;
-    }
-    
+  .dropdown__absked_size {
+    width: 100px;
   }
-@media (max-width: 1536px) {
-    .basked__main_content .basked__main_content_second {
-        padding: 30px;
-        width: 30%;
-        margin-left: 30px;
-        border: 1px solid #999A81;
-        margin-bottom: 80px;
-    }
-    .discription__sofa h3 {
-        font-size: 50px;
-    }
+  .basked__main_content .container__basket__main_img_parent {
+    left: 18%;
   }
-  @media (max-width: 1440px) {
-    .basked__total {
-        padding-top: 30px;
-        
-    }
-    .basket__promocode input {
-        width: 55%;
-    }
-    .basked__link_back {
-        margin-bottom: 50px;
-    }
-    .basked__header_text h2{
-        margin-bottom: 25px;
-    }
-    .dropdown__absked_size {
-        width: 80px;
-    }
-    .discription__sofa h3 {
-        font-size: 45px;
-        margin-top: 40px;
-    }
-    .basked__main_content .basked__main_content_second {
-        height: 455px;
-    }
-    .basked__main_content .container__basket_price_button h5 {
-        padding-left: 13px;
-    }
+  .basked__main_content .container__basket_main_img h5 {
+    margin-left: 34%;
   }
-  @media (max-width: 1366px) {
-    .basket__promocode button {
-        font-size: 12px;
-    }
-    .basket__promocode input {
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-    .basked__checkout-btn p {
-        font-size: 11px;
-    }
-    
 }
-  @media (max-width: 1280px) {
-    .basked__main_content .container__basket_content_discription {
-        width: 80%;
-    }
-    .container__basked_main .dropdown__first_pad {
-        margin-bottom: 0;
-    }
-    .basked__main_content .container__basket_content_discription {
-        display: flex;
-        justify-content: center;
-    }
-    .basked__main_content .container__basket_price_button h5 {
-        padding-left: 0px;
-    }
-    .container__basket_content_number {
-        padding: 0px 12px;
-    }
-    .basked__header_text h2 {
-        font-size: 35px;
-    }
-    .basked__main_content .basked__main_content_second h3 {
-        margin-bottom: 10px;
-        font-weight: 700;
-        font-size: 24px;
-    
-    }
-    .basked__main_content .basked__main_content_second {
-        margin-left: 20px;
-    }
-    .basked__main_content .basket__number_goods p {
-        font-size: 14px;
-    }
-    .basked__main_content .basket__number_goods h5 {
-        font-size: 16px;
-    }
-    .basked__main_content .basket_count {
-        width: 25px;
-        height: 25px;
-    }
-    .basked__main_content .dropdown .dropdown-text {
-        height: 40px;
-    }
-    .basked__main_content .dropdown::before {
-        top: 15px;
-        border-width: 9.4px 6px 0 6px;
-
-    }
-    .basked__main_content .dropdown.dropdown__active::before {
-        top: 13px;
-    }
-    .basked__main_content .dropdown .option {
-        top: 42px;
-    }
-    .discription__sofa h3 {
-        font-size: 42px;
-    }
-    .basket__promocode button{
-        padding: 14px 33px;
-    }
-    .basket__promocode input {
-        padding-top: 12px;
-        padding-bottom: 12px;
-    }
-    .basked__total {
-        padding-top: 20px;
-    }
-    .basked__total h5 {
-        font-size: 22px;
-    }
-    .basket__promocode {
-        padding-bottom: 12px;
-    }
-    .basked__checkout-btn button {
-        font-size: 12px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-    .basked__main_content .basked__main_content_second {
-        height: 385px;
-    }
-    .basked__checkout-btn p {
-        font-size: 10px;
-    }
-    .basked__link_back a {
-        font-size: 12px;
-    }
-    .basked__delete_all a {
-     margin-top: 14px;
-    }
-    
-    
+@media (max-width: 1600px) {
+  .basked__main_content .basked__main_content_second {
+    margin-left: 30px;
   }
-  @media (max-width: 1024px) {
-    .basked__main_content .container__basket_content_discription {
-        width: 92%;
-    }
-    .basked__header_txt h5 {
-        font-size: 12px;
-    }
-    .basked__main_content .basket_count {
-        width: 20px;
-        height: 20px;
-    }
-    .basked__main_content .basket_count_delite::before {
-        width: 10px;
-    }
-    .basked__main_content .container__basket_count_plus_delite::after {
-        height: 10px;
-    }
-    .basked__main_content .basket_count_delite_pad {
-        padding-top: 0px;
-        display: flex;
-        align-items: center;
-    }
-    .basked__main_content .container__basket_count {
-        padding-top: 0px;
-    }
-    .basked__main_content .container__basket_price_button h5 {
-        font-size: 12px;
-    }
-    .dropdown-text p {
-        font-size: 11px;
-    }
-    .dropdown .option div {
-        font-size: 11px;
-    }
-    .basked__main_content .basked__main_content_second h3 {
-        font-size: 22px;
-    }
-    .basked__header_text h2 {
-        font-size: 32px;
-    }
-    .basket__promocode button {
-        padding: 12px 23px;
-    }
-    .basket__promocode button {
-        font-size: 11px;
-    }
-    .basket__promocode input {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 10px;
-    }
-    .basked__main_content .basket__number_goods p {
-        font-size: 12px;
-        margin-bottom: 10px;
-    }
-    .basked__main_content .basket__number_goods h5 {
-        font-size: 14px;
-    }
-    .basked__total {
-        padding-top: 12px;
-    }
-    .basked__total h5 {
-        font-size: 18px;
-    }
-    .basked__checkout-btn p {
-        font-size: 8px;
+}
+@media (max-width: 1536px) {
+  .basked__main_content .basked__main_content_second {
+    padding: 30px;
+    width: 30%;
+    margin-left: 30px;
+    border: 1px solid #999a81;
+    margin-bottom: 80px;
+  }
+  .discription__sofa h3 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 1440px) {
+  .basked__total {
+    padding-top: 30px;
+  }
+  .basket__promocode input {
+    width: 55%;
+  }
+  .basked__link_back {
+    margin-bottom: 50px;
+  }
+  .basked__header_text h2 {
+    margin-bottom: 25px;
+  }
+  .dropdown__absked_size {
+    width: 80px;
+  }
+  .discription__sofa h3 {
+    font-size: 45px;
+    margin-top: 40px;
+  }
+  .basked__main_content .basked__main_content_second {
+    height: 455px;
+  }
+  .basked__main_content .container__basket_price_button h5 {
+    padding-left: 13px;
+  }
+}
+@media (max-width: 1366px) {
+  .basket__promocode button {
+    font-size: 12px;
+  }
+  .basket__promocode input {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .basked__checkout-btn p {
+    font-size: 11px;
+  }
+}
+@media (max-width: 1280px) {
+  .basked__main_content .container__basket_content_discription {
+    width: 80%;
+  }
+  .container__basked_main .dropdown__first_pad {
     margin-bottom: 0;
-    }
-    .basked__total p {
-        margin-bottom: 0;
-    }
-    .basked__main_content .basked__main_content_second {
-        height: 316px;
-    }
-    .basked__link_back {
-        margin-bottom: 40px;
-    }
-    .basked__header_text h2 {
-        margin-bottom: 20px;
-    }
-    .basked__main_content .basked__main_content_second {
-        padding: 20px;
-    }
-    .discription__sofa h3 {
-        font-size: 32px;
-    }
-    .discription__sofa h3 {
-        font-size: 32px;
-        margin-top: 35px;
-    }
-    .item__header {
-        padding: 25px 25px;
-    }
-    .basked__main_content .container__basket_main_img h5 {
-        font-size: 12px;
-    }
-    .basked__main_content_second {
-       
-        top: 100px;
-    }
-    
+  }
+  .basked__main_content .container__basket_content_discription {
+    display: flex;
+    justify-content: center;
+  }
+  .basked__main_content .container__basket_price_button h5 {
+    padding-left: 0px;
+  }
+  .container__basket_content_number {
+    padding: 0px 12px;
+  }
+  .basked__header_text h2 {
+    font-size: 35px;
+  }
+  .basked__main_content .basked__main_content_second h3 {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .basked__main_content .basked__main_content_second {
+    margin-left: 20px;
+  }
+  .basked__main_content .basket__number_goods p {
+    font-size: 14px;
+  }
+  .basked__main_content .basket__number_goods h5 {
+    font-size: 16px;
+  }
+  .basked__main_content .basket_count {
+    width: 25px;
+    height: 25px;
+  }
+  .basked__main_content .dropdown .dropdown-text {
+    height: 40px;
+  }
+  .basked__main_content .dropdown::before {
+    top: 15px;
+    border-width: 9.4px 6px 0 6px;
+  }
+  .basked__main_content .dropdown.dropdown__active::before {
+    top: 13px;
+  }
+  .basked__main_content .dropdown .option {
+    top: 42px;
+  }
+  .discription__sofa h3 {
+    font-size: 42px;
+  }
+  .basket__promocode button {
+    padding: 14px 33px;
+  }
+  .basket__promocode input {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .basked__total {
+    padding-top: 20px;
+  }
+  .basked__total h5 {
+    font-size: 22px;
+  }
+  .basket__promocode {
+    padding-bottom: 12px;
+  }
+  .basked__checkout-btn button {
+    font-size: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .basked__main_content .basked__main_content_second {
+    height: 385px;
+  }
+  .basked__checkout-btn p {
+    font-size: 10px;
+  }
+  .basked__link_back a {
+    font-size: 12px;
+  }
+  .basked__delete_all a {
+    margin-top: 14px;
+  }
+}
+@media (max-width: 1024px) {
+  .basked__main_content .container__basket_content_discription {
+    width: 92%;
+  }
+  .basked__header_txt h5 {
+    font-size: 12px;
+  }
+  .basked__main_content .basket_count {
+    width: 20px;
+    height: 20px;
+  }
+  .basked__main_content .basket_count_delite::before {
+    width: 10px;
+  }
+  .basked__main_content .container__basket_count_plus_delite::after {
+    height: 10px;
+  }
+  .basked__main_content .basket_count_delite_pad {
+    padding-top: 0px;
+    display: flex;
+    align-items: center;
+  }
+  .basked__main_content .container__basket_count {
+    padding-top: 0px;
+  }
+  .basked__main_content .container__basket_price_button h5 {
+    font-size: 12px;
+  }
+  .dropdown-text p {
+    font-size: 11px;
+  }
+  .dropdown .option div {
+    font-size: 11px;
+  }
+  .basked__main_content .basked__main_content_second h3 {
+    font-size: 22px;
+  }
+  .basked__header_text h2 {
+    font-size: 32px;
+  }
+  .basket__promocode button {
+    padding: 12px 23px;
+  }
+  .basket__promocode button {
+    font-size: 11px;
+  }
+  .basket__promocode input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+  .basked__main_content .basket__number_goods p {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .basked__main_content .basket__number_goods h5 {
+    font-size: 14px;
+  }
+  .basked__total {
+    padding-top: 12px;
+  }
+  .basked__total h5 {
+    font-size: 18px;
+  }
+  .basked__checkout-btn p {
+    font-size: 8px;
+    margin-bottom: 0;
+  }
+  .basked__total p {
+    margin-bottom: 0;
+  }
+  .basked__main_content .basked__main_content_second {
+    height: 316px;
+  }
+  .basked__link_back {
+    margin-bottom: 40px;
+  }
+  .basked__header_text h2 {
+    margin-bottom: 20px;
+  }
+  .basked__main_content .basked__main_content_second {
+    padding: 20px;
+  }
+  .discription__sofa h3 {
+    font-size: 32px;
+  }
+  .discription__sofa h3 {
+    font-size: 32px;
+    margin-top: 35px;
+  }
+  .item__header {
+    padding: 25px 25px;
+  }
+  .basked__main_content .container__basket_main_img h5 {
+    font-size: 12px;
+  }
+  .basked__main_content_second {
+    top: 100px;
+  }
 }
 @media (max-width: 912px) {
-    .basked__main_content_first{
-        display: none;
-    }
-    .basked__main_content_mobil {
-        display: block;
-    }
-    .basked__main_content_mobil_clear {
-        display: block;
-    }
-    .basked__main_content .basked__main_content_second {
-        height: 372px;
-    }
-    .container__mobil {
-        padding: 0px 150px;
-    }
-    .basked__main_content .basked__main_content_second {
-        width: 99%;
-        margin-left: 2px;
-        margin-right: 2px;
-    }
-    .basked__main_content_second {
-        margin-top: 50px;
-    }
-    .basked__main_content .basked__main_content_second {
-        margin-bottom: 80px;
-    }
-    .basked__main_content_mobil {
-        display: block;
-    }
-    .basked__main_content_mobil_clear {
-        display: block;
-    }
-    .basked__main_content_first {
-        display: none;
-    }
-    .basked__link_back {
-        margin-bottom: 40px;
-    }
-    .basked__main_content_second {
-        margin-top: 50px;
-        
-    }
-    .basked__main_content .basked__main_content_second {
-        width: 99%;
-        margin-left: 2px;
-        margin-right: 2px;
-    }
-    .basked__main_content .basked__main_content_second h3 {
-        font-size: 24px;
-    }
-    .basked__main_content .basket__number_goods p {
-        font-size: 14px;
-        margin-bottom: 12px;
-    }
-    .basked__main_content .basket__number_goods h5 {
-        font-size: 16px;
-        font-weight: 400;
-    }
-    .basket__promocode button {
-        font-size: 12px;
-        padding: 12px 22px;
-        width: 28%;
-    }
-    .basket__promocode input::placeholder {
-        font-size: 12px;
-    }
-    .basket__promocode input {
-        padding-top: 12.5px;
-        padding-bottom: 12.5px;
-        padding-left: 12px;
-        font-size: 12px;
-    }
-    
-    .basked__main_content .basked__main_content_second {
-        padding: 30px 16px;
-    }
-    .basked__main_content .basked__main_content_second {
-        height: 372px;
-    }
-    .basked__checkout-btn p {
-        font-size: 12px;
-        font-weight: 300;
-    }
-    .basked__checkout-btn p {
-        margin-top: 6px;
-    }
-    .basked__total p,
-    .basked__total h5 {
-        font-size: 22px;
-        font-weight: 700;
-        font-family: "Bebas Neue", sans-serif;
-    }
-    .container__mobil {
-        padding: 0px 150px;
-    }
-    .basket__promocode input {
-        width: 70.5%;
-    }
-}
-@media (max-width: 820px) {
-   
+  .basked__main_content_first {
+    display: none;
+  }
+  .basked__main_content_mobil {
+    display: block;
+  }
+  .basked__main_content_mobil_clear {
+    display: block;
+  }
+  .basked__main_content .basked__main_content_second {
+    height: 372px;
+  }
+  .container__mobil {
+    padding: 0px 150px;
+  }
+  .basked__main_content .basked__main_content_second {
+    width: 99%;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  .basked__main_content_second {
+    margin-top: 50px;
+  }
+  .basked__main_content .basked__main_content_second {
+    margin-bottom: 80px;
+  }
+  .basked__main_content_mobil {
+    display: block;
+  }
+  .basked__main_content_mobil_clear {
+    display: block;
+  }
+  .basked__main_content_first {
+    display: none;
+  }
+  .basked__link_back {
+    margin-bottom: 40px;
+  }
+  .basked__main_content_second {
+    margin-top: 50px;
+  }
+  .basked__main_content .basked__main_content_second {
+    width: 99%;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  .basked__main_content .basked__main_content_second h3 {
+    font-size: 24px;
+  }
+  .basked__main_content .basket__number_goods p {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+  .basked__main_content .basket__number_goods h5 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .basket__promocode button {
+    font-size: 12px;
+    padding: 12px 22px;
+    width: 28%;
+  }
+  .basket__promocode input::placeholder {
+    font-size: 12px;
+  }
+  .basket__promocode input {
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    padding-left: 12px;
+    font-size: 12px;
+  }
+
+  .basked__main_content .basked__main_content_second {
+    padding: 30px 16px;
+  }
+  .basked__main_content .basked__main_content_second {
+    height: 372px;
+  }
+  .basked__checkout-btn p {
+    font-size: 12px;
+    font-weight: 300;
+  }
+  .basked__checkout-btn p {
+    margin-top: 6px;
+  }
+  .basked__total p,
+  .basked__total h5 {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Bebas Neue", sans-serif;
+  }
+  .container__mobil {
+    padding: 0px 150px;
+  }
+  .basket__promocode input {
+    width: 70.5%;
+  }
 }
 @media (max-width: 800px) {
-    .basked__link_back {
-        margin-bottom: 25px;
-        margin-left: 0;
-        margin-top: 15px;
-
-    }
-    .basked__link_back a {
-        font-size: 10px;
-    }
-    .basked__arrow_left svg {
-        height: 9px;
-    }
-    .basked__header_text h2 {
-        font-size: 30px;
-        margin-left: 0;
-    }
-    .basked__header_txt h5 {
-        font-size: 11px;
-    }
-    .container__basked_main .dropdown-text p {
-        font-size: 10px;
-    }
-    .container__basked_main .dropdown .option div {
-        font-size: 10px;
-    }
-    .container__basked_main .dropdown .option div {
-        padding: 10px 8px;
-    }
-    .basked__main_content .container__basket_main_img h5 {
-        font-size: 10px;
-    }
-    .basked__main_content .basked__header_first h5 {
-        margin-left: 15px;
-    }
-    .container__basket_content_number {
-        padding: 0px 8px;
-    }
-    .basked__main_content .basket_count {
-        width: 14px;
-        height: 14px;
-    }
-    .basked__main_content .basket_count_delite::before {
-        width: 6px;
-    }
-    .basked__main_content .basket_count_delite::after {
-        height: 6px;
-    }
-    .basked__main_content .dropdown .dropdown-text {
-        height: 30px;
-    }
-    .basked__main_content .container__basket_content p {
-        margin-bottom: 0;
-    }
-    .basked__main_content .dropdown::before {
-        top: 11px;
-        border-width: 8.4px 5px 0 5px;
-        right: 9px;
-    }
-    .basked__main_content .dropdown.dropdown__active::before {
-        top: 10px;
-    }
-    .basked__main_content .dropdown .option {
-        top: 31px;
-    }
-    .dropdown__absked_size {
-        width: 50px;
-    }
-    .basked__main_content .container__basket_price_button h5 {
-        font-size: 10px;
-    }
-    .basked__main_content .basked__header_five h5 {
-        padding-right: 30px;
-    }
-    .basked__delete_all a {
-        margin-top: 10px;
-        font-size: 11px;
-    }
-    .basked__main_content .basked__main_content_second h3 {
-        font-size: 20px;
-    }
-    .basked__main_content .basket__number_goods p {
-        font-size: 10px;
-        margin-bottom: 5px;
-    }
-    .basked__main_content .basket__number_goods h5 {
-        font-size: 12px;
-    }
-    .basket__promocode button {
-        font-size: 9px;
-    }
-    .basket__promocode button {
-        padding: 10px 16px;
-    }
-    .basked__main_content .basket__number_goods h5 {
-        font-size: 11px;
-    }
-    .basked__main_content .basked__main_content_second {
-        padding: 15px;
-    }
-    .basked__total h5 {
-        font-size: 16px;
-    }
-    .basked__total p {
-        font-size: 14px;
-    }
-    .basket__promocode input {
-        font-size: 11px;
-    }
-    .basket__promocode input::placeholder {
-        font-size: 12px;
-    }
-    .basked__checkout-btn button {
-        font-size: 10px;
-        padding-top: 12px;
-        padding-bottom: 12px;
-    }
-    .basked__main_content .basked__main_content_second {
-        height: 282px;
-    }
-    .discription__sofa h3{
-        font-size: 27px;
-        margin-top: 22px;
-    }
-    .item__header {
-        padding: 16px 16px;
-    }
+  .basked__link_back {
+    margin-bottom: 25px;
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  .basked__link_back a {
+    font-size: 10px;
+  }
+  .basked__arrow_left svg {
+    height: 9px;
+  }
+  .basked__header_text h2 {
+    font-size: 30px;
+    margin-left: 0;
+  }
+  .basked__header_txt h5 {
+    font-size: 11px;
+  }
+  .container__basked_main .dropdown-text p {
+    font-size: 10px;
+  }
+  .container__basked_main .dropdown .option div {
+    font-size: 10px;
+  }
+  .container__basked_main .dropdown .option div {
+    padding: 10px 8px;
+  }
+  .basked__main_content .container__basket_main_img h5 {
+    font-size: 10px;
+  }
+  .basked__main_content .basked__header_first h5 {
+    margin-left: 15px;
+  }
+  .container__basket_content_number {
+    padding: 0px 8px;
+  }
+  .basked__main_content .basket_count {
+    width: 14px;
+    height: 14px;
+  }
+  .basked__main_content .basket_count_delite::before {
+    width: 6px;
+  }
+  .basked__main_content .basket_count_delite::after {
+    height: 6px;
+  }
+  .basked__main_content .dropdown .dropdown-text {
+    height: 30px;
+  }
+  .basked__main_content .container__basket_content p {
+    margin-bottom: 0;
+  }
+  .basked__main_content .dropdown::before {
+    top: 11px;
+    border-width: 8.4px 5px 0 5px;
+    right: 9px;
+  }
+  .basked__main_content .dropdown.dropdown__active::before {
+    top: 10px;
+  }
+  .basked__main_content .dropdown .option {
+    top: 31px;
+  }
+  .dropdown__absked_size {
+    width: 50px;
+  }
+  .basked__main_content .container__basket_price_button h5 {
+    font-size: 10px;
+  }
+  .basked__main_content .basked__header_five h5 {
+    padding-right: 30px;
+  }
+  .basked__delete_all a {
+    margin-top: 10px;
+    font-size: 11px;
+  }
+  .basked__main_content .basked__main_content_second h3 {
+    font-size: 20px;
+  }
+  .basked__main_content .basket__number_goods p {
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+  .basked__main_content .basket__number_goods h5 {
+    font-size: 12px;
+  }
+  .basket__promocode button {
+    font-size: 9px;
+  }
+  .basket__promocode button {
+    padding: 10px 16px;
+  }
+  .basked__main_content .basket__number_goods h5 {
+    font-size: 11px;
+  }
+  .basked__main_content .basked__main_content_second {
+    padding: 15px;
+  }
+  .basked__total h5 {
+    font-size: 16px;
+  }
+  .basked__total p {
+    font-size: 14px;
+  }
+  .basket__promocode input {
+    font-size: 11px;
+  }
+  .basket__promocode input::placeholder {
+    font-size: 12px;
+  }
+  .basked__checkout-btn button {
+    font-size: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .basked__main_content .basked__main_content_second {
+    height: 282px;
+  }
+  .discription__sofa h3 {
+    font-size: 27px;
+    margin-top: 22px;
+  }
+  .item__header {
+    padding: 16px 16px;
+  }
 }
 @media (max-width: 768px) {
-    .basket__promocode button {
-        padding: 10px 14px;
-    }
-    .basket__promocode input::placeholder {
-        font-size: 10px;
-    }
-    .discription__sofa h3 {
-        font-size: 25px;
-        margin-top: 22px;
-    }
+  .basket__promocode button {
+    padding: 10px 14px;
+  }
+  .basket__promocode input::placeholder {
+    font-size: 10px;
+  }
+  .discription__sofa h3 {
+    font-size: 25px;
+    margin-top: 22px;
+  }
 }
 @media (max-width: 767px) {
-    .basked__main_content_mobil {
-        display: block;
-    }
-    .basked__main_content_mobil_clear {
-        display: block;
-    }
-    .basked__main_content_first {
-        display: none;
-    }
-    .basked__link_back {
-        margin-bottom: 40px;
-    }
-    .basked__main_content_second {
-        margin-top: 50px;
-        
-    }
-    .basked__main_content .basked__main_content_second {
-        width: 99%;
-        margin-left: 2px;
-        margin-right: 2px;
-    }
-    .basked__main_content .basked__main_content_second h3 {
-        font-size: 24px;
-    }
-    .basked__main_content .basket__number_goods p {
-        font-size: 14px;
-        margin-bottom: 12px;
-    }
-    .basked__main_content .basket__number_goods h5 {
-        font-size: 16px;
-        font-weight: 400;
-    }
-    .basket__promocode button {
-        font-size: 12px;
-        padding: 12px 22px;
-        width: 28%;
-    }
-    .basket__promocode input::placeholder {
-        font-size: 12px;
-    }
-    .basket__promocode input {
-        padding-top: 12.5px;
-        padding-bottom: 12.5px;
-        padding-left: 12px;
-        font-size: 12px;
-    }
-    
-    .basked__main_content .basked__main_content_second {
-        padding: 30px 16px;
-    }
-    .basked__main_content .basked__main_content_second {
-        height: 372px;
-    }
-    .basked__checkout-btn p {
-        font-size: 12px;
-        font-weight: 300;
-    }
-    .basked__checkout-btn p {
-        margin-top: 6px;
-    }
-    .basked__total p,
-    .basked__total h5 {
-        font-size: 22px;
-        font-weight: 700;
-        font-family: "Bebas Neue", sans-serif;
-    }
-    .container__mobil {
-        padding: 0px 150px;
-    }
-    .basket__promocode input {
-        width: 70.5%;
-    }
-    
+  .basked__main_content_mobil {
+    display: block;
+  }
+  .basked__main_content_mobil_clear {
+    display: block;
+  }
+  .basked__main_content_first {
+    display: none;
+  }
+  .basked__link_back {
+    margin-bottom: 40px;
+  }
+  .basked__main_content_second {
+    margin-top: 50px;
+  }
+  .basked__main_content .basked__main_content_second {
+    width: 99%;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  .basked__main_content .basked__main_content_second h3 {
+    font-size: 24px;
+  }
+  .basked__main_content .basket__number_goods p {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+  .basked__main_content .basket__number_goods h5 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .basket__promocode button {
+    font-size: 12px;
+    padding: 12px 22px;
+    width: 28%;
+  }
+  .basket__promocode input::placeholder {
+    font-size: 12px;
+  }
+  .basket__promocode input {
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    padding-left: 12px;
+    font-size: 12px;
+  }
+
+  .basked__main_content .basked__main_content_second {
+    padding: 30px 16px;
+  }
+  .basked__main_content .basked__main_content_second {
+    height: 372px;
+  }
+  .basked__checkout-btn p {
+    font-size: 12px;
+    font-weight: 300;
+  }
+  .basked__checkout-btn p {
+    margin-top: 6px;
+  }
+  .basked__total p,
+  .basked__total h5 {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Bebas Neue", sans-serif;
+  }
+  .container__mobil {
+    padding: 0px 150px;
+  }
+  .basket__promocode input {
+    width: 70.5%;
+  }
 }
 @media (max-width: 600px) {
-    .container__mobil {
-        padding: 0px 70px;
-    }
-    .basked__checkout-btn button {
-        font-size: 12px;
-        padding: 15px 0px;
-    }
-    .basked__link_back a {
-        font-size: 14px;
-    }
-    .basked__arrow_left svg {
-        height: 14px;
-    }
+  .container__mobil {
+    padding: 0px 70px;
+  }
+  .basked__checkout-btn button {
+    font-size: 12px;
+    padding: 15px 0px;
+  }
+  .basked__link_back a {
+    font-size: 14px;
+  }
+  .basked__arrow_left svg {
+    height: 14px;
+  }
 }
 @media (max-width: 480px) {
-    .container__mobil {
-        padding: 0px 0px;
-    }
+  .container__mobil {
+    padding: 0px 0px;
+  }
 }
 @media (max-width: 414px) {
-    .basket__promocode button {
-       
-        width: 31%;
-    }
-    .basket__promocode input {
-        width: 67.5%;
-    }
+  .basket__promocode button {
+    width: 31%;
+  }
+  .basket__promocode input {
+    width: 67.5%;
+  }
 }
 @media (max-width: 390px) {
-    .basket__promocode input {
-        width: 63.5%;
-    }
-    .basket__promocode button {
-       
-        width: 35%;
-    }
+  .basket__promocode input {
+    width: 63.5%;
+  }
+  .basket__promocode button {
+    width: 35%;
+  }
 }
 @media (max-width: 375px) {
-    
-   
 }
 
 @media (max-width: 360px) {
-    .basket__promocode input {
-        width: 63%;
-    }
+  .basket__promocode input {
+    width: 63%;
+  }
 }

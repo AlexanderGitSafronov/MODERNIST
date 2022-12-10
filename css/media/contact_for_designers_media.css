@@ -1,60 +1,23 @@
-@media (max-width: 1680px) {
-   
-    
-}
-@media (max-width: 1600px) {
-    
-}
-@media (max-width: 1536px) {
-  
-  
-}
-@media (max-width: 1440px) {
-  
-    
-}
-@media (max-width: 1366px) {
-  
-}
-@media (max-width: 1280px) {
-    
-}
-@media (max-width: 1024px) {
-   
-}
-@media (max-width: 991px) {
-    
-}
-@media (max-width: 800px) {
-    
-}
-@media (max-width: 768px) {
-  
-}
 @media (max-width: 767px) {
-   .contacts__information_top_discription_hide {
-       display: none;
-   }
-   .contacts__information_top_discription_mobil_header_text h6 {
+  .contacts__information_top_discription_hide {
+    display: none;
+  }
+  .contacts__information_top_discription_mobil_header_text h6 {
     font-size: 28px;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 700;
     margin-bottom: 34px;
-   }
-   .contacts__information_top_discription_mobil {
-       display: block;
-   }
-   .contacts__information_top_discription_designer_hide {
-       display: none;
-   }
-   .contacts__information_top_discription_designer_mobil {
-       display: flex;
-   }
-   .contacts__information_top_discription_mobil_pad {
-       padding-left: 24px;
-   }
-}
-@media (max-width: 480px) {
-    
-    
+  }
+  .contacts__information_top_discription_mobil {
+    display: block;
+  }
+  .contacts__information_top_discription_designer_hide {
+    display: none;
+  }
+  .contacts__information_top_discription_designer_mobil {
+    display: flex;
+  }
+  .contacts__information_top_discription_mobil_pad {
+    padding-left: 24px;
+  }
 }

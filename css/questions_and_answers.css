@@ -1,100 +1,108 @@
 .questions__and_answer {
-    width: 80%;
-    padding-top: 80px;
-    padding-bottom: 80px;
+  width: 80%;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .questions__and_answer_pos {
-    display: flex;
-    justify-content: center;
-    border-top: 1px solid #999A81;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-top: 1px solid #999a81;
 }
 
 .accordion-header {
-    display: flex;
-    justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 .accordion-header-btn {
-    flex: 1;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 .accordion-header-btn a {
-    
-    font-size: 28px;
-    font-weight: 700;
-    font-family: "Bebas Neue", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  font-family: "Bebas Neue", sans-serif;
 }
 .card-body {
-    padding-right: 50px;
+  padding-right: 50px;
 }
 .card-body p {
-    font-size: 16px;
-    font-weight: 300;
-    font-family: "Onest", sans-serif;
-    
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Onest", sans-serif;
 }
-
-
 
 /* .accordion-header-span {
-    margin-top: 30px;
-    margin-right: 20px;
-    
-} */
+      margin-top: 30px;
+      margin-right: 20px;
+      
+  } */
 
 /* .accordion-header-span .glyphicon-plus {
-    height: 25px;
-}
-.accordion-header-span .glyphicon-plus::after {
-    width: 25px;
-    left: -12px;
-    top: 11px;
-}
-.accordion-header-span .glyphicon-minus::after {
-    width: 25px;
-    left: -12px;
-   
-} */
-
-
-
+      height: 25px;
+  }
+  .accordion-header-span .glyphicon-plus::after {
+      width: 25px;
+      left: -12px;
+      top: 11px;
+  }
+  .accordion-header-span .glyphicon-minus::after {
+      width: 25px;
+      left: -12px;
+     
+  } */
 .accordion-header-span .glyphicon-plus {
-    left: -15px;
-    display: inline-block;
-    background: #24160B;
-    height: 25px;
-    width: 2px;
-    top: 28px;
-    position: relative;
-    transition: 0.3s all ease;
+  left: -15px;
+  display: inline-block;
+  background: #24160b;
+  height: 25px;
+  width: 2px;
+  top: 28px;
+  position: relative;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
 }
-
-
 .accordion-header-span .glyphicon-plus::after {
-    content: "";
-    height: 2px;
-    width: 25px;
-    background: #24160B;
-    position: absolute;
-    left: -12px;
-    top: 12px;
-    transition: 0.3s all ease;
+  content: "";
+  height: 2px;
+  width: 25px;
+  background: #24160b;
+  position: absolute;
+  left: -12px;
+  top: 12px;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
 }
 .accordion-header-span .glyphicon-minus {
-    display: inline-block;
-    position: relative;
-    left: -14px;
-    height: 10px;
-    width: 2px;
-    top: 21px;
-    transition: 0.3s all ease;
+  display: inline-block;
+  position: relative;
+  left: -14px;
+  height: 10px;
+  width: 2px;
+  top: 21px;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
 }
 .accordion-header-span .glyphicon-minus::after {
-    content: "";
-    height: 2px;
-    width: 25px;
-    background: #24160B;
-    position: absolute;
-    left: -13px;
-    top: 12px;
-    transition: 0.3s all ease;
+  content: "";
+  height: 2px;
+  width: 25px;
+  background: #24160b;
+  position: absolute;
+  left: -13px;
+  top: 12px;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
 }
-

@@ -1,156 +1,138 @@
 @media (max-width: 1680px) {
-    .contacts__information_bottom {
-        padding: 54px 126px 100px 80px;
-    }
-}
-@media (max-width: 1600px) {
-    
-   
-}
-@media (max-width: 1536px) {
-   
-.percent p {
-    font-size: 60px;
-    margin-left: 60px;
-}
-.percent span {
-    font-size: 25px;
-}
-.contacts__information_bottom {
+  .contacts__information_bottom {
     padding: 54px 126px 100px 80px;
+  }
 }
 
+@media (max-width: 1536px) {
+  .percent p {
+    font-size: 60px;
+    margin-left: 60px;
+  }
+  .percent span {
+    font-size: 25px;
+  }
+  .contacts__information_bottom {
+    padding: 54px 126px 100px 80px;
+  }
 }
 @media (max-width: 1440px) {
-    
-    .contacts p {
-        font-size: 16px;
-    }
-   .contacts  .installment__tinkoff_header p{
-        font-size: 14px;
-    }
-    .percent p{
-font-size: 60px;
-    }
-   
-    .contacts .installment__tinkoff_header_discription p {
-        font-size: 12px;
-    }
-    .contacts h6 {
-        margin-top: 40px;
-        margin-bottom: 25px;
-    }
-    .installment__tinkoff {
-        margin-top: 70px;
-    }
-  
-}
-@media (max-width: 1366px) {
-    
+  .contacts p {
+    font-size: 16px;
+  }
+  .contacts .installment__tinkoff_header p {
+    font-size: 14px;
+  }
+  .percent p {
+    font-size: 60px;
+  }
+
+  .contacts .installment__tinkoff_header_discription p {
+    font-size: 12px;
+  }
+  .contacts h6 {
+    margin-top: 40px;
+    margin-bottom: 25px;
+  }
+  .installment__tinkoff {
+    margin-top: 70px;
+  }
 }
 @media (max-width: 1280px) {
-    .contacts__information_bottom {
-        padding: 54px 80px 100px 70px;
-    }
-   
+  .contacts__information_bottom {
+    padding: 54px 80px 100px 70px;
+  }
 }
 @media (max-width: 1024px) {
-    
-    .contacts__information_bottom {
-        padding: 34px 60px 100px 60px;
-    }
-    .percent p {
-        font-size: 60px;
-        margin-left: 20px;
-    }
-    .percent span {
-        font-size: 20px;
-    }
-    .installment__tinkoff {
-        margin-top: 60px;
-    }
-    .installment__tinkoff_header p {
-        margin-top: 30px;
-    }
-    
-    
+  .contacts__information_bottom {
+    padding: 34px 60px 100px 60px;
+  }
+  .percent p {
+    font-size: 60px;
+    margin-left: 20px;
+  }
+  .percent span {
+    font-size: 20px;
+  }
+  .installment__tinkoff {
+    margin-top: 60px;
+  }
+  .installment__tinkoff_header p {
+    margin-top: 30px;
+  }
 }
 @media (max-width: 991px) {
-    .contacts__information_bottom {
-        padding: 34px 60px 100px 60px;
-    }
-    .percent p {
-        font-size: 60px;
-        margin-left: 50px;
-    }
-    
+  .contacts__information_bottom {
+    padding: 34px 60px 100px 60px;
+  }
+  .percent p {
+    font-size: 60px;
+    margin-left: 50px;
+  }
 }
 @media (max-width: 800px) {
-    
 }
 @media (max-width: 768px) {
-    .percent p {
-        font-size: 60px;
-        margin-left: 40px;
-    }
+  .percent p {
+    font-size: 60px;
+    margin-left: 40px;
+  }
 }
 @media (max-width: 767px) {
-    .installment__tinkoff {
-        display: block;
-    }
-    .cases__header h1 {
-        font-size: 50px;
-        line-height: 50px;
-    }
-    .contacts__links_link a{
-        white-space: nowrap;
-    }
-    .contacts__links_pos {
-        overflow-x: scroll;
-        
-    }
-    .contacts__links {
-        padding: 0px 16px;
-    }
-    .contacts__link_choise {
-        font-size: 18px;
-    }
-    .contacts__links_pos {
-        gap: 0px;
-    }
-    .contacts__links_link_line  {
-        padding: 0px 16px;
-    }
-    .contacts__information_bottom {
-        padding: 32px 16px 20px 16px;
-    }
-    .cases__header {
-        margin-top: 35px;
-        margin-bottom: 30px;
-    }
-    .contacts__information_top_head {
-        margin-bottom: 36px;
-    }
-    .contacts .percent p {
-        font-size: 72px;
-    }
-    .contacts .percent span {
-        font-size: 26px;
-    }
-    .contacts__information_bottom_content ul li {
-        line-height: 19px;
-    }
-    .contacts h6 {
-        line-height: 19px;
-    }
-    .contacts h2 {
-        font-size: 28px;
-    }
-    .contacts p {
-        font-size: 14px;
-    }
-    .contacts__information_bottom_content ul li {
-        margin-bottom: 12px;
-    }
-    
+  .installment__tinkoff {
+    display: block;
+  }
+  .cases__header h1 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .contacts__links_link a {
+    white-space: nowrap;
+  }
+  .contacts__links_pos {
+    overflow-x: scroll;
+  }
+  .contacts__links {
+    padding: 0px 16px;
+  }
+  .contacts__link_choise {
+    font-size: 18px;
+  }
+  .contacts__links_pos {
+    gap: 0px;
+  }
+  .contacts__links_link_line {
+    padding: 0px 16px;
+  }
+  .contacts__information_bottom {
+    padding: 32px 16px 20px 16px;
+  }
+  .cases__header {
+    margin-top: 35px;
+    margin-bottom: 30px;
+  }
+  .contacts__information_top_head {
+    margin-bottom: 36px;
+  }
+  .contacts .percent p {
+    font-size: 72px;
+  }
+  .contacts .percent span {
+    font-size: 26px;
+  }
+  .contacts__information_bottom_content ul li {
+    line-height: 19px;
+  }
+  .contacts h6 {
+    line-height: 19px;
+  }
+  .contacts h2 {
+    font-size: 28px;
+  }
+  .contacts p {
+    font-size: 14px;
+  }
+  .contacts__information_bottom_content ul li {
+    margin-bottom: 12px;
+  }
 }

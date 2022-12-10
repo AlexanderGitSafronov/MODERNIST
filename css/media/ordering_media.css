@@ -1,1053 +1,1030 @@
-@media (max-width: 1920px) {
-    
-}
-
 @media (max-width: 1827px) {
-    .custom-radio,
-    .ordering__checkbox_flex_label {
-        margin-left: 15px;
-    }
+  .custom-radio,
+  .ordering__checkbox_flex_label {
+    margin-left: 15px;
+  }
 }
 @media (max-width: 1789) {
-    .custom-radio,
-    .ordering__checkbox_flex_label {
-        margin-left: 10px;
-    }
+  .custom-radio,
+  .ordering__checkbox_flex_label {
+    margin-left: 10px;
+  }
 }
 @media (max-width: 1680px) {
-   
-    .ordering {
-        padding-left: 92px;
-        padding-right: 55px;
-        padding-bottom: 110px;
-    }
-    .basket__fixed .container__basket_price {
-        padding: 0px;
-    }
-    .form__item_adress input {
-        width: 97.5%;
-    }
+  .ordering {
+    padding-left: 92px;
+    padding-right: 55px;
+    padding-bottom: 110px;
   }
-  @media (max-width: 1600px) {
-    .ordering__input input {
-        width: 306px;
-    }
-     .four__input input {
-        width: 145px;
-    }
-     .transport__company_svg img {
-        padding-right: 222px;
-    }
-     .dropdown {
-        width: 50%;
-    }
-    .ordering, .ordering__basked {
-        padding-top: 95px;
-    }
-    .organization__w input {
-        width: 100%;
-    }
-    
-    .four__input_flex_first {
-        padding-right: 8px;
-    }
-    .four__input_flex_second {
-        padding-left: 8px;
-    }
-    .basket__fixed .ordering__basked_header_txt {
-        margin-bottom: 18px;
-    }
-    .basket__fixed .container__basket {
-        padding: 32px 12px 27px;
-    }
-    .basket__fixed .container__basket_content_number {
-        padding: 0px 10px;
-    }
-    .basket__fixed .basket_count {
-        width: 24px;
-        height: 24px;
-    }
-    .basket__fixed .ordering__basked .ordering__basked_left_discription {
-        padding-top: 25px;
-    }
-    .basket__fixed .basket_count::before {
-        width: 9px;
-    }
-    .basket__fixed .container__basket_count_plus::after {
-        height: 9px;
-    }
-    .basket__fixed .container__basket_price h5 {
-        font-size: 20px ;
-    }
-    .basket__fixed .container__basket_price {
-        padding: 0px;
-    }
-    .basket__fixed .container__basket_price {
-        padding: 0px;
-    }
-    .ordering__checkbox_flex_label {
-        margin-left: 3%;
-    }
-    .form__item_adress input {
-        width: 97.5%;
-    }
+  .basket__fixed .container__basket_price {
+    padding: 0px;
   }
-@media (max-width: 1536px) {
-    .ordering__input input {
-        width: 290px;
-    }
-    .organization__w input {
-        width: 100%;
-    }
-    .four__input input {
-        width: 120px;
-    }
-    .four__input input {
-        width: 137px;
-    }
-    .transport__company_svg img {
-        padding-right: 196px;
-    }
-    .basket__fixed {
-        top: 25px;
-    }
-    h3 {
-        font-size: 26px;
-    }
-    .label__radio {
-        font-size: 13px;
-    }
-    .buyer__data_second {
-        margin-top: 54px;
-    }
-    .dropdown {
-        width: 52%;
-    }
-    .buyer__date_header_text {
-        margin-left: 10px;
-        margin-bottom: 25px;
-    }
-    .form__item_adress input {
-        width: 97.5%;
-    }
-    
+  .form__item_adress input {
+    width: 97.5%;
   }
-  @media (max-width: 1440px) {
-    .ordering {
-        padding-left: 68px;
-        padding-right: 30px;
-    }
-    .ordering__basked {
-        padding-right: 108px;
-        padding-left: 30px;
+}
+@media (max-width: 1600px) {
+  .ordering__input input {
+    width: 306px;
+  }
+  .four__input input {
+    width: 145px;
+  }
+  .transport__company_svg img {
+    padding-right: 222px;
+  }
+  .dropdown {
+    width: 50%;
+  }
+  .ordering,
+  .ordering__basked {
+    padding-top: 95px;
+  }
+  .organization__w input {
+    width: 100%;
+  }
 
-    }
-    p {
-        font-size: 15px;
-    }
-    .basket__fixed {
-        top: 0px;
-    } 
-    .basket__fixed .offcanvas-body_right {
-        height: 289px;
-    }
-    .form__item_adress input {
-        width: 97.5%;
-    }
+  .four__input_flex_first {
+    padding-right: 8px;
   }
-  @media (max-width: 1366px) {
-    .ordering {
-        padding-left: 72px;
-      
-    }
-    
-    .ordering__input input {
-        width: 271px;
-        padding-top: 25px;
-    }
-    .organization__w input {
-        width: 100%;
-    }
-    .four__input input {
-        width: 128px;
-    }
-    
-    .form__item_adress {
-        margin-bottom: 15px;
-    }
-    h3 {
-        font-size: 22px;
-    }
-    .label__radio {
-        font-size: 12px;
-    }
-    p {
-        font-size: 13px;
-    }
-    h5 {
-        font-size: 14px;
-    }
-    .custom-radio>span::before {
-        width: 12px;
-        height: 12px;
+  .four__input_flex_second {
+    padding-left: 8px;
+  }
+  .basket__fixed .ordering__basked_header_txt {
+    margin-bottom: 18px;
+  }
+  .basket__fixed .container__basket {
+    padding: 32px 12px 27px;
+  }
+  .basket__fixed .container__basket_content_number {
+    padding: 0px 10px;
+  }
+  .basket__fixed .basket_count {
+    width: 24px;
+    height: 24px;
+  }
+  .basket__fixed .ordering__basked .ordering__basked_left_discription {
+    padding-top: 25px;
+  }
+  .basket__fixed .basket_count::before {
+    width: 9px;
+  }
+  .basket__fixed .container__basket_count_plus::after {
+    height: 9px;
+  }
+  .basket__fixed .container__basket_price h5 {
+    font-size: 20px;
+  }
+  .basket__fixed .container__basket_price {
+    padding: 0px;
+  }
+  .basket__fixed .container__basket_price {
+    padding: 0px;
+  }
+  .ordering__checkbox_flex_label {
+    margin-left: 3%;
+  }
+  .form__item_adress input {
+    width: 97.5%;
+  }
+}
+@media (max-width: 1536px) {
+  .ordering__input input {
+    width: 290px;
+  }
+  .organization__w input {
+    width: 100%;
+  }
+  .four__input input {
+    width: 120px;
+  }
+  .four__input input {
+    width: 137px;
+  }
+  .transport__company_svg img {
+    padding-right: 196px;
+  }
+  .basket__fixed {
+    top: 25px;
+  }
+  h3 {
+    font-size: 26px;
+  }
+  .label__radio {
+    font-size: 13px;
+  }
+  .buyer__data_second {
+    margin-top: 54px;
+  }
+  .dropdown {
+    width: 52%;
+  }
+  .buyer__date_header_text {
+    margin-left: 10px;
+    margin-bottom: 25px;
+  }
+  .form__item_adress input {
+    width: 97.5%;
+  }
+}
+@media (max-width: 1440px) {
+  .ordering {
+    padding-left: 68px;
+    padding-right: 30px;
+  }
+  .ordering__basked {
+    padding-right: 108px;
+    padding-left: 30px;
+  }
+  p {
+    font-size: 15px;
+  }
+  .basket__fixed {
+    top: 0px;
+  }
+  .basket__fixed .offcanvas-body_right {
+    height: 289px;
+  }
+  .form__item_adress input {
+    width: 97.5%;
+  }
+}
+@media (max-width: 1366px) {
+  .ordering {
+    padding-left: 72px;
+  }
+
+  .ordering__input input {
+    width: 271px;
+    padding-top: 25px;
+  }
+  .organization__w input {
+    width: 100%;
+  }
+  .four__input input {
+    width: 128px;
+  }
+
+  .form__item_adress {
+    margin-bottom: 15px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  .label__radio {
+    font-size: 12px;
+  }
+  p {
+    font-size: 13px;
+  }
+  h5 {
+    font-size: 14px;
+  }
+  .custom-radio > span::before {
+    width: 12px;
+    height: 12px;
   }
   .ordering__checkbox {
     margin-bottom: 15px;
   }
   .basket__fixed .container__basket_price h5 {
-    font-size: 18px ;
-}
-.way__to_get {
+    font-size: 18px;
+  }
+  .way__to_get {
     padding: 25px 35px;
-
-}
-h6 {
+  }
+  h6 {
     font-weight: 600;
-}
-button {
+  }
+  button {
     font-size: 12px;
-}
-.basket__fixed .container__basket_content p {
+  }
+  .basket__fixed .container__basket_content p {
     font-size: 11px;
-}
-.basket__fixed .container__basket_content h5 {
+  }
+  .basket__fixed .container__basket_content h5 {
     font-size: 13px;
     margin-bottom: 2px;
-    
-}
-.basket__fixed .basket_count {
+  }
+  .basket__fixed .basket_count {
     width: 22px;
     height: 22px;
-}
-.container__basket_content_number {
+  }
+  .container__basket_content_number {
     padding: 0px 8px;
-}
-.ordering__basked .ordering__basked_left_discription {
+  }
+  .ordering__basked .ordering__basked_left_discription {
     padding-top: 25px;
-}
-.ordering__basked .offcanvas-footer_header {
+  }
+  .ordering__basked .offcanvas-footer_header {
     margin-top: 22px;
-}
-.ordering__basked .offcanvas-footer_privacy_policy p {
+  }
+  .ordering__basked .offcanvas-footer_privacy_policy p {
     font-size: 10px;
-}
-.service__lift {
-
+  }
+  .service__lift {
     padding: 16px 0px 16px 18px;
-}
-.ordering__checkbox_lift {
+  }
+  .ordering__checkbox_lift {
     margin-bottom: 0;
-}
+  }
 
-.service__lift+label {
+  .service__lift + label {
     font-size: 15px;
-}
-.ordering__basked .offcanvas-footer_privacy_policy p {
+  }
+  .ordering__basked .offcanvas-footer_privacy_policy p {
     margin-top: 12px;
-}
-.basket__fixed .offcanvas-body_right {
+  }
+  .basket__fixed .offcanvas-body_right {
     height: 269px;
-}
-.form__item_adress input {
+  }
+  .form__item_adress input {
     width: 97.5%;
+  }
 }
-}
-  @media (max-width: 1280px) {
-    .ordering {
-        padding-right: 20px;
-    }
-    .ordering__basked {
-        padding-left: 20px;
-        padding-right: 83px;
-    }
-    .custom-radio {
-        margin-left: 20px;
-    }
-    .ordering__input input {
-        width: 255px;
-        padding-top: 20px;
-    }
-    .organization__w input {
-        width: 100%;
-    }
-    .four__input input {
-        width: 120px;
-    }
-    .four__input_flex_first {
-        padding-right: 7px;
-    }
-    .four__input_flex_second {
-        padding-left: 7px;
-    }
-    p {
-        font-size: 12px;
-    }
-    .label__radio {
-        font-size: 11px;
-    }
-    .transport__company_svg img {
-        padding-right: 170px;
-    }
-    .basket__fixed .container__basket {
-        padding: 25px 12px 20px;
-    }
-    .ordering__basked .ordering__basked_left_discription {
-        padding-top: 20px;
-    }
-    .ordering__basked .offcanvas-footer_header {
-        margin-top: 20px;
-    }
-    /* .custom-radio>span::before {
+@media (max-width: 1280px) {
+  .ordering {
+    padding-right: 20px;
+  }
+  .ordering__basked {
+    padding-left: 20px;
+    padding-right: 83px;
+  }
+  .custom-radio {
+    margin-left: 20px;
+  }
+  .ordering__input input {
+    width: 255px;
+    padding-top: 20px;
+  }
+  .organization__w input {
+    width: 100%;
+  }
+  .four__input input {
+    width: 120px;
+  }
+  .four__input_flex_first {
+    padding-right: 7px;
+  }
+  .four__input_flex_second {
+    padding-left: 7px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .label__radio {
+    font-size: 11px;
+  }
+  .transport__company_svg img {
+    padding-right: 170px;
+  }
+  .basket__fixed .container__basket {
+    padding: 25px 12px 20px;
+  }
+  .ordering__basked .ordering__basked_left_discription {
+    padding-top: 20px;
+  }
+  .ordering__basked .offcanvas-footer_header {
+    margin-top: 20px;
+  }
+  /* .custom-radio>span::before {
         background-size: 61% 60%;
     } */
-    .form__item_adress label {
-        top: 15px;
-    }
-    .form__item_adress input:focus+label, .form__item_adress input:not(:placeholder-shown)+label, .form__item_adress textarea:focus+label, .form__item_adress textarea:not(:placeholder-shown)+label {
-        top: 4px;
-    }
-    .basket__fixed .offcanvas-body_right {
-        height: 239px;
-    }
-    .form__item_adress input {
-        width: 97.5%;
-    }
-    .label__radio {
-        font-size: 12px;
-    }
+  .form__item_adress label {
+    top: 15px;
+  }
+  .form__item_adress input:focus + label,
+  .form__item_adress input:not(:placeholder-shown) + label,
+  .form__item_adress textarea:focus + label,
+  .form__item_adress textarea:not(:placeholder-shown) + label {
+    top: 4px;
+  }
+  .basket__fixed .offcanvas-body_right {
+    height: 239px;
+  }
+  .form__item_adress input {
+    width: 97.5%;
+  }
+  .label__radio {
+    font-size: 12px;
+  }
+}
 
+@media (max-width: 1279px) {
+  .choice__address .modal-content .modal__choice_address_flex {
+    display: block;
+  }
+  .choice__address .modal-dialog {
+    max-width: 568px;
+  }
+  .map {
+    width: 565px;
+    height: 420px;
+    border-top: 1px solid #cac9ba;
+  }
+  .modal__choice_address {
+    overflow-y: scroll;
+    height: 375px;
+  }
+  .ordering__checkbox_flex div {
+    display: block;
+  }
+  .custom-radio_installment {
+    margin-top: 10px;
+  }
+  .ordering__checkbox_flex_label {
+    margin-left: 5%;
+  }
+}
+@media (max-width: 1278px) {
+  .custom-radio {
+    margin-left: 0;
+  }
+}
+@media (max-width: 1024px) {
+  .ordering {
+    padding-right: 10px;
+    padding-left: 0;
+  }
+  .ordering__basked {
+    padding-left: 10px;
+    padding-right: 34px;
+  }
+  .ordering__input input {
+    width: 235px;
+    padding-top: 18px;
+  }
+  .organization__w input {
+    width: 100%;
+  }
+  .four__input input {
+    width: 114px;
+  }
+  .four__input_flex_first {
+    padding-right: 4px;
+  }
+  .four__input_flex_second {
+    padding-left: 4px;
+  }
+  .form__item_adress {
+    margin-bottom: 8px;
+  }
+  .just-validate-error-label {
+    font-size: 12px;
+  }
+  .form__item_adress input:focus + label,
+  .form__item_adress input:not(:placeholder-shown) + label,
+  .form__item_adress textarea:focus + label,
+  .form__item_adress textarea:not(:placeholder-shown) + label {
+    top: 4px;
+  }
+  .buyer__date_header_text {
+    margin-left: 10px;
+    margin-bottom: 20px;
   }
 
-  @media (max-width: 1279px)  {
-      .choice__address .modal-content .modal__choice_address_flex {
-          display: block;
-      }
-      .choice__address .modal-dialog {
-        max-width: 568px;
-    }
-    .map {
-        width: 565px;
-        height: 420px;
-        border-top: 1px solid #CAC9BA;
-        
-
-    }
-    .modal__choice_address {
-        overflow-y: scroll;
-        height: 375px;
-        
-        
-    }
-    .ordering__checkbox_flex div {
-        display: block;
-    }
-    .custom-radio_installment {
-        margin-top: 10px;
-    }
-    .ordering__checkbox_flex_label {
-        margin-left: 5%;
-    }
-    
-    
+  .buyer__date_header_text h3 {
+    margin-bottom: 0;
+    margin-top: 2px;
   }
-  @media (max-width: 1278px)  {
-    .custom-radio {
-        margin-left: 0;
-    }
+  .custom-radio > span::before {
+    width: 12px;
+    height: 12px;
+    /* background-size: 64% 61%; */
   }
-  @media (max-width: 1024px) {
-    .ordering {
-        padding-right: 10px;
-        padding-left: 0;
-    }
-    .ordering__basked {
-        padding-left: 10px;
-        padding-right: 34px;
-    }
-    .ordering__input input {
-        width: 235px;
-        padding-top: 18px;
-    }
-    .organization__w input {
-        width: 100%;
-    }
-    .four__input input {
-        width: 114px;
-    }
-    .four__input_flex_first {
-        padding-right: 4px;
-    }
-    .four__input_flex_second {
-        padding-left: 4px;
-    }
-    .form__item_adress {
-        margin-bottom: 8px;
-    }
-    .just-validate-error-label {
-        font-size: 12px;
-    }
-    .form__item_adress input:focus+label, .form__item_adress input:not(:placeholder-shown)+label, .form__item_adress textarea:focus+label, .form__item_adress textarea:not(:placeholder-shown)+label {
-        top: 4px;
-    }
-    .buyer__date_header_text {
-        margin-left: 10px;
-        margin-bottom: 20px;
-    }
-    
-    .buyer__date_header_text h3 {
-        margin-bottom: 0;
-        margin-top: 2px;
-    }
-    .custom-radio>span::before {
-        width: 12px;
-        height: 12px;
-        /* background-size: 64% 61%; */
-    }
-    .custom-radio {
-        margin-left: 0px;
-    }
-    .way__to_get button {
-        font-size: 12px;
-    }
-    button {
-        font-size: 10px;
-    }
-    .installment__plan_content {
-        padding: 15px;
-    }
-    h6 {
-        font-size: 18px;
-    }
-   .ordering .dropdown .dropdown-text {
-        height: 46px;
-    }
-    .ordering .dropdown-text p {
-        font-size: 10px;
-    }
-    .ordering .dropdown::before {
-        border-width: 9.4px 6px 0 6px;
-        top: 18px;
-    }
-    .ordering .dropdown .option:last-child {
-        padding-bottom: 0px;
-    }
-    .ordering .dropdown .option {
-        top: 48px;
-    }
-    .ordering .dropdown .option div:last-child {
-        padding-top: 0px;
-    }
-    .dropdown.dropdown__active::before {
-        top: 16px;
-    }
-    .buyer__data_second {
-        margin-top: 38px;
-    }
-    .basket__fixed .basket_count {
-        width: 18px;
-        height: 18px;
-    }
-    .basket__fixed .container__basket_img_parent {
-        max-width: 85%;
-    }
-    .basket__fixed .container__basket {
-        padding: 15px 12px 16px;
-    }
-    .basket__fixed .container__basket_content h5 {
-        font-size: 12px;
-    }
-    .basket__fixed .container__basket_price h5 {
-        font-size: 15px !important;
-    }
-    .basket__fixed .offcanvas-body_right {
-        height: 194px;
-    }
-    .transport__company_svg img {
-        padding-right: 133px;
-    }
-    .ordering__checkbox_flex_label {
-        margin-left: 2.3%;
-    }
-    .form__item_adress input {
-        width: 100%;
-    }
-    .ordering__input .ordering__input_form {
-        display: block;
-    }
-    .form__item_adress_right label{
-        left: 15px;
-    }
-    .form__item_adress_right .just-validate-error-label {
-        margin-left: 5px;
-        
-    }
-    .four__input_flex_first .from__errors input {
-        width: 97%;
-    }
-    .four__input_flex_second .from__errors input {
-        width: 97%;
-    }
-    .label__radio {
-        font-size: 13px;
-    }
-    
+  .custom-radio {
+    margin-left: 0px;
+  }
+  .way__to_get button {
+    font-size: 12px;
+  }
+  button {
+    font-size: 10px;
+  }
+  .installment__plan_content {
+    padding: 15px;
+  }
+  h6 {
+    font-size: 18px;
+  }
+  .ordering .dropdown .dropdown-text {
+    height: 46px;
+  }
+  .ordering .dropdown-text p {
+    font-size: 10px;
+  }
+  .ordering .dropdown::before {
+    border-width: 9.4px 6px 0 6px;
+    top: 18px;
+  }
+  .ordering .dropdown .option:last-child {
+    padding-bottom: 0px;
+  }
+  .ordering .dropdown .option {
+    top: 48px;
+  }
+  .ordering .dropdown .option div:last-child {
+    padding-top: 0px;
+  }
+  .dropdown.dropdown__active::before {
+    top: 16px;
+  }
+  .buyer__data_second {
+    margin-top: 38px;
+  }
+  .basket__fixed .basket_count {
+    width: 18px;
+    height: 18px;
+  }
+  .basket__fixed .container__basket_img_parent {
+    max-width: 85%;
+  }
+  .basket__fixed .container__basket {
+    padding: 15px 12px 16px;
+  }
+  .basket__fixed .container__basket_content h5 {
+    font-size: 12px;
+  }
+  .basket__fixed .container__basket_price h5 {
+    font-size: 15px !important;
+  }
+  .basket__fixed .offcanvas-body_right {
+    height: 194px;
+  }
+  .transport__company_svg img {
+    padding-right: 133px;
+  }
+  .ordering__checkbox_flex_label {
+    margin-left: 2.3%;
+  }
+  .form__item_adress input {
+    width: 100%;
+  }
+  .ordering__input .ordering__input_form {
+    display: block;
+  }
+  .form__item_adress_right label {
+    left: 15px;
+  }
+  .form__item_adress_right .just-validate-error-label {
+    margin-left: 5px;
+  }
+  .four__input_flex_first .from__errors input {
+    width: 97%;
+  }
+  .four__input_flex_second .from__errors input {
+    width: 97%;
+  }
+  .label__radio {
+    font-size: 13px;
+  }
 }
 @media (max-width: 991px) {
-    .four__input {
-        display: block;
-    }
-    .four__input_flex_first {
-        width: 100%;
-    }
-    .from__errors {
-        width: 100%;
-    }
-    .four__input_flex_first .from__errors input {
-        width: 98%;
-    }
-    .four__input_flex_second .from__errors input {
-        width: 98%;
-    }
-    
-    .four__input_flex_first {
-        justify-content: space-between;
-    }
-    .four__input_flex_first {
-        padding-right: 0px;
-    }
-    .four__input_flex_second {
-        padding-left: 0px;
-    }
-    
+  .four__input {
+    display: block;
+  }
+  .four__input_flex_first {
+    width: 100%;
+  }
+  .from__errors {
+    width: 100%;
+  }
+  .four__input_flex_first .from__errors input {
+    width: 98%;
+  }
+  .four__input_flex_second .from__errors input {
+    width: 98%;
+  }
+
+  .four__input_flex_first {
+    justify-content: space-between;
+  }
+  .four__input_flex_first {
+    padding-right: 0px;
+  }
+  .four__input_flex_second {
+    padding-left: 0px;
+  }
 }
 @media (max-width: 912px) {
-    .ordering__basked {
-        padding-left: 10px;
-        padding-right: 7px;
-    }
-    .custom-radio {
-        margin-left: 0;
-    }
-    .transport__company_svg img {
-        padding-right: 50px;
-    }
-    .way__to_get {
-        padding: 25px 24px;
-    }
+  .ordering__basked {
+    padding-left: 10px;
+    padding-right: 7px;
+  }
+  .custom-radio {
+    margin-left: 0;
+  }
+  .transport__company_svg img {
+    padding-right: 50px;
+  }
+  .way__to_get {
+    padding: 25px 24px;
+  }
 }
 
 @media (max-width: 820px) {
-    
-    .ordering__input .ordering__input_form {
-        display: block;
-    }
-    .form__item_adress input {
-        width: 100%;
-    }
-    .four__input {
-        display: block;
-    }
-    .four__input_flex {
-        display: flex;
-        justify-content: space-between;
-    }
-    .four__input .four__input_pad {
-       width: 100%;
-    }
-    .custom-radio>span::before {
-        width: 12px;
-        height: 12px;
- 
-        
-    }
-    h3 {
-        font-size: 20px;
-    }
-    .field__number {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #EFAE35;
-        height: 24px;
-        width: 24px;
-        border-radius: 50%;
-    }
-    p {
-        font-size: 10px;
-    }
-    .way__to_get {
-        padding: 15px 15px;
-    }
-    .way__to_get button {
-        font-size: 10px;
-    }
-    .way__to_get button {
-        padding: 9px 18px;
-    }
-    h5 {
-        font-size: 12px;
-    }
-    .way__to_get_discription {
-        margin-bottom: 20px;
-    }
-    .ordering__basked {
-        padding-right: 10px;
-    }
-    .basket__fixed .basket_count {
-        width: 14px;
-        height: 14px;
-    }
-    .basket__fixed .basket_count::before {
-        width: 6px;
-    }
-    .basket__fixed .container__basket_count_plus::after {
-        height: 6px;
-
-    }
-    .four__input_flex_first {
-        padding-right: 0px;
-    }
-    .four__input_flex_second {
-        padding-left: 0px;
-    }
-    .form__item_adress_pad {
-        display: flex;
-        justify-content: end;
-    }
-    .transport__company_content {
-        padding: 10px;
-    }
-    .transport__company_svg img {
-        padding-right: 50px;
-        width: 100%;
-    }
-    .service__lift {
-        width: 100%;
-    }
-    .label__radio {
-        font-size: 10px;
-    }
-    .ordering__checkbox_flex_label {
-        margin-left: 0px;
-    }
-    .ordering__checkbox_flex_label .custom-radio {
-        margin-left: 0;
-    }
-    .ordering .dropdown  {
-        width: 65%;
-    }
-    .installment__plan-btn button {
-        padding: 12px 35px;
-    }
-    h6 {
-        font-size: 16px;
-    }
-    .ordering__link_back a {
-        font-size: 12px;
-    }
-    .basket__fixed .container__basket_price h5 {
-        font-size: 14px;
-    }
-    .basket__fixed .container__basket_content h5 {
-        font-size: 11px;
-    }
-    .basket__fixed .offcanvas-body_right {
-        height: 190px;
-    }
-    .ordering__basked .ordering__basked_left_discription {
-        padding-top: 15px;
-    }
-    .ordering__basked .offcanvas-footer_header {
-        margin-top: 15px;
-    }
-    .ordering__basked_left_discription p {
-        margin-bottom: 10px;
-    }
-    .ordering__basked .offcanvas-footer_privacy_policy p {
-        margin-top: 10px;
-    }
-    .offcanvas-header_right h5 {
-        font-size: 21px;
-    }
-   .ordering .custom-radio_installment {
-       margin-left: 0;
-   }
-   .form__item_adress_pad {
-       display: block;
-       margin-left: 4px;
-   }
-   .form__item_adress_pad_first {
-       margin-right: 4px;
-   } 
-   .four__input_flex_first .from__errors input {
+  .ordering__input .ordering__input_form {
+    display: block;
+  }
+  .form__item_adress input {
+    width: 100%;
+  }
+  .four__input {
+    display: block;
+  }
+  .four__input_flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .four__input .four__input_pad {
+    width: 100%;
+  }
+  .custom-radio > span::before {
+    width: 12px;
+    height: 12px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .field__number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #efae35;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+  }
+  p {
+    font-size: 10px;
+  }
+  .way__to_get {
+    padding: 15px 15px;
+  }
+  .way__to_get button {
+    font-size: 10px;
+  }
+  .way__to_get button {
+    padding: 9px 18px;
+  }
+  h5 {
+    font-size: 12px;
+  }
+  .way__to_get_discription {
+    margin-bottom: 20px;
+  }
+  .ordering__basked {
+    padding-right: 10px;
+  }
+  .basket__fixed .basket_count {
+    width: 14px;
+    height: 14px;
+  }
+  .basket__fixed .basket_count::before {
+    width: 6px;
+  }
+  .basket__fixed .container__basket_count_plus::after {
+    height: 6px;
+  }
+  .four__input_flex_first {
+    padding-right: 0px;
+  }
+  .four__input_flex_second {
+    padding-left: 0px;
+  }
+  .form__item_adress_pad {
+    display: flex;
+    justify-content: end;
+  }
+  .transport__company_content {
+    padding: 10px;
+  }
+  .transport__company_svg img {
+    padding-right: 50px;
+    width: 100%;
+  }
+  .service__lift {
+    width: 100%;
+  }
+  .label__radio {
+    font-size: 10px;
+  }
+  .ordering__checkbox_flex_label {
+    margin-left: 0px;
+  }
+  .ordering__checkbox_flex_label .custom-radio {
+    margin-left: 0;
+  }
+  .ordering .dropdown {
+    width: 65%;
+  }
+  .installment__plan-btn button {
+    padding: 12px 35px;
+  }
+  h6 {
+    font-size: 16px;
+  }
+  .ordering__link_back a {
+    font-size: 12px;
+  }
+  .basket__fixed .container__basket_price h5 {
+    font-size: 14px;
+  }
+  .basket__fixed .container__basket_content h5 {
+    font-size: 11px;
+  }
+  .basket__fixed .offcanvas-body_right {
+    height: 190px;
+  }
+  .ordering__basked .ordering__basked_left_discription {
+    padding-top: 15px;
+  }
+  .ordering__basked .offcanvas-footer_header {
+    margin-top: 15px;
+  }
+  .ordering__basked_left_discription p {
+    margin-bottom: 10px;
+  }
+  .ordering__basked .offcanvas-footer_privacy_policy p {
+    margin-top: 10px;
+  }
+  .offcanvas-header_right h5 {
+    font-size: 21px;
+  }
+  .ordering .custom-radio_installment {
+    margin-left: 0;
+  }
+  .form__item_adress_pad {
+    display: block;
+    margin-left: 4px;
+  }
+  .form__item_adress_pad_first {
+    margin-right: 4px;
+  }
+  .four__input_flex_first .from__errors input {
     width: 98%;
-}
-.four__input_flex_second .from__errors input {
+  }
+  .four__input_flex_second .from__errors input {
     width: 98%;
-}
-.form__item_adress_right {
+  }
+  .form__item_adress_right {
     text-align: start;
-}
-.ordering__checkbox_flex_label {
+  }
+  .ordering__checkbox_flex_label {
     margin-left: 5%;
-}
+  }
 }
 @media (max-width: 768px) {
-    .ordering, .ordering__basked {
-        padding-top: 75px;
-    }
-    .basket__fixed .container__basket_price h5 {
-        font-size: 13px ;
-    }
-    .way__to_get {
-        padding: 11px 11px;
-    }
-    .payment__method_footer {
-        margin-top: 12px;
-    }
-    .ordering {
-        padding-bottom: 50px;
-    }
+  .ordering,
+  .ordering__basked {
+    padding-top: 75px;
+  }
+  .basket__fixed .container__basket_price h5 {
+    font-size: 13px;
+  }
+  .way__to_get {
+    padding: 11px 11px;
+  }
+  .payment__method_footer {
+    margin-top: 12px;
+  }
+  .ordering {
+    padding-bottom: 50px;
+  }
 }
 @media (max-width: 767px) {
-    
-    .way__obtaining_ordering_button_prew {
-        display: none;
-    }
-    .way__obtaining_ordering_next {
-        display: none;
-    }
-    .payment__method_ordering_button_prew {
-        display: none;
-    }
-    .confirm__order_button_next {
-        display: none;
-    }
-    .buyer__date_header_mobil {
-        display: none;
-        display: flex;
-    }
+  .way__obtaining_ordering_button_prew {
+    display: none;
+  }
+  .way__obtaining_ordering_next {
+    display: none;
+  }
+  .payment__method_ordering_button_prew {
+    display: none;
+  }
+  .confirm__order_button_next {
+    display: none;
+  }
+  .buyer__date_header_mobil {
+    display: none;
+    display: flex;
+  }
 
-    .ordering__slider_mobil {
-        display: block;
-    }
-    .ordering__link_back {
-        display: flex;
-        margin-top: 24px;
-        margin-bottom: 34px;
-        margin-left: 0px;
-    }
-    .ordering {
-        padding-top: 0;
-        padding-right: 0;
-        padding-bottom: 30px;
-    }
-    .ordering__link_back a {
-        font-size: 14px;
-    }
-    .ordering__arrow_left {
-        display: none;
-    }
-    .ordering__arrow_left_mobil {
-        display: block;
-    }
-    .buyer__date_header_text h3 {
-        font-size: 24px;
-    }
-    .field__number {
-        height: 28px;
-        width: 28px;
-    }
-    .payment__method {
-        margin-bottom: 0;
-    }
-    .button__ordering_slide {
-        display: block;
-    }
+  .ordering__slider_mobil {
+    display: block;
+  }
+  .ordering__link_back {
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 34px;
+    margin-left: 0px;
+  }
+  .ordering {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 30px;
+  }
+  .ordering__link_back a {
+    font-size: 14px;
+  }
+  .ordering__arrow_left {
+    display: none;
+  }
+  .ordering__arrow_left_mobil {
+    display: block;
+  }
+  .buyer__date_header_text h3 {
+    font-size: 24px;
+  }
+  .field__number {
+    height: 28px;
+    width: 28px;
+  }
+  .payment__method {
+    margin-bottom: 0;
+  }
+  .button__ordering_slide {
+    display: block;
+  }
 
+  .way__obtaining_ordering {
+    display: none;
+  }
+  .payment__method_ordering {
+    display: none;
+  }
+  .ordering__border_left {
+    display: none;
+  }
+  .ordering,
+  .ordering__basked {
+    padding-top: 0;
+  }
 
+  .ordering__basked_header_txt {
+    display: none;
+  }
+  .buyer__date_header_mobil {
+    display: block;
+  }
 
+  .container__basket_content_hiden {
+    display: none;
+  }
+  .basket__fixed .container__basket_price h5 {
+    font-size: 16px;
+  }
+  .container__basket_content_mobil {
+    display: block;
+    margin-top: 18px;
+  }
+  .basket__fixed .container__basket_content h5 {
+    font-size: 14px;
+  }
+  .basket__fixed .container__basket_content p {
+    font-size: 12px;
+  }
+  .ordering__border_left .container__basket_content {
+    flex-grow: 1;
+  }
+  .basket__fixed .basket_count {
+    width: 24px;
+    height: 24px;
+  }
+  .basket__fixed .container__basket_img_parent {
+    max-width: 125%;
+  }
+  .ordering__border_left .basket__number {
+    font-size: 14px;
+  }
+  .basket__fixed .container__basket_content_number {
+    padding: 0px 16px;
+  }
+  .basket__fixed .container__basket_content h5 {
+    padding-right: 15%;
+  }
+  .basket__fixed .container__basket_content p {
+    padding-right: 15%;
+  }
+  .basket__fixed .container__basket_count {
+    padding-right: 15%;
+  }
+  .basket__fixed .offcanvas-footer_right p {
+    font-size: 14px;
+  }
+  .basket__fixed .offcanvas-footer_right h5 {
+    font-size: 16px;
+  }
+  .basket__fixed .offcanvas-footer_right h3 {
+    font-size: 22px;
+  }
+  .offcanvas-footer_bootom-btn button {
+    font-size: 12px;
+  }
+  .basket__fixed .offcanvas-footer_right .offcanvas-footer_privacy_policy p {
+    font-size: 12px;
+  }
+  .basket__fixed .offcanvas-body_right {
+    height: 240px;
+  }
+  .basket__fixed .basket_count::before {
+    width: 9px;
+  }
+  .basket__fixed .container__basket_count_plus::after {
+    height: 9px;
+  }
+  .ordering__mobil_pad {
+    padding: 0px 20%;
+  }
+  .ordering__border_right {
+    border: none;
+  }
+  .ordering__link_mobil_pad {
+    margin-right: 60%;
+  }
+  .way__to_get {
+    padding: 24px 36px;
+  }
+  .payment__method_footer p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .payment__method_header_text h5 {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  .custom-radio > span::before {
+    width: 12px;
+    height: 12px;
+  }
+  .label__radio {
+    font-size: 14px;
+  }
+  .field__number span {
+    margin-top: 2px;
+  }
+  .buyer__data_second {
+    margin-top: 0;
+  }
+  .way__obtaining_ordering .way__to_get {
+    padding: 24px;
+  }
+  .way__to_get_discription h5 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .way__to_get_discription p {
+    font-size: 14px;
+  }
 
-    .way__obtaining_ordering {
-        display: none;
-    }
-    .payment__method_ordering {
-        display: none;
-    }
-    .ordering__border_left {
-        display: none;
-    }
-    .ordering, .ordering__basked {
-        padding-top: 0;
-    }
+  .way__to_get button {
+    font-size: 12px;
+    padding: 12px 29px;
+  }
+  .ordering__checkbox_flex_first {
+    display: block;
+  }
+  .ordering__checkbox_second_pad {
+    margin-left: 0;
+  }
+  .label__radio_span {
+    display: none;
+  }
+  .transport__company_svg {
+    width: 72%;
+  }
+  .transport__company_svg img:first-child {
+    padding-right: 190px;
+  }
 
-    .ordering__basked_header_txt {
-        display: none;
-    }
-    .buyer__date_header_mobil {
-        display: block;
-    }
+  .transport__company_svg img {
+    padding-right: 162px;
+    width: 100%;
+  }
 
-    .container__basket_content_hiden {
-        display: none;
-    }
-    .basket__fixed .container__basket_price h5 {
-        font-size: 16px ;
-    }
-    .container__basket_content_mobil {
-        display: block;
-        margin-top: 18px;
-    }
-    .basket__fixed .container__basket_content h5 {
-        font-size: 14px;
-    }
-    .basket__fixed .container__basket_content p {
-        font-size: 12px;
-    }
-    .ordering__border_left .container__basket_content{
-        flex-grow: 1;
-    }
-    .basket__fixed .basket_count {
-        width: 24px;
-        height: 24px;
-    }
-    .basket__fixed .container__basket_img_parent {
-        max-width: 125%;
-    }
-    .ordering__border_left .basket__number {
-        font-size: 14px;
-    }
-    .basket__fixed .container__basket_content_number {
-        padding: 0px 16px;
-    }
-    .basket__fixed .container__basket_content h5 {
-        padding-right: 15%;
-    }
-    .basket__fixed .container__basket_content p {
-        padding-right: 15%;
-    }
-    .basket__fixed .container__basket_count {
-        padding-right: 15%;
-    }
-    .basket__fixed .offcanvas-footer_right p {
-        font-size: 14px;
-    }
-    .basket__fixed .offcanvas-footer_right h5 {
-        font-size: 16px;
-    }
-    .basket__fixed .offcanvas-footer_right h3 {
-        font-size: 22px;
-    }
-    .offcanvas-footer_bootom-btn button {
-        font-size: 12px;
-    }
-    .basket__fixed .offcanvas-footer_right .offcanvas-footer_privacy_policy p{
-        font-size: 12px;
-    }
-    .basket__fixed .offcanvas-body_right {
-        height: 240px;
-    }
-    .basket__fixed .basket_count::before {
-        width: 9px;
-    }
-    .basket__fixed .container__basket_count_plus::after {
-        height: 9px;
-    }
-    .ordering__mobil_pad {
-        padding: 0px 20%;
-    }
-    .ordering__border_right {
-        border: none;
-    }
-    .ordering__link_mobil_pad {
-        margin-right: 60%;
-    }
-    .way__to_get {
-        padding: 24px 36px;
-    }
-    .payment__method_footer p{
-        font-size: 14px;
-        text-align: center;
-    }
-    .payment__method_header_text h5{
-        font-size: 16px;
-        margin-left: 10px;
-    }
-    .custom-radio>span::before {
-        width: 12px;
-        height: 12px;
-    }
-    .label__radio {
-        font-size: 14px;
-    }
-    .field__number span {
-        margin-top: 2px;
-    }
-    .buyer__data_second {
-        margin-top: 0;
-    }
-    .way__obtaining_ordering .way__to_get {
-        padding: 24px;
-    }
-    .way__to_get_discription h5 {
-        font-size: 16px;
-        margin-bottom: 20px;
-    }
-    .way__to_get_discription p {
-        font-size: 14px;
-    }
-    
-    .way__to_get button {
-        font-size: 12px;
-        padding: 12px 29px;
-    }
-    .ordering__checkbox_flex_first {
-        display: block;
-    }
-    .ordering__checkbox_second_pad {
-        margin-left: 0;
-    }
-    .label__radio_span {
-        display: none;
-    }
-    .transport__company_svg {
-        width: 72%;
-    }
-    .transport__company_svg img:first-child {
-        padding-right: 190px;
-    }
-   
-    .transport__company_svg img {
-        padding-right: 162px;
-        width: 100%;
-    }
-    
-    .transport__company_price p {
-        font-size: 16px;
-    }
-    .organization__w textarea {
-        margin-bottom: 10px;
-    }
-    .lift {
-        margin-top: 15px;
-    }
-    .custom-checkbox_modal+label {
-        font-size: 14px;
-    }
-    .ordering__input input {
-        padding-top: 26px;
-    }
-    .form__item_adress label {
-        top: 20px;
-    }
-     .container__header_card_pos{
-        z-index: 1059 !important;
-        position: relative !important;
-    }
-    .map {
-        height: 320px;
-    }
-    .modal__choice_address {
-        height: 300px;
-    }
-    .balloon {
-            padding: 10px;
-    }
-    .balloon .balloon__button button {
-        margin-top: 10px;
-    }
-    .ordering__checkbox_second_pad {
-        margin-top: 10px;
-    }
-   
+  .transport__company_price p {
+    font-size: 16px;
+  }
+  .organization__w textarea {
+    margin-bottom: 10px;
+  }
+  .lift {
+    margin-top: 15px;
+  }
+  .custom-checkbox_modal + label {
+    font-size: 14px;
+  }
+  .ordering__input input {
+    padding-top: 26px;
+  }
+  .form__item_adress label {
+    top: 20px;
+  }
+  .container__header_card_pos {
+    z-index: 1059 !important;
+    position: relative !important;
+  }
+  .map {
+    height: 320px;
+  }
+  .modal__choice_address {
+    height: 300px;
+  }
+  .balloon {
+    padding: 10px;
+  }
+  .balloon .balloon__button button {
+    margin-top: 10px;
+  }
+  .ordering__checkbox_second_pad {
+    margin-top: 10px;
+  }
 }
 @media (max-width: 600px) {
-    .transport__company_svg img {
-        width: 110%;
-    }
-    .transport__company_svg .transport__company_svg_third {
-        width: 115%;
-    }
-    .tooltip {
-        left: -165px;
-    }
+  .transport__company_svg img {
+    width: 110%;
+  }
+  .transport__company_svg .transport__company_svg_third {
+    width: 115%;
+  }
+  .tooltip {
+    left: -165px;
+  }
 
-    .map {
-        width: 395px;
-        height: 250px;
-    }
-    .choice__address .modal-dialog {
-        max-width: 400px;
-        max-height: 300px;
-    }
-    .modal__choice_address {
-        height: 290px;
-    }
+  .map {
+    width: 395px;
+    height: 250px;
+  }
+  .choice__address .modal-dialog {
+    max-width: 400px;
+    max-height: 300px;
+  }
+  .modal__choice_address {
+    height: 290px;
+  }
 }
 @media (max-width: 575px) {
-    .choice__address .modal-dialog {
-        max-width: 400px;
-        max-height: 300px;
-        width: inherit;
-    }
+  .choice__address .modal-dialog {
+    max-width: 400px;
+    max-height: 300px;
+    width: inherit;
+  }
 }
 @media (max-width: 515px) {
-    .modal__header_mobil_cataloge_living_room .ordering__link_back {
-        margin-top: 0px;
+  .modal__header_mobil_cataloge_living_room .ordering__link_back {
+    margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
-    }
+  }
 }
 @media (max-width: 480px) {
-    .ordering__mobil_pad {
-        padding: 0px 10%;
-    }
-    .ordering__link_mobil_pad {
-        margin-right: 20%;
-    }
-    
+  .ordering__mobil_pad {
+    padding: 0px 10%;
+  }
+  .ordering__link_mobil_pad {
+    margin-right: 20%;
+  }
 }
 @media (max-width: 414px) {
-    .ordering__mobil_pad {
-        padding: 0px 10px;
-    }
-    .ordering__link_mobil_pad {
-        margin-right: 10px;
-    }
-    .transport__company_svg img {
-        width: 115%;
-    }
-    .transport__company_svg .transport__company_svg_third {
-        width: 120%;
-    }
-    .choice__address .way__to_get {
-            padding: 24px 18px;
-    }
+  .ordering__mobil_pad {
+    padding: 0px 10px;
+  }
+  .ordering__link_mobil_pad {
+    margin-right: 10px;
+  }
+  .transport__company_svg img {
+    width: 115%;
+  }
+  .transport__company_svg .transport__company_svg_third {
+    width: 120%;
+  }
+  .choice__address .way__to_get {
+    padding: 24px 18px;
+  }
 }
 @media (max-width: 410px) {
-    .choice__address .modal-dialog {
-        max-width: 350px;
-    }
-    .map {
-        width: 348px;
-    }
-    .custom-radio>span::before {
-       
-        background-size: 61% 81%;
-    }
+  .choice__address .modal-dialog {
+    max-width: 350px;
+  }
+  .map {
+    width: 348px;
+  }
+  .custom-radio > span::before {
+    background-size: 61% 81%;
+  }
 }
 @media (max-width: 375px) {
-    .ordering__mobil_pad {
-        padding: 0px 0px;
-    }
-    .ordering__link_mobil_pad {
-        margin-right: 0px;
-    }
-    .map {
-        width: 345px;
-        height: 250px;
-    }
-    .balloon {
-        padding: 0px;
-    }
+  .ordering__mobil_pad {
+    padding: 0px 0px;
+  }
+  .ordering__link_mobil_pad {
+    margin-right: 0px;
+  }
+  .map {
+    width: 345px;
+    height: 250px;
+  }
+  .balloon {
+    padding: 0px;
+  }
 }

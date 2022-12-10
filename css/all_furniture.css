@@ -1,21 +1,25 @@
 .menu__all_furniture-header-line {
-    display: none;
+  display: none;
 }
 .hiden__bllock_item_mobile {
-    display: none;
+  display: none;
 }
 .product__show_button_mobile {
-    display: flex;
-    justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 .product__show_button_mobile button {
-    margin-top: 39px;
-    margin-bottom: 80px;
-    font-size: 12px;
-    padding: 15px 79px;
-    background-color: #24160b;
-    border: 1px solid #24160b;
-    color: #FCF8F4;
-    text-transform: uppercase;
-    font-family: "Onest", sans-serif;
+  margin-top: 39px;
+  margin-bottom: 80px;
+  font-size: 12px;
+  padding: 15px 79px;
+  background-color: #24160b;
+  border: 1px solid #24160b;
+  color: #fcf8f4;
+  text-transform: uppercase;
+  font-family: "Onest", sans-serif;
 }

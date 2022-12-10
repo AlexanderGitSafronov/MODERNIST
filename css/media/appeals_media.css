@@ -1,192 +1,178 @@
 @media (max-width: 1680px) {
-    
 }
 @media (max-width: 1600px) {
-    
-   
 }
 @media (max-width: 1536px) {
-   
-
-
 }
 @media (max-width: 1440px) {
-   .appeals_button button {
-       font-size: 12px;
-       padding: 14px 85px;
-   }
-   
-  
-  
+  .appeals_button button {
+    font-size: 12px;
+    padding: 14px 85px;
+  }
 }
 @media (max-width: 1366px) {
-    .contacts__information_bottom {
-        padding: 54px 100px 100px 80px;
-    }
+  .contacts__information_bottom {
+    padding: 54px 100px 100px 80px;
+  }
 }
 @media (max-width: 1280px) {
-    .appeals__message_bottom p {
-        margin-bottom: 0px;
-    }
-    .appeals__message {
-        padding: 15px 15px;
-    }
-    .appeals__response_received a {
-        font-size: 12px;
-    }
-    .contacts__information_bottom {
-        padding: 54px 60px 100px 60px;
-    }
-    .modal-footer_discription p {
-        font-size: 10px;
-        line-height: 14px;
-    }
-    .modal-footer_discription {
-        margin-top: 0px;
-    }
-    .appeals__answer_not_autorization .authorization__get_code button {
-        padding: 12px;
-    }
-    .appeals__response_received a {
-        font-size: 16px;
-    }
+  .appeals__message_bottom p {
+    margin-bottom: 0px;
+  }
+  .appeals__message {
+    padding: 15px 15px;
+  }
+  .appeals__response_received a {
+    font-size: 12px;
+  }
+  .contacts__information_bottom {
+    padding: 54px 60px 100px 60px;
+  }
+  .modal-footer_discription p {
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .modal-footer_discription {
+    margin-top: 0px;
+  }
+  .appeals__answer_not_autorization .authorization__get_code button {
+    padding: 12px;
+  }
+  .appeals__response_received a {
+    font-size: 16px;
+  }
 }
 @media (max-width: 1150px) {
-    
 }
 @media (max-width: 1024px) {
-   .appeals__message_middle {
-       padding-left: 50px;
-   }
-   .appeals__response_received a {
-       font-size: 14px;
-   }
-   .appeals__message {
+  .appeals__message_middle {
+    padding-left: 50px;
+  }
+  .appeals__response_received a {
+    font-size: 14px;
+  }
+  .appeals__message {
     padding: 15px 0px;
-   }
-    
+  }
 }
 @media (max-width: 991px) {
-    /* МОДЕЛЬНОЕ ОКНО СОЗДАНИЯ ОБРАЩЕНИЯ */
-    .appeals__new_appeals .modal-body h5 {
-        margin-bottom: 18px;
-    }
-    .appeals__new_appeals .dropdown {
-        margin-bottom: 10px;
-    }
-    /* МОДЕЛЬНОЕ ОКНО ОТВЕТА */
-    .appeals__answer_appeals_chapter {
-        margin-bottom: 12px;
-    }
-    .appeals__answer_appeals .modal-dialog {
-        max-width: 500px;
-    }
-    .appeals__answer_appeals .modal-body {
-        padding: 0px 40px 40px 40px;
-    }
-    .appeals__answer_appeals .modal-body h5 {
-        margin-bottom: 12px;
-    }
-    .appeals__answer_appeals_topic {
-        margin-bottom: 12px;
-    }
-    .appeals__answer_appeals_question {
-        margin-top: 20px;
-        margin-bottom: 40px;
-    }
-    /* Модельное окно входа */
-    .appeals__answer_not_autorization .modal-dialog {
-        max-width: 450px;
-    }
-    .appeals__answer_not_autorization .modal-body p {
-        margin-bottom: 18px;
-    }
-    .appeals__answer_not_autorization .modal-body h5 {
-        margin-bottom: 0;
-    }
-
-    
+  /* МОДЕЛЬНОЕ ОКНО СОЗДАНИЯ ОБРАЩЕНИЯ */
+  .appeals__new_appeals .modal-body h5 {
+    margin-bottom: 18px;
+  }
+  .appeals__new_appeals .dropdown {
+    margin-bottom: 10px;
+  }
+  /* МОДЕЛЬНОЕ ОКНО ОТВЕТА */
+  .appeals__answer_appeals_chapter {
+    margin-bottom: 12px;
+  }
+  .appeals__answer_appeals .modal-dialog {
+    max-width: 500px;
+  }
+  .appeals__answer_appeals .modal-body {
+    padding: 0px 40px 40px 40px;
+  }
+  .appeals__answer_appeals .modal-body h5 {
+    margin-bottom: 12px;
+  }
+  .appeals__answer_appeals_topic {
+    margin-bottom: 12px;
+  }
+  .appeals__answer_appeals_question {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  /* Модельное окно входа */
+  .appeals__answer_not_autorization .modal-dialog {
+    max-width: 450px;
+  }
+  .appeals__answer_not_autorization .modal-body p {
+    margin-bottom: 18px;
+  }
+  .appeals__answer_not_autorization .modal-body h5 {
+    margin-bottom: 0;
+  }
 }
 @media (max-width: 820px) {
-    .appeals__message_middle {
-        padding-left: 40px;
-    }
+  .appeals__message_middle {
+    padding-left: 40px;
+  }
 }
 @media (max-width: 768px) {
-   
 }
 @media (max-width: 767px) {
-    .contacts__information_bottom {
-        padding: 32px 16px 20px 16px;
-    }
-    .contacts h6  {
-        margin-top: 35px;
-    }
-    .appeals__desctop {
-        display: none;
-    }
-    .appeals__mobil {
-        display: block;
-    }
-    .appeals__answer_appeals .modal-body {
-        padding: 0px 24px 40px 24px;
-    }
-    .appeals__answer_appeals_question {
-        padding: 16px 18px;
-    }
-    .appeals__answer_appeals_answer {
-        padding: 16px 18px;
-    }
-    .appeals__answer_appeals_chapter {
-        margin-bottom: 8px;
-    }
-    .appeals__answer_appeals_topic {
-        margin-bottom: 8px;
-    }
-    .appeals__answer_appeals_question {
-        margin-top: 24px;
-        margin-bottom: 36px;
-    }
-    .appeals__answer_appeals .modal-body .modal__title_modernist {
-        margin-bottom: 24px;
-    }
+  .contacts__information_bottom {
+    padding: 32px 16px 20px 16px;
+  }
+  .contacts h6 {
+    margin-top: 35px;
+  }
+  .appeals__desctop {
+    display: none;
+  }
+  .appeals__mobil {
+    display: block;
+  }
+  .appeals__answer_appeals .modal-body {
+    padding: 0px 24px 40px 24px;
+  }
+  .appeals__answer_appeals_question {
+    padding: 16px 18px;
+  }
+  .appeals__answer_appeals_answer {
+    padding: 16px 18px;
+  }
+  .appeals__answer_appeals_chapter {
+    margin-bottom: 8px;
+  }
+  .appeals__answer_appeals_topic {
+    margin-bottom: 8px;
+  }
+  .appeals__answer_appeals_question {
+    margin-top: 24px;
+    margin-bottom: 36px;
+  }
+  .appeals__answer_appeals .modal-body .modal__title_modernist {
+    margin-bottom: 24px;
+  }
 }
 @media (max-width: 540px) {
-    .modal-body {
-        padding: 0px 7%;
-    }
+  .modal-body {
+    padding: 0px 7%;
+  }
 }
 @media (max-width: 515px) {
-    .container__header_card {
-        position: relative;
-        z-index: 1061;
-    }
-    .modal__header_mobil_cataloge_living_room .ordering__link_back {
-        margin-top: 0px;
+  .container__header_card {
+    position: relative;
+    z-index: 1061;
+  }
+  .modal__header_mobil_cataloge_living_room .ordering__link_back {
+    margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
-    }
-    .appeals__new_appeals_complete .modal-body h5 {
+  }
+  .appeals__new_appeals_complete .modal-body h5 {
     font-size: 28px;
     line-height: 28px;
     margin-bottom: 20px;
-    }
-    .appeals__answer_not_autorization .modal-body h5 {
-        font-size: 28px;
+  }
+  .appeals__answer_not_autorization .modal-body h5 {
+    font-size: 28px;
     line-height: 28px;
     margin-bottom: 20px;
-    }
+  }
 }
 @media (max-width: 414px) {
-    .appeals_button button {
-        width: 100%;
-    }
-    .modal-body {
-        padding: 0px 7%;
-    }
+  .appeals_button button {
+    width: 100%;
+  }
+  .modal-body {
+    padding: 0px 7%;
+  }
 }
 @media (max-width: 375px) {
-    .appeals_button button {
-        width: 100%;
-    }
+  .appeals_button button {
+    width: 100%;
+  }
 }

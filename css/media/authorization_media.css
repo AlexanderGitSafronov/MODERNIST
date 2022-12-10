@@ -1,161 +1,150 @@
 @media (max-width: 1680px) {
-   
-  }
-  @media (max-width: 1600px) {
-    
-  }
+}
+@media (max-width: 1600px) {
+}
 @media (max-width: 1536px) {
-    
-   
+}
+@media (max-width: 1440px) {
+  .authorization__container .form__item_adress {
+    margin-bottom: 15px;
   }
-  @media (max-width: 1440px) {
-    .authorization__container .form__item_adress {
-        margin-bottom: 15px;
-    }
-    .authorization__container .ordering__input input {
-        padding-top: 20px;
-    }
-    .authorization__container .form__item_adress label {
-        top: 16px;
-        
-    }
-    .authorization__container .number__confirmation {
-        margin-top: 150px;
-    }
-    .authorization__container h1 {
-        line-height: 50px;
-        font-size: 50px;
-    }
+  .authorization__container .ordering__input input {
+    padding-top: 20px;
   }
-  @media (max-width: 1366px) {
-   
+  .authorization__container .form__item_adress label {
+    top: 16px;
   }
-  @media (max-width: 1280px) {
-    
-    .authorization__container .number__confirmation_header {
-        margin-top: 0;
-    }
-    .authorization__container .ordering__input input {
-        padding-top: 20px;
-    }
-    
-    
-    .authorization__container .authorization__get_code button {
-        padding: 15px 0px;
-        font-size: 14px;
-    }
-    .authorization__container .authorization {
-        width: 325px;
-    }
-    .authorization__container .offcanvas-footer_privacy_policy p {
-        font-size: 10px;
-    }
-    .authorization__container .number__confirmation_border {
-        padding: 20px 0px 0px 0px;
-        margin-bottom: 20px;
-    }
-    .authorization__container  .number__confirmation_social_networks img{
-        width: 80%;
-    }
-    .authorization__container .number__confirmation_social_networks {
-        margin-left: 10px;
-    }
-    .authorization__container  .number__confirmation_footer_text p {
-        font-size: 13px;
-    }
+  .authorization__container .number__confirmation {
+    margin-top: 150px;
   }
-  @media (max-width: 1024px) {
-    .authorization__container .number__confirmation {
-        margin-top: 100px;
-        margin-bottom: 150px;
-    }
-    .authorization__container  .number__confirmation_header {
-        margin-bottom: 0px;
-    }
-    .authorization__container .form__item_adress {
-        margin-bottom: 8px;
-    }
-    .authorization__container .ordering__input input {
-        padding-top: 18px;
-    }
-    .authorization__container .authorization__get_code button {
-        font-size: 14px;
-    }
-    .authorization__container .offcanvas-footer_privacy_policy p {
-        margin-top: 6px;
-    }
+  .authorization__container h1 {
+    line-height: 50px;
+    font-size: 50px;
+  }
+}
+@media (max-width: 1366px) {
+}
+@media (max-width: 1280px) {
+  .authorization__container .number__confirmation_header {
+    margin-top: 0;
+  }
+  .authorization__container .ordering__input input {
+    padding-top: 20px;
+  }
+
+  .authorization__container .authorization__get_code button {
+    padding: 15px 0px;
+    font-size: 14px;
+  }
+  .authorization__container .authorization {
+    width: 325px;
+  }
+  .authorization__container .offcanvas-footer_privacy_policy p {
+    font-size: 10px;
+  }
+  .authorization__container .number__confirmation_border {
+    padding: 20px 0px 0px 0px;
+    margin-bottom: 20px;
+  }
+  .authorization__container .number__confirmation_social_networks img {
+    width: 80%;
+  }
+  .authorization__container .number__confirmation_social_networks {
+    margin-left: 10px;
+  }
+  .authorization__container .number__confirmation_footer_text p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 1024px) {
+  .authorization__container .number__confirmation {
+    margin-top: 100px;
+    margin-bottom: 150px;
+  }
+  .authorization__container .number__confirmation_header {
+    margin-bottom: 0px;
+  }
+  .authorization__container .form__item_adress {
+    margin-bottom: 8px;
+  }
+  .authorization__container .ordering__input input {
+    padding-top: 18px;
+  }
+  .authorization__container .authorization__get_code button {
+    font-size: 14px;
+  }
+  .authorization__container .offcanvas-footer_privacy_policy p {
+    margin-top: 6px;
+  }
 }
 @media (max-width: 800px) {
-    .authorization__container h1 {
-        line-height: 40px;
-        font-size: 40px;
-    }
-    .authorization__container  .authorization {
-        width: 300px;
-    }
-   .authorization__container .offcanvas-footer_privacy_policy p {
-        font-size: 9px;
-    }
-    .authorization__container  .number__confirmation_social_networks img{
-        width: 70%;
-    }
-    
+  .authorization__container h1 {
+    line-height: 40px;
+    font-size: 40px;
+  }
+  .authorization__container .authorization {
+    width: 300px;
+  }
+  .authorization__container .offcanvas-footer_privacy_policy p {
+    font-size: 9px;
+  }
+  .authorization__container .number__confirmation_social_networks img {
+    width: 70%;
+  }
 }
 @media (max-width: 768px) {
-  
 }
 @media (max-width: 767px) {
-    .authorization__container h1 {
-        font-size: 32px;
-        line-height: 32px;
-    }
-    .number__confirmation_header_discription {
-        display: block;
-    }
-    .authorization__container .authorization {
-        width: 350px;
-    }
-    .authorization__container .offcanvas-footer_privacy_policy p {
-        font-size: 12px;
-    }
-    .authorization__container .number__confirmation_footer_text p {
-        font-size: 14px;
-    }
-    .authorization__container .number__confirmation_social_networks img {
-        width: 90%;
-    }
-    .authorization__container .form__item_adress {
-        margin-bottom: 12px;
-    }
-    .authorization__container .ordering__input input {
-        padding-top: 26px;
-    }
-    .authorization__container .form__item_adress label {
-        top: 20px;
-    }
-    .authorization__container .authorization__get_code button {
-        font-size: 12px;
-    }
-    .authorization__container .number__confirmation_header {
-        text-align: center;
-    }
-    .number__confirmation_header_discription {
-        width: 350px;
-    }
-    .authorization__container .ordering__input input {
-        width: 100%;
-    }
+  .authorization__container h1 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .number__confirmation_header_discription {
+    display: block;
+  }
+  .authorization__container .authorization {
+    width: 350px;
+  }
+  .authorization__container .offcanvas-footer_privacy_policy p {
+    font-size: 12px;
+  }
+  .authorization__container .number__confirmation_footer_text p {
+    font-size: 14px;
+  }
+  .authorization__container .number__confirmation_social_networks img {
+    width: 90%;
+  }
+  .authorization__container .form__item_adress {
+    margin-bottom: 12px;
+  }
+  .authorization__container .ordering__input input {
+    padding-top: 26px;
+  }
+  .authorization__container .form__item_adress label {
+    top: 20px;
+  }
+  .authorization__container .authorization__get_code button {
+    font-size: 12px;
+  }
+  .authorization__container .number__confirmation_header {
+    text-align: center;
+  }
+  .number__confirmation_header_discription {
+    width: 350px;
+  }
+  .authorization__container .ordering__input input {
+    width: 100%;
+  }
 }
 @media (max-width: 515px) {
-    .modal__header_mobil_cataloge_living_room .ordering__link_back {
-        margin-top: 0px;
+  .modal__header_mobil_cataloge_living_room .ordering__link_back {
+    margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
-    }
-    .authorization {
-        width: 100%;
-    }
+  }
+  .authorization {
+    width: 100%;
+  }
 }
 @media (max-width: 375px) {
-    
 }

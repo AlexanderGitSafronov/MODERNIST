@@ -1,57 +1,34 @@
-@media (max-width: 1680px) {
-   
-}
-@media (max-width: 1600px) {
-  
-}
-@media (max-width: 1536px) {
-  
- 
-}
-@media (max-width: 1440px) {
-  
-}
-@media (max-width: 1366px) {
- 
-}
-@media (max-width: 1280px) {
- 
-}
 @media (max-width: 1024px) {
-    .authorization__sms {
-        margin-top: 30px;
-    }
+  .authorization__sms {
+    margin-top: 30px;
+  }
 }
 @media (max-width: 800px) {
-    .authorization__sms {
-        margin-top: 20px;
-    }
-  
-}
-@media (max-width: 768px) {
-
+  .authorization__sms {
+    margin-top: 20px;
+  }
 }
 @media (max-width: 767px) {
-    .authorization__sms_back {
-        display: none;
-    }
-    .authorization__sms {
-        text-align: center;
-    }
-    .appeals__answer_number_resend {
-        text-align: start;
-    }
-    .appeals__answer_number_resend a {
-        font-size: 12px;
-    }
-    .authorization__container .ordering__input input{
-        width: 100%;
-    }
+  .authorization__sms_back {
+    display: none;
+  }
+  .authorization__sms {
+    text-align: center;
+  }
+  .appeals__answer_number_resend {
+    text-align: start;
+  }
+  .appeals__answer_number_resend a {
+    font-size: 12px;
+  }
+  .authorization__container .ordering__input input {
+    width: 100%;
+  }
 }
 @media (max-width: 515px) {
-    .modal__header_mobil_cataloge_living_room .ordering__link_back {
-        margin-top: 0px;
+  .modal__header_mobil_cataloge_living_room .ordering__link_back {
+    margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
-    }
+  }
 }

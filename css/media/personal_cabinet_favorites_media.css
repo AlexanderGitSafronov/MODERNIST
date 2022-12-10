@@ -1,152 +1,143 @@
 @media (max-width: 1680px) {
-   .personal__cabinet h1 {
-        font-size: 50px;
-        line-height: 50px;
-    }
-   
-  }
-  @media (max-width: 1600px) {
-    .personal__cabinet {
-        width: 547px;
-    }
-  }
-@media (max-width: 1536px) {
-    
-    
-  }
-  @media (max-width: 1440px) {
-    .personal__cabinet_header {
-        margin-bottom: 60px;
-    }
-  }
-  @media (max-width: 1366px) {
-    
-}
-  @media (max-width: 1280px) {
-   .personal__cabinet p {
-        font-size: 16px;
-    }
-    .personal__cabinet .personal__cabinet_add_adress-btn button {
-        padding: 17px 70px;
-    }
-  }
-  @media (max-width: 1024px) {
   .personal__cabinet h1 {
-       font-size: 50px;
-       line-height: 50px;
-   }
+    font-size: 50px;
+    line-height: 50px;
+  }
+}
+@media (max-width: 1600px) {
+  .personal__cabinet {
+    width: 547px;
+  }
+}
+@media (max-width: 1536px) {
+}
+@media (max-width: 1440px) {
+  .personal__cabinet_header {
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 1366px) {
+}
+@media (max-width: 1280px) {
+  .personal__cabinet p {
+    font-size: 16px;
+  }
+  .personal__cabinet .personal__cabinet_add_adress-btn button {
+    padding: 17px 70px;
+  }
+}
+@media (max-width: 1024px) {
+  .personal__cabinet h1 {
+    font-size: 50px;
+    line-height: 50px;
+  }
   .personal__cabinet .menu__all_furniture-header ul li {
     font-size: 16px;
-}
-.personal__cabinet .personal__cabinet_exit a {
+  }
+  .personal__cabinet .personal__cabinet_exit a {
     font-size: 16px;
-}
-.personal__cabinet {
+  }
+  .personal__cabinet {
     width: 490px;
-}
-.personal__cabinet .personal__cabinet_header {
+  }
+  .personal__cabinet .personal__cabinet_header {
     margin-bottom: 45px;
-}
-.personal__cabinet .personal__cabinet_add_adress-btn {
+  }
+  .personal__cabinet .personal__cabinet_add_adress-btn {
     margin-top: 20px;
-}
+  }
 }
 @media (max-width: 800px) {
-    .personal__cabinet h1 {
-        font-size: 40px;
-    }
-    .personal__cabinet .menu__all_furniture-header ul li {
-        font-size: 14px;
-    }
-    .personal__cabinet .personal__cabinet_exit a {
-        font-size: 14px;
-    }
-    .personal__cabinet {
-        width: 400px;
-    }
-    .personal__cabinet .personal__cabinet_header {
-        margin-bottom: 30px;
-    }
-    .personal__cabinet_header_text {
-        margin-bottom: 30px;
-    }
-    .personal__cabinet p {
-        font-size: 14px;
-    }
-    .personal__cabinet button {
-        font-size: 10px;
-    }
-    .personal__cabinet .personal__cabinet_add_adress-btn button {
-        padding: 14px 44px;
-    }
-    .personal__cabinet .personal__cabinet_add_adress-btn {
-        margin-top: 15px;
-    }
+  .personal__cabinet h1 {
+    font-size: 40px;
+  }
+  .personal__cabinet .menu__all_furniture-header ul li {
+    font-size: 14px;
+  }
+  .personal__cabinet .personal__cabinet_exit a {
+    font-size: 14px;
+  }
+  .personal__cabinet {
+    width: 400px;
+  }
+  .personal__cabinet .personal__cabinet_header {
+    margin-bottom: 30px;
+  }
+  .personal__cabinet_header_text {
+    margin-bottom: 30px;
+  }
+  .personal__cabinet p {
+    font-size: 14px;
+  }
+  .personal__cabinet button {
+    font-size: 10px;
+  }
+  .personal__cabinet .personal__cabinet_add_adress-btn button {
+    padding: 14px 44px;
+  }
+  .personal__cabinet .personal__cabinet_add_adress-btn {
+    margin-top: 15px;
+  }
 }
 @media (max-width: 768px) {
-    
 }
 @media (max-width: 767px) {
-    .personal__cabinet {
-        margin-top: 64px;
-        margin-bottom: 0px;
-    }
-    .personal__cabinet .menu__all_furniture-header ul li {
-        font-size: 18px;
-    }
-    .personal__cabinet .personal__cabinet_exit a {
-        font-size: 18px;
-    }
-    .personal__cabinet_flex_menu {
-        overflow-x: scroll;
-    }
-    .personal__cabinet .menu__all_furniture-header ul li{
-        white-space: nowrap;
-    }
-    .personal__cabinet_exit {
-        margin-left: 100px;
-    }
-    .menu__all_furniture-header-span {
-        margin: 0px 16px;
-    }
-    .purchase__history {
-        margin-bottom: 15px;
-    }
-    .big__content_defoult {
-        display: block;
-    }
-    .small__content_mobil {
-        display: none;
-    }
-    .personal__cabinet .personal__cabinet_add_adress-btn button {
-        width: 100%;
-        margin-bottom: 50px;
-    }
-    
-   
+  .personal__cabinet {
+    margin-top: 64px;
+    margin-bottom: 0px;
+  }
+  .personal__cabinet .menu__all_furniture-header ul li {
+    font-size: 18px;
+  }
+  .personal__cabinet .personal__cabinet_exit a {
+    font-size: 18px;
+  }
+  .personal__cabinet_flex_menu {
+    overflow-x: scroll;
+  }
+  .personal__cabinet .menu__all_furniture-header ul li {
+    white-space: nowrap;
+  }
+  .personal__cabinet_exit {
+    margin-left: 100px;
+  }
+  .menu__all_furniture-header-span {
+    margin: 0px 16px;
+  }
+  .purchase__history {
+    margin-bottom: 15px;
+  }
+  .big__content_defoult {
+    display: block;
+  }
+  .small__content_mobil {
+    display: none;
+  }
+  .personal__cabinet .personal__cabinet_add_adress-btn button {
+    width: 100%;
+    margin-bottom: 50px;
+  }
 }
 @media (max-width: 515px) {
-    .modal__header_mobil_cataloge_living_room .ordering__link_back {
-        margin-top: 0px;
+  .modal__header_mobil_cataloge_living_room .ordering__link_back {
+    margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
-    }
+  }
 }
 @media (max-width: 480px) {
-    .personal__cabinet h1 {
-        font-size: 32px;
-        line-height: 32px;
-    }
-    
+  .personal__cabinet h1 {
+    font-size: 32px;
+    line-height: 32px;
+  }
 }
 @media (max-width: 414px) {
-    .personal__cabinet {
-        width: 375px;
-    }
+  .personal__cabinet {
+    width: 375px;
+  }
 }
 @media (max-width: 375px) {
-    .personal__cabinet {
-        width: 350px;
-    }
+  .personal__cabinet {
+    width: 350px;
+  }
 }
-

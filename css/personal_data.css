@@ -1,124 +1,151 @@
-
-.personal__data .ordering__input_personal__data{
-    width: 345px;
+.personal__data .ordering__input_personal__data {
+  width: 345px;
 }
-.personal__data input{
-    width: 100%;
+.personal__data input {
+  width: 100%;
 }
 .save__personal_data button {
-    width: 100%;
-    padding: 17px 143px;
+  width: 100%;
+  padding: 17px 143px;
 }
 .save__personal_data button:hover {
-    background-color: #24160B;
-    color: #fcf8f4;
+  background-color: #24160b;
+  color: #fcf8f4;
 }
-
-
-
-
-
-
 .form__item_adress {
-    position: relative;
+  position: relative;
 }
 .form__item_adress label {
-    position: absolute;
-    left: 15px;
-    top: 21px;
-    transition: top 0.5s;
-    font-family: "Onest", sans-serif;
-    font-size: 12px;
-    font-weight: 300;
-    color: rgba(36, 22, 11, 0.5);
-    cursor: text;
-  }
-  .form__item_adress input::placeholder {
-    color: transparent;
-  }
-  .form__item_adress input:focus+label,
-  .form__item_adress input:not(:placeholder-shown)+label {
-      top: 5px;
-      
-  }
-   .ordering__input input {
-      padding-bottom: 4px;
-      padding-top: 30px;
-      font-weight: 400;
-      text-transform: capitalize;
-      margin-bottom: 0px;
-  }
-  
-  
-  
-  .ordering__input .form__item_adress input:focus,
-  .ordering__input .form__item_adress input:not(:placeholder-shown){
-      background-color: #fff;
-  }
+  position: absolute;
+  left: 15px;
+  top: 21px;
+  -webkit-transition: top 0.5s;
+  -o-transition: top 0.5s;
+  transition: top 0.5s;
+  font-family: "Onest", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  color: rgba(36, 22, 11, 0.5);
+  cursor: text;
+}
+.form__item_adress input::-webkit-input-placeholder {
+  color: transparent;
+}
+.form__item_adress input::-moz-placeholder {
+  color: transparent;
+}
+.form__item_adress input:-ms-input-placeholder {
+  color: transparent;
+}
+.form__item_adress input::-ms-input-placeholder {
+  color: transparent;
+}
+.form__item_adress input::placeholder {
+  color: transparent;
+}
+.form__item_adress input:not(:-moz-placeholder-shown) + label {
+  top: 5px;
+}
+.form__item_adress input:not(:-ms-input-placeholder) + label {
+  top: 5px;
+}
+.form__item_adress input:focus + label,
+.form__item_adress input:not(:placeholder-shown) + label {
+  top: 5px;
+}
+.ordering__input input {
+  padding-bottom: 4px;
+  padding-top: 30px;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-bottom: 0px;
+}
 
-  input::-webkit-outer-spin-button,
-    input::-webkit-inner-spin-button {
-    /* display: none; <- Crashes Chrome on hover */
-    -webkit-appearance: none;
-    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+.ordering__input .form__item_adress input:not(:-moz-placeholder-shown) {
+  background-color: #fff;
+}
+
+.ordering__input .form__item_adress input:not(:-ms-input-placeholder) {
+  background-color: #fff;
+}
+
+.ordering__input .form__item_adress input:focus,
+.ordering__input .form__item_adress input:not(:placeholder-shown) {
+  background-color: #fff;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
 }
 .ordering__input .ordering__input_form {
-    
-    width: 100%;
+  width: 100%;
 }
 .adress__express_two_form {
-    display: flex;
-    justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 .four__input {
-    display: flex;
-    justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 .ordering__input form {
-    display: block;
+  display: block;
 }
 /* .form__item_adress  .input__name:required {
-    border: 1px solid red;
-} */
+      border: 1px solid red;
+  } */
 
 .form__item_adress .red:invalid {
-    border: 1px solid #E28F7C;
-    background-color: #F9EDE9;
+  border: 1px solid #e28f7c;
+  background-color: #f9ede9;
 }
-
 
 .form__item_adress {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .just-validate-error-label {
-    color: #E28F7C !important;
-    font-family: "Onest", sans-serif;
-    font-size: 14px;
-    margin-top: 5px;
-    margin-left: 5px;
+  color: #e28f7c !important;
+  font-family: "Onest", sans-serif;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-left: 5px;
 }
-.check__input  {
-    position: absolute;
-    right: 15px;
-    top: 50%;
-    transform: translateY(-50%);
-    display: none;
+.check__input {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: none;
 }
-.form__item_adress input:valid + label + .check__input{
-    display: block;
-    
-  }
+.form__item_adress input:valid + label + .check__input {
+  display: block;
+}
 
-
-
-  .email__input input {
-      text-transform: inherit;
-  }
-  .save__personal_data button {
-      display: flex;
-      justify-content: center;
-  }
-  .save__personal_data button{
-    background-color: #24160B;
-    color: #fcf8f4;
-  }
+.email__input input {
+  text-transform: inherit;
+}
+.save__personal_data button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.save__personal_data button {
+  background-color: #24160b;
+  color: #fcf8f4;
+}

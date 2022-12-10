@@ -1,181 +1,177 @@
 h4 {
-    font-size: 18px;
-    font-weight: 500;
-    font-family: "Onest", sans-serif;
-    color: #24160B;
-    margin: 0px;
-    padding: 0px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Onest", sans-serif;
+  color: #24160b;
+  margin: 0px;
+  padding: 0px;
 }
 h5 {
-    font-size: 14px;
-    font-weight: 600;
-    margin: 0px;
-    padding: 0px;
-    font-family: "Onest", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Onest", sans-serif;
 }
 .purchase__history {
-    margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 .purchase__history_order {
-    padding: 20px 24px;
-    border: 1px solid rgba(153, 154, 129, 0.5);
+  padding: 20px 24px;
+  border: 1px solid rgba(153, 154, 129, 0.5);
 }
-
 
 .purchase__history_order_flex {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .purchase__history_order_footer_text {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .purchase__history_order_header_text span {
-    font-size: 14px;
-    font-weight: 300;
+  font-size: 14px;
+  font-weight: 300;
 }
-.purchase__history_order_footer_text p{
-    font-size: 14px;
-    font-weight: 400;
-    margin-left: 10px;
+.purchase__history_order_footer_text p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 10px;
 }
 .order__details button {
-    color: #999A81;
-    border: none;
-    padding: 0px;
-    font-size: 12px;
-    font-family: "Onest", sans-serif;
-    text-transform: inherit ;
-    border-bottom: 1px dashed #999A81;
-    font-weight: 400;
+  color: #999a81;
+  border: none;
+  padding: 0px;
+  font-size: 12px;
+  font-family: "Onest", sans-serif;
+  text-transform: inherit;
+  border-bottom: 1px dashed #999a81;
+  font-weight: 400;
 }
 .order__details button:hover {
-    color: #24160B;
-    border-bottom: 1px dashed #24160B;
+  color: #24160b;
+  border-bottom: 1px dashed #24160b;
 }
 
 .purchase__history_order_header_text {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .purchase__history_order_header_text p {
-    font-size: 12px;
-    font-weight: 300;
+  font-size: 12px;
+  font-weight: 300;
 }
-.purchase__history_order_header_text button{
-
-    margin: 0;
-    padding: 0;
-    border-radius: 40px;
-    background-color: #24160B;
-    color: #fff;
-    padding: 3px 13px;
-    font-size: 12px;
-    font-family: "Onest", sans-serif;
-    text-transform: inherit;
-    margin-left: 16px;
+.purchase__history_order_header_text button {
+  margin: 0;
+  padding: 0;
+  border-radius: 40px;
+  background-color: #24160b;
+  color: #fff;
+  padding: 3px 13px;
+  font-size: 12px;
+  font-family: "Onest", sans-serif;
+  text-transform: inherit;
+  margin-left: 16px;
 }
 .purchase__history_order_pad {
-    margin-top: 24px;
+  margin-top: 24px;
 }
-
 
 .order__details p {
-    font-weight: 300;
-    font-size: 14px;
+  font-weight: 300;
+  font-size: 14px;
 }
-.order__details span{
-    color: rgba(153, 154, 129, 1);
-    font-weight: 400;
+.order__details span {
+  color: rgba(153, 154, 129, 1);
+  font-weight: 400;
 }
 
 .order__details_delivery {
-    padding-bottom: 24px;
-    border-bottom: 1px solid rgba(153, 154, 129, 0.5);
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(153, 154, 129, 0.5);
 }
 .order__details_open_discription {
-    padding: 24px 0px;
-    border-bottom: 1px solid rgba(153, 154, 129, 0.5);
+  padding: 24px 0px;
+  border-bottom: 1px solid rgba(153, 154, 129, 0.5);
 }
 .order__content_open_details {
-    border-bottom: none;
+  border-bottom: none;
 }
 .order__content_open_product {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .order__content_open_product p {
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 .order__content_open_img_footer {
-    width: 10%;
+  width: 10%;
 }
 .order__content_open_img_footer img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 .order__content_open_product_end {
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .order__content_open_discription_footer {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 .order__content_open_discription_footer h6 {
-    font-size: 14px;
-    font-weight: 400;
-    margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 6px;
 }
 .order__content_open_product_end p {
-    font-size: 12px;
-    font-weight: 300;
+  font-size: 12px;
+  font-weight: 300;
 }
 .order__content_open_product_end span {
-    font-weight: 400;
-    font-size: 14px;
+  font-weight: 400;
+  font-size: 14px;
 }
 .order__content_open_price_footer_end_price {
-    margin-bottom: 4px;
+  margin-bottom: 4px;
 }
 .order__details_open_color {
-    border-color: rgba(153, 154, 129, 0.5);
-    background-color: #fcf8f4;
-    transition: 0.3s all ease;
+  border-color: rgba(153, 154, 129, 0.5);
+  background-color: #fcf8f4;
+  transition: 0.3s all ease;
 }
 .order__details_open_color_op {
-    border-color: rgba(153, 154, 129, 0.5);
-    background-color: #fcf8f4;
-    transition: 0.3s all ease;
+  border-color: rgba(153, 154, 129, 0.5);
+  background-color: #fcf8f4;
+  transition: 0.3s all ease;
 }
 .card-body {
-    padding-top: 0px;
+  padding-top: 0px;
 }
 
 .purchase__history_order_header_text_mobil {
-    display: none;
+  display: none;
 }
 .purchase__history_order_header_text_hide img,
 .purchase__history_order_header_text_hide p {
-    display: none;
+  display: none;
 }
-.purchase__history_awaiting_payment button{
-    display: none;
-    font-size: 12px;
-    padding: 3px 13px;
-    background-color: #24160B;
-    color: #fff;
-    border-radius: 40px;
-    font-family: "Onest", sans-serif;
-    text-transform: inherit;
+.purchase__history_awaiting_payment button {
+  display: none;
+  font-size: 12px;
+  padding: 3px 13px;
+  background-color: #24160b;
+  color: #fff;
+  border-radius: 40px;
+  font-family: "Onest", sans-serif;
+  text-transform: inherit;
 }
-.purchase__history_order_header_text_mobil h4{
-    margin-bottom: 10px;
+.purchase__history_order_header_text_mobil h4 {
+  margin-bottom: 10px;
 }
 .order__content_open_discription_footer_mobil {
-    display: none;
+  display: none;
 }
