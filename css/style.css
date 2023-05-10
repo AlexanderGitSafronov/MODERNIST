@@ -141,8 +141,18 @@ a {
 /* HEADER */
 
 .header {
-  
-  background-image: url("../image/head_bg.png");
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(36, 22, 11, 0.5)),
+      to(rgba(36, 22, 11, 0.5))
+    ),
+    url("../image/head_bg.png");
+  background: -o-linear-gradient(rgba(36, 22, 11, 0.5), rgba(36, 22, 11, 0.5)),
+    url("../image/head_bg.png");
+  background: linear-gradient(rgba(36, 22, 11, 0.5), rgba(36, 22, 11, 0.5)),
+    url("../image/head_bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -1013,11 +1023,11 @@ a {
       from(rgba(36, 22, 11, 0.5)),
       to(rgba(36, 22, 11, 0.5))
     ),
-    url(../image/summer__sale.png);
+    url("../image/summer__sale.png");
   background: -o-linear-gradient(rgba(36, 22, 11, 0.5), rgba(36, 22, 11, 0.5)),
-    url(../image/summer__sale.png);
+    url("../image/summer__sale.png");
   background: linear-gradient(rgba(36, 22, 11, 0.5), rgba(36, 22, 11, 0.5)),
-    url(../image/summer__sale.png);
+    url("../image/summer__sale.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 800px;
@@ -1067,11 +1077,11 @@ a {
       from(rgba(36, 22, 11, 0.5)),
       to(rgba(36, 22, 11, 0.5))
     ),
-    url(../image/chois_category_1.png);
+    url("../image/chois_category_1.png");
   background: -o-linear-gradient(rgba(36, 22, 11, 0.5), rgba(36, 22, 11, 0.5)),
-    url(../image/chois_category_1.png);
+    url("../image/chois_category_1.png");
   background: linear-gradient(rgba(36, 22, 11, 0.5), rgba(36, 22, 11, 0.5)),
-    url(../image/chois_category_1.png);
+    url("../image/chois_category_1.png");
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
@@ -1086,11 +1096,11 @@ a {
       from(rgba(36, 22, 11, 0.5)),
       to(rgba(36, 22, 11, 0.5))
     ),
-    url(../image/chois_category_2.png);
+    url("../image/chois_category_2.png");
   background: -o-linear-gradient(rgba(36, 22, 11, 0.5), rgba(36, 22, 11, 0.5)),
-    url(../image/chois_category_2.png);
+    url("../image/chois_category_2.png");
   background: linear-gradient(rgba(36, 22, 11, 0.5), rgba(36, 22, 11, 0.5)),
-    url(../image/chois_category_2.png);
+    url("../image/chois_category_2.png");
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
@@ -1105,11 +1115,11 @@ a {
       from(rgba(36, 22, 11, 0.5)),
       to(rgba(36, 22, 11, 0.5))
     ),
-    url(../image/chois_category_3.png);
+    url("../image/chois_category_3.png");
   background: -o-linear-gradient(rgba(36, 22, 11, 0.5), rgba(36, 22, 11, 0.5)),
-    url(../image/chois_category_3.png);
+    url("../image/chois_category_3.png");
   background: linear-gradient(rgba(36, 22, 11, 0.5), rgba(36, 22, 11, 0.5)),
-    url(../image/chois_category_3.png);
+    url("../image/chois_category_3.png");
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
@@ -1168,11 +1178,11 @@ a {
       from(rgba(36, 22, 11, 0.5)),
       to(rgba(36, 22, 11, 0.5))
     ),
-    url(../image/design_consultant.png);
+    url("../image/design_consultant.png");
   background: -o-linear-gradient(rgba(36, 22, 11, 0.5), rgba(36, 22, 11, 0.5)),
-    url(../image/design_consultant.png);
+    url("../image/design_consultant.png");
   background: linear-gradient(rgba(36, 22, 11, 0.5), rgba(36, 22, 11, 0.5)),
-    url(../image/design_consultant.png);
+    url("../image/design_consultant.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 800px;
@@ -1734,7 +1744,7 @@ a {
 .custom-checkbox_modal:checked + label::before {
   background-color: #24160b;
   border-color: #999a81;
-  background-image: url(../image/checked.svg);
+  background-image: url("../image/checked.svg");
   background-size: 80%;
 }
 .modal-title {
@@ -1904,11 +1914,11 @@ a {
       from(rgba(36, 22, 11, 0.5)),
       to(rgba(36, 22, 11, 0.5))
     ),
-    url(../image/all__furniture_header.png);
+    url("../image/all__furniture_header.png");
   background: -o-linear-gradient(rgba(36, 22, 11, 0.5), rgba(36, 22, 11, 0.5)),
-    url(../image/all__furniture_header.png);
+    url("../image/all__furniture_header.png");
   background: linear-gradient(rgba(36, 22, 11, 0.5), rgba(36, 22, 11, 0.5)),
-    url(../image/all__furniture_header.png);
+    url("../image/all__furniture_header.png");
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
@@ -2081,11 +2091,11 @@ a {
       from(rgba(36, 22, 11, 0.5)),
       to(rgba(36, 22, 11, 0.5))
     ),
-    url(../image/decide.png);
+    url("../image/decide.png");
   background: -o-linear-gradient(rgba(36, 22, 11, 0.5), rgba(36, 22, 11, 0.5)),
-    url(../image/decide.png);
+    url("../image/decide.png");
   background: linear-gradient(rgba(36, 22, 11, 0.5), rgba(36, 22, 11, 0.5)),
-    url(../image/decide.png);
+    url("../image/decide.png");
   background-size: cover;
   background-repeat: no-repeat;
   display: -webkit-box;
